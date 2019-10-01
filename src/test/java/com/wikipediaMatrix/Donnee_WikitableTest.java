@@ -1,27 +1,15 @@
-package test.java.com.wikipediaMatrix;
+package com.wikipediaMatrix;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.UnknownHostException;
-
-import org.json.JSONException;
 import org.junit.Test;
-import org.mockito.Mockito;
-
-import main.java.com.wikipediaMatrix.Donnee_Html;
-import main.java.com.wikipediaMatrix.Donnee_Wikitable;
-import main.java.com.wikipediaMatrix.ExtractionInvalideException;
-import main.java.com.wikipediaMatrix.Url;
 
 /**
  * 
- * @author Groupe 4
+ * @author Groupe 5
  *
  */
 public class Donnee_WikitableTest {

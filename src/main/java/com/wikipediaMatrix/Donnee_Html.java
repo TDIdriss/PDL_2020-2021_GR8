@@ -1,4 +1,4 @@
-package main.java.com.wikipediaMatrix;
+package com.wikipediaMatrix;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

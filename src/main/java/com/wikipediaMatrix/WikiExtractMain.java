@@ -1,4 +1,4 @@
-package main.java.com.wikipediaMatrix;
+package com.wikipediaMatrix;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -11,7 +11,7 @@ import java.util.Set;
 
 /**
  * Classe permettant a l'utilisateur de faire une extraction a la carte
- * @author Groupe 4
+ * @author Groupe 5
  *
  */
 public class WikiExtractMain {

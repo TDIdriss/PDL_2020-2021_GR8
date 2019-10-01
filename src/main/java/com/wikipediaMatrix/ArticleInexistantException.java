@@ -1,8 +1,8 @@
-package main.java.com.wikipediaMatrix; 
+package com.wikipediaMatrix;
  
 /**
  * 
- * @author Groupe 4
+ * @author Groupe 5
  *
  */
 public class ArticleInexistantException extends Exception { 

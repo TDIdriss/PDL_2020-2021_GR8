@@ -3,6 +3,7 @@ package com.wikipediaMatrix;
 import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+import com.wikipediaMatrix.exception.ResultatEstNullException;
 import org.junit.Test;
 import org.junit.jupiter.api.function.Executable;
 import org.mockito.Mockito;

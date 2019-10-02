@@ -1,5 +1,7 @@
 package com.wikipediaMatrix;
 
+import com.wikipediaMatrix.exception.*;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -54,7 +56,7 @@ public class WikiExtractMain {
 	/**
 	 * Methode demarrant le parsing en csv des wikitables de 336 pages wikipedia, a partir du html et du wikitext
 	 * @throws ExtractionInvalideException
-	 * @throws UrlInvalideException
+	 *
 	 * @throws ConversionInvalideException
 	 * @throws ArticleInexistantException
 	 * @throws IOException

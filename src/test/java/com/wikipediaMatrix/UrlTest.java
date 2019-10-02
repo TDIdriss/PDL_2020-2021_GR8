@@ -10,6 +10,8 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import com.wikipediaMatrix.exception.ArticleInexistantException;
+import com.wikipediaMatrix.exception.UrlInvalideException;
 import org.junit.Ignore;
 import org.junit.Test;
 

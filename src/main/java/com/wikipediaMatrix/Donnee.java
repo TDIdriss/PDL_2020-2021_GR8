@@ -9,6 +9,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.CyclicBarrier;
 
+import com.wikipediaMatrix.exception.ArticleInexistantException;
+import com.wikipediaMatrix.exception.ConversionInvalideException;
+import com.wikipediaMatrix.exception.ExtractionInvalideException;
+import com.wikipediaMatrix.exception.UrlInvalideException;
 import org.json.JSONException;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;

@@ -24,6 +24,7 @@ public class WikiExtractMain {
 	private static int nbColonnesWikitext;
 	private static int nbLignesWikitext;
 	private static long tempsExeWikitext;
+//	private static final Logger LOG = LogManager.getLogger(WikiExtractMain.class);
 
 	public static void main(String[] args) throws MalformedURLException, IOException, UrlInvalideException, ExtractionInvalideException, ConversionInvalideException, ArticleInexistantException, ResultatEstNullException, InterruptedException {
 
@@ -146,4 +147,13 @@ public class WikiExtractMain {
 		System.out.println("- WIKITEXT - Temps d'execution : " + tempsExeWikitext/1000 + " secondes.");
 		System.out.println("Nombre de tableaux parsés: " + nbTablesWikitext + ", lignes parsées : " + nbLignesWikitext + ", colonnes parsées : " + nbColonnesWikitext);
 	}
+
+//	Logger example
+//	=====================================================
+//	 	LOG.debug("This Will Be Printed On Debug");
+//        LOG.info("This Will Be Printed On Info");
+//        LOG.warn("This Will Be Printed On Warn");
+//        LOG.error("This Will Be Printed On Error");
+//        LOG.fatal("This Will Be Printed On Fatal");
+//	=====================================================
 }

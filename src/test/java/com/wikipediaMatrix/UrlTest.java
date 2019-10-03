@@ -128,8 +128,8 @@ public class UrlTest {
 			}
 	    }
 	    br.close();
-	    assertEquals(articleExistant, 314);
-	    assertEquals(articleInexistant, 22);
-	    System.out.println("URLs sans article : " + articleExistant);
+	    assertEquals(articleExistant, 312);
+	    assertEquals(articleInexistant, 24);
+	    System.out.println("URLs sans article : " + articleInexistant);
 	}
 }

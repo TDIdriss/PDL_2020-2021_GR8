@@ -1,5 +1,7 @@
 package com.wikipediaMatrix;
 
+import com.wikipediaMatrix.exception.ResultatEstNullException;
+
 /**
  * Classe permettant de recuperer dse statistiques sur les deux methodes de recuperation de table wikipedia,
  * afin de determiner laquelle est la meilleure.

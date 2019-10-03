@@ -81,7 +81,7 @@ Run the class WikiExtractMain. Then type :
 * [Mockito](https://site.mockito.org/) - Mocking framework
 * [jsoup](https://jsoup.org/) - Java HTML parser
 * [Apache Commons](https://commons.apache.org/) - Reusable Java components
-
+git config --global user.email johndoe@example.com
 ## Versioning
 
 - prototype : the prototype built to test the concept

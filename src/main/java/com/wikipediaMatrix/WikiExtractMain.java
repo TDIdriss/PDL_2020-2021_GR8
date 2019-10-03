@@ -1,5 +1,7 @@
 package com.wikipediaMatrix;
 
+import com.wikipediaMatrix.exception.*;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -24,6 +26,7 @@ public class WikiExtractMain {
 	private static int nbColonnesWikitext;
 	private static int nbLignesWikitext;
 	private static long tempsExeWikitext;
+//	private static final Logger LOG = LogManager.getLogger(WikiExtractMain.class);
 
 	public static void main(String[] args) throws MalformedURLException, IOException, UrlInvalideException, ExtractionInvalideException, ConversionInvalideException, ArticleInexistantException, ResultatEstNullException, InterruptedException {
 
@@ -53,7 +56,7 @@ public class WikiExtractMain {
 	/**
 	 * Methode demarrant le parsing en csv des wikitables de 336 pages wikipedia, a partir du html et du wikitext
 	 * @throws ExtractionInvalideException
-	 * @throws UrlInvalideException
+	 *
 	 * @throws ConversionInvalideException
 	 * @throws ArticleInexistantException
 	 * @throws IOException
@@ -146,4 +149,13 @@ public class WikiExtractMain {
 		System.out.println("- WIKITEXT - Temps d'execution : " + tempsExeWikitext/1000 + " secondes.");
 		System.out.println("Nombre de tableaux parsés: " + nbTablesWikitext + ", lignes parsées : " + nbLignesWikitext + ", colonnes parsées : " + nbColonnesWikitext);
 	}
+
+//	Logger example
+//	=====================================================
+//	 	LOG.debug("This Will Be Printed On Debug");
+//        LOG.info("This Will Be Printed On Info");
+//        LOG.warn("This Will Be Printed On Warn");
+//        LOG.error("This Will Be Printed On Error");
+//        LOG.fatal("This Will Be Printed On Fatal");
+//	=====================================================
 }

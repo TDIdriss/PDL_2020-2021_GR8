@@ -10,6 +10,9 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import com.wikipediaMatrix.exception.ArticleInexistantException;
+import com.wikipediaMatrix.exception.UrlInvalideException;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -111,7 +114,7 @@ public class UrlTest {
 	 * @throws UrlInvalideException
 	 * @throws IOException
 	 */
-	@Test
+	@Test @Ignore
 	public void testerConnexion336Urls() throws UrlInvalideException, IOException {
 		String BASE_WIKIPEDIA_URL = "output/url_file.txt";
 		BufferedReader br = new BufferedReader(new FileReader(BASE_WIKIPEDIA_URL));

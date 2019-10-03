@@ -5,6 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
 
+import com.wikipediaMatrix.exception.*;
 import org.junit.Test;
 
 /**
@@ -23,7 +24,7 @@ public class WikiExtractMainTest {
 	 * @throws ConversionInvalideException
 	 * @throws ArticleInexistantException
 	 * @throws IOException
-	 * @throws ResultatEstNullException 
+	 * @throws ResultatEstNullException
 	 * @throws InterruptedException 
 	 */
 	@Test

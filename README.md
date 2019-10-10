@@ -60,11 +60,13 @@ Clone it from git into your computer on your terminal with the following line
 git clone https://github.com/Qt-tracker/PDL_2019-2020_GR5.git
 ```
 
-
 Don't forget to convert your project to a Maven one
 
 
 You are done !
+
+You can find more details in [INSTALL.md](https://github.com/Qt-tracker/PDL_2019-2020_GR5/blob/develop/INSTALL.md).
+
 
 ## Folders' structure
 

@@ -6,7 +6,7 @@ This project has been realized during our Master of Business Informatics. Its ob
 ## Scope
 This project allows the client to be able to extract data in the form of tables within a Wikipedia page and to return this data in a CSV file in order to be able to open and consult them in tools using the CSV format, for example Excel.
 
-![Context diagram associate to system](img/diagram_scope.png) <br>
+![Context diagram associate to system](img/diagram_scope_en.png) <br>
 _Context diagram associate to system_
 
 First, the user retrieves the URL of the Wikipedia page and inserts it into the field dedicated to its use. Thus the system recovers the path giving access to all the information of the Wikipedia page, the system is then able to analyze the URL and the elements of its page.
@@ -25,7 +25,7 @@ These two classes inherit a parent class called `Data` representing all the info
 Directly linked to this class, the URL class allows to process the URL entered by the user, in particular thanks to the `urlValide()` function, which aims to check whether the URL returns to an existing Wikipedia page.
 
 ### Use Case diagram
-![Use Case diagram associate to system](img/diagram_use_case.png) <br>
+![Use Case diagram associate to system](img/diagram_use_case_en.jpeg) <br>
 _Use Case diagram associate to system_
 
 Here we will consider that our user, external to the system of our program, is Mr Acher. This actor must therefore perform two actions in order for the processing to start:

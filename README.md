@@ -1,9 +1,34 @@
 # Wikipedia Matrix : The Truth
+![Quick illustration of the project](img/readme.png) <br>
 
-This is a Master of Business Informatics' project which improve its latest version called "Wikipedia Matrix" <br>
+The aim of this PDL project is to extract tables in CSV format from Wikipedia pages. Those pages can be analyzed in two different ways:
+By searching for the corresponding Wikitext code
+By exploiting the HTML rendering of the Wikipedia page 
+
+Both approaches would be compared and tested (in order to have the same CSV output).
+
+### But why extract tables in Wikipedia?
+
+Wikipedia tables are difficult to exploit by statistical tools, visualization or any tool able to exploit tables (e.g., Excel, OpenOffice, RStudio, Jupyter). These tables are written in a syntax (Wikitext) difficult to analyze and not necessarily designed for the specification of tables. In addition, there is a strong heterogeneity in the way tables are written, further complicating Wikipedia's tabular data processing. Same can be said for HTML format. 
+
+### Why CSV (Comma separated values) ?
+It is very simple and above all supported by many tools.
+
+This project is about implementing a solution and specify a ground truth ("ground truth") and thus evaluate different extractors by confronting them to the ground truth. Also, it must be able to extract several tables on the same Wikipedia page.
+
+
+Last but not least, this project will propose a set of tools able to analyze the results of the extractors and thus specify a set of expected results (which will then be used during the automatic test phase). Among these tools, one of them will allows to visualize a matrix (resulting from an automatic extractor), possibly to correct the matrix, and then to export it in CSV format.
+
+Finally, a most global suite of tests will demonstrate the quality of our tool.
+
+### Final result
+There will be three concrete results:
+Extractors of much better quality (with source code, documentation, test suite, continuous integration, etc.)
+A suite of tools to be able to more easily specify a ground truth and thus help the evaluation of extractors
+A dataset reusable by anyone wanting to test an array extractor
+
+This is a Master of Business Informatics' project which improve its latest version called "Wikipedia Matrix" (this actuel project has been forked from this one)<br>
 (cf : https://github.com/mathieulehan/PDL_2018-2019_GR4). 
-
-The aim of this project is to parse tables from wikipedia into csv files. It extracts those tables from HTML and Wikitext (the wiki markup language), parse them into csv files and compare the parsing quality, in order to choose which of those raw contents was able to give us the best csv files at the end of the process.
 
 ## Getting Started
 
@@ -35,13 +60,15 @@ Clone it from git into your computer on your terminal with the following line
 git clone https://github.com/Qt-tracker/PDL_2019-2020_GR5.git
 ```
 
-
 Don't forget to convert your project to a Maven one
 
 
 You are done !
 
-## Project's architecture
+You can find more details in [INSTALL.md](https://github.com/Qt-tracker/PDL_2019-2020_GR5/blob/develop/INSTALL.md).
+
+
+## Folders' structure
 
 Folders:
 - the root contains some files, as :
@@ -75,10 +102,19 @@ Run the class WikiExtractMain. Then type :
 - H to parse files from HTML to csv
 - X to parse files from both WIKITEXT and HTML
 ```
+## Supported and unsupported features (actual state)
+
+Extraction via wikitext does not work very well, especially table checking. Json Format is making trouble while extracting a table. 
+However via HTML we do not encounter any problems.<br/>
+If there is a table under a table, the CSV given is not valid.
+Moreover, many times, extraction via wikitext compare to those via html do not give the same result.
+
+Some little problems have been found as when a false URL is given, it pops out an error without precising which url/title is making trouble. When a page does not have any table it is not said clearly.
+Until then there is no method to check if the CSV is good, so this is a new method considered. A method that compares two CSVs is well under consideration. 
 
 ## Built With
 
-* [Eclipse](https://www.eclipse.org/) - The IDE used
+* [IntelliJ](https://www.jetbrains.com/idea/) - The IDE used
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [JUnit](https://junit.org/junit5/) - Used to test
 * [Mockito](https://site.mockito.org/) - Mocking framework

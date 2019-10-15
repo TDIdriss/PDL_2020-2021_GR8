@@ -29,7 +29,7 @@ public class WikiExtractMainTest {
 	 */
 	@Test
 	public void lancerExtraction() throws ExtractionInvalideException, UrlInvalideException, ConversionInvalideException, ArticleInexistantException, IOException, ResultatEstNullException, InterruptedException {
-		String BASE_WIKIPEDIA_URL = "output/url_file.txt";
+		String BASE_WIKIPEDIA_URL = "output/url_test.txt";
 		BufferedReader br = new BufferedReader(new FileReader(BASE_WIKIPEDIA_URL));
 		String url;
 		double urlActuelle = 1.0;

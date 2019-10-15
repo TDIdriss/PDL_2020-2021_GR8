@@ -6,3 +6,4 @@
 *.iml
 /output/wikitext/
 /output/HTML/
+/logs/app.log

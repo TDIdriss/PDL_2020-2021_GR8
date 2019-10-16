@@ -1,4 +1,7 @@
-package main.java.com.wikipediaMatrix;
+package com.wikipediaMatrix;
+
+import com.wikipediaMatrix.exception.ArticleInexistantException;
+import com.wikipediaMatrix.exception.UrlInvalideException;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -26,7 +29,7 @@ public class Url {
 	 * Verification de l'url (provient bien du site Wikipedia) et de la langue de la page
 	 * Initialiation variable langue
 	 * @return true si la langue est en francais ou en anglais, false sinon
-	 * @throws UrlInvalideException 
+	 * @throws UrlInvalideException
 	 */
 	public boolean estPageWikipedia() throws UrlInvalideException {
 		String debutURL = url.toString().substring(0, url.toString().lastIndexOf('/')+1);;
@@ -58,7 +61,7 @@ public class Url {
 	 * ATTENTION methode lourde (en temps et en memoire)
 	 * @return true si la connexion HTTP est reussie, false sinon
 	 * @throws UrlInvalideException 
-	 * @throws ArticleInexistantException 
+	 * @throws ArticleInexistantException
 	 * @throws IOException 
 	 */
 	public boolean testerConnexionHTTP() throws ArticleInexistantException, IOException {

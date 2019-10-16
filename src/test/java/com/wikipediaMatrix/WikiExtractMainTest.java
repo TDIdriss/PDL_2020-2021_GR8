@@ -1,21 +1,12 @@
-package test.java.com.wikipediaMatrix;
+package com.wikipediaMatrix;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
 
+import com.wikipediaMatrix.exception.*;
 import org.junit.Test;
-
-import main.java.com.wikipediaMatrix.ArticleInexistantException;
-import main.java.com.wikipediaMatrix.ComparerCSV;
-import main.java.com.wikipediaMatrix.ConversionInvalideException;
-import main.java.com.wikipediaMatrix.Donnee_Html;
-import main.java.com.wikipediaMatrix.Donnee_Wikitable;
-import main.java.com.wikipediaMatrix.ExtractionInvalideException;
-import main.java.com.wikipediaMatrix.ResultatEstNullException;
-import main.java.com.wikipediaMatrix.Url;
-import main.java.com.wikipediaMatrix.UrlInvalideException;
 
 /**
  * 
@@ -33,12 +24,12 @@ public class WikiExtractMainTest {
 	 * @throws ConversionInvalideException
 	 * @throws ArticleInexistantException
 	 * @throws IOException
-	 * @throws ResultatEstNullException 
+	 * @throws ResultatEstNullException
 	 * @throws InterruptedException 
 	 */
 	@Test
 	public void lancerExtraction() throws ExtractionInvalideException, UrlInvalideException, ConversionInvalideException, ArticleInexistantException, IOException, ResultatEstNullException, InterruptedException {
-		String BASE_WIKIPEDIA_URL = "output/url_file.txt";
+		String BASE_WIKIPEDIA_URL = "output/url_test.txt";
 		BufferedReader br = new BufferedReader(new FileReader(BASE_WIKIPEDIA_URL));
 		String url;
 		double urlActuelle = 1.0;

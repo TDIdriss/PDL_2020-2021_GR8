@@ -1,4 +1,4 @@
-package main.java.com.wikipediaMatrix;
+package com.wikipediaMatrix;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,6 +9,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.CyclicBarrier;
 
+import com.wikipediaMatrix.exception.ArticleInexistantException;
+import com.wikipediaMatrix.exception.ConversionInvalideException;
+import com.wikipediaMatrix.exception.ExtractionInvalideException;
+import com.wikipediaMatrix.exception.UrlInvalideException;
 import org.json.JSONException;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -98,7 +102,7 @@ public abstract class Donnee extends Thread{
 	private int getNbLignesAjouteesRowspans(Elements rowspans) {
 		int totalRowspans = 0;
 		for (Element rowspan : rowspans) {
-			int valueRowspan = Integer.parseInt(rowspan.attr("rowspan"));
+			int valueRowspan = Integer.parseInt(rowspan.attr("rowspan").replaceAll("[^0-9.]", ""));
 			totalRowspans += valueRowspan -1;
 		}
 		return totalRowspans;
@@ -123,12 +127,12 @@ public abstract class Donnee extends Thread{
 	 * Extraction des donnees
 	 * @param url
 	 * @throws UrlInvalideException
-	 * @throws ExtractionInvalideException 
-	 * @throws MalformedURLException 
-	 * @throws ConversionInvalideException 
-	 * @throws JSONException 
-	 * @throws IOException 
-	 * @throws ArticleInexistantException 
+	 * @throws ExtractionInvalideException
+	 * @throws MalformedURLException
+	 * @throws ConversionInvalideException
+	 * @throws JSONException
+	 * @throws IOException
+	 * @throws ArticleInexistantException
 	 */
 	abstract void extraire(Url url) throws UrlInvalideException, ExtractionInvalideException, MalformedURLException, ConversionInvalideException, IOException, JSONException, ArticleInexistantException;
 
@@ -136,7 +140,7 @@ public abstract class Donnee extends Thread{
 	 * A partir de l'url donnee, recupere le contenu de la page en json
 	 * @param url
 	 * @return String
-	 * @throws ExtractionInvalideException 
+	 * @throws ExtractionInvalideException
 	 */
 	public String recupContenu(URL url) throws ExtractionInvalideException{
 		try {
@@ -174,7 +178,7 @@ public abstract class Donnee extends Thread{
 	/**
 	 * Verification de la presence de tableaux
 	 * @return boolean
-	 * @throws ExtractionInvalideException 
+	 * @throws ExtractionInvalideException
 	 */
 	abstract boolean pageComporteTableau() throws ExtractionInvalideException;
 

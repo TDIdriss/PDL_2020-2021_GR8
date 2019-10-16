@@ -1,4 +1,4 @@
-package main.java.com.wikipediaMatrix;
+package com.wikipediaMatrix;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -6,6 +6,8 @@ import java.io.OutputStreamWriter;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import com.wikipediaMatrix.exception.ExtractionInvalideException;
+import com.wikipediaMatrix.exception.UrlInvalideException;
 import org.json.JSONObject;
 
 /**
@@ -60,8 +62,8 @@ public class Donnee_Wikitable extends Donnee{
 	/**
 	 * Recupere les donnees en JSON pour les mettre dans un CSV
 	 * @param url
-	 * @throws UrlInvalideException 
-	 * @throws ExtractionInvalideException 
+	 * @throws UrlInvalideException
+	 * @throws ExtractionInvalideException
 	 * @throws MalformedURLException 
 	 */
 	@Override

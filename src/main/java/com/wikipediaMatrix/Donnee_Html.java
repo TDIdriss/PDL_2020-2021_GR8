@@ -1,10 +1,14 @@
-package main.java.com.wikipediaMatrix;
+package com.wikipediaMatrix;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.net.URL;
 
+import com.wikipediaMatrix.exception.ArticleInexistantException;
+import com.wikipediaMatrix.exception.ConversionInvalideException;
+import com.wikipediaMatrix.exception.ExtractionInvalideException;
+import com.wikipediaMatrix.exception.UrlInvalideException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -72,10 +76,10 @@ public class Donnee_Html extends Donnee {
 	/**
 	 * Recupere le contenu de la page
 	 * @param url
-	 * @throws UrlInvalideException 
-	 * @throws ExtractionInvalideException 
-	 * @throws ConversionInvalideException 
-	 * @throws ArticleInexistantException 
+	 * @throws UrlInvalideException
+	 * @throws ExtractionInvalideException
+	 * @throws ConversionInvalideException
+	 * @throws ArticleInexistantException
 	 * @throws IOException 
 	 */
 	@Override

@@ -86,16 +86,9 @@
 
 		<!-- Add by yzounon -->
 		<dependency>
-			<groupId>uk.gov.nationalarchives</groupId>
-			<artifactId>csv-validator-java-api</artifactId>
-			<version>1.2-RC2</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.walterjwhite.java.modules.csv.modules</groupId>
-			<artifactId>apache-commons-csv</artifactId>
-			<version>0.0.17</version>
-			<type>pom</type>
+			<groupId>org.toile-libre.libe</groupId>
+			<artifactId>curl</artifactId>
+			<version>LATEST</version>
 		</dependency>
 
 		<dependency>
@@ -103,6 +96,7 @@
 			<artifactId>opencsv</artifactId>
 			<version>5.0</version>
 		</dependency>
+
 
 	</dependencies>
 </project>

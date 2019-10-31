@@ -142,22 +142,8 @@ public abstract class Donnee extends Thread{
 	 * @return String
 	 * @throws ExtractionInvalideException
 	 */
-	public String recupContenu(URL url) throws ExtractionInvalideException{
-		try {
-			StringBuilder result = new StringBuilder();
-			BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
+	abstract String recupContenu(URL url) throws ExtractionInvalideException;
 
-			String inputLine;
-
-			while ((inputLine = in.readLine()) != null)
-				result.append(inputLine);
-
-			in.close();
-			return result.toString();
-		} catch (Exception e) {
-			throw new ExtractionInvalideException("Recuperation du contenu impossible");
-		}
-	}
 
 	/**
 	 * On verifie que la page demandee contient bien un article

@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -15,10 +16,12 @@ public class ApplicationTest {
 
     URL url;
     Url ownUrl;
+    Logger logger;
 
     public void setup() throws MalformedURLException {
-        url = new URL("https://en.wikipedia.org/wiki/Comparison_between_Ido_and_Novial");
+        url = new URL("https://en.wikipedia.org/wiki/Comparison_between_U.S._states_and_countries_by_GDP_(PPP)");
         ownUrl = new Url(url);
+        logger = LogManager.getLogger(ApplicationTest.class);
     }
 
 
@@ -38,26 +41,25 @@ public class ApplicationTest {
         assertTrue(donneeWikitable.pageComporteTableau());
     }
 
-    @Test(expected = ExtractionInvalideException.class)
-    public void getNbTableauxTest() throws IOException, InterruptedException {
+    @Test
+    public void testHtmleExtraction() throws InterruptedException, MalformedURLException {
         setup();
         Donnee_Html donneeHtml = new Donnee_Html();
-        Donnee_Wikitable donneeWikitable = new Donnee_Wikitable();
         donneeHtml.setUrl(ownUrl);
-        donneeWikitable.setUrl(ownUrl);
         donneeHtml.start();
         donneeHtml.join();
-        donneeWikitable.start();
-        donneeWikitable.join();
-
-        Logger logger = LogManager.getLogger(ApplicationTest.class);
-
-        logger.info(donneeHtml.getNbTableaux());
-        logger.info(donneeWikitable.getNbTableaux());
-
-        assertEquals(donneeHtml.getNbTableaux(), donneeWikitable.getNbTableaux());
-
+        assertEquals(1, donneeHtml.getNbTableaux());
     }
 
+
+    @Test
+    public void testWikiTableExtraction() throws InterruptedException, MalformedURLException {
+        setup();
+        Donnee_Wikitable donneeWikitable = new Donnee_Wikitable();
+        donneeWikitable.setUrl(ownUrl);
+        donneeWikitable.start();
+        donneeWikitable.join();
+        assertEquals(1, donneeWikitable.getNbTableaux());
+    }
 
 }

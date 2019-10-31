@@ -4,6 +4,6 @@
 /.settings/
 .idea
 *.iml
-/output/wikitext/
-/output/HTML/
+/output/wikitext/*.csv
+/output/HTML/*.csv
 /logs/app.log

@@ -6,8 +6,6 @@ import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -19,7 +17,7 @@ public class ApplicationTest {
     Logger logger;
 
     public void setup() throws MalformedURLException {
-        url = new URL("https://en.wikipedia.org/wiki/Comparison_between_U.S._states_and_countries_by_GDP_(PPP)");
+        url = new URL("https://en.wikipedia.org/wiki/Comparison_between_Ido_and_Novial");
         ownUrl = new Url(url);
         logger = LogManager.getLogger(ApplicationTest.class);
     }
@@ -48,7 +46,7 @@ public class ApplicationTest {
         donneeHtml.setUrl(ownUrl);
         donneeHtml.start();
         donneeHtml.join();
-        assertEquals(1, donneeHtml.getNbTableaux());
+        assertEquals(3, donneeHtml.getNbTableaux());
     }
 
 
@@ -59,7 +57,7 @@ public class ApplicationTest {
         donneeWikitable.setUrl(ownUrl);
         donneeWikitable.start();
         donneeWikitable.join();
-        assertEquals(1, donneeWikitable.getNbTableaux());
+        assertEquals(3, donneeWikitable.getNbTableaux());
     }
 
 }

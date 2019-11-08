@@ -1,6 +1,7 @@
 package com.wikipediaMatrix;
 
 import java.io.FileReader;
+import java.util.ArrayList;
 import java.util.List;
 
 import com.opencsv.*;
@@ -26,7 +27,19 @@ public class ManageCSV {
             list = csvReader.readAll();
         } catch(Exception e) { }
 
-        return list;
+        return correctLinesCSV(list);
+    }
+
+    public List<String[]> correctLinesCSV(List<String[]> list) {
+        List<String[]> listAux = new ArrayList<String[]>();
+
+        for (String[] s : list) {
+            if (!(s.length == 1 && s[0].trim().equals(""))) {
+                listAux.add(s);
+            }
+        }
+
+        return listAux;
     }
 
     public boolean compareCSV(List<String[]> list1, List<String[]> list2){
@@ -59,6 +72,7 @@ public class ManageCSV {
             }
 
         }
+        else return false;
 
         return true;
     }

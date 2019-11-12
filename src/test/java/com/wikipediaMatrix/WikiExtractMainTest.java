@@ -4,9 +4,13 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
+import java.util.HashSet;
 
 import com.wikipediaMatrix.exception.*;
 import org.junit.Test;
+
+import static junit.framework.Assert.assertTrue;
+import static junit.framework.TestCase.fail;
 
 /**
  * 
@@ -66,5 +70,28 @@ public class WikiExtractMainTest {
 		System.out.println("Nombre de tableaux parsés: " + nbTablesHtml + ", lignes parsées : " + nbLignesHtml + ", colonnes parsées : " + nbColonnesHtml);
 		System.out.println("- WIKITEXT - Temps d'execution : " + tempsExeWikitext/1000 + " secondes.");
 		System.out.println("Nombre de tableaux parsés: " + nbTablesWikitext + ", lignes parsées : " + nbLignesWikitext + ", colonnes parsées : " + nbColonnesWikitext);
+	}
+
+
+	@Test
+	public void getUrlValidesTest() {
+		try {
+			HashSet<Url> lesUrlValides = new HashSet<Url>();
+			String BASE_WIKIPEDIA_URL = "output/url_test.txt";
+			BufferedReader br = new BufferedReader(new FileReader(BASE_WIKIPEDIA_URL));
+			String url;
+			while ((url = br.readLine()) != null) {
+				Url wikiUrl = new Url(new URL(url));
+				if(wikiUrl.estUrlValide()) {
+					lesUrlValides.add(wikiUrl);
+				}
+			}
+			br.close();
+
+			assertTrue(true);
+		}
+		catch (Exception ex){
+			fail();
+		}
 	}
 }

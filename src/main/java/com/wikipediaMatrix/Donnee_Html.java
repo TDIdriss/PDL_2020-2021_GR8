@@ -1,8 +1,6 @@
 package com.wikipediaMatrix;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
+import java.io.*;
 import java.net.URL;
 
 import com.wikipediaMatrix.exception.ArticleInexistantException;
@@ -83,9 +81,11 @@ public class Donnee_Html extends Donnee {
 	 * @throws IOException 
 	 */
 	@Override
-	public synchronized void extraire(Url url) throws UrlInvalideException, ExtractionInvalideException, ConversionInvalideException, ArticleInexistantException, IOException {
+	public synchronized void extraire(Url url) throws UrlInvalideException, ExtractionInvalideException, IOException {
 		startTimer();
 		boolean hasPage = true;
+		url.estTitreValide();
+		url.estPageWikipedia();
 		String langue = url.getLangue();
 		String titre = url.getTitre();
 		/* On recupere le nombre calcule de lignes et de colonnes de tous
@@ -208,6 +208,24 @@ public class Donnee_Html extends Donnee {
 		// On ajoute le texte de la cellule extraite a la matrice
 		if (this.tableau[this.ligneActuelle][this.colonneActuelle].equals("VIDE")) {
 			this.tableau[this.ligneActuelle][this.colonneActuelle] = cellule.text().concat("; ");//FIXME tester si c'est la dernière valeur
+		}
+	}
+
+	@Override
+	String recupContenu(URL url) throws ExtractionInvalideException {
+		try {
+			StringBuilder result = new StringBuilder();
+			BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
+
+			String inputLine;
+
+			while ((inputLine = in.readLine()) != null)
+				result.append(inputLine);
+
+			in.close();
+			return result.toString();
+		} catch (Exception e) {
+			throw new ExtractionInvalideException("Recuperation du contenu impossible");
 		}
 	}
 

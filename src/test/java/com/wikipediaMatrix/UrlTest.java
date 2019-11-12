@@ -106,7 +106,7 @@ public class UrlTest {
 		    nurl++;
 	    }
 	    br.close();
-	    assertEquals(nurl, 336);
+	    assertEquals(4, nurl);
 	}
 	
 	/**
@@ -131,8 +131,8 @@ public class UrlTest {
 			}
 	    }
 	    br.close();
-	    assertEquals(articleExistant, 312);
-	    assertEquals(articleInexistant, 24);
+	    assertEquals(2, articleInexistant);
+	    assertEquals(2, articleExistant);
 	    System.out.println("URLs sans article : " + articleInexistant);
 	}
 }

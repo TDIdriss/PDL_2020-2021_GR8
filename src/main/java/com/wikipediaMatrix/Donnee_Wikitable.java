@@ -1,8 +1,6 @@
 package com.wikipediaMatrix;
 
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStreamWriter;
+import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -59,21 +57,47 @@ public class Donnee_Wikitable extends Donnee{
 		return this.wikitable;
 	}
 
+	@Override
+	String recupContenu(URL url) throws ExtractionInvalideException {
+
+		Url url1 = new Url(url);
+
+		try {
+			url1.estPageWikipedia();
+			url1.estTitreValide();
+			String langue = url1.getLangue();
+			String titre = url1.getTitre();
+			url = new URL("https://"+langue+".wikipedia.org/w/api.php?action=parse&page="+titre+"&prop=wikitext&format=json");
+			StringBuilder result = new StringBuilder();
+			BufferedReader in = new BufferedReader(new InputStreamReader(url.openStream()));
+
+			String inputLine;
+
+			while ((inputLine = in.readLine()) != null)
+				result.append(inputLine);
+
+			in.close();
+			return result.toString();
+		} catch (Exception e) {
+			throw new ExtractionInvalideException("Recuperation du contenu impossible");
+		}
+	}
+
 	/**
 	 * Recupere les donnees en JSON pour les mettre dans un CSV
 	 * @param url
 	 * @throws UrlInvalideException
 	 * @throws ExtractionInvalideException
-	 * @throws MalformedURLException 
+	 * @throws MalformedURLException
 	 */
 	@Override
-	public synchronized void extraire(Url url) throws  UrlInvalideException, ExtractionInvalideException, MalformedURLException, IOException {
+	public synchronized void extraire(Url url) throws  ExtractionInvalideException, IOException {
 		startTimer();
-		String langue = url.getLangue();
+		url.estTitreValide();
 		String titre = url.getTitre();
 
-		URL page = new URL("https://"+langue+".wikipedia.org/w/api.php?action=parse&page="+titre+"&prop=wikitext&format=json");
-		String json = recupContenu(page);
+
+		String json = recupContenu(url.getURL());
 		if(!hasErrorOnPage(json)) {
 			wikitable = jsonVersWikitable(json);
 			wikitableVersCSV(titre,wikitable);

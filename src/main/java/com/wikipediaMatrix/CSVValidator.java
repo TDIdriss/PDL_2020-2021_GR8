@@ -7,6 +7,7 @@ import com.opencsv.CSVReaderBuilder;
 import org.apache.http.HttpResponse;
 
 import java.io.FileReader;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
@@ -87,7 +88,7 @@ public class CSVValidator {
                     .withIgnoreQuotations(false)
                     .build();
 
-            CSVReader csvReader = new CSVReaderBuilder(new FileReader(pathFile))
+            CSVReader csvReader = new CSVReaderBuilder(new FileReader (pathFile))
                     .withSkipLines(0)
                     .withCSVParser(parser)
                     .build();
@@ -95,7 +96,20 @@ public class CSVValidator {
             list = csvReader.readAll();
         } catch(Exception e) { }
 
-        return list;
+        return correctLinesCSV(list);
+    }
+
+
+    public List<String[]> correctLinesCSV(List<String[]> list) {
+        List<String[]> listAux = new ArrayList<String[]>();
+
+        for (String[] s : list) {
+            if (!(s.length == 1 && s[0].trim().equals(""))) {
+                listAux.add(s);
+            }
+        }
+
+        return listAux;
     }
 
 
@@ -129,20 +143,9 @@ public class CSVValidator {
             }
 
         }
+        else return false;
 
         return true;
-    }
-
-
-
-    public static void main(String[] args) {
-        CSVValidator csvValidator = CSVValidator.getInstance();
-
-        System.out.println("| --------------------------------------- VALIDATION DE CSV --------------------------------------- |\n");
-
-        System.out.println("double_quote.csv is valid                     : " + csvValidator.checkCSV("csv/double_quote.csv"));
-
-        System.out.println("\n| --------------------------------------- VALIDATION DE CSV --------------------------------------- |");
     }
 
 }

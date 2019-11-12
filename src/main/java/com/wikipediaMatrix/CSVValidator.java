@@ -1,7 +1,12 @@
 package com.wikipediaMatrix;
 
+import com.opencsv.CSVParser;
+import com.opencsv.CSVParserBuilder;
+import com.opencsv.CSVReader;
+import com.opencsv.CSVReaderBuilder;
 import org.apache.http.HttpResponse;
 
+import java.io.FileReader;
 import java.util.HashMap;
 import java.util.List;
 
@@ -18,7 +23,7 @@ public class CSVValidator {
     private CSVValidator() {
         this.apiUrl = "https://validation.openbridge.io/dryrun";
         this.headers = "Content-Type: multipart/form-data";
-        this.path = "output/csv/";
+        this.path = "output/";
     }
 
     public static CSVValidator getInstance() {
@@ -73,23 +78,69 @@ public class CSVValidator {
         return response.getStatusLine().getStatusCode() == 200;
     }
 
+    public List<String[]> readCSV(String pathFile, char separator) {
+        List<String[]> list = null;
+
+        try{
+            CSVParser parser = new CSVParserBuilder()
+                    .withSeparator(separator)
+                    .withIgnoreQuotations(false)
+                    .build();
+
+            CSVReader csvReader = new CSVReaderBuilder(new FileReader(pathFile))
+                    .withSkipLines(0)
+                    .withCSVParser(parser)
+                    .build();
+
+            list = csvReader.readAll();
+        } catch(Exception e) { }
+
+        return list;
+    }
+
+
+    public boolean compareCSV(List<String[]> list1, List<String[]> list2){
+
+        //test du nombre de ligne du fichier
+        if (list1.size()==list2.size()){
+
+
+            for(int i=0; i < list1.size() ; i++) {
+                String[] subtab1 = list1.get(i);
+                String[] subtab2 = list2.get(i);
+
+                //test du nombre de valeur par ligne
+                if (subtab1.length == subtab2.length) {
+
+                    for (int j = 0; j < subtab1.length; j++) {
+                        String item1 = subtab1[j].trim();
+                        String item2 = subtab2[j].trim();
+
+                        if (!item1.equals(item2)){
+                            return false;
+                        }
+
+                    }
+
+                }
+                else {
+                    return false;
+                }
+            }
+
+        }
+
+        return true;
+    }
+
+
 
     public static void main(String[] args) {
         CSVValidator csvValidator = CSVValidator.getInstance();
 
         System.out.println("| --------------------------------------- VALIDATION DE CSV --------------------------------------- |\n");
 
-        System.out.println("bad.csv is valid                     : " + csvValidator.checkCSV("bad.csv"));
-        System.out.println("bad_quote.csv is valid               : " + csvValidator.checkCSV("bad_quote.csv"));
-        System.out.println("good.csv is valid                    : " + csvValidator.checkCSV("good.csv"));
-        System.out.println("mult_long_columns.csv is valid       : " + csvValidator.checkCSV("mult_long_columns.csv"));
-        System.out.println("mult_long_columns_tabs.csv is valid  : " + csvValidator.checkCSV("mult_long_columns_tabs.csv"));
-        System.out.println("one_long_column.csv is valid         : " + csvValidator.checkCSV("one_long_column.csv"));
-        System.out.println("perfect.csv is valid                 : " + csvValidator.checkCSV("perfect.csv"));
-        System.out.println("perfect_colon.csv is valid           : " + csvValidator.checkCSV("perfect_colon.csv"));
-        System.out.println("perfect_pipe.csv is valid            : " + csvValidator.checkCSV("perfect_pipe.csv"));
-        System.out.println("perfect_semicolon.csv is valid       : " + csvValidator.checkCSV("perfect_semicolon.csv"));
-        System.out.println("perfect_tab.csv is valid             : " + csvValidator.checkCSV("perfect_tab.csv"));
+        System.out.println("double_quote.csv is valid                     : " + csvValidator.checkCSV("csv/double_quote.csv"));
 
         System.out.println("\n| --------------------------------------- VALIDATION DE CSV --------------------------------------- |");
     }

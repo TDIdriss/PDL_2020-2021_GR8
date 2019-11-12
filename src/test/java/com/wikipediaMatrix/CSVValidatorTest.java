@@ -1,17 +1,23 @@
 package com.wikipediaMatrix;
 
-import com.wikipediaMatrix.exception.ExtractionInvalideException;
+import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import java.util.List;
+
+import static org.junit.Assert.*;
 
 public class CSVValidatorTest {
 
+    private CSVValidator validator;
+
+    @Before
+    public void setUp() throws Exception {
+        validator = CSVValidator.getInstance();
+    }
 
     @Test
     public void checkCSVTest1() {
-        CSVValidator validator = CSVValidator.getInstance();
         byte count = 0;
 
         System.out.println("| --------------------------------------- VALIDATION DE CSV --------------------------------------- |\n");
@@ -60,6 +66,24 @@ public class CSVValidatorTest {
         System.out.println("| --------------------------------------- VALIDATION DE CSV --------------------------------------- |\n");
 
         assertEquals(0, count);
+    }
+
+
+    @Test
+    public void compareCSV1() {
+        List<String[]> list1 = validator.readCSV("output/csv/testComp1.csv", ';');
+        List<String[]> list2 = validator.readCSV("output/csv/testComp2.csv", ',');
+
+        assertTrue(validator.compareCSV(list1, list2));
+    }
+
+
+    @Test
+    public void compareCSV2() {
+        List<String[]> list1 = validator.readCSV("output/csv/testComp1.csv", ';');
+        List<String[]> list2 = validator.readCSV("output/csv/testComp3.csv", ',');
+
+        assertFalse(validator.compareCSV(list1, list2));
     }
 
 }

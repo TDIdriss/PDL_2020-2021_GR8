@@ -207,7 +207,7 @@ public class Donnee_Html extends Donnee {
 		}
 		// On ajoute le texte de la cellule extraite a la matrice
 		if (this.tableau[this.ligneActuelle][this.colonneActuelle].equals("VIDE")) {
-			this.tableau[this.ligneActuelle][this.colonneActuelle] = cellule.text().concat("; ");
+			this.tableau[this.ligneActuelle][this.colonneActuelle] = cellule.text().concat("; ");//FIXME tester si c'est la dernière valeur
 		}
 	}
 

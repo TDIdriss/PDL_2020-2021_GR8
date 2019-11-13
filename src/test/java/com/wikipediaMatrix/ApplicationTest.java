@@ -127,4 +127,35 @@ public class ApplicationTest {
         assertTrue(csvValidator.checkCSV(urlTest.getTitre()+"-01.csv"));
     }
 
+    @Test
+    public void checkAttrRowSpanContent() throws MalformedURLException, InterruptedException, ExtractionInvalideException {
+        // Une Url qui contient un rowspan mal dont la valeur contien un << " >>  un caractère qui n'est pas un entier
+        url = new URL("https://en.wikipedia.org/wiki/List_of_Intel_graphics_processing_units");
+        ownUrl = new Url(url);
+        logger = LogManager.getLogger(ApplicationTest.class);
+
+        Donnee donnee = new Donnee_Html();
+        Donnee_Html donneeHtml = (Donnee_Html) donnee;
+        donneeHtml.setUrl(ownUrl);
+        URL urlExtraction = new URL("https://"+ownUrl.getLangue()+".wikipedia.org/wiki/"+ownUrl.getTitre()+"?action=render");
+        donneeHtml.setHtml(donneeHtml.recupContenu(urlExtraction));
+
+        Document page = Jsoup.parseBodyFragment(donneeHtml.getHtml());
+        Elements wikitables = page.getElementsByClass("wikitable");
+
+        int nbTableaux = wikitables.size();
+        // On parcoure l'ensemble des tableaux de la page
+        for (int i = 0 ; i < nbTableaux ; i++) {
+            // On recupere tout les rowspan
+            Elements rowspans = wikitables.get(i).getElementsByAttribute("rowspan");
+
+            // On vérifie que les éditeurs du tableau les ont bien écrit,
+            // C'est à dire en qu'il doit est en entier et ne doit pas contenir d'autre caractères
+            for (Element rowspan : rowspans) {
+                Pattern pattern = Pattern.compile("[^0-9]");
+                Matcher matcher = pattern.matcher(rowspan.attr("rowspan")) ;
+                assertFalse(matcher.find());
+            }
+        }
+    }
 }

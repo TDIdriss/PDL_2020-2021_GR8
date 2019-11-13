@@ -23,6 +23,16 @@ public class Url {
 		this.url = url;
 		this.titre = "";
 		this.langue = "";
+		try {
+			estPageWikipedia();
+		} catch (UrlInvalideException e) {
+			e.printStackTrace();
+		}
+		try {
+			estTitreValide();
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
 	}
 
 	/**

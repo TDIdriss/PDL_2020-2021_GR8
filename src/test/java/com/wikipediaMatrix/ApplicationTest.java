@@ -153,7 +153,7 @@ public class ApplicationTest {
             // C'est à dire en qu'il doit est en entier et ne doit pas contenir d'autre caractères
             for (Element rowspan : rowspans) {
                 Pattern pattern = Pattern.compile("[^0-9]");
-                Matcher matcher = pattern.matcher(rowspan.attr("rowspan")) ;
+                Matcher matcher = pattern.matcher(rowspan.attr("rowspan").replaceAll("[^0-9.]", "")) ;
                 assertFalse(matcher.find());
             }
         }

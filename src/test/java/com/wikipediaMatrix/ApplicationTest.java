@@ -122,9 +122,8 @@ public class ApplicationTest {
         donneeHtml.join();
 
         CSVValidator csvValidator = CSVValidator.getInstance();
-        csvValidator.setPath("HTML/");
 
-        assertTrue(csvValidator.checkCSV(urlTest.getTitre()+"-01.csv"));
+        assertTrue(csvValidator.checkCSV("HTML/" + urlTest.getTitre()+"-01.csv"));
     }
 
     @Test

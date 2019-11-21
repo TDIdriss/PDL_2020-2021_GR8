@@ -126,7 +126,6 @@ public class UrlTest {
 				WikiUrl.testerConnexionHTTP();
 		    	articleExistant++;
 			} catch (ArticleInexistantException e) {
-				// TODO Auto-generated catch block
 				articleInexistant++;
 			}
 	    }

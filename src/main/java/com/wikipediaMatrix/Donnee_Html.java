@@ -242,6 +242,7 @@ public class Donnee_Html extends Donnee {
 	 * Methode utilise uniquement lorsqu'une cellule a un attribut rowspan.
 	 * @param cellule la cellule a ajouter
 	 */
+	//TODO regler
 	private void stockerCelluleColspan(Element cellule, int colonneActuelle) {
 		if (!this.tableau[this.ligneActuelle][colonneActuelle].equals("VIDE")) {
 		}
@@ -250,11 +251,12 @@ public class Donnee_Html extends Donnee {
 		}
 	}
 
+	//TODO regler
 	private void stockerCelluleRowspan(Element cellule, int ligneActuelle) {
 		if (!this.tableau[ligneActuelle][this.colonneActuelle].equals("VIDE")) {
 		}
 		else {
-			this.tableau[ligneActuelle][this.colonneActuelle] = cellule.text().concat("; ");
+			this.tableau[ligneActuelle][this.colonneActuelle] = cellule.text().concat("; ");//TODO Review
 		}
 	}
 
@@ -317,11 +319,13 @@ public class Donnee_Html extends Donnee {
 	private void gererColspans(int nbColspans, Element cellule, int colonneActuelle) {
 		for (int i = 0 ; i < nbColspans; i++) {
 			stockerCelluleColspan(cellule, colonneActuelle);
-			if(!(i+1 == nbColspans)) {
-				colonneActuelle++;
-			}
+			//if(!(i+1 == nbColspans)) {
+			//	colonneActuelle++;
+			//}
+			colonneActuelle++;
 		}
-		this.colonneActuelle++;
+		//this.colonneActuelle++;//todo
+		colonneActuelle--;
 		this.colonneActuelle = colonneActuelle;
 	}
 

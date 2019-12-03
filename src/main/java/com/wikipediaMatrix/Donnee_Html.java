@@ -199,7 +199,7 @@ public class Donnee_Html extends Donnee {
 	 * Stocke la cellule dans une matrice a deux dimensions representant la wikitable
 	 * @param cellule la cellule a ajouter
 	 */
-	public void stockerCellule(Element cellule) {
+	public void stockerCellule(Element cellule) throws ArrayIndexOutOfBoundsException {
 		/* Si les coordonnees donnees en parametre sont deja reservees, on avance 
 		 	d'autant de colonnes qu'il faudra jusqu'a pouvoir stocker notre cellule*/
 		while(!this.tableau[this.ligneActuelle][this.colonneActuelle].equals("VIDE")) {

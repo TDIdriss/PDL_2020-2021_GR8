@@ -6,7 +6,7 @@ import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -119,5 +119,17 @@ public class ApplicationTest {
         csvValidator.setPath("HTML/");
 
         assertTrue(csvValidator.checkCSV(urlTest.getTitre()+"-01.csv"));
+    }
+
+    @Test
+    @DisplayName("Test avec des tableau contenant des row span ou de col span")
+    public void rowSpanColSpanTableTest() throws MalformedURLException, InterruptedException {
+
+        Url urlTest = new Url(new URL("https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units"));
+        Donnee_Html donneeHtml = new Donnee_Html();
+        donneeHtml.setUrl(urlTest);
+
+        assertThrows(ArrayIndexOutOfBoundsException.class, () -> donneeHtml.start());
+        donneeHtml.join();
     }
 }

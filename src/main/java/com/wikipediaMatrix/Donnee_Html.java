@@ -154,6 +154,7 @@ public class Donnee_Html extends Donnee {
 	 */
 	private void stockerLignes(Element table) {
 		this.maxColonnesLigne = 0;
+		int count;
 		Elements lignes = table.getElementsByTag("tr");
 		// On parcoure les lignes de la wikitable1800
 		for (Element ligne : lignes) {
@@ -161,6 +162,7 @@ public class Donnee_Html extends Donnee {
 			Elements cellules = ligne.select("td, th");
 			/* Parcours des cellules de la ligne, et appel de methodes
 			gerant les colspans et rowspans si besoin */
+			count = 1;
 			for (Element cellule : cellules) {
 				// Si on un colspan et un rowspan sur la meme cellule
 				if ((cellule.hasAttr("colspan")) && (cellule.hasAttr("rowspan"))){
@@ -184,9 +186,13 @@ public class Donnee_Html extends Donnee {
 				}
 				// La cellule est 'normale'
 				else {
-					stockerCellule(cellule);
+					if (cellules.size() == count)
+						stockerCellule(cellule, "");
+					else
+						stockerCellule(cellule, "; ");
 				}
 				this.colonneActuelle++;
+				count++;
 				if(this.colonneActuelle > this.maxColonnesLigne) this.maxColonnesLigne = this.colonneActuelle;
 			}
 			this.ligneActuelle++;
@@ -198,16 +204,17 @@ public class Donnee_Html extends Donnee {
 	/**
 	 * Stocke la cellule dans une matrice a deux dimensions representant la wikitable
 	 * @param cellule la cellule a ajouter
+	 * @param separator separateur à utiliser pour la concatenation
 	 */
-	public void stockerCellule(Element cellule) throws ArrayIndexOutOfBoundsException {
-		/* Si les coordonnees donnees en parametre sont deja reservees, on avance 
+	public void stockerCellule(Element cellule, String separator) {
+		/* Si les coordonnees donnees en parametre sont deja reservees, on avance
 		 	d'autant de colonnes qu'il faudra jusqu'a pouvoir stocker notre cellule*/
 		while(!this.tableau[this.ligneActuelle][this.colonneActuelle].equals("VIDE")) {
 			this.colonneActuelle++;
 		}
 		// On ajoute le texte de la cellule extraite a la matrice
 		if (this.tableau[this.ligneActuelle][this.colonneActuelle].equals("VIDE")) {
-			this.tableau[this.ligneActuelle][this.colonneActuelle] = cellule.text().concat("; ");//FIXME tester si c'est la dernière valeur
+			this.tableau[this.ligneActuelle][this.colonneActuelle] = cellule.text().concat(separator);
 		}
 	}
 
@@ -234,8 +241,8 @@ public class Donnee_Html extends Donnee {
 	 * La ligne n'est pas l'attribut ligneActuelle, mais une ligne donnee en parametre
 	 * Methode utilise uniquement lorsqu'une cellule a un attribut rowspan.
 	 * @param cellule la cellule a ajouter
-	 * @param ligneRowspan la ligne du tableau ou doit etre ajoutee la cellule
 	 */
+	//TODO regler
 	private void stockerCelluleColspan(Element cellule, int colonneActuelle) {
 		if (!this.tableau[this.ligneActuelle][colonneActuelle].equals("VIDE")) {
 		}
@@ -244,11 +251,12 @@ public class Donnee_Html extends Donnee {
 		}
 	}
 
+	//TODO regler
 	private void stockerCelluleRowspan(Element cellule, int ligneActuelle) {
 		if (!this.tableau[ligneActuelle][this.colonneActuelle].equals("VIDE")) {
 		}
 		else {
-			this.tableau[ligneActuelle][this.colonneActuelle] = cellule.text().concat("; ");
+			this.tableau[ligneActuelle][this.colonneActuelle] = cellule.text().concat("; ");//TODO Review
 		}
 	}
 
@@ -311,11 +319,13 @@ public class Donnee_Html extends Donnee {
 	private void gererColspans(int nbColspans, Element cellule, int colonneActuelle) {
 		for (int i = 0 ; i < nbColspans; i++) {
 			stockerCelluleColspan(cellule, colonneActuelle);
-			if(!(i+1 == nbColspans)) {
-				colonneActuelle++;
-			}
+			//if(!(i+1 == nbColspans)) {
+			//	colonneActuelle++;
+			//}
+			colonneActuelle++;
 		}
-		this.colonneActuelle++;
+		//this.colonneActuelle++;//todo
+		colonneActuelle--;
 		this.colonneActuelle = colonneActuelle;
 	}
 

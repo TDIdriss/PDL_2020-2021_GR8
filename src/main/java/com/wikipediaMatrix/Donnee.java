@@ -99,7 +99,7 @@ public abstract class Donnee extends Thread{
 	 * @param rowspans
 	 * @return
 	 */
-	private int getNbLignesAjouteesRowspans(Elements rowspans) {
+    int getNbLignesAjouteesRowspans(Elements rowspans) {
 		int totalRowspans = 0;
 		for (Element rowspan : rowspans) {
 			int valueRowspan = Integer.parseInt(rowspan.attr("rowspan").replaceAll("[^0-9.]", ""));

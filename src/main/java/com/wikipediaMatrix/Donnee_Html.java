@@ -186,7 +186,7 @@ public class Donnee_Html extends Donnee {
 
 					int[] tab = {this.ligneActuelle, this.colonneActuelle, nbRowspans};
 					this.rowspanFound.add(tab);
-					correctRow();
+					correctRow();//TODO Regler
 					gererRowspans(nbRowspans, cellule, this.ligneActuelle);
 				}
 				// Si on a un colspan uniquement

@@ -2,6 +2,8 @@ package com.wikipediaMatrix;
 
 import java.io.*;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 import com.wikipediaMatrix.exception.ArticleInexistantException;
 import com.wikipediaMatrix.exception.ConversionInvalideException;
@@ -26,9 +28,13 @@ public class Donnee_Html extends Donnee {
 	private int nbTableauxExtraits, ligneActuelle, colonneActuelle, lignesEcrites, colonnesEcrites, maxColonnesLigne;
 	private String[][] tableau;
 	private Url url;
-	
+	private List<int[]> rowspanFound;
+	private int nbLignesGlob;
+	private int nbColonnesGlob;
+
 	public Donnee_Html() {
 		this.donneeHTML = "";
+		this.rowspanFound =  new ArrayList<int[]>();
 	}
 
 	public String[][] getTableau(){
@@ -129,12 +135,13 @@ public class Donnee_Html extends Donnee {
 			FileOutputStream outputStream = new FileOutputStream(outputPath);
 			OutputStreamWriter writer = new OutputStreamWriter(outputStream, "UTF-8");
 			// On recupere le nmobre de lignes et de colonnes du tableau en cours
-			int nbLignes = getNbLignesTableaux().get(i);
-			int nbColonnes = getNbColonnesTableaux().get(i);
+			nbLignesGlob = getNbLignesTableaux().get(i);
+			nbColonnesGlob = getNbColonnesTableaux().get(i);
 			// On initialise la matrice de donnees a la bonne taille
-			this.tableau = new String[nbLignes][nbColonnes];
+			this.tableau = new String[nbLignesGlob][nbColonnesGlob];
 //			this.tableau = new String[700][200];
 			this.ligneActuelle = 0;
+			System.out.println(1);
 			// On remplit toutes les lignes et colonnes de la matrice
 			for (String[] ligne: tableau) {
 				java.util.Arrays.fill(ligne,"VIDE");
@@ -176,6 +183,10 @@ public class Donnee_Html extends Donnee {
 				else if (cellule.hasAttr("rowspan")) {
 					String rowspanValue = cellule.attr("rowspan").replaceAll("[^0-9.]", "");
 					int nbRowspans = Integer.parseInt(rowspanValue);
+
+					int[] tab = {this.ligneActuelle, this.colonneActuelle, nbRowspans};
+					this.rowspanFound.add(tab);
+					correctRow();
 					gererRowspans(nbRowspans, cellule, this.ligneActuelle);
 				}
 				// Si on a un colspan uniquement
@@ -186,10 +197,7 @@ public class Donnee_Html extends Donnee {
 				}
 				// La cellule est 'normale'
 				else {
-					if (cellules.size() == count)
-						stockerCellule(cellule, "");
-					else
-						stockerCellule(cellule, "; ");
+					stockerCellule(cellule);
 				}
 				this.colonneActuelle++;
 				count++;
@@ -199,14 +207,42 @@ public class Donnee_Html extends Donnee {
 			this.lignesEcrites++;
 		}
 		this.colonnesEcrites += this.maxColonnesLigne;
+		addSeparator();
+	}
+
+	private void correctRow() {
+
+		for (int[] item : this.rowspanFound) {
+			if (item[0] == this.ligneActuelle && item[1] == this.colonneActuelle) {
+				return;
+			}
+
+			for (int i = 1; i < item[2]; i++){
+				if (this.ligneActuelle == item[0] + i && this.colonneActuelle == item[1] && item[1] + 1 <= this.nbColonnesGlob - 1) {
+					this.colonneActuelle++;
+					return;
+				}
+			}
+		}
+
+	}
+
+	private void addSeparator() {
+		for (int i = 0; i < this.nbLignesGlob; i++) {
+			for (int j = 0; j< this.nbColonnesGlob; j++){
+				if ( j != nbColonnesGlob-1 ) {
+					this.tableau[i][j] = this.tableau[i][j].concat("; ");
+				}
+			}
+
+		}
 	}
 
 	/**
 	 * Stocke la cellule dans une matrice a deux dimensions representant la wikitable
 	 * @param cellule la cellule a ajouter
-	 * @param separator separateur à utiliser pour la concatenation
 	 */
-	public void stockerCellule(Element cellule, String separator) {
+	public void stockerCellule(Element cellule) {
 		/* Si les coordonnees donnees en parametre sont deja reservees, on avance
 		 	d'autant de colonnes qu'il faudra jusqu'a pouvoir stocker notre cellule*/
 		while(!this.tableau[this.ligneActuelle][this.colonneActuelle].equals("VIDE")) {
@@ -214,7 +250,7 @@ public class Donnee_Html extends Donnee {
 		}
 		// On ajoute le texte de la cellule extraite a la matrice
 		if (this.tableau[this.ligneActuelle][this.colonneActuelle].equals("VIDE")) {
-			this.tableau[this.ligneActuelle][this.colonneActuelle] = cellule.text().concat(separator);
+			this.tableau[this.ligneActuelle][this.colonneActuelle] = cellule.text();
 		}
 	}
 
@@ -247,7 +283,7 @@ public class Donnee_Html extends Donnee {
 		if (!this.tableau[this.ligneActuelle][colonneActuelle].equals("VIDE")) {
 		}
 		else {
-			this.tableau[this.ligneActuelle][colonneActuelle] = cellule.text().concat("; ");
+			this.tableau[this.ligneActuelle][colonneActuelle] = cellule.text();
 		}
 	}
 
@@ -256,12 +292,12 @@ public class Donnee_Html extends Donnee {
 		if (!this.tableau[ligneActuelle][this.colonneActuelle].equals("VIDE")) {
 		}
 		else {
-			this.tableau[ligneActuelle][this.colonneActuelle] = cellule.text().concat("; ");//TODO Review
+			this.tableau[ligneActuelle][this.colonneActuelle] = cellule.text();
 		}
 	}
 
 	private void stockerRowspanSuivantColspan(Element cellule, int ligneActuelle, int colonneActuelle) {
-		this.tableau[ligneActuelle][colonneActuelle] = cellule.text().concat("; ");
+		this.tableau[ligneActuelle][colonneActuelle] = cellule.text();
 	}
 
 	/**

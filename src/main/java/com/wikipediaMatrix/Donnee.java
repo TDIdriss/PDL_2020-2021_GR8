@@ -77,7 +77,8 @@ public abstract class Donnee extends Thread{
 		int nbColonnes = 0;
 		for (int i = 0; i < lignes.size(); i++) {
 			// On va chercher la ligne avec le plus grand nombre de colonnes
-			nbColonnes = lignes.get(i).select("td, th").size() + getNbColonnesAjouteesColspans(lignes.get(i));
+			int nbColonnesAjouteesColspans = getNbColonnesAjouteesColspans(lignes.get(i));
+			nbColonnes = lignes.get(i).select("td, th").size() + nbColonnesAjouteesColspans;
 			if(nbColonnes > nbColonnesMax) {
 				nbColonnesMax = nbColonnes;
 			}
@@ -88,8 +89,11 @@ public abstract class Donnee extends Thread{
 		// nombre de lignes total ajoutees par les rowspans	
 		int totalRowspans = getNbLignesAjouteesRowspans(rowspans);
 
-		nbLignesColonnes[0] = nbLignes + totalRowspans;
-		nbLignesColonnes[1] = nbColonnesMax+1;
+		//nbLignesColonnes[0] = nbLignes + totalRowspans;
+		//nbLignesColonnes[1] = nbColonnesMax+1;
+		//TODO Code review
+		nbLignesColonnes[0] = nbLignes;
+		nbLignesColonnes[1] = nbColonnesMax;
 
 		return nbLignesColonnes;
 	}

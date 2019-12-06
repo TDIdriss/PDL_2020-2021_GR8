@@ -160,7 +160,7 @@ public class Donnee_Html extends Donnee {
 	 * @param table
 	 */
 	private void stockerLignes(Element table) {
-		this.maxColonnesLigne = 0;
+git 		this.maxColonnesLigne = 0;
 		int count;
 		Elements lignes = table.getElementsByTag("tr");
 		// On parcoure les lignes de la wikitable1800

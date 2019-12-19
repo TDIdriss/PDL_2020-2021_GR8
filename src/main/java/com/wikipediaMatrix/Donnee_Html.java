@@ -218,7 +218,7 @@ public class Donnee_Html extends Donnee {
 			}
 
 			for (int i = 1; i < item[2]; i++){
-				if (this.ligneActuelle == item[0] + i && this.colonneActuelle == item[1] && item[1] + 1 <= this.nbColonnesGlob - 1) {
+				if (item[1] + 1 <= this.nbColonnesGlob - 1 && this.ligneActuelle == item[0] + i && this.colonneActuelle == item[1]) {
 					this.colonneActuelle++;
 					return;
 				}

@@ -23,6 +23,6 @@ public class ComplexTableTest {
 
         CSVValidator csvValidator = CSVValidator.getInstance();
 
-        assertTrue(csvValidator.checkCSV("HTML/" + urlTest.getTitre()+"-11.csv"));
+        assertTrue(csvValidator.checkCSVWithSeparator("HTML/" + urlTest.getTitre()+"-11.csv", ';'));
     }
 }

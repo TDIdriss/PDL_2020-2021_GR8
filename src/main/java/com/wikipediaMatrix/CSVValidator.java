@@ -9,6 +9,7 @@ import org.apache.http.HttpResponse;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 
 import static org.toilelibre.libe.curl.Curl.curl;
@@ -35,8 +36,8 @@ public class CSVValidator {
         this.path = path;
     }
 
-
-    public boolean checkCSV(String csvFile) {
+    @Deprecated
+    public boolean checkCSV(String csvFile){
         boolean result = false;
         //Premier appel curl pour vérifier le csv
         String csvPath = path + csvFile;
@@ -49,6 +50,24 @@ public class CSVValidator {
         }
 
         return result;
+    }
+
+    public boolean checkCSVWithSeparator(String csvFile, char separator) {
+        List<String[]> data = readCSV(path + csvFile, separator);
+        Iterator<String[]> it = data.iterator();
+        int length;
+
+        if (it.hasNext())
+            length = it.next().length;
+        else
+            return true;
+
+        while (it.hasNext()) {
+            if (length != it.next().length)
+                return false;
+        }
+
+        return true;
     }
 
     private HashMap<String, String> curlForCheckCSV(String csvPath) {

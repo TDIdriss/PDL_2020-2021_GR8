@@ -131,9 +131,15 @@ public class Donnee_Html extends Donnee {
 		nbLignesColonnes(wikitables);
 		
 		for (int i = 0 ; i < wikitables.size() ; i++) {
-			String outputPath = "output/HTML/" + titre + "-" + i+1 + ".csv";
+			String outputPath = "output/HTML/" + titre + "-" + i+1 + ".csv"; // TODO Review this
 			FileOutputStream outputStream = new FileOutputStream(outputPath);
 			OutputStreamWriter writer = new OutputStreamWriter(outputStream, "UTF-8");
+
+			//TODO Remove this code
+			//System.out.println(i);
+			if (i != 23)
+				continue;
+
 			// On recupere le nmobre de lignes et de colonnes du tableau en cours
 			nbLignesGlob = getNbLignesTableaux().get(i);
 			nbColonnesGlob = getNbColonnesTableaux().get(i);
@@ -141,12 +147,12 @@ public class Donnee_Html extends Donnee {
 			this.tableau = new String[nbLignesGlob][nbColonnesGlob];
 //			this.tableau = new String[700][200];
 			this.ligneActuelle = 0;
-			System.out.println(1);
 			// On remplit toutes les lignes et colonnes de la matrice
 			for (String[] ligne: tableau) {
 				java.util.Arrays.fill(ligne,"VIDE");
 			}
 			// On stocke les donnees en provenance de la wikitable dans une matrice
+			this.rowspanFound.clear();
 			stockerLignes(wikitables.get(i));
 			// On cree un fichier CSV en parcourant la matrice
 			ecrireTableau(writer);
@@ -218,7 +224,7 @@ public class Donnee_Html extends Donnee {
 			}
 
 			for (int i = 1; i < item[2]; i++){
-				if (item[1] + 1 <= this.nbColonnesGlob - 1 && this.ligneActuelle == item[0] + i && this.colonneActuelle == item[1]) {
+				if (item[2] + 1 <= this.nbColonnesGlob - 1 && this.ligneActuelle == item[0] + i && this.colonneActuelle == item[1]) {
 					this.colonneActuelle++;
 					return;
 				}

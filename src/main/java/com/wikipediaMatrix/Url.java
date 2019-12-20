@@ -7,6 +7,9 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * Classe permettant de recuperer les informations d'une page via son url
  * Validation de l'url requise
@@ -18,6 +21,7 @@ public class Url {
 	private URL url;
 	private String titre;
 	private String langue;
+	private String oldid;
 
 	public Url(URL url) {
 		this.url = url;
@@ -43,9 +47,9 @@ public class Url {
 	 */
 	public boolean estPageWikipedia() throws UrlInvalideException {
 		String debutURL = url.toString().substring(0, url.toString().lastIndexOf('/')+1);;
-		if (!debutURL.matches("https://(fr|en).wikipedia.org/wiki/")) {
+		if (!debutURL.matches("https://(fr|en).wikipedia.org/(w|wiki)/")) {
 			throw new UrlInvalideException("URL non prise en charge");
-		}  
+		}
 		langue = url.toString().substring(8, url.toString().indexOf('.'));
 		return true;
 	}
@@ -63,7 +67,21 @@ public class Url {
 			System.out.println(new MalformedURLException("Titre de la page invalide"));
 			return false;
 		}
+		Pattern patternCell = Pattern.compile("(.)*title=((.)+)&(.)*");
+		Matcher matcher = patternCell.matcher(url.toString());
+		if (matcher.matches()) {
+			titre = matcher.group(2);
+		}
+		patternCell = Pattern.compile("(.)*oldid=([0-9]+)");
+		matcher = patternCell.matcher(url.toString());
+		if (matcher.matches()) {
+			oldid = matcher.group(2);
+		}
 		return true;
+	}
+
+	public String getOldid() {
+		return oldid;
 	}
 
 	/**

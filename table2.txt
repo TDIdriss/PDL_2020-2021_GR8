@@ -1,0 +1,77 @@
+{|class=\"wikitable\"
+|+'''Pronouns'''
+!rowspan=\"3\"|
+!colspan=\"7\" valign=\"top\"|singular
+! colspan=\"7\" valign=\"top\" |plural
+!rowspan=\"3\" valign=\"top\"|indef.
+|-
+!rowspan=\"2\" valign=\"top\"|1st
+!colspan=\"2\" valign=\"top\"|2nd
+!colspan=\"4\" valign=\"top\"|3rd
+!rowspan=\"2\" valign=\"top\"|1st
+!rowspan=\"2\" valign=\"top\"|2nd
+! colspan=\"5\" valign=\"top\" |3rd
+|-
+!''familiar''
+!''formal''
+!''m.''
+!''f.''
+!''n.''
+!''pan-gender''
+!''m.''
+!''f.''
+!''n.''
+!''pan-gender''
+!Reflexive
+|-
+!English
+|align=\"center\"|I
+|align=\"center\"|you (thou)
+|align=\"center\"|you
+|align=\"center\"|he
+|align=\"center\"|she
+|align=\"center\"|it
+|align=\"center\"|he/it
+|align=\"center\"|we
+|align=\"center\"|you
+|align=\"center\"|&nbsp;
+|align=\"center\"|&nbsp;
+|align=\"center\"|&nbsp;
+|align=\"center\"|they
+|
+|align=\"center\"|one
+|-
+!Ido
+|align=\"center\"|me
+|align=\"center\"|tu
+|align=\"center\"|vu
+|align=\"center\"|il(u)
+|align=\"center\"|el(u)
+|align=\"center\"|ol(u)
+|align=\"center\"|lu
+|align=\"center\"|ni
+|align=\"center\"|vi
+|align=\"center\"|ili
+|align=\"center\"|eli
+|align=\"center\"|oli
+|align=\"center\"|li
+|su
+|align=\"center\"|on(u)
+|-
+!Novial
+|align=\"center\"|me
+|align=\"center\"|vu
+|align=\"center\"|vu
+|align=\"center\"|lo
+|align=\"center\"|la
+|align=\"center\"|lu(m)
+|align=\"center\"|le
+|align=\"center\"|nus
+|align=\"center\"|vus
+|align=\"center\"|los
+|align=\"center\"|las
+|align=\"center\"|lus
+|align=\"center\"|les
+|se
+|align=\"center\"|on
+|}

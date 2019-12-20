@@ -207,6 +207,32 @@ public class Donnee_Wikitable extends Donnee{
         return rawTable;
     }
 
+    private ArrayList<String> reconstituerTable(String wikiText) {
+        ArrayList<String> tableaux = new ArrayList<>();
+        StringBuilder currentTab = new StringBuilder();
+        String[] lines = wikiText.split("\n");
+        boolean tab = false;
+        int i = 0;
+        for (String line: lines) {
+            if (line.contains("{|")) {
+                tab = true;
+                i++;
+            }
+            if (Pattern.compile("(\\|})$").matcher(line).find()) {
+                if(i==18)
+                    "lol".trim();
+                tab = false;
+                currentTab.append(line);
+                tableaux.add(currentTab.toString());
+                currentTab = new StringBuilder();
+            }
+            if (tab)
+                currentTab.append(line).append("\n");
+        }
+
+        return tableaux;
+    }
+
     private int rowColSpan(String line) {
         Pattern pattern = Pattern.compile(" *((col|row)span=\"?([0-9]+)\"? ?)((.)*)");
         Matcher matcher = pattern.matcher(line);
@@ -226,6 +252,27 @@ public class Donnee_Wikitable extends Donnee{
             return val;
         }
         return "";
+    }
+
+    private String formatLine(String ligne) {
+        //Todo ajouter des filtre
+        ligne = ligne.replaceAll("^(\\||! ?)\\|?","");
+        ligne = ligne.replaceAll("([{a-zA-Z]*icon\\|[a-zA-Z} ]*\\[\\[)","");
+        ligne = ligne.replaceAll("(dunno)","");
+        ligne = ligne.replaceAll("(\\{\\{|\\[\\[)(n/a)","");
+        ligne = ligne.replaceAll("(]]?|}}|((\\[?\\[( )*|\\{\\{)([a-zA-Z( )*]+\\|)?))","");
+        ligne = ligne.replaceAll("v?align=[a-z-\"]*( )*?\\|","");
+        ligne = ligne.replaceAll("style=\"((.)+)\"","");
+        ligne = ligne.replaceAll("\\|?","");
+        ligne = ligne.replaceAll("<ref((.*))?>((.*))</ref>","");
+        ligne = ligne.replaceAll("url=((.*))?","");
+        ligne = ligne.replaceAll("<((.*))?/>","");
+        ligne = ligne.replaceAll("<[a-zA-Z0-9=( )*]*>","");
+        ligne = ligne.replaceAll("</[a-zA-Z0-9=( )*]*>","");
+        ligne = ligne.replaceAll("(F|)ile:(.)* ?","");
+//        ligne = ligne.replaceAll("[a-zA-Z0-9=( )*]*'''","");
+//        ligne = ligne.replaceAll("'''[a-zA-Z0-9=( )*]*","");
+        return ligne;
     }
 
 

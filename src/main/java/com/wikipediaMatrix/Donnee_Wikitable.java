@@ -29,6 +29,7 @@ public class Donnee_Wikitable extends Donnee{
     private int nbTableauxExtraits = 0;
     private Url url;
 
+
     public Donnee_Wikitable(){
         this.wikitable = "";
         this.tab = new String[500][200];
@@ -150,14 +151,217 @@ public class Donnee_Wikitable extends Donnee{
      * @throws ExtractionInvalideException
      */
     public void wikitableVersCSV(String titre, String wikitable) throws IOException {
-        int i = 0,j = 0, nbtab = 0;
-        boolean first = false, tableau = false, dansCell = false, drap = false;
 
         wikitable = wikitableReplace(wikitable);
-        wikitableVersCSVAux(wikitable, titre);
+        ArrayList<String> tableaux  = reconstituerTable(wikitable);
+//        wikitableVersCSVAux(wikitable, titre);
+        int i = 0;
+        for (String table : tableaux) {
+            wikitableVersCSVAux2(table, titre, i + 1);
+            i++;
+        }
     }
 
-    public void wikitableVersCSVAux(String wikiText, String titre) {
+    public int countCol(String json){
+        String[] tab = json.split("\\|-");
+        Long count = 0L;
+
+        String ligne = tab[0].contains("!") ? tab[0] : tab[1];
+        String[] cels = ligne.split("!!?");
+        int i = 0;
+        for(String cel : cels){
+            cel = cel.trim();
+            i++;
+            if (i > 1) {
+                Pattern pattern = Pattern.compile("colspan=\"([0-9]+)\"(.)*");
+                Matcher matcher = pattern.matcher(cel);
+                if (matcher.matches()) {
+                    String val = matcher.group(1);
+                    count += Long.parseLong(val);
+                }
+                else {
+                    count++;
+                }
+            }
+        }
+        return count.intValue();
+    }
+
+    private ArrayList<String> reconstituerTable(String wikiText) {
+        ArrayList<String> tableaux = new ArrayList<>();
+        StringBuilder currentTab = new StringBuilder();
+        String[] lines = wikiText.split("\n");
+        boolean tab = false;
+        int i = 0;
+        for (String line: lines) {
+            if (line.contains("{|")) {
+                tab = true;
+                i++;
+            }
+            if (Pattern.compile("(\\|})$").matcher(line).find()) {
+                if(i==18)
+                    "lol".trim();
+                tab = false;
+                currentTab.append(line);
+                tableaux.add(currentTab.toString());
+                currentTab = new StringBuilder();
+            }
+            if (tab)
+                currentTab.append(line).append("\n");
+        }
+
+        return tableaux;
+    }
+
+
+    private void wikitableVersCSVAux2(String wikitable, String title, int nbTab) throws IOException {
+        int i = 0; int j = 0; int nb; int nbColMax = countCol(wikitable);
+        boolean first = false, tableau = false;
+        ArrayList<String[]> tab = new ArrayList<>();
+
+        String[] lines = wikitable.split("\n");
+        for (String line : lines) {
+            if(line.startsWith(" ") || line.startsWith("	"))
+                line = supprimerEspaceDebut(line);
+            if (line.contains("{|")) {
+                tab = new ArrayList<>();
+                tableau = true;
+                first = true;
+            }
+            if (line.contains("|}")) {
+                tableau = false;
+                System.out.println("("+i+","+j+")");
+                i = j = 0;
+                saveFile(tab, title, nbTab);
+            }
+            if (tableau) {
+                if (first) {
+                    if (line.startsWith("!")) {
+                        tab.add(new String[nbColMax]);
+                        if (line.contains("!!")) {
+                            System.out.println(line);
+                            line = line.replaceAll("^(\\||! ?)\\|?","");
+                            String[] innerLines = line.split(" ?\\|\\| ?| ?!!");
+//                            System.out.println(line);
+                            for (String innerLine : innerLines) {
+                                innerLine = formatLine(innerLine);
+                                innerLine = innerLine.trim();
+                                System.out.println(innerLine);
+                                if (tab.size() <= i)
+                                    tab.add(new String[nbColMax]);
+                                tab.get(i)[j] = innerLine;
+                                System.out.println("x: "+(i)+" y: "+j);
+                                j++;
+                            }
+                        }
+                        else {
+                            System.out.println(line);
+                            System.out.println("x: "+(i)+" y: "+j);
+                            line = formatLine(line);
+                            System.out.println(line);
+                            if (line.contains("rowspan")) {
+                                nb = rowColSpan(line);
+                                for (int k = 0; k < nb; k++) {
+                                    if (tab.size() <= i+k) {
+                                        String[] tabLine = new String[nbColMax];
+                                        tabLine[j] = getCell(line);
+                                        tab.add(tabLine);
+                                    } else {
+                                        tab.get(i+k)[j] = getCell(line);
+                                    }
+                                }
+                                System.out.println("rowspan : "+rowColSpan(line));
+                            }
+                            else if (line.contains("colspan")) {
+                                nb = rowColSpan(line);
+                                for (int k = 0; k < nb; k++) {
+                                    if (tab.size() <= i)
+                                        tab.add(new String[nbColMax]);
+                                    tab.get(i)[j] = getCell(line);
+                                }
+                                System.out.println("colspan : "+rowColSpan(line));
+                            }
+                            else {
+                                if (tab.size() <= i)
+                                    tab.add(new String[nbColMax]);
+                                tab.get(i)[j] = getCell(line);
+                            }
+                            System.out.println("Valeur: " + getCell(line));
+                            j++;
+                        }
+                        first = false;
+                    }
+                } else {
+                    if (line.contains("|-")) {
+                        i++;
+                        if (tab.size() <= i)
+                            tab.add(new String[nbColMax]);
+                        j = 0;
+                    }
+                    else if ((line.startsWith("|") || line.startsWith("||") || line.startsWith("!") || line.startsWith("!!")) && !line.contains("|+")) {
+                        if (!line.contains("||")) {
+                            System.out.println(line);
+                            line = formatLine(line);
+                            System.out.println(line);
+                            if (line.contains("rowspan")) {
+                                nb = rowColSpan(line);
+                                for (int k = 0; k < nb; k++) {
+                                    if (tab.size() <= i+k) {
+                                        String[] tabLine = new String[nbColMax];
+                                        tabLine[j] = getCell(line);
+                                        tab.add(tabLine);
+                                    } else {
+                                        while (tab.get(i+k)[j] != null)
+                                            j++;
+                                        tab.get(i+k)[j] = getCell(line);
+                                    }
+                                }
+                                j++;
+                                System.out.println("rowspan : "+rowColSpan(line));
+                            }
+                            else if (line.contains("colspan")) {
+                                nb = rowColSpan(line);
+                                for (int k = 0; k < nb; k++) {
+                                    if (tab.size() <= i)
+                                        tab.add(new String[nbColMax]);
+                                    tab.get(i)[j] = getCell(line);
+                                    j++;
+
+                                }
+                                System.out.println("colspan : "+rowColSpan(line));
+                            }
+                            else {
+                                if (tab.size() <= i)
+                                    tab.add(new String[nbColMax]);
+                                while (tab.get(i)[j] != null)
+                                    j++;
+                                tab.get(i)[j] = getCell(line);
+                                j++;
+                            }
+                            System.out.println("Valeur: " + getCell(line));
+                            System.out.println("x: "+(i)+" y: "+j);
+                        }
+                        else {
+//                            System.out.println(line);
+                            line = line.replaceAll("^(\\||! ?)\\|?","");
+                            String[] innerLines = line.split("\\|\\| | !!");
+//                            System.out.println(line);
+                            for (String innerLine : innerLines) {
+                                innerLine = formatLine(innerLine);
+                                innerLine = innerLine.trim();
+                                System.out.println(innerLine);
+                                tab.get(i)[j] = getCell(innerLine);
+                                System.out.println("x: "+(i)+" y: "+j);
+                                j++;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    private void wikitableVersCSVAux(String wikiText, String titre) {
         String[] lignes = wikiText.split("\n");
         ArrayList<String> finalLines = new ArrayList<>();
         int nbtab = 0;
@@ -195,23 +399,73 @@ public class Donnee_Wikitable extends Donnee{
     private String formatTable(ArrayList<String> content) {
         String rawTable = "";
         for (String ligne : content) {
-            ligne = ligne.replaceAll("^(\\||! ?)\\|?","");
-            ligne = ligne.replaceAll("([{a-zA-Z]*icon\\|[a-zA-Z} ]*\\[\\[)","");
-            ligne = ligne.replaceAll("(]])","");
-            ligne = ligne.replaceAll("align=[a-z-\"]*\\|","");
 
-            rawTable = rawTable.concat(ligne+"\n");
+            rawTable = rawTable.concat(formatLine(ligne)+"\n");
         }
         rawTable = rawTable.replaceAll("(\\|\\||!!)",";");
 
         return rawTable;
     }
 
+    private int rowColSpan(String line) {
+        Pattern pattern = Pattern.compile("((col|row)span=\"([0-9])\" ?)((.)*)");
+        Matcher matcher = pattern.matcher(line);
+        if (matcher.matches()) {
+            String val = matcher.group(3);
+            if (val != null &&!val.isEmpty())
+                return Integer.parseInt(val);
+        }
+        return 0;
+    }
+
+    private String getCell(String line) {
+        Pattern patternCell = Pattern.compile("((col|row)span=\"([0-9])\" ?)?((.)*)");
+        Matcher matcher = patternCell.matcher(line);
+        if (matcher.matches()) {
+            String val = matcher.group(4);
+            return val;
+        }
+        return "";
+    }
+    private String formatLine(String ligne) {
+        //Todo ajouter des filtre
+        ligne = ligne.replaceAll("^(\\||! ?)\\|?","");
+        ligne = ligne.replaceAll("([{a-zA-Z]*icon\\|[a-zA-Z} ]*\\[\\[)","");
+        ligne = ligne.replaceAll("(dunno)","");
+        ligne = ligne.replaceAll("(\\{\\{|\\[\\[)(n/a)","");
+        ligne = ligne.replaceAll("(]]|}}|((\\[\\[|\\{\\{)([a-zA-Z( )*]+\\|)?))","");
+        ligne = ligne.replaceAll("v?align=[a-z-\"]*( )*?\\|","");
+        ligne = ligne.replaceAll("style=\"((.)+)\"","");
+        ligne = ligne.replaceAll("\\|?","");
+        ligne = ligne.replaceAll("<[a-zA-Z0-9=( )*]*/>","");
+        return ligne;
+    }
     private void saveFile(String content, String title, int nbtab) throws IOException {
         String outputPath = "output/wikitext/" + title + nbtab + ".csv";
         FileOutputStream outputStream = new FileOutputStream(outputPath);
         OutputStreamWriter writer = new OutputStreamWriter(outputStream, StandardCharsets.UTF_8);
         writer.write(content);
+        writer.close();
+    }
+    private void saveFile(ArrayList<String[]> tab, String title, int nbtab) throws IOException {
+        String outputPath = "output/wikitext/" + title + nbtab + ".csv";
+        FileOutputStream outputStream = new FileOutputStream(outputPath);
+        OutputStreamWriter writer = new OutputStreamWriter(outputStream, StandardCharsets.UTF_8);
+        int j, i = tab.size();
+        for (String[] line : tab) {
+            i--;
+            j = line.length;
+            for (String cellule : line) {
+                j--;
+                if (j == 0) {
+                    writer.write(cellule == null ? "" : cellule);
+                    if (i > 0)
+                        writer.write("\n");
+                }
+                else
+                    writer.write(cellule+";");
+            }
+        }
         writer.close();
     }
     /**

@@ -28,7 +28,8 @@ public class ApplicationTest {
     Logger logger;
 
     public void setup() throws MalformedURLException {
-        url = new URL("https://en.wikipedia.org/wiki/Comparison_between_Ido_and_Novial");
+        url = new URL("https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units");
+//        url = new URL("https://en.wikipedia.org/wiki/Comparison_between_Ido_and_Novial");
         ownUrl = new Url(url);
         logger = LogManager.getLogger(ApplicationTest.class);
     }
@@ -98,10 +99,11 @@ public class ApplicationTest {
     @Test
     @DisplayName("Test de la validité du format du csv généré par l'extracteur Wikitext")
     public void wikitextExtractorTest() throws MalformedURLException, InterruptedException {
+        setup();
         Url urlTest = new Url(new URL("https://en.wikipedia.org/wiki/Comparison_between_U.S._states_and_countries_by_GDP_(PPP)"));
         assertTrue(urlTest.estTitreValide());
         Donnee_Wikitable donneeWikitable = new Donnee_Wikitable();
-        donneeWikitable.setUrl(urlTest);
+        donneeWikitable.setUrl(new Url(url));
         donneeWikitable.start();
         donneeWikitable.join();
 

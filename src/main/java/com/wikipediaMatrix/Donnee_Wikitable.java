@@ -275,6 +275,28 @@ public class Donnee_Wikitable extends Donnee{
         return ligne;
     }
 
+    private void saveFile(ArrayList<String[]> tab, String title, int nbtab) throws IOException {
+        String outputPath = "output/wikitext/" + title + nbtab + ".csv";
+        FileOutputStream outputStream = new FileOutputStream(outputPath);
+        OutputStreamWriter writer = new OutputStreamWriter(outputStream, StandardCharsets.UTF_8);
+        int j, i = tab.size();
+        for (String[] line : tab) {
+            i--;
+            j = line.length;
+            for (String cellule : line) {
+                j--;
+                if (j == 0) {
+                    writer.write(cellule == null ? "" : cellule);
+                    if (i > 0)
+                        writer.write("\n");
+                }
+                else
+                    writer.write(cellule+";");
+            }
+        }
+        writer.close();
+    }
+
 
     private void saveFile(String content, String title, int nbtab) throws IOException {
         String outputPath = "output/wikitext/" + title + nbtab + ".csv";

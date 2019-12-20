@@ -20,7 +20,6 @@ public class BenchTest {
      *  see below for more details
      **/
     @Test
-    @Ignore
     public void testBenchExtractors() throws Exception {
 
         // directory where CSV files are exported (HTML extractor)

@@ -28,8 +28,7 @@ public class ApplicationTest {
     Logger logger;
 
     public void setup() throws MalformedURLException {
-        url = new URL("https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units");
-//        url = new URL("https://en.wikipedia.org/wiki/Comparison_between_Ido_and_Novial");
+        url = new URL("https://en.wikipedia.org/wiki/Comparison_of_operating_system_kernels");
         ownUrl = new Url(url);
         logger = LogManager.getLogger(ApplicationTest.class);
     }
@@ -116,7 +115,7 @@ public class ApplicationTest {
     @Test
     @DisplayName("Test de la validité du format du csv généré par l'extracteur Html")
     public void htmlExtractorTest() throws MalformedURLException, InterruptedException {
-        Url urlTest = new Url(new URL("https://en.wikipedia.org/wiki/Comparison_between_U.S._states_and_countries_by_GDP_(PPP)"));
+        Url urlTest = new Url(new URL("https://en.wikipedia.org/wiki/Comparison_of_Android_e-book_reader_software"));
         assertTrue(urlTest.estTitreValide());
         Donnee_Html donneeHtml = new Donnee_Html();
         donneeHtml.setUrl(urlTest);
@@ -125,7 +124,7 @@ public class ApplicationTest {
 
         CSVValidator csvValidator = CSVValidator.getInstance();
 
-        assertTrue(csvValidator.checkCSV("HTML/" + urlTest.getTitre()+"-01.csv"));
+        assertTrue(csvValidator.checkCSV("HTML/" + urlTest.getTitre()+"1.csv"));
     }
 
     @Test

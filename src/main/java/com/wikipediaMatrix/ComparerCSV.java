@@ -32,8 +32,8 @@ public class ComparerCSV {
 	}
 
 	/**
-	 * Recupere des statistiques sur les deux modes d'extraction - Wikitext & HTML - 
-	 * das l'optique de determier lequel est le meilleur.
+"	 * Recupere des statistiques sur les deux modes d'extraction - Wikitext et HTML -
+	 * dans l'optique de determier lequel est le meilleur.
 	 */
 	public void informationsExtraction() {
 		this.tempsExeHtml = html.getTime();

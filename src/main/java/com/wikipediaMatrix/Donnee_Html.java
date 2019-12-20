@@ -19,7 +19,6 @@ import java.util.List;
  * @author Groupe 5
  *
  */
-
 public class Donnee_Html extends Donnee {
 	/**
 	 * Le HTML de la page wikipedia
@@ -410,7 +409,6 @@ public class Donnee_Html extends Donnee {
 
 			colonneActuelle++;
 		}
-		//this.colonneActuelle++;//todo
 		colonneActuelle--;
 		this.colonneActuelle = colonneActuelle;
 	}

@@ -94,7 +94,7 @@ public class CSVValidator {
      *
      * @param pathFile chemin du fichier csv
      * @param separator séparateur utilisé pour le fichier
-     * @return List<String[]> une liste de tableau contenant chaque valeur du fichier
+     * @return une liste de tableau contenant chaque valeur du fichier
      */
     public List<String[]> readCSV(String pathFile, char separator) {
         List<String[]> list = null;

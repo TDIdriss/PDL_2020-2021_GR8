@@ -207,6 +207,28 @@ public class Donnee_Wikitable extends Donnee{
         return rawTable;
     }
 
+    private int rowColSpan(String line) {
+        Pattern pattern = Pattern.compile(" *((col|row)span=\"?([0-9]+)\"? ?)((.)*)");
+        Matcher matcher = pattern.matcher(line);
+        if (matcher.matches()) {
+            String val = matcher.group(3);
+            if (val != null &&!val.isEmpty())
+                return Integer.parseInt(val);
+        }
+        return 0;
+    }
+
+    private String getCell(String line) {
+        Pattern patternCell = Pattern.compile(" *((col|row)span=\"?([0-9]+)\"? ?)?((.)*)");
+        Matcher matcher = patternCell.matcher(line);
+        if (matcher.matches()) {
+            String val = matcher.group(4);
+            return val;
+        }
+        return "";
+    }
+
+
     private void saveFile(String content, String title, int nbtab) throws IOException {
         String outputPath = "output/wikitext/" + title + nbtab + ".csv";
         FileOutputStream outputStream = new FileOutputStream(outputPath);

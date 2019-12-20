@@ -29,7 +29,7 @@ public class ProofTest {
     @DisplayName("Test de la validité du format du csv généré par l'extracteur Html")
     public void proofHTMLExtractorTest() throws InterruptedException {
 
-        String BASE_WIKIPEDIA_URL = "output/proof_html.txt";
+        String BASE_WIKIPEDIA_URL = "output/proof.txt";
 
         try {
             BufferedReader br = new BufferedReader(new FileReader(BASE_WIKIPEDIA_URL));
@@ -81,7 +81,7 @@ public class ProofTest {
             if (!csvValidator.checkCSVWithSeparator("HTML/" + wikiUrl.getTitre() + "-" + i + ".csv", ';'))
                 return false;
 
-            uri1 = "output/proof/HTML/" + wikiUrl.getTitre() + "-" + i + ".csv";
+            uri1 = "output/proof/" + wikiUrl.getTitre() + "-" + i + ".csv";
             uri2 = "output/HTML/" + wikiUrl.getTitre() + "-" + i + ".csv";
 
             if (!csvValidator.compareCSV(uri1, separator, uri2, separator))

@@ -1,12 +1,5 @@
 package com.wikipediaMatrix;
 
-import java.io.*;
-import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
-
-import com.wikipediaMatrix.exception.ArticleInexistantException;
-import com.wikipediaMatrix.exception.ConversionInvalideException;
 import com.wikipediaMatrix.exception.ExtractionInvalideException;
 import com.wikipediaMatrix.exception.UrlInvalideException;
 import org.jsoup.Jsoup;
@@ -14,9 +7,16 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import java.io.*;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Classe permettant de recuperer et convertir les tableaux d'une page wikipedia en fichiers CSV
- * @author Groupe 4
+ *
+ * @author Groupe 5
  *
  */
 
@@ -25,7 +25,11 @@ public class Donnee_Html extends Donnee {
 	 * Le HTML de la page wikipedia
 	 */
 	private String donneeHTML;
-	private int nbTableauxExtraits, ligneActuelle, colonneActuelle, lignesEcrites, colonnesEcrites, maxColonnesLigne;
+	private int nbTableauxExtraits;
+	private int ligneActuelle;
+	private int colonneActuelle;
+	private int lignesEcrites;
+	private int colonnesEcrites;
 	private String[][] tableau;
 	private Url url;
 	private List<int[]> rowspanFound;
@@ -76,15 +80,14 @@ public class Donnee_Html extends Donnee {
 			e.printStackTrace();
 		}
 	}
-	
+
 	/**
 	 * Recupere le contenu de la page
-	 * @param url
-	 * @throws UrlInvalideException
-	 * @throws ExtractionInvalideException
-	 * @throws ConversionInvalideException
-	 * @throws ArticleInexistantException
-	 * @throws IOException 
+	 *
+	 * @param url url de la page
+	 * @throws UrlInvalideException si l'url n'est pas valide
+	 * @throws ExtractionInvalideException si une erreur est survenue pendant l'extraction
+	 * @throws IOException si erreur survenue
 	 */
 	@Override
 	public synchronized void extraire(Url url) throws UrlInvalideException, ExtractionInvalideException, IOException {
@@ -113,38 +116,32 @@ public class Donnee_Html extends Donnee {
 	/**
 	 * Methode qui parcoure les tables du HTML et les convertit en CSV
 	 * On cree un fichier csv par tableau trouvé
-	 * @throws ConversionInvalideException
-	 * @throws IOException 
-	 * @throws ExtractionInvalideException 
-	 * @throws UrlInvalideException 
+	 *
+	 * @param titre titre de la page
+	 * @throws IOException si erreur survenue
+	 * @throws UrlInvalideException si l'url n'est pas valide
+	 * @throws ExtractionInvalideException si erreur à l'extraction
 	 */
 	public void htmlVersCSV(String titre) throws IOException, UrlInvalideException, ExtractionInvalideException {
 
 		Document page = Jsoup.parseBodyFragment(this.donneeHTML);
 		Elements wikitables = page.getElementsByClass("wikitable");
 		Elements tablesNonWiki = page.select("table:not([^])");
-		for (Element element : tablesNonWiki) {
-			wikitables.add(element);
-		}
+		wikitables.addAll(tablesNonWiki);
 		int nbTableaux = wikitables.size();
 		this.nbTableauxExtraits += nbTableaux;
 		nbLignesColonnes(wikitables);
 		
 		for (int i = 0 ; i < wikitables.size() ; i++) {
-			String outputPath = "output/HTML/" + titre + "-" + (i+1) + ".csv"; // TODO Review this
+			String outputPath = "output/HTML/" + titre + "-" + (i+1) + ".csv";
 			FileOutputStream outputStream = new FileOutputStream(outputPath);
-			OutputStreamWriter writer = new OutputStreamWriter(outputStream, "UTF-8");
-
-			//TODO Remove this code
-			//System.out.println(i);
-			//if (i != 23) continue;
+			OutputStreamWriter writer = new OutputStreamWriter(outputStream, StandardCharsets.UTF_8);
 
 			// On recupere le nmobre de lignes et de colonnes du tableau en cours
 			nbLignesGlob = getNbLignesTableaux().get(i);
 			nbColonnesGlob = getNbColonnesTableaux().get(i);
 			// On initialise la matrice de donnees a la bonne taille
 			this.tableau = new String[nbLignesGlob][nbColonnesGlob];
-//			this.tableau = new String[700][200];
 			this.ligneActuelle = 0;
 			// On remplit toutes les lignes et colonnes de la matrice
 			for (String[] ligne: tableau) {
@@ -169,11 +166,11 @@ public class Donnee_Html extends Donnee {
 	/**
 	 * Methode qui parcoure les lignes puis les cellules d'une wikitable
 	 * et qui appelle les methodes permettant de gerer les colspans et rowspans
-	 * @param table
+	 *
+	 * @param table table à convertir en csv
 	 */
 	private void stockerLignes(Element table) {
-		this.maxColonnesLigne = 0;
-		int count;
+		int maxColonnesLigne = 0;
 		Elements lignes = table.getElementsByTag("tr");
 		// On parcoure les lignes de la wikitable1800
 		for (Element ligne : lignes) {
@@ -181,7 +178,6 @@ public class Donnee_Html extends Donnee {
 			Elements cellules = ligne.select("td, th");
 			/* Parcours des cellules de la ligne, et appel de methodes
 			gerant les colspans et rowspans si besoin */
-			count = 1;
 			for (Element cellule : cellules) {
 				//System.out.println("Ligne " + this.ligneActuelle + " ; Colonne " + this.colonneActuelle);
 				// Si on un colspan et un rowspan sur la meme cellule
@@ -199,7 +195,7 @@ public class Donnee_Html extends Donnee {
 
 					int[] tab = {this.ligneActuelle, this.colonneActuelle, nbRowspans};
 					this.rowspanFound.add(tab);
-					correctRow();//TODO Regler
+					correctRow();
 					gererRowspans(nbRowspans, cellule, this.ligneActuelle);
 				}
 				// Si on a un colspan uniquement
@@ -213,16 +209,19 @@ public class Donnee_Html extends Donnee {
 					stockerCellule(cellule);
 				}
 				this.colonneActuelle++;
-				count++;
-				if(this.colonneActuelle > this.maxColonnesLigne) this.maxColonnesLigne = this.colonneActuelle;
+				if(this.colonneActuelle > maxColonnesLigne) maxColonnesLigne = this.colonneActuelle;
 			}
 			this.ligneActuelle++;
 			this.lignesEcrites++;
 		}
-		this.colonnesEcrites += this.maxColonnesLigne;
+		this.colonnesEcrites += maxColonnesLigne;
 		addSeparator();
 	}
 
+
+	/**
+	 * Permet de réajuster la colonne en fonction des différents rowspan trouvé dans le tableau
+	 */
 	private void correctRow() {
 
 		for (int[] item : this.rowspanFound) {
@@ -240,6 +239,10 @@ public class Donnee_Html extends Donnee {
 
 	}
 
+
+	/**
+	 * Ajoute un separateur après les données
+	 */
 	private void addSeparator() {
 		for (int i = 0; i < this.nbLignesGlob; i++) {
 			for (int j = 0; j< this.nbColonnesGlob; j++){
@@ -251,8 +254,10 @@ public class Donnee_Html extends Donnee {
 		}
 	}
 
+
 	/**
 	 * Stocke la cellule dans une matrice a deux dimensions representant la wikitable
+	 *
 	 * @param cellule la cellule a ajouter
 	 */
 	public void stockerCellule(Element cellule) {
@@ -270,6 +275,14 @@ public class Donnee_Html extends Donnee {
 		}
 	}
 
+
+	/**
+	 * Récupère le contenu
+	 *
+	 * @param url url
+	 * @return string
+	 * @throws ExtractionInvalideException si erreur à l'extraction
+	 */
 	@Override
 	String recupContenu(URL url) throws ExtractionInvalideException {
 		try {
@@ -288,13 +301,14 @@ public class Donnee_Html extends Donnee {
 		}
 	}
 
+
 	/**
 	 * Stocke la cellule dans une matrice a deux dimensions representant la wikitable
 	 * La ligne n'est pas l'attribut ligneActuelle, mais une ligne donnee en parametre
 	 * Methode utilise uniquement lorsqu'une cellule a un attribut rowspan.
+	 *
 	 * @param cellule la cellule a ajouter
 	 */
-	//TODO regler
 	private void stockerCelluleColspan(Element cellule, int colonneActuelle) {
 		if (!this.tableau[this.ligneActuelle][colonneActuelle].equals("VIDE")) {
 		}
@@ -303,7 +317,13 @@ public class Donnee_Html extends Donnee {
 		}
 	}
 
-	//TODO regler
+
+	/**
+	 * Stocke la cellule dans le tableau lorsqu'il y a un rowspan
+	 *
+	 * @param cellule cellule à stocker
+	 * @param ligneActuelle ligne actuelle du tableau
+	 */
 	private void stockerCelluleRowspan(Element cellule, int ligneActuelle) {
 		if (!this.tableau[ligneActuelle][this.colonneActuelle].equals("VIDE")) {
 		}
@@ -312,14 +332,24 @@ public class Donnee_Html extends Donnee {
 		}
 	}
 
+
+	/**
+	 * Stocke la cellule dans le tableau lorsqu'il y a un rowspan et un colspan
+	 *
+	 * @param cellule cellule à stocker
+	 * @param ligneActuelle ligne actuelle du tableau
+	 * @param colonneActuelle colonne actuelle du tableau
+	 */
 	private void stockerRowspanSuivantColspan(Element cellule, int ligneActuelle, int colonneActuelle) {
 		this.tableau[ligneActuelle][colonneActuelle] = cellule.text();
 	}
 
+
 	/**
 	 * Cree un fichier csv a partir de la matrice a double dimension tableau.
-	 * @param writer
-	 * @throws IOException
+	 *
+	 * @param writer flux de sortie
+	 * @throws IOException si erreur survenue
 	 */
 	private void ecrireTableau(OutputStreamWriter writer) throws IOException {
 		for (int i = 0; i < this.tableau.length; i++) {
@@ -336,10 +366,12 @@ public class Donnee_Html extends Donnee {
 		}
 	}
 
+
 	/**
 	 * Verification de la presence de tableaux dans les donnees
+	 *
 	 * @return boolean
-	 * @throws ExtractionInvalideException 
+	 * @throws ExtractionInvalideException si erreur à l'extraction
 	 */
 	@Override
 	public boolean pageComporteTableau() throws ExtractionInvalideException {
@@ -353,27 +385,29 @@ public class Donnee_Html extends Donnee {
 		}
 	}
 
+
 	/**
 	 * Suppression des points virgules, interprete dans le csv comme un changement de colonne
-	 * @param html
+	 *
+	 * @param html la page html
 	 */
 	public void supprimerPointsVirgule(String html){
-		String newHtml = html.replaceAll(";", " ");
-		this.donneeHTML = newHtml;
+		this.donneeHTML = html.replaceAll(";", " ");
 	}
+
 
 	/**
 	 * Methode creeant le nombre de cellules necessaires, en fonction
 	 * de la valeur de l'attribut colspan de la cellule
+	 *
 	 * @param nbColspans la valeur de l'attribut colspan
 	 * @param cellule la cellule a ajouter
+	 * @param colonneActuelle la colonne actuelle
 	 */
 	private void gererColspans(int nbColspans, Element cellule, int colonneActuelle) {
 		for (int i = 0 ; i < nbColspans; i++) {
 			stockerCelluleColspan(cellule, colonneActuelle);
-			//if(!(i+1 == nbColspans)) {
-			//	colonneActuelle++;
-			//}
+
 			colonneActuelle++;
 		}
 		//this.colonneActuelle++;//todo
@@ -381,9 +415,11 @@ public class Donnee_Html extends Donnee {
 		this.colonneActuelle = colonneActuelle;
 	}
 
+
 	/**
 	 * Methode creeant le nombre de cellules necessaires, en fonction
 	 * de la valeur de l'attribut colspan de la cellule
+	 *
 	 * @param nbRowspans la valeur de l'attribut rowspan
 	 * @param cellule la cellule a ajouter
 	 * @param ligneActuelle la ligne actuelle
@@ -396,9 +432,11 @@ public class Donnee_Html extends Donnee {
 		}
 	}
 
+
 	/**
 	 * Methode gerant le stockage d'une cellule contenant un attribut colspan et rowspan.
 	 * Traite d'abord le colspan, puis le rowspan en prenant en compte le traitement du colspan.
+	 *
 	 * @param nbRowspans la valeur du rowspan
 	 * @param nbColspans la valeur du colspan
 	 * @param cellule la cellule courante
@@ -417,9 +455,11 @@ public class Donnee_Html extends Donnee {
 		this.colonneActuelle = colonneColspan-1;
 	}
 
+
 	/**
 	 * Renvoie true si la ligne du tableau a des valeurs provenant
 	 * de l'extraction d'une wikitable, false sinon.
+	 *
 	 * @param nbLigne le numero de la ligne a tester
 	 * @return true ou false
 	 */
@@ -432,6 +472,7 @@ public class Donnee_Html extends Donnee {
 		return false;
 	}
 
+
 	/**
 	 * Renvoie le nombre de tableaux du fichier.
 	 */
@@ -440,19 +481,22 @@ public class Donnee_Html extends Donnee {
 		return this.nbTableauxExtraits;
 	}
 
+
 	/**
 	 * Renvoie le nombre de colonnes ecrites dans le csv
 	 * a partir du parsing d'une page.
-	 * @return
+	 * @return le nombre de colonne écrite
 	 */
 	public int getColonnesEcrites() {
 		return this.colonnesEcrites;
 	}
 
+
 	/**
 	 * Renvoie le nombre de lignes ecrites dans le csv 
 	 * a partir du parsing d'une page.
-	 * @return
+	 *
+	 * @return le nombre de ligne écrites
 	 */
 	public int getLignesEcrites() {
 		return this.lignesEcrites;

@@ -34,20 +34,20 @@ public class CSVValidatorTest {
         System.out.println("| --------------------------------------- VALIDATION DE CSV --------------------------------------- |\n");
 
         System.out.println("Validation of good.csv");
-        count += validator.checkCSV("csv/good.csv") ? 1 : 0;
+        count += validator.checkCSVWithSeparator("csv/good.csv", ';') ? 1 : 0;
         System.out.println("Validation of perfect.csv");
-        count += validator.checkCSV("csv/perfect.csv") ? 1 : 0;
+        count += validator.checkCSVWithSeparator("csv/perfect.csv", ',') ? 1 : 0;
         System.out.println("Validation of perfect_colon.csv");
-        count += validator.checkCSV("csv/perfect_colon.csv") ? 1 : 0;
+        count += validator.checkCSVWithSeparator("csv/perfect_colon.csv", ':') ? 1 : 0;
         System.out.println("Validation of perfect_pipe.csv");
-        count += validator.checkCSV("csv/perfect_pipe.csv") ? 1 : 0;
+        count += validator.checkCSVWithSeparator("csv/perfect_pipe.csv", '|') ? 1 : 0;
         System.out.println("Validation of perfect_semicolon.csv");
-        count += validator.checkCSV("csv/perfect_semicolon.csv") ? 1 : 0;
+        count += validator.checkCSVWithSeparator("csv/perfect_semicolon.csv", ';') ? 1 : 0;
         System.out.println("Validation of perfect_tab.csv");
-        count += validator.checkCSV("csv/perfect_tab.csv") ? 1 : 0;
+        count += validator.checkCSVWithSeparator("csv/perfect_tab.csv", '\t') ? 1 : 0;
 
         System.out.println("Validation of double_quote.csv");
-        count += validator.checkCSV("csv/double_quote.csv") ? 1 : 0;
+        count += validator.checkCSVWithSeparator("csv/double_quote.csv", ',') ? 1 : 0;
 
         System.out.println("| --------------------------------------- VALIDATION DE CSV --------------------------------------- |\n");
 
@@ -66,13 +66,13 @@ public class CSVValidatorTest {
         System.out.println("| --------------------------------------- VALIDATION DE CSV --------------------------------------- |\n");
 
         System.out.println("Validation of bad.csv");
-        count += validator.checkCSV("csv/bad.csv") ? 1 : 0;
+        count += validator.checkCSVWithSeparator("csv/bad.csv", ';') ? 1 : 0;
         System.out.println("Validation of mult_long_columns.csv");
-        count += validator.checkCSV("csv/mult_long_columns.csv") ? 1 : 0;
+        count += validator.checkCSVWithSeparator("csv/mult_long_columns.csv", ',') ? 1 : 0;
         System.out.println("Validation of mult_long_columns_tabs.csv");
-        count += validator.checkCSV("csv/mult_long_columns_tabs.csv") ? 1 : 0;
+        count += validator.checkCSVWithSeparator("csv/mult_long_columns_tabs.csv", '\t') ? 1 : 0;
         System.out.println("Validation of one_long_column.csv");
-        count += validator.checkCSV("csv/one_long_column.csv") ? 1 : 0;
+        count += validator.checkCSVWithSeparator("csv/one_long_column.csv", ',') ? 1 : 0;
 
         System.out.println("| --------------------------------------- VALIDATION DE CSV --------------------------------------- |\n");
 

@@ -108,7 +108,7 @@ public class ApplicationTest {
         CSVValidator csvValidator = CSVValidator.getInstance();
         csvValidator.setPath("wikitext/");
 
-        assertTrue(csvValidator.checkCSV(urlTest.getTitre()+"1.csv"));
+        assertTrue(csvValidator.checkCSVWithSeparator(urlTest.getTitre()+"-1.csv", ';'));
     }
 
     @Test
@@ -123,7 +123,7 @@ public class ApplicationTest {
 
         CSVValidator csvValidator = CSVValidator.getInstance();
 
-        assertTrue(csvValidator.checkCSV("HTML/" + urlTest.getTitre()+"-01.csv"));
+        assertTrue(csvValidator.checkCSVWithSeparator("HTML/" + urlTest.getTitre()+"-1.csv", ';'));
     }
 
     @Test

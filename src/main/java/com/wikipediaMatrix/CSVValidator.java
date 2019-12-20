@@ -27,15 +27,6 @@ public class CSVValidator {
      */
     private static CSVValidator csvValidator = new CSVValidator();
 
-    /**
-     * Url de l'API de validation
-     */
-    private String apiUrl;
-
-    /**
-     * Headers de la requête de l'API de la validation
-     */
-    private String headers;
 
     /**
      * Repertoire par défaut des fichiers
@@ -47,8 +38,6 @@ public class CSVValidator {
      * Constructeur
      */
     private CSVValidator() {
-        this.apiUrl = "https://validation.openbridge.io/dryrun";
-        this.headers = "Content-Type: multipart/form-data";
         this.path = "output/";
     }
 
@@ -72,28 +61,6 @@ public class CSVValidator {
         this.path = path;
     }
 
-
-    /**
-     * Permet de vérifier si un csv est valide
-     *
-     * @param csvFile nom du fichier à vérifier
-     * @return true si le csv est valide, sinon false
-     */
-    @Deprecated
-    public boolean checkCSV(String csvFile){
-        boolean result = false;
-        //Premier appel curl pour vérifier le csv
-        String csvPath = path + csvFile;
-        HashMap<String, String> headersMap = curlForCheckCSV(csvPath);
-
-        if (headersMap.get("HttpCode").equals("302")) {
-            String locationUrl = headersMap.get("Location");
-
-            result = curlForGetResult(locationUrl);
-        }
-
-        return result;
-    }
 
 
     /**
@@ -119,48 +86,6 @@ public class CSVValidator {
         }
 
         return true;
-    }
-
-
-    /**
-     * Envoie le fichier vers l'API de validation
-     *
-     * @param csvPath chemin de fichier à envoyer
-     * @return HashMap qui contient les headers réponse de l'API
-     */
-    private HashMap<String, String> curlForCheckCSV(String csvPath) {
-        HashMap<String, String> headersMap = new HashMap<String, String>();
-
-        CUrl curl = new CUrl(this.apiUrl)
-                .opt("-H", this.headers)
-                .opt("-F", "file=@" + csvPath);
-
-        curl.exec();
-
-        headersMap.put("HttpCode", Integer.toString(curl.getHttpCode()));
-
-        List<List<String[]>> responseHeaders = curl.getResponseHeaders();
-        for (List<String[]> l : responseHeaders) {
-            for (String[] st : l) {
-                headersMap.put(st[0], st[1]);
-            }
-        }
-
-        return headersMap;
-    }
-
-
-    /**
-     * Permet de vérifier si le code de la requête est 200
-     *
-     * @param url lien du l'url
-     * @return true si le code HTTP est 200, sinon false
-     */
-    private boolean curlForGetResult(String url) {
-
-        HttpResponse response = curl("curl \"" + url + "\"");
-
-        return response.getStatusLine().getStatusCode() == 200;
     }
 
 

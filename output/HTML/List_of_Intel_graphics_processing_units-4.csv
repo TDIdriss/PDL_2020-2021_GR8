@@ -1,0 +1,22 @@
+Graphics; Launch; Market; Code name; Chipset; Device ID[ 3]; Core render clock (MHz); Execution units; Shader model (vertex/pixel); API support[ 12]; API support[ 12]; API support[ 12]; Memory bandwidth (GB/s); DVMT (MB); Hardware acceleration; Hardware acceleration; Hardware acceleration
+Graphics; Launch; Market; Code name; Chipset; Device ID[ 3]; Core render clock (MHz); Execution units; Shader model (vertex/pixel); Direct3D; OpenGL; OpenCL; Memory bandwidth (GB/s); DVMT (MB); MPEG-2; VC-1; AVC
+GMA 3000; 2006; Desktop; Lakeport; 946GZ; 2972; 667[ 13] [ 14]; 8[ 13] [ 15]; 3.0 (SW) / 2.0; 9.0c FL9_1; 1.5Windows 2.1macOS 2.1Linux ES  2.0Linux; No; 10.6; 256; MC[ 7]; No; No
+GMA 3000; 2006; Desktop; Q963; 667[ 13] [ 14]; 8[ 13] [ 15]; 3.0 (SW) / 2.0; 9.0c FL9_1; 1.5Windows 2.1macOS 2.1Linux ES  2.0Linux; No; 10.6; 256; MC[ 7]; No; No
+GMA 3000; 2006; Desktop; 2992; Q965; 667[ 13] [ 14]; 8[ 13] [ 15]; 3.0 (SW) / 2.0; 9.0c FL9_1; 1.5Windows 2.1macOS 2.1Linux ES  2.0Linux; No; 256; MC[ 7]; No; No
+GMA X3000; 2006; Desktop; G965; 29A2; 3.0; 667[ 13] [ 14]; 8[ 13] [ 15]; MC + (LF − WMV9 only); 9.0c FL9_1; 1.5Windows 2.1macOS 2.1Linux ES  2.0Linux; No; No
+GMA X3500; Desktop; Bearlake; 384; Full[ 7]; 667[ 13] [ 14]; 8[ 13] [ 15]; G35; 2982; 1.5Windows 2.1macOS 2.1Linux ES  2.0Linux; No; MC + LF; No
+GMA X3100; 2007; Crestline; 384; Full[ 7]; GL960; 8[ 13] [ 15]; 10.0 FL10_0; MC + (LF − WMV9 only); 1.5Windows 2.1macOS 2.1Linux ES  2.0Linux; No; No
+GMA X3100; GLE960; 2007; Crestline; 384; Full[ 7]; 400[ 16]; 8[ 13] [ 15]; 10.0 FL10_0; MC + (LF − WMV9 only); 1.5Windows 2.1macOS 2.1Linux ES  2.0Linux; No; No
+GMA X3100; GM965; 2007; Crestline; 384; Full[ 7]; 8[ 13] [ 15]; 10.0 FL10_0; MC + (LF − WMV9 only); 1.5Windows 2.1macOS 2.1Linux ES  2.0Linux; No; No
+GMA X3100; GME965; 2007; Crestline; 384; Full[ 7]; 8[ 13] [ 15]; 10.0 FL10_0; MC + (LF − WMV9 only); 1.5Windows 2.1macOS 2.1Linux ES  2.0Linux; No; No
+GMA 4500; 2008; Desktop; Eaglelake; B43; Full[ 7]; 2E42 2E92; 4.0; 10.0 FL10_0; 12.8 (DDR2) 17 (DDR3)[ 17]; 1720; No; MC + LF; 
+GMA 4500; 2008; Desktop; Eaglelake; Q43; Full[ 7]; 533; 4.0; 10.0 FL10_0; 12.8 (DDR2) 17 (DDR3)[ 17]; 1720; No; MC + LF; 
+GMA 4500; 2008; Desktop; Eaglelake; Q45; Full[ 7]; 533; 4.0; 10.0 FL10_0; 12.8 (DDR2) 17 (DDR3)[ 17]; 1720; No; MC + LF; 
+GMA X4500; 2008; Desktop; Eaglelake; G41; Full[ 7]; 2E32; 4.0; 10.0 FL10_0; 12.8 (DDR2) 17 (DDR3)[ 17]; 1720; No; MC + LF; 
+GMA X4500; 2008; Desktop; Eaglelake; 800; Full[ 7]; G43; 4.0; 10.0 FL10_0; 12.8 (DDR2) 17 (DDR3)[ 17]; 1720; No; MC + LF; 
+GMA X4500HD; 2008; Desktop; Eaglelake; 800; Full[ 7]; G45; 4.0; 10.0 FL10_0; 12.8 (DDR2) 17 (DDR3)[ 17]; 1720; No; 
+GMA 4500MHD; 2008; Mobile; Full; Full; Full[ 7]; GL40; 4.0; 10.0 FL10_0; 12.8 (DDR2) 17 (DDR3)[ 17]; 1720; No; 
+GMA 4500MHD; 2008; Mobile; Full; Full; Full[ 7]; 400[ 18]; 4.0; 10.0 FL10_0; 12.8 (DDR2) 17 (DDR3)[ 17]; 1720; No; GS40; 
+GMA 4500MHD; 2008; Mobile; Full; Full; Full[ 7]; GM45; 4.0; 10.0 FL10_0; 12.8 (DDR2) 17 (DDR3)[ 17]; 1720; No; 
+GMA 4500MHD; 2008; Mobile; Full; Full; Full[ 7]; GS45; 4.0; 10.0 FL10_0; 12.8 (DDR2) 17 (DDR3)[ 17]; 1720; No; 
+GMA 4500MHD; 2008; Mobile; Full; Full; Full[ 7]; GM47; 4.0; 10.0 FL10_0; 12.8 (DDR2) 17 (DDR3)[ 17]; 1720; No; 640; 

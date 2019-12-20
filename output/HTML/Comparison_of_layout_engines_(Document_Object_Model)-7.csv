@@ -1,0 +1,84 @@
+; ; Trident; Tasman; Gecko; WebKit; KHTML; Presto
+Interface CSSStyleSheet; Interface CSSStyleSheet; Interface CSSStyleSheet; Interface CSSStyleSheet; Interface CSSStyleSheet; Interface CSSStyleSheet; Interface CSSStyleSheet; Interface CSSStyleSheet
+DOM2; ownerRule; No; ?; 1.0; ?; ?; 2.0
+DOM2; cssRules; No; Yes; 1.0; 1.3; ?; 2.0
+DOM2; insertRule(); No; No; 1.0; ?; 2.0
+DOM2; No; No; No; 1.0; deleteRule(); ?; 2.0
+Interface StyleSheetList; Interface StyleSheetList; Interface StyleSheetList; Interface StyleSheetList; Interface StyleSheetList; Interface StyleSheetList; Interface StyleSheetList; Interface StyleSheetList
+DOM2; length; 6.0; ?; 1.0; ?; ?; 2.0
+DOM2; item(); 6.0; ?; 1.0; ?; ?; 2.0
+Interface CSSRuleList; Interface CSSRuleList; Interface CSSRuleList; Interface CSSRuleList; Interface CSSRuleList; Interface CSSRuleList; Interface CSSRuleList; Interface CSSRuleList
+DOM2; length; No; ?; 1.0; ?; ?; 2.0
+DOM2; item(); No; ?; 1.0; ?; ?; 2.0
+Interface CSSRule; Interface CSSRule; Interface CSSRule; Interface CSSRule; Interface CSSRule; Interface CSSRule; Interface CSSRule; Interface CSSRule
+DOM2; type; No; ?; 1.0; ?; ?; 2.0
+DOM2; cssText; No; ?; 1.0; ?; 2.0
+DOM2; Yes; No; parentStyleSheet; 1.0; 1.3; ?; 2.0
+DOM2; parentRule; No; ?; 1.0; ?; ?; 2.0
+Interface CSSStyleRule; Interface CSSStyleRule; Interface CSSStyleRule; Interface CSSStyleRule; Interface CSSStyleRule; Interface CSSStyleRule; Interface CSSStyleRule; Interface CSSStyleRule
+DOM2; selectorText; 6.0; Yes; 1.0; 1.3; ?; 2.0
+DOM2; style; No; ?; 1.0; ?; ?; 2.0
+Interface CSSMediaRule; Interface CSSMediaRule; Interface CSSMediaRule; Interface CSSMediaRule; Interface CSSMediaRule; Interface CSSMediaRule; Interface CSSMediaRule; Interface CSSMediaRule
+DOM2; media; No; ?; 1.0; ?; ?; 2.0
+DOM2; cssRules; No; ?; 1.0; ?; ?; 2.0
+DOM2; insertRule(); No; ?; 1.0; ?; ?; 2.0
+DOM2; deleteRule(); No; ?; 1.0; ?; ?; 2.0
+Interface CSSFontFaceRule; Interface CSSFontFaceRule; Interface CSSFontFaceRule; Interface CSSFontFaceRule; Interface CSSFontFaceRule; Interface CSSFontFaceRule; Interface CSSFontFaceRule; Interface CSSFontFaceRule
+DOM2; style; No; ?; 1.9.1[ g 3]; ?; ?; 2.0
+Interface CSSPageRule; Interface CSSPageRule; Interface CSSPageRule; Interface CSSPageRule; Interface CSSPageRule; Interface CSSPageRule; Interface CSSPageRule; Interface CSSPageRule
+DOM2; selectorText; No; ?; No[ g 4]; ?; ?; 2.0
+DOM2; style; No; ?; No[ g 4]; ?; ?; 2.0
+Interface CSSImportRule; Interface CSSImportRule; Interface CSSImportRule; Interface CSSImportRule; Interface CSSImportRule; Interface CSSImportRule; Interface CSSImportRule; Interface CSSImportRule
+DOM2; href; No; Yes; 1.0; 1.3; ?; 2.0
+DOM2; media; No; ?; 1.0; ?; ?; 2.0
+DOM2; styleSheet; No; ?; 1.0; ?; ?; 2.0
+Interface CSSCharsetRule; Interface CSSCharsetRule; Interface CSSCharsetRule; Interface CSSCharsetRule; Interface CSSCharsetRule; Interface CSSCharsetRule; Interface CSSCharsetRule; Interface CSSCharsetRule
+DOM2; encoding; No; ?; 1.0; ?; ?; 2.0
+Interface CSSUnknownRule; Interface CSSUnknownRule; Interface CSSUnknownRule; Interface CSSUnknownRule; Interface CSSUnknownRule; Interface CSSUnknownRule; Interface CSSUnknownRule; Interface CSSUnknownRule
+DOM2; (no properties); No; ?; No[ g 5]; ?; ?; 2.0
+Interface CSSStyleDeclaration; Interface CSSStyleDeclaration; Interface CSSStyleDeclaration; Interface CSSStyleDeclaration; Interface CSSStyleDeclaration; Interface CSSStyleDeclaration; Interface CSSStyleDeclaration; Interface CSSStyleDeclaration
+DOM2; cssText; No; ?; 1.0; ?; ?; 2.0
+DOM2; length; No; ?; 1.0; ?; ?; 2.0
+DOM2; parentRule; No; ?; 1.0; ?; ?; 2.0
+DOM2; getPropertyValue(); No; Yes; 1.0; 1.3; ?; 1.0
+DOM2; getPropertyCSSValue(); No; ?; No[ g 6]; ?; ?; 2.0
+DOM2; removeProperty(); No; No; 1.3; ?; 1.0; 
+DOM2; getPropertyPriority(); No; Incorrect; ?; ?; 2.0; 
+DOM2; setProperty(); No; Yes; 1.3; ?; 1.0; 
+DOM2; item(); No; ?; ?; ?; 2.0; 
+Interface CSSValue; Interface CSSValue; Interface CSSValue; Interface CSSValue; Interface CSSValue; Interface CSSValue; Interface CSSValue; Interface CSSValue
+DOM2; cssText; No; ?; No[ g 6]; ?; ?; No
+DOM2; cssValueType; No; ?; No[ g 6]; ?; ?; No
+Interface CSSPrimitiveValue; Interface CSSPrimitiveValue; Interface CSSPrimitiveValue; Interface CSSPrimitiveValue; Interface CSSPrimitiveValue; Interface CSSPrimitiveValue; Interface CSSPrimitiveValue; Interface CSSPrimitiveValue
+DOM2; primitiveType; No; ?; No[ g 7]; ?; ?; No
+DOM2; setFloatValue(); No; ?; ?; ?; No
+DOM2; getFloatValue(); No; ?; ?; ?; No
+DOM2; setStringValue(); No; ?; ?; ?; No
+DOM2; getStringValue(); No; ?; ?; ?; No
+DOM2; getCounterValue(); No; ?; ?; ?; No
+DOM2; getRectValue(); No; ?; ?; ?; No
+DOM2; getRGBColorValue(); No; ?; ?; ?; No
+Interface CSSValueList; Interface CSSValueList; Interface CSSValueList; Interface CSSValueList; Interface CSSValueList; Interface CSSValueList; Interface CSSValueList; Interface CSSValueList
+DOM2; length; No; ?; No; ?; ?; No
+DOM2; item(); No; ?; No; ?; ?; No
+Interface RGBColor; Interface RGBColor; Interface RGBColor; Interface RGBColor; Interface RGBColor; Interface RGBColor; Interface RGBColor; Interface RGBColor
+DOM2; red; No; ?; No; ?; ?; No
+DOM2; green; No; ?; No; ?; ?; No
+DOM2; blue; No; ?; No; ?; ?; No
+Interface Rect; Interface Rect; Interface Rect; Interface Rect; Interface Rect; Interface Rect; Interface Rect; Interface Rect
+DOM2; top; No; ?; No; ?; ?; No
+DOM2; right; No; ?; No; ?; ?; No
+DOM2; bottom; No; ?; No; ?; ?; No
+DOM2; left; No; ?; No; ?; ?; No
+Interface Counter; Interface Counter; Interface Counter; Interface Counter; Interface Counter; Interface Counter; Interface Counter; Interface Counter
+DOM2; identifier; No; ?; No; ?; ?; No
+DOM2; listStyle; No; ?; No; ?; ?; No
+DOM2; separator; No; ?; No; ?; ?; No
+Interface ViewCSS; Interface ViewCSS; Interface ViewCSS; Interface ViewCSS; Interface ViewCSS; Interface ViewCSS; Interface ViewCSS; Interface ViewCSS
+DOM2; getComputedStyle(); No; No; 1.0; No; ?; 1.0
+Interface DocumentCSS; Interface DocumentCSS; Interface DocumentCSS; Interface DocumentCSS; Interface DocumentCSS; Interface DocumentCSS; Interface DocumentCSS; Interface DocumentCSS
+DOM2; getOverrideStyle(); No; ?; No[ g 8]; ?; ?; No
+Interface DOMImplementationCSS; Interface DOMImplementationCSS; Interface DOMImplementationCSS; Interface DOMImplementationCSS; Interface DOMImplementationCSS; Interface DOMImplementationCSS; Interface DOMImplementationCSS; Interface DOMImplementationCSS
+DOM2; createCSSStyleSheet(); No; ?; No[ g 9]; ?; ?; No
+Interface ElementCSSInlineStyle; Interface ElementCSSInlineStyle; Interface ElementCSSInlineStyle; Interface ElementCSSInlineStyle; Interface ElementCSSInlineStyle; Interface ElementCSSInlineStyle; Interface ElementCSSInlineStyle; Interface ElementCSSInlineStyle
+DOM2; style; 6.0; Yes; 1.0; 1.3; Yes; 1.0

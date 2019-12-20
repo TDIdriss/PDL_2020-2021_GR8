@@ -1,0 +1,3 @@
+IDE; License; Windows; Linux; macOS; Other platforms; Debugger; Profiler; Notes
+Visual Studio Code (using the Julia extension); MIT License; Yes; Yes; Yes; FreeBSD[ 31]; ?[ 32]; ?; License is for the extension and Microsoft's source code  (only).
+Emacs / spacemacs; portions in GPL v2, LGPL, BSD and public domain; Yes; Yes; Yes; FreeBSD; Yes; Yes; ESS extension support for emacs. vi support also available, e.g. in spacemacs (useful for pair programming ).

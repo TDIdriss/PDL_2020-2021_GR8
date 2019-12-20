@@ -1,0 +1,171 @@
+; ; Trident; Tasman; Gecko; WebKit; KHTML; Presto
+Exception DOMException; Exception DOMException; Exception DOMException; Exception DOMException; Exception DOMException; Exception DOMException; Exception DOMException; Exception DOMException
+DOM1; code; 5.0[ t 1]; ?; 1.0; ?; ?; 1.0
+Interface DOMStringList; Interface DOMStringList; Interface DOMStringList; Interface DOMStringList; Interface DOMStringList; Interface DOMStringList; Interface DOMStringList; Interface DOMStringList
+DOM3; length; 6.0[ t 2]; No; 1.6; No; ?; 2.0
+DOM3; contains(); 6.0[ t 2]; No; 1.6; No; ?; 2.0
+DOM3; item(); 6.0[ t 2]; No; 1.6; No; ?; 2.0
+Interface NameList; Interface NameList; Interface NameList; Interface NameList; Interface NameList; Interface NameList; Interface NameList; Interface NameList
+DOM3; length; No; No; 1.6; No; No; No
+DOM3; getName(); No; No; 1.6; No; No; No
+DOM3; getNamespaceURI(); No; No; 1.6; No; No; No
+DOM3; contains(); No; No; 1.6; No; No; No
+DOM3; containsNS(); No; No; 1.6; No; No; No
+Interface DOMImplementationList; Interface DOMImplementationList; Interface DOMImplementationList; Interface DOMImplementationList; Interface DOMImplementationList; Interface DOMImplementationList; Interface DOMImplementationList; Interface DOMImplementationList
+DOM3; length; No; No; No; No; No; No
+DOM3; item(); No; No; No; No; No; No
+Interface DOMImplementationSource; Interface DOMImplementationSource; Interface DOMImplementationSource; Interface DOMImplementationSource; Interface DOMImplementationSource; Interface DOMImplementationSource; Interface DOMImplementationSource; Interface DOMImplementationSource
+DOM3; getDOMImplementation(); No; No; No; No; No; No
+DOM3; getDOMImplementationList(); No; No; No; No; No; No
+Interface DOMImplementation; Interface DOMImplementation; Interface DOMImplementation; Interface DOMImplementation; Interface DOMImplementation; Interface DOMImplementation; Interface DOMImplementation; Interface DOMImplementation
+DOM1; hasFeature(); 6.0; ?; 1.0; Yes; ?; 1.0
+DOM2; createDocumentType(); 9.0[ t 3]; No; 1.0; Yes; ?; 
+DOM2; createDocument(); 9.0[ t 3]; No; 1.0; Yes; 1.0; ?
+DOM3; getFeature(); No; No; No; No; ?; 1.0
+Interface DocumentFragment; Interface DocumentFragment; Interface DocumentFragment; Interface DocumentFragment; Interface DocumentFragment; Interface DocumentFragment; Interface DocumentFragment; Interface DocumentFragment
+DOM1; (no properties); 6.0; No; 1.0; ?; ?; 1.0
+Interface Document; Interface Document; Interface Document; Interface Document; Interface Document; Interface Document; Interface Document; Interface Document
+DOM1; doctype; 9.0; Yes; Partial; Yes; ?; 1.0
+DOM1; createElement(); 4.0; Yes; ?; Yes; 1.0
+DOM1; createTextNode(); 1.0; Yes; 5.0; Yes; ?; 1.0
+DOM1; createAttribute(); 1.0; Yes; 6.0; Yes; ?; 1.0
+DOM1; documentElement; 1.0; Yes; ?; Yes; 1.0
+DOM1; 5.0; 1.0; Yes; getElementsByTagName(); Yes; ?; 1.0
+DOM1; implementation; 1.0; Yes; ?; Yes; 1.0
+DOM1; 6.0; 1.0; createDocumentFragment(); ?; Yes; 1.0
+DOM1; 6.0; 1.0; createComment(); ?; Yes; 1.0
+DOM1; createCDATASection(); 1.0; ?; Yes; 1.0
+DOM1; createProcessingInstruction(); 9.0[ t 3]; ?; 1.7; Yes; ?; 1.0
+DOM1; createEntityReference(); No; ?; No [1]; Yes; ?; No
+DOM2; importNode(); 9.0[ t 3]; No; 1.0; Yes; ?; 1.0
+DOM2; createElementNS(); 9.0[ t 3]; No; 1.0; Yes; ?; 1.0
+DOM2; createAttributeNS(); 9.0[ t 3]; No; 1.0; Yes; ?; 1.0
+DOM2; getElementsByTagNameNS(); 9.0[ t 3]; No; 1.0; Yes; ?; 1.0
+DOM2; getElementById(); 8.0; Yes; 1.0; Yes; ?; 2.1
+DOM3; adoptNode(); 9.0[ t 3]; No; 1.7; Yes; ?; 2.0
+DOM3; inputEncoding; 9.0[ t 3]; No; 1.7; ?; 
+DOM3; No; 9.0[ t 3]; No; 1.7; xmlEncoding; ?; 
+DOM3; No; 9.0[ t 3]; No; 1.7; xmlStandalone; ?; 
+DOM3; No; 9.0[ t 3]; No; 1.7; xmlVersion; ?; 
+DOM3; No; domConfig; No; No; ?; 
+DOM3; No; strictErrorChecking; No; ?; 
+DOM3; No; 1.7; No; documentURI; ?; 
+DOM3; No; 1.7; No; normalizeDocument(); ?; 
+DOM3; No; 1.7; No; renameNode(); ?; 
+Interface Node; Interface Node; Interface Node; Interface Node; Interface Node; Interface Node; Interface Node; Interface Node
+DOM1; nodeName; 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; nodeValue; 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; nodeType; 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; parentNode; 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; childNodes; 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; firstChild; 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; lastChild; 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; previousSibling; 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; nextSibling; 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; attributes; 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; cloneNode(); 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; insertBefore(); 5.0; Yes; ?; Yes; 1.0
+DOM1; Partial; 5.0; Yes; replaceChild(); Yes; ?; 1.0
+DOM1; Partial; 5.0; Yes; removeChild(); Yes; ?; 1.0
+DOM1; Partial; 5.0; Yes; appendChild(); Yes; ?; 1.0
+DOM1; ownerDocument; 1.9; Yes; ?; Yes; 1.0
+DOM1; 6.0; hasChildNodes(); Yes; 1.0; Yes; ?; 1.0
+DOM2; namespaceURI; 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM2; prefix; 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM2; localName; 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM2; isSupported(); ?; Yes; 1.0; Yes; 1.0
+DOM2; 9.0[ t 3]; hasAttributes(); Yes; 1.0; Yes; ?; 1.0
+DOM3; isSameNode(); 9.0; No; 1.8; Yes; ?; 2.1
+DOM3; compareDocumentPosition(); 9.0[ t 3]; No; 4.2.4; Yes; 2.1
+DOM3; baseURI; 1.7; No; No; Yes; ?; Yes
+DOM3; textContent; 1.7; No; ?; Yes; 
+DOM3; 9.0[ t 3]; 1.7; No; lookupPrefix(); Yes; ?; 
+DOM3; 9.0[ t 3]; 1.7; No; isDefaultNamespace(); Yes; ?; 
+DOM3; 9.0[ t 3]; 1.7; No; lookupNamespaceURI(); Yes; ?; 
+DOM3; getFeature(); 1.7; No; ?; Yes; 
+DOM3; No; 1.7; No; setUserData(); Yes; ?; 
+DOM3; No; 1.7; No; getUserData(); Yes; ?; 
+DOM3; isEqualNode(); 9.0[ t 3]; No; 1.9; Yes; ?; 2.7
+Interface NodeList; Interface NodeList; Interface NodeList; Interface NodeList; Interface NodeList; Interface NodeList; Interface NodeList; Interface NodeList
+DOM1; length; 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; item(); 5.0; Yes; 1.0; Yes; ?; 1.0
+Interface NamedNodeMap; Interface NamedNodeMap; Interface NamedNodeMap; Interface NamedNodeMap; Interface NamedNodeMap; Interface NamedNodeMap; Interface NamedNodeMap; Interface NamedNodeMap
+DOM1; length; 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; getNamedItem(); 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; setNamedItem(); 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; removeNamedItem(); 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; item(); 5.0; Yes; 1.0; Yes; ?; 1.0
+DOM2; getNamedItemNS(); 9.0[ t 3]; No; 1.0; Yes; ?; 1.0
+DOM2; setNamedItemNS(); 9.0[ t 3]; No; 1.0; Yes; ?; 1.0
+DOM2; removeNamedItemNS(); 9.0[ t 3]; No; 1.0; Yes; ?; 1.0
+Interface CharacterData; Interface CharacterData; Interface CharacterData; Interface CharacterData; Interface CharacterData; Interface CharacterData; Interface CharacterData; Interface CharacterData
+DOM1; data; 4.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; length; 4.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; substringData(); 4.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; appendData(); 4.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; insertData(); 4.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; deleteData(); 4.0; Yes; 1.0; Yes; ?; 1.0
+DOM1; replaceData(); 4.0; Yes; 1.0; Yes; ?; 1.0
+Interface Attr; Interface Attr; Interface Attr; Interface Attr; Interface Attr; Interface Attr; Interface Attr; Interface Attr
+DOM1; name; 6.0; ?; 1.0; Yes; Yes; 1.0
+DOM1; value; 6.0; ?; 1.0; Yes; Yes; 1.0
+DOM1; specified; Incorrect; Incorrect; 1.9.1; Yes; Yes; 1.0
+DOM2; ownerElement; 9.0[ t 3]; ?; 1.0; Yes; Yes; 1.0
+DOM3; schemaTypeInfo; No; No; No; No; ?; No
+DOM3; isId; No; No; 1.9; No; No; No
+Interface Element; Interface Element; Interface Element; Interface Element; Interface Element; Interface Element; Interface Element; Interface Element
+DOM1; tagName; 4.0; Yes; 1.0; Yes; Yes; 1.0
+DOM1; getElementsByTagName(); 4.0; Yes; 1.0; Yes; Yes; 1.0
+DOM1; getAttribute(); Yes; 1.0; Yes; Yes; 1.0
+DOM1; 8.0; setAttribute(); Yes; 1.0; Yes; Yes; 1.0
+DOM1; 8.0; removeAttribute(); Yes; 1.0; Yes; Yes; 1.0
+DOM1; getAttributeNode(); 6.0; Yes; 1.0; Yes; Yes; 1.0
+DOM1; setAttributeNode(); Yes; 1.0; Yes; Yes; 1.0
+DOM1; 9.0[ t 3]; removeAttributeNode(); Yes; 1.0; Yes; Yes; 1.0
+DOM1; 9.0[ t 3]; normalize(); Yes; 1.0; No; ?; 1.0
+DOM2; getAttributeNS(); 9.0[ t 3]; Yes; 1.0; Yes; ?; 1.0
+DOM2; setAttributeNS(); 9.0[ t 3]; Yes; 1.0; Yes; ?; 1.0
+DOM2; removeAttributeNS(); 9.0[ t 3]; Yes; 1.0; Yes; ?; 1.0
+DOM2; getAttributeNodeNS(); 9.0[ t 3]; Yes; 1.0; Yes; ?; 1.0
+DOM2; setAttributeNodeNS(); 9.0[ t 3]; Yes; 1.0; Yes; ?; 1.0
+DOM2; getElementsByTagNameNS(); 9.0[ t 3]; No; 1.0; Yes; ?; 1.0
+DOM2; hasAttribute(); 9.0[ t 3]; ?; 1.0; Yes; 1.0
+DOM2; Yes; 9.0[ t 3]; hasAttributeNS(); 1.0; Yes; ?; 1.0
+DOM3; schemaTypeInfo; No; No; No; No; ?; No
+DOM3; setIdAttribute(); No; No; No; No; ?; No
+DOM3; setIdAttributeNS(); No; No; No; No; ?; No
+DOM3; setIdAttributeNode(); No; No; No; No; ?; No
+Interface Text; Interface Text; Interface Text; Interface Text; Interface Text; Interface Text; Interface Text; Interface Text
+DOM1; splitText(); 9.0[ t 3]; Yes; 1.0; Yes; ?; 1.0
+DOM3; isElementContentWhitespace; No; No; 1.9.1; No; ?; Yes
+DOM3; wholeText; ?; No; 1.9.1; No; 
+DOM3; 9.0[ t 3]; replaceWholeText(); No; 1.9.1; No; ?; 
+Interface Comment; Interface Comment; Interface Comment; Interface Comment; Interface Comment; Interface Comment; Interface Comment; Interface Comment
+DOM1; (no properties); 6.0; No; 1.0; Yes; ?; 1.0
+Interface TypeInfo; Interface TypeInfo; Interface TypeInfo; Interface TypeInfo; Interface TypeInfo; Interface TypeInfo; Interface TypeInfo; Interface TypeInfo
+DOM3; typeName; No; No; No; No; No; No
+DOM3; typeNamespace; No; No; No; No; No; No
+DOM3; isDerivedFrom(); No; No; No; No; No; No
+Interface UserDataHandler; Interface UserDataHandler; Interface UserDataHandler; Interface UserDataHandler; Interface UserDataHandler; Interface UserDataHandler; Interface UserDataHandler; Interface UserDataHandler
+DOM3; handle(); No; No; No; No; No; No
+Interface DOMError; Interface DOMError; Interface DOMError; Interface DOMError; Interface DOMError; Interface DOMError; Interface DOMError; Interface DOMError
+DOM3; severity; No; No; No; No; No; 2.0
+DOM3; message; No; No; No; No; No; 2.0
+DOM3; type; No; No; No; No; No; 2.0
+DOM3; location; No; No; No; No; No; 2.0
+DOM3; relatedData; No; No; No; No; No; 2.0
+DOM3; relatedException; No; No; No; No; No; No
+Interface DOMErrorHandler; Interface DOMErrorHandler; Interface DOMErrorHandler; Interface DOMErrorHandler; Interface DOMErrorHandler; Interface DOMErrorHandler; Interface DOMErrorHandler; Interface DOMErrorHandler
+DOM3; handleError(); No; No; No; No; No; 2.0
+Interface DOMLocator; Interface DOMLocator; Interface DOMLocator; Interface DOMLocator; Interface DOMLocator; Interface DOMLocator; Interface DOMLocator; Interface DOMLocator
+DOM3; lineNumber; No; No; No; No; No; 2.0
+DOM3; columnNumber; No; No; No; No; No; 2.0
+DOM3; byteOffset; No; No; No; No; No; 2.0
+DOM3; utf16Offset; No; No; No; No; No; 2.0
+DOM3; relatedNode; No; No; No; No; No; 2.0
+DOM3; uri; No; No; No; No; No; 2.0
+Interface DOMConfiguration; Interface DOMConfiguration; Interface DOMConfiguration; Interface DOMConfiguration; Interface DOMConfiguration; Interface DOMConfiguration; Interface DOMConfiguration; Interface DOMConfiguration
+DOM3; parameterNames; No; No; No; No; ?; 2.0
+DOM3; setParameter(); No; No; No; No; ?; 2.0
+DOM3; getParameter(); No; No; No; No; ?; 2.0
+DOM3; canSetParameter(); No; No; No; No; ?; 2.0

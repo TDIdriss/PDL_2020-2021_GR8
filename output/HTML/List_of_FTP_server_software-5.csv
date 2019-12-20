@@ -1,0 +1,26 @@
+; ; CrushFTP; ProFTPD; Pure-FTPd; vsftpd; Wu-ftp
+; License type; proprietary; FLOSS/GPL; BSD; FLOSS/GPL2; proprietary
+OS; Linux; Yes; Yes; Yes; Yes; Yes
+OS; Mac OS X; Yes; Yes; Yes; Yes; Yes
+OS; Unix; Yes; Yes; Yes; Yes; Yes
+OS; Windows; Yes; No; ?; ?; ?
+User Interface; CLI; Yes; Yes; ?; ?; ?
+User Interface; GUI integrated; Yes; No; ?; ?; ?
+User Interface; GUI(s) separately; Yes; Yes; ?; ?; ?
+User Interface; Web-based GUI; Yes; ?; ?; ?; ?
+Services; FTP; Yes; Yes; Yes; Yes; Yes
+Services; SFTP; Yes; Yes; No; No; No
+Services; FTPS; Yes; Yes; Yes; Yes; ?
+Services; SCP; Yes; ?; ?; ?; ?
+Services; WebDAV; Yes; ?; ?; ?; ?
+Services; HTTP/HTTPS; Yes; ?; ?; ?; ?
+Services; AS2; Yes; ?; ?; ?; ?
+Authentication; LDAP; Yes; Yes; Yes; ?; ?
+Authentication; Active Directory; Yes; ?; ?; ?; ?
+Authentication; Local; Yes; Yes; Yes; Yes; Yes
+Authentication; Database; Yes; Yes; Yes; ?; ?
+High Availability; Failover Cluster (active/passive); Yes; ?; ?; ?; ?
+High Availability; Load Balancing (active/active); Yes; ?; ?; ?; ?
+Automation; Event-handling; Yes; Yes; ?; ?; ?
+Automation; Scripting; Yes; Yes; ?; ?; ?
+; ; CrushFTP; ProFTPD; Pure-FTPd; vsftpd; Wu-ftp

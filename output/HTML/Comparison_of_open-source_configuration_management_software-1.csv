@@ -1,0 +1,25 @@
+; Language; License; Mutual auth; Encrypts; Verify mode; Agent-less; Have a GUI; First release; Latest stable release
+Ansible; Python; GPLv3+; Yes[ 1]; Yes[ 2]; Yes; Yes; Yes[ 3]; 2012-03-08; 2018-12-13 2.7.5[ 4] [ 5] [ 6]
+Bcfg2; Python; BSD 2-clause[ 7]; Yes[ 8]; Yes[ 9]; Yes[ 10]; No; Yes[ 11]; 2004-08-11[ 12]; 2015-06-11 1.3.6[ 12]
+Capistrano; Ruby; MIT License; ; Yes[ 2]; ; Yes[ 2]; No; 2005; 2017-03-08 4.4.2
+cdist; Python; GPLv3+; Yes[ 1]; Yes[ 2]; ; Yes; ; 2010; 2018-04-20 4.8.4[ 13]
+Chef; Ruby, Erlang; Apache 2.0; Yes[ 14]; Yes[ 15]; Yes[ 16] [ 17]; No; Yes; 2009-01-15 0.5.0; 2019-01-28 14.10.9 (client),[ 18] 2018-02-13 12.17.33 (server)[ 19]
+CFEngine; C[ 20]; GPLv3[ 21]; Yes[ 1]; Yes[ 22]; Yes[ 23] [ 24]; No; Yes[ 25]; 1993; 2019-12-18 3.15.0,[ 26] 2019-12-06 3.12.3,[ 27] 2019-12-06 3.10.7[ 28]
+ISconf; Python; GPL[ 29]; Yes[ 30]; No[ 31]; ; ; ; 1998; 2006-08-13 4.2.8.233
+Juju; Python, Go[ 32]; Affero General Public License; Yes[ 1]; Yes[ 9]; No; No; Yes[ 33]; 2010-09-17[ 34]; 2019-10-30 2.7.0[ 35]
+Local ConFiGuration system (LCFG); Perl; GPL; Partial[ 36]; Partial[ 37]; ; ; ; 1994; Weekly Releases
+NOC; Python; BSD License 2.0; Yes[ 1]; Yes[ 2]; Yes; Yes; Yes; 2012-03-08; 2015-05-20 15.05.1[ 38]
+OCS Inventory NG with GLPI; Perl, PHP, C++; GPL; No[ 39]; Yes[ 9]; ; No; ; 2003; 2014-07-13[ 40]
+Open pc server integration (Opsi); Python, Java; GPL; No; Yes[ 9]; ; No; ; 2004; 2013-03-01 4.0.3
+PIKT; C; GPLv2+[ 41]; Yes[ 42]; Yes[ 43]; ; No; ; 1998[ 44]; 2007-09-10 1.19.0
+Puppet; C++ & Clojure from 4.0,[ 45] Ruby before then; Apache from 2.7.0, GPL before then; Yes[ 46]; Yes[ 9]; Yes[ 47] [ 48]; No; Yes[ 49]; 2005-08-30[ 50]; 2019-01-15 6.0.5[ 51]
+Quattor; Perl, Python; Apache 2.0[ 52] [ 53]; Yes[ 54]; Yes[ 55]; ; ; ; 2005-04-01[ 56]; 2018-07-3 18.6.0[ 57]
+Radmind; C; BSD[ 58]; Yes[ 59]; Yes[ 60]; ; No; ; 2002-03-26[ 61]; 2008-10-08 1.13.0[ 62]
+Rex; Perl; Apache; Yes[ 1]; Yes[ 2]; ; Yes; ; 2010-11-05 0.9.0[ 63]; 2017-12-03 1.6.0[ 64]
+Rudder; C, Scala and Rust; GPLv3 and Apache 2.0[ 65]; Yes[ 1]; Yes[ 9]; Yes[ 66] [ 67]; No; Yes; 2011-10-31; 2019-05-12 5.0.15[ 68]
+SmartFrog; Java; LGPL; Yes[ 69]; Yes[ 69]; ; No; ; 2004-02-11; 2009-01-26 3.16.004[ 70] [ 71]
+Salt[ 72]; Python[ 73]; Apache 2.0[ 74]; Yes[ 75]; Yes[ 75]; Yes; Both[ 76] [ 77]; Yes[ 78] [ 79]; 2011-03-17 0.6.0[ 80]; 2019-02-25 v2019.2.0[ 81]
+Spacewalk; Java (C, Perl, Python, PL/SQL); GPLv2; Yes; Yes; ; No; ; 2008-06[ 82]; 2019-01-14 2.9[ 83]
+STAF; C++; CPL[ 84]; No[ 85] [ 86]; Partial[ 87]; ; No; ; 1998-02-16[ 88]; 2012-12-16 3.4.16 [ 89]
+Synctool[ 90]; Python[ 91]; GPLv2[ 92]; Yes[ 93]; Yes[ 2]; Yes[ 94]; Yes[ 95]; ; 2003[ 96]; 2014-06-15 6.1[ 97]
+; Language; License; Mutual auth; Encrypts; Verify mode; Agent-less; Have a GUI; First release; Latest stable release

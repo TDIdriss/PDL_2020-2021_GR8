@@ -1,0 +1,17 @@
+Implementation; Application-defined; PKIX path validation[ 109]; CRL[ 110]; OCSP[ 111]; DANE (DNSSEC)[ 112]; Trust on First Use (TOFU); 
+Botan; Yes; Yes; Yes; Yes; No; No; 
+Bouncy Castle; Yes; Yes; Yes; Yes; Yes; No; 
+cryptlib; Yes; Yes; Yes; Yes; No; No; 
+GnuTLS; Yes; Yes; Yes; Yes; Yes; Yes; 
+JSSE; Yes; Yes; Yes; Yes; No; No; 
+LibreSSL; Yes; Yes; Yes; Yes; No; No; 
+MatrixSSL; Yes; Yes; Yes; Yes[ 113]; No; No; 
+mbed TLS; Yes; Yes; Yes; Yes[ 114]; No; No; 
+NSS; Yes; Yes; Yes; Yes; No[ 115]; No; 
+OpenSSL; Yes; Yes; Yes; Yes; Yes; No; 
+RSA BSAFE; Yes; Yes; Yes; Yes; No; No; 
+SChannel; Unknown; Yes; Yes[ 116]; Yes[ 116]; No; No; 
+Secure Transport; Yes; Yes; Yes; Yes; No; No; 
+wolfSSL; Yes; Yes; Yes; Yes; No; No; 
+Erlang/OTP SSL application; Yes; Yes; Yes; No; No; No; 
+Implementation; Application-defined; PKIX path validation[ 109]; CRL[ 110]; OCSP[ 111]; DANE (DNSSEC)[ 112]; Trust on First Use (TOFU); 

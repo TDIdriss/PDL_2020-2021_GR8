@@ -1,0 +1,7 @@
+Kernel name;CRC32CRC-32 (IEEE);CRC32c;MD2 (cryptography)MD2;MD4;MD5;SHA-1;SHA-2;SHA-3;Michael MIC;Poly1305;RIPEMD-128;RIPEMD-160;RIPEMD-256;RIPEMD-320;Tiger;Whirlpool;HMAC;MDC2;GOST;LASH;VMAC
+Linux;yes;yes;no;yes;yes;yes;partial;yes;yes;yes;yes;yes;yes;no;no;no;null;null;null;null;
+Solaris kernel;yes;yes;yes;yes;yes;yes;yes;;;;;yes;;;yes;;yes;yes;;;
+Windows NT kernel;;;yes;yes;yes;yes;yes;;no;;no;no;no;no;no;no;yes;no;no;no;
+FreeBSD kernel;yes;yes;;yes;yes;yes;yes;;;;;yes;;;yes;;yes;;;;
+XNU kernel;yes;;yes;;yes;yes;;;;;;;;;;;;;;;
+Kernel name;CRC32CRC-32 (IEEE);CRC32c;MD2 (cryptography)MD2;MD4;MD5;SHA-1;SHA-2;SHA-3;Michael MIC;Poly1305;RIPEMD-128;RIPEMD-160;RIPEMD-256;RIPEMD-320;Tiger;Whirlpool;HMAC;MDC2;GOST;LASH;VMAC

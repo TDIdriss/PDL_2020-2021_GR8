@@ -1,0 +1,15 @@
+Client; Written in; License; Access API; High availability; Shards; Initial release year; Memory requirements (GB)
+Alluxio (Virtual Distributed File System); Java; Apache License 2.0; HDFS, FUSE, HTTP/REST, S3; hot standby; No; 2013; 
+Ceph; C++; LGPL; librados (C, C++, Python, Ruby), S3, Swift, FUSE; Yes; Yes; 2010; 1 per TB of storage
+GlusterFS; C; GPLv3; libglusterfs, FUSE, NFS, SMB, Swift, libgfapi; mirror; No; 2005; 
+MooseFS; C; GPLv2; POSIX, FUSE; master; No; 2008; 
+Quantcast File System; C; Apache License 2.0; C++ client, FUSE (C++ server: MetaServer and ChunkServer are both in C++); master; No; 2012; 
+LizardFS; C++; GPLv3; POSIX, FUSE, NFS-Ganesha, Ceph FSAL (via libcephfs); master; No; 2013; 
+Lustre; C; GPLv2; POSIX, NFS-Ganesha, NFS, SMB; Yes; Yes; 2003; 
+OpenAFS; C; IBM Public License; Virtual file system, Installable File System; ; ; 2000 [ 1]; 
+OpenIO[ 2]; C; AGPLv3 / LGPLv3; Native (Python, C, Java), HTTP/REST, S3, Swift, FUSE (POSIX, NFS, SMB, FTP); Yes; ; 2015; 0.5
+SeaweedFS; Go, Java; Apache License 2.0; HTTP (REST), POSIX, FUSE, S3, HDFS; transparent master failover; ; 2015; 
+Tahoe-LAFS; Python; GNU GPL [ 3]; HTTP (browser or CLI), SFTP, FTP, FUSE via SSHFS, pyfilesystem; ; ; 2007; 
+HDFS; Java; Apache License 2.0; Java and C client, HTTP; transparent master failover; No; 2005; 
+XtreemFS; Java, C++; BSD License; libxtreemfs (Java, C++), FUSE; ; ; 2009; 
+Ori[ 4]; C, C++; MIT; libori, FUSE; ; ; 2012; 

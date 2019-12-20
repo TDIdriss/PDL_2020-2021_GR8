@@ -1,0 +1,16 @@
+Name; Developer; Status; First release; Latest release; Current version; Based on; License; Source available
+AbsoluteTelnet; Celestial Software (Brian Pence); Active; 1996; 2016-10-12; 10.16[ 1]; ; Proprietary; No
+ConnectBot; Kenny Root / Jeffrey Sharkey; Active; 2007-11; 2018-11-09; 1.9.2 [ 2]; Trilead SSH-2 for Java; Apache; Yes
+CRAX Commander; Soft4U2 Marcin Słowik; Active; 2013-09; 2015-12-01; 1.10.6; libSSH2; Proprietary; Yes
+Dropbear; Matt Johnston; Active; 2003-04-06; 2017-05-18; 2017.75; ; MIT; Yes
+eSSH Client; Ecode Software; Inactive; 2002-07; ; ; ; Proprietary; No
+lsh; Niels Möller; Active; 1999-05-23; 2013-06-26; 2.1; ; GPL; Yes
+OpenSSH (OpenBSD Secure Shell); The OpenBSD project; Active; 1999-12-01; 2019-4-17; 8.0; ossh; BSD; Yes
+PuTTY; Simon Tatham; Active; 1999-01-22; 2019-03-16; 0.73[ 3]; ; MIT; Yes
+SecureCRT; VanDyke Software; Active; 1998-06; 2018-11-15; 8.5.2[ 4]; ; Proprietary; No
+SSH Tectia Client/ConnectSecure; SSH Communications Security (former Tectia); Active; 1995-07; 2017-06-22; 6.4.15; Own implementation in C; Proprietary; No
+SSH Secure Shell Client; SSH Communications Security Corp.; Inactive; 2000; 2003; 3.2.9[ 5]; ; Proprietary; No
+Tera Term; TeraTerm Project; Active; 2004; 2018-08-31; 4.100[ 6]; Tera Term Pro 2.3 (1994–1998); BSD; Yes
+TN3270 Plus; SDI USA, Inc.; Active; 2006; ; ; ; Proprietary; No
+TtyEmulator; FCS Software; Active; 2002-05; ; ; ; Proprietary; No
+ZOC Terminal; EmTec, Innovative Software; Active; 1995-07-01; 2018-10-17; 7.21.1[ 7]; ; Proprietary; No

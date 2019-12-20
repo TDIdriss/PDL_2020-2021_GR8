@@ -1,0 +1,9 @@
+Kernel name;Linux;Darwin;Windows NT;FreeBSD;NetBSD;Solaris;Tru64 UNIX#OSF/1OSF/1;Amiga Unix;SunOS;BSD/OS;IBCS2 systems;IRIX;Ultrix;NDIS;UNIX System V#SVR4SVR4
+FreeBSD kernel;yes;no;no;yes;no;no;no;no;no;no;no;no;no;yes;yes
+Linux kernel;yes;no;(Longene);yes;yes;no;no;no;no;no;no;no;no;no;no
+NetBSD kernel;yes;no? ?;no? ?;yes;yes;yes;yes;yes;yes;yes;yes;yes;yes;yes ;yes
+OpenBSD kernel;yes;no;no;yes;yes;yes;no;no;yes;;;;;no;yes
+Architecture of Windows NT#Kernel modeWindows NT kernel;no;no;yes;no;no;no;no;no;no;no;no;no;no;no;no
+ReactOS kernel;no;no;yes;no;no;no;no;no;no;no;no;no;no;no;no
+XNU;no;yes;no;no;no;no;no;no;no;no;no;no;no;no;no
+Kernel name;Linux;Darwin;Windows NT;FreeBSD;NetBSD;Solaris;Tru64 UNIX#OSF/1OSF/1;Amiga Unix;SunOS;BSD/OS;IBCS2 systems;IRIX;Ultrix;NDIS;UNIX System V#SVR4SVR4

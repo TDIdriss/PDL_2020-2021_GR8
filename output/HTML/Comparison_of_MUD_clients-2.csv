@@ -1,0 +1,7 @@
+Name; Gui; Logging; Mapper; Multiplaying; Scrollback; Spell checker; Tab completion; Telnet triggers; Timers; Triggers; Redirection; Regex
+Axmud; Custom; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes
+Mudlet; Custom; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes
+MUSHclient; Custom; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; WSH; Yes
+TinTin++; VT100; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes; Yes; Yes
+Wintin.net; No; Yes; No; Yes; Yes; No; Yes; No; Yes; Yes; No; No
+zMud; Custom; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; WSH; Yes

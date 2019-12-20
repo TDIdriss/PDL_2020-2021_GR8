@@ -1,0 +1,33 @@
+; ; Trident; EdgeHTML; Gecko; WebKit; KHTML; Presto
+@counter-style; @counter-style; @counter-style; @counter-style; @counter-style; @counter-style; @counter-style; @counter-style
+css- counter- styles- 3; additive-symbols; No; No; No[ g 59]; No; No; No
+css- counter- styles- 3; fallback; No; No; No[ g 59]; No; No; No
+css- counter- styles- 3; negative; No; No; No[ g 59]; No; No; No
+css- counter- styles- 3; pad; No; No; No[ g 59]; No; No; No
+css- counter- styles- 3; prefix; No; No; No[ g 59]; No; No; No
+css- counter- styles- 3; range; No; No; No[ g 59]; No; No; No
+css- counter- styles- 3; speak-as; No; No; No[ g 59]; No; No; No
+css- counter- styles- 3; suffix; No; No; No[ g 59]; No; No; No
+css- counter- styles- 3; symbols; No; No; No[ g 59]; No; No; No
+css- counter- styles- 3; system; No; No; No[ g 59]; No; No; No
+@font-face; @font-face; @font-face; @font-face; @font-face; @font-face; @font-face; @font-face
+css- fonts- 3; font-family; Yes; 12; Yes; Yes; Yes; Yes
+css- fonts- 3; font-feature-settings; Yes; 12; Yes; Yes; Yes; Yes
+css- fonts- 3; font-stretch; Yes; 12; Yes; No; No; No
+css- fonts- 3; font-style; Yes; 12; Yes; 
+css- fonts- 3; Yes; Yes; 12; Yes; font-variant; 
+css- fonts- 3; font-weight; Yes; 12; Partial; Partial; Incorrect; 
+css- fonts- 3; src; Yes; 12; Yes; Yes; Yes; 
+css- fonts- 3; unicode-range; Yes; 12; 36.0[ g 60]; No; No; No
+@viewport; @viewport; @viewport; @viewport; @viewport; @viewport; @viewport; @viewport
+css- device- adapt-1; height; 10.0[ t 50]; 12; No; No; No; 2.7
+css- device- adapt-1; max-height; No; No; No; No; No; 
+css- device- adapt-1; No; No; No; No; No; No; min-height
+css- device- adapt-1; width; 10.0[ t 51]; 12; No; No; No; 2.7
+css- device- adapt-1; max-width; No; No; No; No; No; 
+css- device- adapt-1; No; No; No; No; No; No; min-width
+css- device- adapt-1; No; No; zoom; No; No; No; 
+css- device- adapt-1; No; No; max-zoom; No; No; No; 
+css- device- adapt-1; No; No; min-zoom; No; No; No; 
+css- device- adapt-1; No; No; user-zoom; No; No; No; 
+css- device- adapt-1; No; No; orientation; No; No; No; No

@@ -1,0 +1,27 @@
+Model; Launch; Code name; Fab (nm)[ 2]; Bus interface; Core clock (MHz); Memory clock (MHz); Core config1; Fillrate; Fillrate; Fillrate; Fillrate; Memory; Memory; Memory; Memory
+Model; Launch; Code name; Fab (nm)[ 2]; Bus interface; Core clock (MHz); Memory clock (MHz); Core config1; MOperations/s; MPixels/s; MTexels/s; MVertices/s; Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit)
+GeForce FX 5200; March 2003; NV34; TSMC 150  nm; AGP 8× PCI; 250; 200; 4:1:4:4; 1000; 1000; 1000; 62.5; 64 128; 3.2 6.4[ citation needed]; DDR; 64 128
+GeForce FX 5200 Ultra; March 6, 2003; NV34; TSMC 150  nm; AGP 8×; 325; 325; 4:1:4:4; 1300; 1300; 1300; 81.25; 64 128; 10.4; DDR; 128
+GeForce PCX 5300; March 17, 2004; NV34; TSMC 150  nm; PCIe ×16; 250; 1000; 4:1:4:4; 1000; 1000; 62.5; 128; 3.2 6.4[ citation needed]; DDR; 
+GeForce FX 5500; March 2004; NV34B; TSMC 140  nm; 200; AGP 8× AGP 4× PCI; 270; 4:1:4:4; 1080; 1080; 1080; 64 128; 67.5; 64 128 256; DDR; 3.2 6.4[ citation needed]
+GeForce FX 5600 XT; October 2003; NV31; TSMC 130  nm; 200; AGP 8×; 235; 4:1:4:4; 940; 940; 940; 58.75; 64 128; 6.4; DDR; 
+GeForce FX 5600; March 2003; NV31; TSMC 130  nm; AGP 8× PCI; 325; 275; 4:1:4:4; 1300; 1300; 1300; 81.25; 128; 64 128 256[ 4]; DDR; 8.8
+GeForce FX 5600 Ultra; March 6, 2003; NV31; TSMC 130  nm; 350; 350; 1400; 4:1:4:4; 1400; 1400; 87.5; 11.2; 128; DDR; 
+GeForce FX 5600 Ultra Rev.2; March 6, 2003; NV31; TSMC 130  nm; 400; 400; 1600; 4:1:4:4; 1600; 1600; 64 128; 100; 128; 12.8; DDR; 
+GeForce FX 5700 VE; September 2004; AGP 8×; IBM 130  nm; 235; 200; 4:3:4:4; 940; 940; 940; 106.5; 128; 128 256; DDR; 6.4
+GeForce FX 5700 LE; March 2004; AGP 8× PCI; NV36; IBM 130  nm; 250; 200; 4:3:4:4; 1000; 1000; 1000; 187.5; 128; 128 256; DDR; 6.4
+GeForce FX 5700; 2003; AGP 8×; NV36; IBM 130  nm; 250; 1700; 4:3:4:4; 1700; 1700; 318.75; 8; 128; 128 256; DDR; 
+GeForce PCX 5750; March 17, 2004; PCIe ×16; NV36; IBM 130  nm; 250; 1700; 4:3:4:4; 1700; 1700; 318.75; 128; 128; 8; DDR; 
+GeForce FX 5700 Ultra; October 23, 2003; NV36; IBM 130  nm; 475; 450; 4:3:4:4; 1900; 1900; 1900; 356.25; 128; 128 256; 14.4; GDDR2
+GeForce FX 5700 Ultra GDDR3; March 15, 2004; 475; NV36; IBM 130  nm; 475; 15.2; 4:3:4:4; 1900; 1900; 1900; 356.25; 128; 128 256; GDDR3; 
+GeForce FX 5800; January 27, 2003; AGP 8×; TSMC 130  nm; 400; 400; 4:2:8:4; 1600; 1600; 3200; 200; 128; 128; 12.8; GDDR2
+GeForce FX 5800 Ultra; January 27, 2003; 500; AGP 8×; TSMC 130  nm; 500; 2000; 4:2:8:4; 2000; 4000; 16; 200; 128; 128; GDDR2
+GeForce FX 5900 ZT; December 15, 2003; AGP 8×; TSMC 130  nm; 325; 4:3:8:4; 1300; 1300; 2600; 343.75; 22.4; 128; 256; 
+GeForce FX 5900 XT; December 15, 2003[ 5]; 390; AGP 8×; TSMC 130  nm; 350; 4:3:8:4; 3200; 300; 22.4; 128; 256; 
+GeForce FX 5900; May 2003; 400; AGP 8×; TSMC 130  nm; 1600; 4:3:8:4; 3200; 300; 128; 256; 
+GeForce FX 5900 Ultra; May 12, 2003; AGP 8×; TSMC 130  nm; 27.2; 4:3:8:4; 1800; 3600; 337.5; 128 256; DDR; 256; 
+GeForce PCX 5900; March 17, 2004; PCIe ×16; NV35; TSMC 130  nm; 27.2; 4:3:8:4; 1800; 3600; 337.5; 128 256; DDR; 256; 
+GeForce FX 5950 Ultra; October 23, 2003; NV38; AGP 8×; TSMC 130  nm; 475; 4:3:8:4; 475; 1900; 1900; 3800; 356.25; DDR; 256; 30.4
+GeForce PCX 5950; February 17, 2004; NV38; PCIe ×16; TSMC 130  nm; 475; 4:3:8:4; 475; 1900; 1900; 3800; 356.25; GDDR3; 256; 256; 30.4
+Model; Launch; Code name; Fab (nm)[ 2]; Bus interface; Core clock (MHz); Memory clock (MHz); Core config1; Fillrate; Fillrate; Fillrate; Fillrate; Memory; Memory; Memory; Memory
+Model; Launch; Code name; Fab (nm)[ 2]; Bus interface; Core clock (MHz); Memory clock (MHz); Core config1; MOperations/s; MPixels/s; MTexels/s; MVertices/s; Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit)

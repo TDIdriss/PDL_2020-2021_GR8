@@ -1,0 +1,12 @@
+Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Clock speed; Clock speed; Clock speed; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Supported API version; Supported API version; Processing power (GFLOPS)2; TBP (Watts); Notes
+Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Core (MHz); Shader (MHz); Memory (MHz); Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; Processing power (GFLOPS)2; TBP (Watts); Notes
+GeForce 410M; January 5, 2011; GF119; 40; PCIe 2.0 ×16; 48:83:4; 575; 1150; 1600; 2.3; 4.6; 512; 12.8; DDR3; 64; 12; 4.5; 110.4; 12; Similar to Desktop GT420 OEM
+GeForce GT 415M; September 3, 2010; GF108; 40; PCIe 2.0 ×16; 48:83:4; 1000; 2; 1600; 4; 128; 512; 96; DDR3; < 12(GPU only)[ 111]; 12; 4.5; Similar to Desktop GT420 OEM
+GeForce GT 420M; September 3, 2010; GF108; 40; PCIe 2.0 ×16; 8; 1000; 2; 1600; 25.6; 128; 512; 192; DDR3; 10–23(GPU only)[ 111]; 12; 4.5; 
+GeForce GT 425M; September 3, 2010; GF108; 40; PCIe 2.0 ×16; 560; Similar to Desktop GT430; 1120; 1600; 25.6; 128; 2.24; 8.96; DDR3; 1024; 12; 4.5; 215.04; 20–23(GPU only)[ 111]; 
+GeForce GT 435M; September 3, 2010; GF108; 40; PCIe 2.0 ×16; 650; 1300; 2.6; 1600; 25.6; 128; 10.4; 2048; DDR3; 249.6; 12; 4.5; 32–35(GPU only)[ 111]; Similar to Desktop GT430/440; 
+GeForce GT 445M; September 3, 2010; GF106; 40; PCIe 2.0 ×16; 144:243:16 144:243:24; 590; 1180; 1600 2500; 9.44 14.16; 14.16; 1024 1536; 25.6 60; DDR3 GDDR5; 128 192; 12; 4.5; 339.84; 30–35(GPU only)[ 111]; Similar to Desktop GTS450 OEM)
+GeForce GTX 460M; September 3, 2010; GF106; 40; PCIe 2.0 ×16; 192:323:24; 675; 1350; 16.2; 21.6; GDDR5; 192; 518.4; 45–50(GPU only)[ 111]; Similar to Desktop GTX550 Ti; 12; 4.5; 
+GeForce GTX 470M; September 3, 2010; GF104; 40; PCIe 2.0 ×16; 2500; 288:483:24; 550; 1536; 60; GDDR5; 192; 1100; 45–50(GPU only)[ 111]; 13.2; 12; 4.5; 26.4; 633.6; Similar to Desktop GTX 460/560SE
+GeForce GTX 480M; May 25, 2010; GF100; 40; PCIe 2.0 ×16; 352:443:32; 425; 850; 2400; 13.6; GDDR5; 18.7; 76.8; 598.4; Similar to Desktop GTX465; 12; 4.5; 
+GeForce GTX 485M; January 5, 2011; GF104; 40; PCIe 2.0 ×16; 384:643:32; 575; 1150; 3000; 2048; GDDR5; 256; 18.4; 100(MXM module); 36.8; 12; 4.5; 96.0; 883.2; Similar to Desktop GTX560 Ti

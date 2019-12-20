@@ -1,10 +1,12 @@
 package com.wikipediaMatrix;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.net.URL;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -18,41 +20,51 @@ public class BenchTest {
      *  see below for more details
      **/
     @Test
+    @Ignore
     public void testBenchExtractors() throws Exception {
 
         // directory where CSV files are exported (HTML extractor)
-        String outputDirHtml = "output" + File.separator + "html" + File.separator;
+        String outputDirHtml = "output" + File.separator + "HTML" + File.separator;
         assertTrue(new File(outputDirHtml).isDirectory());
         // directory where CSV files are exported (Wikitext extractor)
         String outputDirWikitext = "output" + File.separator + "wikitext" + File.separator;
         assertTrue(new File(outputDirWikitext).isDirectory());
 
-        File file = new File("inputdata" + File.separator + "wikiurls.txt");
+        File file = new File("output" + File.separator + "large_url_test.txt");
         BufferedReader br = new BufferedReader(new FileReader(file));
         String url;
         int nurl = 0;
+        int numberOfCSV;
+
+        Donnee_Html donneeHtml;
+        Donnee_Wikitable donneeWikitable;
+
         while ((url = br.readLine()) != null) {
             System.out.println("Wikipedia url: " + url);
 
-            // TODO: do something with the Wikipedia URL
-            // (ie extract relevant tables for correct URL, with the two extractors)
+            Url wikiUrl = new Url(new URL(url));
+            assertTrue(wikiUrl.estTitreValide());
+
+            System.out.println("\nCSV page name: " + wikiUrl.getTitre());
+
+            donneeHtml = new Donnee_Html();
+            donneeHtml.setUrl(wikiUrl);
+            donneeHtml.start();
+            donneeHtml.join();
+            numberOfCSV = donneeHtml.getNbTableaux();
+            for (int i = 1; i <= numberOfCSV; i++){
+                System.out.println("CSV generate : " + mkCSVFileName(outputDirHtml + wikiUrl.getTitre(), i));
+            }
 
 
-            // for exporting to CSV files, we will use mkCSVFileName
-            // example: for https://en.wikipedia.org/wiki/Comparison_of_operating_system_kernels
-            // the *first* extracted table will be exported to a CSV file called
-            // "Comparison_of_operating_system_kernels-1.csv"
-            String csvFileName = mkCSVFileName(url, 1);
-            System.out.println("CSV file name: " + csvFileName);
-            // the *second* (if any) will be exported to a CSV file called
-            // "Comparison_of_operating_system_kernels-2.csv"
-
-
-            // TODO: the HTML extractor should save CSV files into output/HTML
-            // see outputDirHtml
-
-            // TODO: the Wikitext extractor should save CSV files into output/wikitext
-            // see outputDirWikitext
+            donneeWikitable = new Donnee_Wikitable();
+            donneeWikitable.setUrl(wikiUrl);
+            donneeWikitable.start();
+            donneeWikitable.join();
+            numberOfCSV = donneeHtml.getNbTableaux();
+            for (int i = 1; i <= numberOfCSV; i++){
+                System.out.println("CSV generate : " + mkCSVFileName(outputDirWikitext + wikiUrl.getTitre(), i));
+            }
 
             nurl++;
         }

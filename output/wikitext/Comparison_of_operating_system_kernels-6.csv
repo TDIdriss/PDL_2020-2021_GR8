@@ -1,0 +1,11 @@
+Kernel Name;A.out (file format)a.out;ECOFF;ELF;FDPICELFbinaries(mmu less);flatbinaries(superH);HUNK;Mach-O;Misc(wrapperbased,likeinterpreters);PE;SOM(PA-RISC,HP-UX);NLM;PEF;DOS COM;MZ;LE;LX;NE
+Amiga Exec;No;No;Yes;No;No;Yes;No;No;No;No;;;;;;;
+DragonFly BSD kernel;No;No;Yes;No;No;No;No;No;No;No;No;No;No;No;No;No;No
+HP-UXHP-UX kernel;No;No;Yes;No;No;No;No;No;No;Yes;No;No;;;;;
+Linux kernel;Yes;Yes;Yes;Yes;Yes;No;No;Yes;someThe Linux kernel can recognize PE binaries through ;Yes;;No;;;;;
+MINIX 3MINIX 3 kernel;Some;No;Yes;No;No;No;No;No;No;No;No;No;;;;;
+NetBSD kernel;Yes;Yes;Yes;;;;Yes;;Yes;;;;;;;;
+ReactOS kernel;;;;;;;;;Yes;;;;;;;;
+Solaris kernel;Yes;No;Yes;No;No;No;No;No;some;No;;;;;;;
+Architecture of Windows NT#Kernel modeWindows NT kernel;No;No;Yes with WSL;No;No;No;No;No;Yes;No;No;No;Yes on x86;Yes on x86;;;Yes on x86
+XNU;No;No;No;No;No;No;Yes;No;No;No;No;No;No;No;No;No;No

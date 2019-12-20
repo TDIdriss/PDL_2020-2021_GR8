@@ -1,0 +1,25 @@
+; Trident; Gecko; WebKit; Presto
+< audio> attributes; < audio> attributes; < audio> attributes; < audio> attributes; < audio> attributes
+src; 5.0[ t 1]; 1.9.1; 525; 2.5
+preload; 5.0[ t 1]; 2.0[ note 11] [ g 90]; 525; Experimental[ note 11]
+autoplay; 5.0[ t 1]; 1.9.1; 525; 
+loop; 5.0[ t 1]; 2.5; 525; 11.0[ g 91]
+controls; 5.0[ t 1]; 2.5; 525; 1.9.1
+< video> attributes; < video> attributes; < video> attributes; < video> attributes; < video> attributes
+src; 5.0[ t 1]; 1.9.1; 525; 2.5
+preload; 5.0[ t 1]; 2.0[ note 11] [ g 90]; 525; Experimental[ note 11]
+autoplay; 5.0[ t 1]; 1.9.1; 525; 
+loop; 5.0[ t 1]; 2.5; 525; 11.0[ g 91]
+controls; 5.0[ t 1]; 2.5; 525; 1.9.1
+poster; 5.0[ t 1]; 2.5; 525; 1.9.2[ g 92]
+width; 5.0[ t 1]; 2.5; 525; 
+height; 5.0[ t 1]; 2.5; 525; 
+< source> attributes; < source> attributes; < source> attributes; < source> attributes; < source> attributes
+src; 5.0[ t 1]; 1.9.1; 525[ w 70]; 2.5
+type; 5.0[ t 1]; 1.9.1; 525[ w 70]; 2.5
+media; 5.0[ t 1]; 15.0[ g 93]; 525[ w 70]; 2.5
+< track> attributes; < track> attributes; < track> attributes; < track> attributes; < track> attributes
+kind; 6.0[ t 42]; 24.0[ g 94]; Yes[ w 71]; No
+label; 6.0[ t 42]; 24.0[ g 94]; Yes[ w 71]; No
+src; 6.0[ t 42]; 24.0[ g 94]; Yes[ w 71]; No
+srclang; 6.0[ t 42]; 24.0[ g 94]; Yes[ w 71]; No

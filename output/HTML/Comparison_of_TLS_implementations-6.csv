@@ -1,0 +1,17 @@
+Implementation; SRP[ 96]; SRP-DSS[ 96]; SRP-RSA[ 96]; PSK-RSA[ 97]; PSK[ 97]; DHE-PSK (forward secrecy)[ 97]; ECDHE-PSK (forward secrecy)[ 98]; KRB5[ 99]; DH-ANON[ 35] (insecure); ECDH-ANON[ 83] (insecure)
+Botan; Yes; Yes; Yes; No; Yes; Yes; Yes; No; Disabled by default; Disabled by default
+cryptlib; No; No; No; No; Yes; Yes; No; Unknown; No; No
+GnuTLS; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; Disabled by default; Disabled by default
+JSSE; No; No; No; No; No; No; No; Unknown; Disabled by default in Java 8; Disabled by default in Java 8
+LibreSSL; No[ 100]; No[ 100]; No[ 100]; No; No; No; No; No; Yes; Yes
+MatrixSSL; No; No; No; Yes; Yes; Yes; No; No; Disabled by default; No
+mbed TLS; No; No; No; Yes; Yes; Yes; Yes; No; No; No
+NSS; No[ 101]; No[ 101]; No[ 101]; No[ 102]; No[ 102]; No[ 102]; No[ 102]; No; Client side only, disabled by default[ 103]; Disabled by default[ 104]
+OpenSSL; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes[ 105]; Disabled by default[ 106]; Disabled by default[ 106]
+RSA BSAFE Micro Edition Suite; No; No; No; No; No; No; No; No; Disabled by default; Disabled by default
+RSA BSAFE SSL-J; No; No; No; No; Yes[ 107]; No; No; No; Disabled by default; Disabled by default
+SChannel; No; No; No; No; No; No; No; Yes; No; No
+Secure Transport; No; No; No; No; No; No; No; Unknown; Yes; Yes
+wolfSSL; No; No; No; No; Yes; No; Yes[ 108]; No; No; No
+Erlang/OTP SSL application; Disabled by default; Disabled by default; Disabled by default; Disabled by default; Disabled by default; Disabled by default; No; No; Disabled by default; Disabled by default
+Implementation; SRP[ 96]; SRP-DSS[ 96]; SRP-RSA[ 96]; PSK-RSA[ 97]; PSK[ 97]; DHE-PSK (forward secrecy)[ 97]; ECDHE-PSK (forward secrecy)[ 98]; KRB5[ 99]; DH-ANON[ 35] (insecure); ECDH-ANON[ 83] (insecure)

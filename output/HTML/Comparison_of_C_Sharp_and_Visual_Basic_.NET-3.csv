@@ -1,0 +1,5 @@
+C#; Visual Basic .NET
+for (int i = 0  i <  number  ++i) {    // loop from zero up to one less than number}; For i As Integer = 0 To number - 1    '  loop from zero up to one less than numberNext
+for (int i = number  i > = 0  --i) {    // loops from number down to zero}; For i As Integer = number To 0 Step -1    '  loops from number down to zeroNext
+for (int i = 0  i < = 20  i += 2) {    // loops from 0 to 20 by 2' s}; For i As Integer = 0 To 20 Step 2    '  loops from 0 to 20 by 2' sNext
+break  //breaks out of a loop; Exit For ' breaks out of a for loop Exit While ' breaks out of a while loop Exit Do ' breaks out of a do loop

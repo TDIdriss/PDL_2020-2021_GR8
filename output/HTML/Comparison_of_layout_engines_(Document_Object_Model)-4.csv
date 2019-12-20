@@ -1,0 +1,25 @@
+; ; Trident; Tasman; Gecko; WebKit; KHTML; Presto
+Interface CDATASection; Interface CDATASection; Interface CDATASection; Interface CDATASection; Interface CDATASection; Interface CDATASection; Interface CDATASection; Interface CDATASection
+DOM1; (no properties); No; No; 1.0; Yes; ?; 2.0
+Interface DocumentType; Interface DocumentType; Interface DocumentType; Interface DocumentType; Interface DocumentType; Interface DocumentType; Interface DocumentType; Interface DocumentType
+DOM1; name; No; No; 1.0; Yes; ?; 1.0
+DOM1; entities; No; No; ?; Yes; 1.0
+DOM1; No[ g 2]; No; No; notations; Yes; ?; 1.0
+DOM2; publicId; No; No; 1.0; Yes; ?; 1.0
+DOM2; systemId; No; No; 1.0; Yes; ?; 1.0
+DOM2; internalSubset; No; No; 1.0; Yes; ?; 1.0
+Interface Notation; Interface Notation; Interface Notation; Interface Notation; Interface Notation; Interface Notation; Interface Notation; Interface Notation
+DOM1; publicId; No; No; 1.0; Yes; ?; 2.0
+DOM1; systemId; No; No; 1.0; Yes; ?; 2.0
+Interface Entity; Interface Entity; Interface Entity; Interface Entity; Interface Entity; Interface Entity; Interface Entity; Interface Entity
+DOM1; publicId; No; No; 1.0; Yes; ?; No
+DOM1; systemId; No; No; 1.0; Yes; ?; No
+DOM1; notationName; No; No; 1.0; Yes; ?; No
+DOM3; inputEncoding; No; No; No; No; ?; No
+DOM3; xmlEncoding; No; No; No; No; ?; No
+DOM3; xmlVersion; No; No; No; No; ?; No
+Interface EntityReference; Interface EntityReference; Interface EntityReference; Interface EntityReference; Interface EntityReference; Interface EntityReference; Interface EntityReference; Interface EntityReference
+DOM1; (no properties); No; No; 1.0; Yes; ?; No
+Interface ProcessingInstruction; Interface ProcessingInstruction; Interface ProcessingInstruction; Interface ProcessingInstruction; Interface ProcessingInstruction; Interface ProcessingInstruction; Interface ProcessingInstruction; Interface ProcessingInstruction
+DOM1; target; No; No; 1.0; Yes; ?; 2.0
+DOM1; data; No; No; 1.0; Yes; ?; 2.0

@@ -1,0 +1,60 @@
+Distribution; Free software repositories; Approximate number of pre-compiled packages; Approximate number of source packages; Default package management tool(s); Package format; Default installer; Graphical installation process; Netinstall; Netboot
+Alpine Linux; Free, and nonfree; 8,135[ 169]; ?; apk; .apk; setup-alpine; No; ?; ?
+ALT Linux; Free, and nonfree; 8,300[ 170]; ?; APT (APT-RPM), RPM; RPM; ; Yes; ?; ?
+Arch Linux; Free, and nonfree; 10,700[ 171]; 71,197 from AUR[ 172]; Pacman; .pkg.tar.xz; None (third-party install scripts only); No; Yes; iPXE
+BLAG; Free only; 10,000[ 173]; ?; RPM, yum, APT; RPM; ; Yes; No; No
+Bodhi Linux; Free, and nonfree; 35,000; ?; APT; .dpkg; Ubiquity; Yes; ?; ?
+CentOS; Free, and nonfree; 17,565[ 174]; ?; RPM, yum/up2date; RPM; Anaconda; Yes; Yes; ?
+Chakra; Free, and nonfree; 3,074[ 175]; CCR:  4,663[ 176]; Pacman (will be replaced by Akabei in future); .pkg.tar.xz; ; Package manager in development; ?; ?
+ClearOS; Free, and nonfree; ?; ?; RPM, yum; RPM; ; No; ?; ?
+CrunchBang Linux; Free, and nonfree; 23,000; ?; APT; .deb; ; Yes; ?; ?
+Damn Small Linux; Free, and nonfree; 610; ?; myDSL, APT; .dsl, .tar.gz, .uci, .unc, .deb; ; No; ?; ?
+Debian; Free, and nonfree; 89,103[ 177]; 21,041[ a]; APT; .deb; Debian-Installer; Yes; Yes; PXE
+Devuan; Free, and nonfree; ?; ?; APT; .deb; Debian-Installer; Yes; Yes; PXE
+Dragora GNU/Linux-Libre; Free only; 484; ?; pkgsystem; .tlz; ?; No; No; No
+dyne:bolic; Free only; ?; ?; APT; .deb; Debian-Installer; Yes; No; No
+Fedora; Free, and nonfree; 20,000 [ 178]; 25,041[ 179]; DNF, yum, PackageKit; RPM; Anaconda; Yes; Yes; ?
+Gentoo; Free, and nonfree; 108[ 180]; 19,092[ 181] [ b]; Portage; .ebuild, .tbz2; None (third-party install scripts only); Yes[ c]; Yes; PXE
+gNewSense; Free only; ?; ?; APT; .deb; Debian-Installer; Yes; Yes; No
+gnuLinEx; Free, and nonfree; 200; ?; APT; .deb; ; Yes; ?; ?
+Guix; Free only; 9,714[ 182]; 9,714; Guix; .scm, .go; guix system init; Yes[ 183]; Yes; No
+Hyperbola GNU/Linux-libre; Free only; 14,494[ 184]; ?; Pacman; .pkg.tar.xz; None (third-party install scripts only); No; Yes; ?
+Knoppix; Free, and nonfree; 3,600; ?; APT; .deb; ; No; ?; ?
+LibreCMC; Free only; 826; ?; ?; ?; ; No; No; No
+Linux Mint; Free, and nonfree; 50,781; ?; APT; .deb; Ubiquity; Yes; ?; ?
+Mageia; Free, and nonfree; 17,283 (i586), 11,409 (x86-64)[ 185]; 8,834[ 186]; urpmi, rpmdrake; RPM; DrakX; Yes; Yes; ?
+Mandriva Linux; Free, and nonfree; 22,600; ?; urpmi, rpmdrake; RPM; DrakX; Yes; ?; ?
+Manjaro Linux; Free, and nonfree; ?; ? from AUR[ 172]; Pacman; .pkg.tar.xz; Calamares[ 187]; Yes[ 188]; Yes; iPXE
+MEPIS; Free, and nonfree; 20,000; ?; APT; .deb; MEPIS Install; Yes; ?; ?
+Musix GNU+Linux; Free only; 1,819; ?; APT; .deb; Debian-Installer; Yes; No; No
+OpenELEC; Free, and nonfree; 140[ 189]; ?; XBMCbuntu addon manager, own and 3rd party addons; .zip; ; Yes; ?; ?
+openSUSE; Free, and nonfree; 34,000; 34,000[ 190]; YaST, Zypper; RPM; YaST; Yes; Yes; ?
+OpenWrt; Free, and nonfree; 2,000; ?; opkg; .ipk; -; No; ?; ?
+Parabola GNU/Linux-libre; Free only; 23,000[ 191]; ?; Pacman; .pkg.tar.xz; None (third-party install scripts only) or Calamares; Yes; Yes; ?
+Pardus; Free, and nonfree; 4,000; ?; PiSi; .pisi; YALI; Yes; ?; ?
+Parsix; Free, and nonfree; 29,000; 14,900; APT; .deb; ; Yes; ?; ?
+PCLinuxOS; Free, and nonfree; 12,000; ?; APT, RPM; RPM; ; Yes; ?; ?
+Puppy; Free, and nonfree; 700; ?; PupGet, DotPup; .pup, .pet; ; Yes; ?; ?
+Red Hat Enterprise Linux; Free, and nonfree; 3,000 (plus 9,155 from EPEL[ 192] ); ?; RPM, yum; RPM; Anaconda; Yes; ?; ?
+Rxart; Free, and nonfree; 5,000; ?; APT; .deb; ; Yes; ?; ?
+Sabayon Linux; Free, and nonfree; > 13,130; ?; Portage, Entropy; ebuild, .tbz2; Calamares; Yes; ?; ?
+Scientific; Free, and nonfree; ?; ?; APT/yum; RPM; ; Yes; ?; ?
+Slackware; Free, and nonfree; 2,292; 7,705 from SlackBulids[ 193]; slackpkg; tgz, .txz, .tlz, .tbz; bash script[ 194]; No; Yes; Yes
+Slax; Free, and nonfree; 2,050; ?; none; .lzm; ; ; ?; ?
+SliTaz GNU/Linux; Free, and nonfree; 3,381[ 195]; ?; Tazpkg; .tazpkg; tazinst; Yes; iPXE; iPXE
+Solus; Free, and nonfree; 9,500; ?; eopkg; .eopkg; os-installer; Yes; No; No
+Source Mage GNU/Linux; Free, and nonfree; 118; 8,876; Sorcery Package Manager; src; ; Yes; ?; ?
+SUSE Linux; Free, and nonfree; 24,094; 11,385; YaST, Zypper; RPM; YaST; Yes; ?; ?
+Tiny Core Linux; Free, and nonfree; 25,160; ?; ab, tce-load; tcz; tc-install, core2usb; Yes; ?; ?
+Tiny SliTaz; Free, and nonfree; 50; ?; Web site[ 196]; tazpkg; ; No; ?; iPXE
+Tor-ramdisk; Free, and nonfree; ?; ?; none; none; ; No; ?; ?
+Trisquel; Free only; 52,748[ 197]; ?; APT; .deb; Ubiquity; Yes; Yes; ?
+TurnKey GNU/Linux; Free, and nonfree; 57,290[ 177] plus ≈30 custom packages; 21,041[ d] (currently TurnKey only supplies source code for custom packages); APT; .deb; DI-Live (custom fork of Debian Installer); No; No; No
+Ubuntu, Kubuntu, Xubuntu; Free, and nonfree; 88,367[ 198]; 24,474[ e]; APT; .deb; Ubiquity; Yes; Yes; PXE
+Ututo; Free only; 5,000; ?; UTUTO Package Manager; ebuild; ?; ?; No; No
+Vector Linux; Free, and nonfree; ?; ?; slapt-get, gslapt, installpkg; tgz; ; Yes; ?; ?
+Void Linux; Free, nonfree and multilib; 6,000; 6,719; xbps; .xbps; ncurses script; Yes; Yes; No
+XBMC Live; Free, and nonfree; ?; ?; APT; .deb; ; No; ?; ?
+Zentyal; Free, and nonfree; ?; ?; APT; .deb; dpkg; Yes; ?; ?
+Zenwalk; Free, and nonfree; 2,000; ?; netpkg, installpkg, upgradepkg; tgz, txz; ; Yes; ?; ?
+Distribution; Free software repositories; Approximate number of pre-compiled packages; Approximate number of source packages; Default package management tools; Package format; Default installer; Graphical installation process; Netinstall; Netboot

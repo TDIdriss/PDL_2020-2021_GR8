@@ -1,0 +1,49 @@
+Distribution; x86; x86-64; ia64; ppc[ 103]; ppc64; sparc32; sparc64; arm; hppa[ 104]; loongson; mips[ 105]; sh; s390; s390x; alpha[ 106]; m68k[ 107]; riscv
+Alpine Linux; Yes; Yes; No; No; Yes; No; No; Yes; No; No; No; No; No; Yes; No; No; No
+Arch Linux; Unofficial[ 108] Official discontinued 2017-11-08[ 109]; Yes; No; Discontinued unofficial port; No; No; No; Unofficial[ 110]; No; Discontinued. Unofficial port[ 111]; No; No; No; No; No; No; 
+BackTrack; Discontinued from BackTrack 5 and superseded by Kali Linux[ 112]; Discontinued from BackTrack 5 and superseded by Kali Linux; No; No; No; No; No; Discontinued from BackTrack 5 and superseded by Kali Linux; No; No; No; No; No; No; No; No; 
+BLAG; Yes; Yes; No; No; No; No; No; No; No; No; No; No; No; No; No; No; 
+Bodhi Linux; Yes; Yes; No; No; No; No; No; Discontinued 2013-10-23[ 113]; No; No; No; No; No; No; No; No; 
+BOSS Linux; Yes; Yes; No; Yes; Yes; No; No; ?; No; No; No; No; No; No; No; No; 
+CentOS; AltArch; Yes; Discontinued 3.5-3.8 4.1-4.7[ 114]; Beta, Discontinued 4.0; AltArch; Beta 4.2[ 114] [ 115]; No; AltArch; No; No; No; No; Discontinued 3.5-3.8 4.1-4.7[ 114] [ 116]; Discontinued 3.5-3.8 4.1-4.7[ 114] [ 116]; Discontinued 4.2-4.3[ 114] [ 117] [ 118]; No; 
+Chakra; No; Yes; No; No; No; No; No; ?; No; No; No; No; No; No; No; No; 
+CRUX; Yes; Yes; No; Yes; No; No; No; No; No; No; No; No; No; No; No; No; 
+Debian[ 119]; Yes; Yes 4.0+; Discontinued 3.0-7.0[ 120]; Discontinued 2.2-8; Yes; Discontinued 2.1-4.0[ 121]; Discontinued -7[ 122]; Yes 2.2+; Discontinued 3.0-5.0; Yes; Yes 3.0+; In progress; Discontinued 3.0-7; Yes 7+; Discontinued 2.1-5.0; Discontinued 2.0-3.1; In progress[ 123]
+Devuan; Yes; Yes; No; No; No; No; No; Yes; No; No; No; No; No; No; No; No; 
+Dragora GNU/Linux-Libre; Yes; Yes; No; No; No; No; No; No; No; No; No; No; No; No; No; No; 
+dyne:bolic; Yes; No; No; No; No; No; No; No; No; No; No; No; No; No; No; No; 
+Fedora[ 124]; Yes; Yes; Discontinued from Fedora 9 [ 125]; Discontinued from Fedora 17; Yes; No; Inactive from Fedora 12[ 126]; Yes[ 127]; No; In progress; Inactive from Fedora 13 [ 128]; No; No; Yes; No; No; In progress[ 129]
+Finnix; Yes; Yes; No; Yes; Yes; No; No; No; No; No; No; No; No; No; No; No; 
+Gentoo[ 130]; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes[ 131]; Yes; Yes[ 132]; Yes[ 133] [ 134]; Yes; Yes; Yes; Yes; Yes; Test release[ 135]
+gNewSense; Yes; Yes; No; No; No; No; No; No; No; Yes; Yes; No; No; No; No; No; 
+Guix[ 136]; Yes; Yes; No; No; No; No; No; No; No; No; No; No; No; No; No; No; 
+Hyperbola GNU/Linux-libre; Yes; Yes; No; No; In progress[ 137]; No; No; No; No; No; No; No; No; No; No; No; In progress[ 138]
+Kali Linux; Yes; Yes; No; No; No; No; No; Yes; No; No; No; No; No; No; No; No; 
+LibreCMC; No; No; No; No; No; No; No; No; No; No; Yes XBurst; No; No; No; No; No; 
+Manjaro Linux; Yes Unofficial[ 139]; Yes; No; No; No; No; No; Yes Unofficial[ 140]; No; No; No; No; No; No; No; No; 
+MEPIS; Yes; Yes; No; No; No; No; No; Yes; No; No; No; No; No; No; No; No; 
+Musix GNU+Linux; Yes; No; No; No; No; No; No; No; No; No; No; No; No; No; No; No; 
+OpenELEC; Yes; Yes; No; No; No; No; No; Yes; No; No; No; No; No; No; No; No; 
+openSUSE[ 141]; Discontinued 42.1; Yes; No; No[ 142]; No[ 142]; No; partial[ 143]; partial[ 144]; No; No; No; No; No; No; No; No; 
+OpenWrt[ 145]; Yes; Yes; No; Yes; No; No; No; Yes; No; No; Yes; Yes; No; No; No; No; 
+Oracle Linux[ 146]; Yes; Yes; Discontinued 5[ 147]; No; No; No; No; No; No; No; No; No; No; No; No; No; 
+Parabola GNU/Linux-libre; Yes; Yes; No; No; Test release[ 148]; No; No; Yes, ARMv7[ 149] [ 150]; No; Discontinued[ 151]; Discontinued[ 151]; No; No; No; No; No; Test release[ 152]
+Red Flag Linux; Discontinued 8.0[ 153]; Discontinued 8.0[ 153]; Discontinued 3[ 154]; No; Discontinued 3[ 154]; No; No; No; No; No; No; No; No; No; No; No; 
+Red Hat Linux[ 155]; Discontinued 9.0; No; Discontinued 7.1-7.2; Test release 5.1[ 156]; No; Discontinued 4.0-4.2 5.1-6.2; Test release 5.1[ 156]; No; No; No; Test release 5.1[ 156]; No; Discontinued 7.2; Yes; Discontinued 2.1-7.1; Test release 5.1[ 156]; 
+Red Hat Enterprise Linux[ 157]; Discontinued 2.1-6[ 158]; Yes 3+; Discontinued 2.1-5[ 159]; Yes 3+; Yes 3+; No; No; No; No; No; No; No; Discontinued 3-4[ 160]; Yes 3+; No; No; 
+Sabayon Linux; Discontinued; Yes; No; No; No; No; No; No; No; No; No; No; No; No; No; No; 
+Scientific Linux; Yes; Yes; Discontinued 3-4; No; No; No; No; No; No; No; No; No; No; No; No; No; 
+SHR; No; No; No; No; No; No; No; Yes; No; No; No; No; No; No; No; No; 
+Slackware; Yes; Yes; No; No; No; Discontinued ?[ 161]; No; Yes; No; No; No; No; Discontinued ?[ 162]; Discontinued ?[ 162]; Discontinued 8.1[ 163]; No; 
+Solus; No; Yes; No; No; No; No; No; No; No; No; No; No; No; No; No; No; No
+Source Mage GNU/Linux; Yes; Yes; No; Yes; No; No; No; No; No; ?; No; No; No; No; No; No; 
+SUSE Linux Enterprise Server[ 164]; Yes; Yes; Yes; Yes; Yes; No; No; AArch64 only[ 165]; No; No; No; No; No; Yes; No; No; 
+Tor-ramdisk; Yes; Yes[ 166]; No; No; No; No; No; No; No; No; Yes[ 167]; No; No; No; No; No; 
+Trisquel GNU/Linux; Yes; Yes; No; No; No; No; No; No; No; No; No; No; No; No; No; No; 
+TurnKey GNU/Linux; Selected ISOs available; Yes; No; No; No; No; No; No - but under development by community; No; No; No; No; No; No; No; No; 
+Ubuntu/Kubuntu/Xubuntu/Lubuntu; Yes; Yes; No; Yes; Yes; No; No; Yes, including 64-bit ARMv8-A; No; No; No; No; No; Ubuntu only, 16.04+[ 168]; No; No; 
+Ututo; Yes; Yes; No; No; No; No; No; No; No; In progress; No; No; No; No; No; No; 
+Void Linux; Yes; Yes; No; No; No; No; No; Yes; No; No; No; No; No; No; No; No; 
+XBMCbuntu; Yes; No; No; No; No; No; No; Yes; No; No; No; No; No; No; No; No; 
+Yellow Dog Linux; No; No; No; Yes; Yes; No; No; No; No; No; No; No; No; No; No; No; 
+Distribution; x86; x86-64; ia64; ppc; ppc64; sparc32; sparc64; arm; hppa; loongson; mips; sh; s390; s390x; alpha; m68k; riscv

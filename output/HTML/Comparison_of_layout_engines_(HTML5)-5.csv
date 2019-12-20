@@ -1,0 +1,9 @@
+; Trident; Gecko; WebKit; KHTML; Presto
+Unordered and ordered lists; Unordered and ordered lists; Unordered and ordered lists; Unordered and ordered lists; Unordered and ordered lists; Unordered and ordered lists
+ul; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
+ol; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
+li; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
+Definition lists; Definition lists; Definition lists; Definition lists; Definition lists; Definition lists
+dl; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
+dt; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
+dd; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0

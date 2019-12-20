@@ -1,0 +1,10 @@
+Model; Launch; Model Number; Code name; Fab (nm); Bus interface; Core clock (MHz); Memory clock (MHz); Core config; Fillrate; Fillrate; Memory; Memory; Memory; Memory; API compliance (version); API compliance (version); Processing power (GFLOPS); Notes
+Model; Launch; Model Number; Code name; Fab (nm); Bus interface; Core clock (MHz); Memory clock (MHz); Core config; Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; Processing power (GFLOPS); Notes
+Mobility Radeon X2300; March 1, 2007; M64; RV515; 90; PCIe x16; 480; 400; 2:4:4:41; 1.92; 1.92; 128; 6.4 12.8; DDR DDR2 GDDR3; 64 128; 9.0c; 2.0; Unknown; renamed product, HyperMemory, no UVD, PowerPlay 6.0
+Mobility Radeon X2500; June 1, 2007; M66; RV530; 90; PCIe x16; 460; 400; 5:12:4:41; 1.84; 1.84; 256; 12.8; DDR DDR2 GDDR3; 128; 9.0c; 2.0; Unknown; based on X1600/1700, HM up to 768Mb, no UVD, PowerPlay 6.0
+Mobility Radeon HD 2300; March 1, 2007; M71; RV515; 90; PCIe x16; 480; 400; 2:4:4:41; 1.92; 1.92; 128 256 512; 6.4 12.8; DDR DDR2 GDDR3; 64 128; 9.0c; 2.0; Unknown; same as X2300, but with UVD, PowerPlay 6.0
+Mobility Radeon HD 2400; May 14, 2007; M72S; RV610; 65; PCIe x16; 450; 400; 1.8; 1.8; 6.4; DDR2; 64; 10.0; 2.0 (3.3); 36; UVD, PowerPlay 7.0; 
+Mobility Radeon HD 2400 XT; May 14, 2007; M72M; RV610; 65; PCIe x16; 40:4:42; 600 600; 400 700; 256+ Hyper Memory; 2.4; 2.4; 64; 10.0; 2.0 (3.3); 6.4 11.2; UVD, PowerPlay 7.0; 48; 
+Mobility Radeon HD 2600; May 14, 2007; M76M; 500 500; 65; PCIe x16; 400 600; DDR2 GDDR3; 2.0; 256+ Hyper Memory; 4.0; 12.8 19.2; 120; 10.0; 2.0 (3.3); UVD, PowerPlay 7.0; 
+Mobility Radeon HD 2600 XT; May 14, 2007; RV630; M76XT; 65; PCIe x16; 120:8:42; 680; 750; 256+ Hyper Memory; 128; 2.72; 5.44; 10.0; 2.0 (3.3); 24; UVD, PowerPlay 7.0; 
+Mobility Radeon HD 2700; December 12, 2007; RV630; M76; 65; PCIe x16; 120:8:42; GDDR3; 168; 650; 128; 700; 2.6; 10.0; 2.0 (3.3); 5.2; UVD, PowerPlay 7.0; 256+ Hyper Memory (total 768); 22.4

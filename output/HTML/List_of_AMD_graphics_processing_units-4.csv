@@ -1,0 +1,5 @@
+Model; Launch; Fab (nm); Bus interface; Memory; Memory; Memory
+Model; Launch; Fab (nm); Bus interface; Size (KiB); Bus type; Bus width (bit)
+Mach 8; 1991; 800; ISA, MCA; 512 1024; DRAM VRAM; 32
+Mach 32; 1992; 800; ISA, EISA, VLB PCI, MCA; 1024 2048; DRAM VRAM; 
+Mach 64; 1994; 600; ISA, VLB, PCI; 1024, 2048, 4096, 8192; 64; DRAM, VRAM, SGRAM

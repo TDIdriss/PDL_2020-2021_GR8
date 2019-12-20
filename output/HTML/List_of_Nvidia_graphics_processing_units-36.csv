@@ -1,0 +1,10 @@
+Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Clock speed; Clock speed; Clock speed; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Supported API version; Supported API version; Processing power (GFLOPS); TBP (Watts); Notes
+Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Core (MHz); Shader (MHz); Memory (MHz); Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; Processing power (GFLOPS); TBP (Watts); Notes
+GeForce G 102M; January 8, 2009; MCP79XT; 65; Integrated (PCIe 1.0 ×16); 16:8:4; 450?; 1000; 800 (system memory); 1.8; 3.6; Up to 512 from system memory; 6.4; DDR2; 64; 10.0; 3.3; 48; 14; PureVideo HD, CUDA, Hybrid SLI, based on GeForce 9400M G
+GeForce G 103M; January 1, 2009; N10M-GE2(G98); 65; PCIe 2.0 ×16; 8:8:4; 640; 1600; 1000; 2.56; 5.12; 512; 8; DDR2; 64; 10.0; 3.3; 38; 14; 
+GeForce G 105M; January 8, 2009; N10M-GE1(G98); 65; PCIe 2.0 ×16; 8:8:4; 640; 1600; 1000 1400; 2.56; 5.12; ; 8 11; GDDR2 GDDR3; 64; 10.0; 3.3; 38; 14; 
+GeForce G 110M; January 8, 2009; N10M-GE1(G96b); 16:8:4; PCIe 2.0 ×16; 400; 1000; 1000 1400; 1.6; 3.2; 8 11; DDR2 GDDR3; 48; PureVideo HD, CUDA, Hybrid SLI; 64; 10.0; 3.3; 14; 
+GeForce GT 120M; February 11, 2009; 55; N10P-GV1(G96b); PCIe 2.0 ×16; 500; 1250; 1000; 4; 1024; 8; 16; DDR2; 110; 23; 10.0; 3.3; PureVideo HD, CUDA, Hybrid SLI, Comparable to the 9500M GT and 9600M GT DDR2 (500/1250/400); 
+GeForce GT 130M; January 8, 2009; 55; N10P-GE1(G96b); PCIe 2.0 ×16; 600; 1500; 1000 1600; 4.8; 1024; 9.6; 16 25.6; 128; DDR2 GDDR3; 23; 10.0; 3.3; 144; PureVideo HD, CUDA, Hybrid SLI, comparable to the 9650M GT; 
+GeForce GTS 150M; March 3, 2009; 55; N10E-GE1(G94b); PCIe 2.0 ×16; 400; 1000; 1600; 6.4; 1024; 12.8; GDDR3; 256; 192; Unknown; 10.0; 3.3; 
+GeForce GTS 160M; March 3, 2009; 55; N10E-GS1(G94b); PCIe 2.0 ×16; 600; 1500; 1600; 9.6; 1024; 51.2; GDDR3; 256; 19.2; 288; 10.0; 3.3; 60; 

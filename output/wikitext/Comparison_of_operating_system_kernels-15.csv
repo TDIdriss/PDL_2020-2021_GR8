@@ -1,0 +1,5 @@
+Kernel name;ACLAsynchronous connection-oriented;SCOSynchronous connection-oriented;LMPLink management protocol;HCIHost/controller interface;L2CAPLogical link control and adaptation protocol;BNEPBluetooth network encapsulation protocol;RFComm.Radio frequency communication;SDPService discovery protocol;TCPTelephony control protocol;AVTCPAudio/visual control transport protocol;AVDTPAudio/visual data transport protocol;OBEXObject exchange;CMTP;HIDP;HCRP;CAPI;PPP
+FreeBSD kernel;;;;yes;yes;;yes;yes;;;;no;;;;;
+Linux;;yes;;yes;yes;yes;yes;;;;;;yes;yes;;;
+macOS XNU Kernel;;;;;yes;;yes;yes;;;;no;;;;;
+Kernel name;ACL;SCO;LMP;HCI;L2CAP;BNEP;RFComm.;SDP;TCP;AVTCP;AVDTP;OBEX;CMTP;HIDP;HCRP;CAPI;PPP

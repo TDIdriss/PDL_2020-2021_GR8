@@ -1,0 +1,30 @@
+Model; Launch; Code name; Fab (nm); Transistors (million); Die size (mm2); Bus interface; Clock rate; Clock rate; Core config; Fillrate; Fillrate; Fillrate; Fillrate; Memory; Memory; Memory; Memory; TDP (Watts); API support (version); API support (version); Release Price (USD)
+Model; Launch; Code name; Fab (nm); Transistors (million); Die size (mm2); Bus interface; Core (MHz); Memory (MHz); Core config; MOperations/s; MPixels/s; MVertices/s; MTexels/s; Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Max.; Direct3D; OpenGL; Release Price (USD)
+Radeon X1300; Oct. 5, 2005 (PCI-E) Dec. 1, 2005 (AGP); RV515; 90; 107; 100; AGP 8x PCI PCI-E x16; 450; 250; 4:2:4:4; 1800; 1800; 225; 1800; 128 256; 8.0; DDR2; 128; ; 9.0c; 2.1; $
+Radeon X1300 HyperMemory; Oct. 5, 2005; RV515; 90; 107; 100; PCI-E x16; 450; 250; 4:2:4:4; 1800; 1800; 225; 1800; 128 256 512; 8.0; DDR2; 64; ; 9.0c; 2.1; $
+Radeon X1300 PRO; Oct. 5, 2005 (PCI-E) Nov. 1, 2006 (AGP); RV515; 90; 107; 100; 600; 2400; 2400; 4:2:4:4; 300; 2400; 12.8; 128; 31; DDR2; 9.0c; 2.1; $
+Radeon X1300 XT; Aug. 12, 2006; RV530; 90; 157; 150; 400; 12:5:4:4; 6000; 2000; 625; 128 256; 12.8; 128; 2000; 22; DDR2; 9.0c; 2.1; $
+Radeon X1550; Jan. 8, 2007; RV516; 90; 107; 100; 400; AGP 8x PCI PCI-E x16; 4:2:4:4; 2200; 2200; 275; 12.8; 128; 2200; 27; DDR2; 9.0c; 2.1; $
+Radeon X1600 PRO; Oct. 10, 2005; RV530; 90; 157; 500; AGP 8x PCI-E x16; 390; 12:5:4:4; 6000; 128 256 512; 2000; 128; 625; 2000; DDR2; 12.48; 41; 9.0c; 2.1; $
+Radeon X1600 XT; Oct. 10, 2005 (PCI-E); RV530; 90; 157; 590; 150; AGP 8x PCI-E x16; 780; 12:5:4:4; 7080; 2360; 737.5; 128; 2360; 22.08; GDDR3; 42; 9.0c; 2.1; $
+Radeon X1650; Feb. 1, 2007; RV530; 90; 157; 500; 150; AGP 8x PCI-E x16; 256 512; 12:5:4:4; 6000; 2000; 625; 128; 2000; DDR2; 9.0c; 2.1; $
+Radeon X1650 SE; ; RV516; 90; 400; 105; ; PCI-E x16; 635; 4:2:4:4; 12.8; ; ; 128; ; ; ; 256; DDR2; 9.0c; 2.1; $
+Radeon X1650 GT; May 1, 2007 (PCI-E) Oct. 1, 2007 (AGP); RV560; 400; 330; 230; AGP 8x PCI-E x16; 400; 24:8:8:8; 12.8; 9600; ; 128; 3200; 800; 3200; 9.0c; 2.1; $
+Radeon X1650 PRO; Aug. 23, 2006 (PCI-E) Oct. 15, 2006 (AGP); RV535; 131; 80; 330; 600; AGP 8x PCI-E x16; 12:5:4:4; 7200; 2400; 750; 2400; 128; 256 512; GDDR3; 44; 9.0c; 2.1; $
+Radeon X1650 XT; Oct. 30, 2006; RV560; 230; 80; 330; 700; AGP 8x PCI-E x16; 525; 24:8:8:8; 12600; 4200; 22.4; 128; 256 512; GDDR3; 1050; 4200; 55; 9.0c; 2.1; $
+Radeon X1800 CrossFire Edition; Dec. 20, 2005; R520; 90; 321; 700; PCI-E x16; 600; 16:8:16:16; 9600; 9600; 900; 9600; 512; GDDR3; 46.08; 113; 9.0c; 2.1; $
+Radeon X1800 GTO; Mar. 9, 2006; R520; 90; 321; 495; 288; PCI-E x16; 12:8:12:8; 6000; 6000; 1000; 6000; 256 512; 48; GDDR3; 256; $249; 9.0c; 2.1; 
+Radeon X1800 XL; Oct. 5, 2005; R520; 90; 321; 500; 288; PCI-E x16; 8000; 8000; 1000; 32.0; 8000; 256; 70; GDDR3; 256; $; 9.0c; 2.1; 
+Radeon X1800 XT; Oct. 5, 2005; R520; 90; 321; 625; 288; PCI-E x16; 750; 10000; 256 512; 48.0; 113; $549; GDDR3; 256; 9.0c; 2.1; 
+Radeon X1900 CrossFire Edition; Jan. 24, 2006; R580; 90; 384; 10000; 1250; PCI-E x16; 10000; 625; 725; 48:8:16:16; 30000; 512; 46.4; GDDR3; 256; 100; $599; 9.0c; 2.1; 
+Radeon X1900 GT; May 5, 2006; R580; 90; 384; 352; 575; PCI-E x16; 20700; 6900; 1150; 6900; 38.4; 75; $; GDDR3; 256; 9.0c; 2.1; 
+Radeon X1900 GT Rev. 2; Sept. 7, 2006; R580; 90; 384; 352; 36:8:12:12; PCI-E x16; 512; 18432; 6144; 256; 1024; 6144; $; GDDR3; 256; 42.64; ; 9.0c; 2.1; 
+Radeon X1900 XT; Jan. 24, 2006; R580; 90; 384; 352; 625; PCI-E x16; 725; 30000; 10000; 1250; 10000; 256 512; 46.4; GDDR3; 256; 100; $549; 9.0c; 2.1; 
+Radeon X1900 XTX; Jan. 24, 2006; R580; 90; 384; 352; 775; PCI-E x16; 31200; 10400; 1300; 10400; 49.6; 135; $649; GDDR3; 256; 9.0c; 2.1; 
+Radeon X1950 CrossFire Edition; Aug. 23, 2006; 650; R580+; 384; 352; 1000; PCI-E x16; 512; 31200; 10400; 1300; 10400; 64; GDDR4; ; 256; $449; 9.0c; 2.1; 
+Radeon X1950 GT; Jan. 29, 2007 (PCI-E) Feb. 10, 2007 (AGP); RV570; 80; 230; AGP 8x PCI-E x16; 500; 600; 36:8:12:12; 18000; 6000; 1000; 6000; 256 512; 38.4; 256; GDDR3; 57; 9.0c; 2.1; $140
+Radeon X1950 PRO; Oct. 17, 2006 (PCI-E) Oct. 25, 2006 (AGP); RV570; 575; 80; 230; AGP 8x PCI-E x16; 690; 20700; 36:8:12:12; 6900; 1150; 6900; 44.16; 256 512; 66; 256; GDDR3; 9.0c; 2.1; 
+Radeon X1950 XT; Oct. 17, 2006 (PCI-E) Feb. 18, 2007 (AGP); R580+; 80; 352; AGP 8x PCI-E 1.0 x16; 625; 700 (AGP) 900 (PCI-E); 48:8:16:16; $; 30000; 10000; 1250; 256 512; 10000; 256; GDDR3; 44.8 (AGP) 57.6 (PCI-E); 9.0c; 2.1; 96
+Radeon X1950 XTX; Oct. 17, 2006; R580+; PCI-E 1.0 x16; 80; 352; 650; 1000; 31200; 48:8:16:16; 10400; 1300; 10400; 512; 64; GDDR4; 256; 125; $449; 9.0c; 2.1; 
+Model; Launch; Code name; Fab (nm); Transistors (million); Die size (mm2); Bus interface; Core (MHz); Memory (MHz); Core config; MOperations/s; MPixels/s; MVertices/s; MTexels/s; Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Max.; Direct3D; OpenGL; Release Price (USD)
+Model; Launch; Code name; Fab (nm); Transistors (million); Die size (mm2); Bus interface; Memory; Memory; Core config; TDP (Watts); API support (version); API support (version); Release Price (USD)

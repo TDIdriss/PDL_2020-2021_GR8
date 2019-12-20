@@ -1,0 +1,6 @@
+Model; Archi- tecture; Chips; Thread processors (total); Bus interface; Memory; Memory; TDP (Watts)
+Model; Archi- tecture; Chips; Thread processors (total); Bus interface; Bus type; Size (GB); TDP (Watts)
+GRID K1[ 216]; Kepler; 4× GK107; 4× 192; PCIe 3.0 ×16; DDR3; 4× 4GB; 130
+GRID K2[ 217]; Kepler; 2× GK104-895; 2× 1536; PCIe 3.0 ×16; 2× 4GB; 
+GRID K340; Kepler; 4× GK107; GDDR5; PCIe 3.0 ×16; 225; 4× 384; 4× 1GB
+GRID K520; Kepler; 2× GK104; GDDR5; PCIe 3.0 ×16; 225; 2× 1536; 2× 4GB

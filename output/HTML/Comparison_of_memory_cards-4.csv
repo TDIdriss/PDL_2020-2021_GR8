@@ -1,0 +1,32 @@
+Card; Varieties; Max storage capacity (nom. in GiB); Theoretical max. capacity (nom. in GiB); Max read speed (MB/s); Max write speed (MB/s); Read-write cycles; Low-level access; Operating voltage (V)[ 9]; Controller chip[ 10]; # of pins
+CompactFlash; I; 512; 128  PiB[ 2] (134,217,728  GiB); 167[ 11]; 167[ 11]; ; NOR/NAND; 3.3 and 5; Yes; 50
+CompactFlash; II; 12; 128  PiB[ 2] (134,217,728  GiB); 167[ 11]; 167[ 11]; ; NOR/NAND; 3.3 and 5; Yes; 50
+SmartMedia; ; 128  MiB (0.125  GiB); ; 2; ; 1,000,000; NAND; 3.3 or 5; No; 22
+MMC; MMC; 8; 128; 2; 2; 1,000,000[ 12]; NAND; 3.3; 7; 
+MMC; RS-MMC; 2; 128; 2[ 13]; 2[ 13]; 1,000,000[ 12]; NAND; Yes; 3.3; 7
+MMC; MMCmobile; 2; 128; 15[ 14]; 8[ 14]; 1,000,000[ 12]; NAND; Yes; 1.8 and 3.3; 13
+MMC; MMCplus; 4[ 15]; 128; 52[ 16]; 52[ 16]; 1,000,000[ 12]; NAND; Yes; 3.3; 13
+MMC; MMCmicro; 2; 128; ; ; 1,000,000[ 12]; NAND; Yes; 1.8 and 3.3; 10[ 17]
+MMC; eMMC; ; 2  TiB (2048  GiB); 104; 104; ; NAND; 1.8 and 3.3; Varies; 
+Secure Digital[ 18]; SD (SDSC); 512; 4; 25[ 19]; 25; ; NAND; Yes; 9; 
+Secure Digital[ 18]; miniSD; 8; 4; 25; 25; ; NAND; Yes; 11; 
+Secure Digital[ 18]; microSD; 4; 4; 25; 25; ; NAND; Yes; 8; 
+Secure Digital[ 18]; SDHC; 32[ 20]; 104 (UHS-I); 104 (UHS-I); ; 1.8 and 3.3; NAND; 9; 
+Secure Digital[ 18]; miniSDHC; 32; 4[ 21]; 104 (UHS-I); 104 (UHS-I); 1.8 and 3.3; NAND; ; 11; 
+Secure Digital[ 18]; microSDHC; 32; 32[ 3]; 104 (UHS-I); 104 (UHS-I); 1.8 and 3.3; NAND; ; 8; 
+Secure Digital[ 18]; SDXC; 512[ 22]; 104 (UHS-I); 104; ; 2.7–3.6[ 23]; NAND; 9; 
+Secure Digital[ 18]; microSDXC; 2  TiB (2048  GiB); 1 TiB [ 24]; 104 (UHS-I); 104 (UHS-I); 2.7–3.6[ 23]; NAND; ; 8; 
+Memory Stick; Standard; 128  MiB (0.125  GiB); 128  MiB (0.125  GiB); 2.5; 1.8; ; NAND; 3.3; 10; 
+Memory Stick; PRO; 4; 20; 20; ; 3.3; NAND; Yes; 10; 
+Memory Stick; PRO Duo; 2  TiB (2048  GiB); 32[ 25]; 20; 20; ; NAND; Yes; 10; 3.3
+Memory Stick; PRO-HG Duo; 2  TiB (2048  GiB); 32[ 26]; 30 (actual [ 27] theoretical: 60[ 28] ); 30 (actual [ 27] theoretical: 60[ 28] ); ; NAND; Yes; 10; 3.3
+Memory Stick; Micro (M2); 16[ 29]; 32; 20; 20; ; NAND; Yes; 10; 1.8 and 3.3
+Memory Stick; xC; ; 2  TiB (2048  GiB); 60; 60; ; NAND; Yes; 10; 3.3
+xD; ; 512  MiB (0.5  GiB); 512  MiB (0.5  GiB); 5; 3; ; NAND; No; 18; 
+xD; Type M; 2; 8; 4; 2.5; ; NAND; No; 18; 
+xD; Type H; 2; 8; 5; 4; ; NAND; No; 18; 
+xD; Type M+; 2; 8; 6; 3.75; ; NAND; No; 18; 
+XQD; ; 64; 2+  TiB (2+  GiB); 168; 168; ; NAND; 5; ; 
+USB; Full speed (USB 1); 2048[ 30] (2  TiB); No hardware limit; 1; 1; ; NAND; Yes; 4; 
+USB; High speed (USB 2.0); 2048[ 30] (2  TiB); No hardware limit; 40; 40; ; NAND; Yes; 4; 
+USB; Super speed (USB 3.0); 2048[ 30] (2  TiB); No hardware limit; 240; 160; ; NAND; Yes; 4; 

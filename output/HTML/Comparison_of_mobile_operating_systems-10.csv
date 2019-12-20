@@ -1,0 +1,11 @@
+Feature; Android; iOS; Windows 10 Mobile; BlackBerry 10; Tizen; Sailfish OS; Ubuntu Touch
+Audio playback; AAC LC/LTP 3GPP, HE-AACv1 (AAC+), HE-AACv2 (enhanced AAC+) AMR-NB, AMR-WB, MP3, MIDI (Type 0 and 1, DLS versions 1 and 2), Ogg Vorbis, PCM/WAVE, FLAC, WAVE, Opus[ 345]; AAC, protected AAC (from iTunes Store), HE-AAC, MP3, MP3 VBR, Audible (formats 2, 3, 4, Audible Enhanced Audio, AAX, and AAX+), Apple Lossless, AIFF, WAV[ 346]; MP3, WMA Std 9.2, WMA Pro, FLAC, AMR-NB, AAC-LC, AAC+, eAAC+[ 347]; MP3, FLAC, AAC, AAC+, eAAC+, WAV, WMA pro, AMR-NB, MIDI, AWB, M4A, MKA, OGG[ 348]; AAC, AAC+, eAAC+, AMR-NB, AMR-WB, MP3, Vorbis, WAV[ 349]; MP3, FLAC, AAC, eAAC, eAAC+, ALAC, AC3, DTS, Opus, Vorbis; ?
+Video playback; H.263, H.264 (up to Baseline Profile), H.265 HEVC, MPEG-4 SP, DivX, XviD, VP8, VP9[ 345] (WMV on 3rd party software like VLC media player); H.264 (up to High Profile), MPEG-4, M-JPEG[ 346]; H.263, H.264, WMV, MPEG4, MPEG4 @ HD 720p 30fps, DivX, XviD[ 350]; MP4, WMV, H.263, H.264, DivX, WMV, XviD, 3GGP, 3GP2, ASF, AVI, F4V, M4V, MKV, MOV, MPEG4, MPEG-2[ 348]; H.263, H.264, MPEG-4 Part 2[ 349]; MPEG-4, H264, H263,[ 351] although audio in recorded videos is out of sync[ 352]; ?
+Wired video out; 4K on 6+[ 353]; Up to 1080p via HDMI[ 354] or VGA,[ 355] 576p/480p via component[ 356] or composite [ 357]; 8.1+ USB[ 358]; 10+ 1080p via microHDMI,[ 359] SlimPort (BlackBerry Passport)[ 360]; No; No[ 361]; Yes
+Wired digital audio output; 5+ USB Audio[ 362]; 7+: USB Audio[ 363]; 10+: USB Audio on USB-C devices[ 364]; USB Audio; No; No; Yes
+Wireless video/audio streaming to set top boxes/TVs/speakers; 4.2+ Miracast,[ 365] but DLNA[ 366] only available on selected devices; AirPlay[ 367]; 8.1+ Miracast on some devices[ 368]; 10+ DLNA,[ 369] 10.2+ Miracast[ 370] on some devices[ 371]; DLNA[ 372]; ?; Yes
+Media player on-device playlist creation; Yes[ 373]; Yes[ 82]; Yes[ 374]; Yes; ?; Yes; Yes
+Media player video scrubbing; Yes; Yes; 7.10.7720.0+[ 375]; ?; ?; ?; ?
+Media player audio scrubbing; Yes; Yes; 8.1+[ 376]; ?; ?; ?; ?
+Media player fine scrubbing; No,[ 377] 3rd party software like VLC media player, basic fine scrubbing removed on 4+[ 378]; Yes[ 379]; No; ?; ?; ?; ?
+Media player double speed playing; 6+[ 380]; Only Podcasts[ 381]; 8.1+ Only Podcasts[ 382]; ?; ?; ?; ?

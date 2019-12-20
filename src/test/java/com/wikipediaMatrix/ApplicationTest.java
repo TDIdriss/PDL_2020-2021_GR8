@@ -7,6 +7,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.jupiter.api.DisplayName;
 
@@ -28,7 +29,7 @@ public class ApplicationTest {
     Logger logger;
 
     public void setup() throws MalformedURLException {
-        url = new URL("https://en.wikipedia.org/wiki/Comparison_of_operating_system_kernels");
+        url = new URL("https://en.wikipedia.org/w/index.php?title=Comparison_between_Ido_and_Novial&oldid=922833112");
         ownUrl = new Url(url);
         logger = LogManager.getLogger(ApplicationTest.class);
     }
@@ -76,6 +77,7 @@ public class ApplicationTest {
     }
 
     @Test
+    @Ignore
     @DisplayName("Test si l'extracteur Html et Wikitext extraient le même nombre de tableau pour une Url")
     public void testGetNbTableaux() throws IOException, InterruptedException {
         String BASE_WIKIPEDIA_URL = "output/large_url_test.txt";
@@ -99,17 +101,15 @@ public class ApplicationTest {
     @DisplayName("Test de la validité du format du csv généré par l'extracteur Wikitext")
     public void wikitextExtractorTest() throws MalformedURLException, InterruptedException {
         setup();
-        Url urlTest = new Url(new URL("https://en.wikipedia.org/wiki/Comparison_between_U.S._states_and_countries_by_GDP_(PPP)"));
-        assertTrue(urlTest.estTitreValide());
+        assertTrue(ownUrl.estTitreValide());
         Donnee_Wikitable donneeWikitable = new Donnee_Wikitable();
-        donneeWikitable.setUrl(new Url(url));
+        donneeWikitable.setUrl(ownUrl);
         donneeWikitable.start();
         donneeWikitable.join();
 
         CSVValidator csvValidator = CSVValidator.getInstance();
-        csvValidator.setPath("wikitext/");
 
-        assertTrue(csvValidator.checkCSVWithSeparator(urlTest.getTitre()+"-1.csv", ';'));
+        assertTrue(csvValidator.checkCSVWithSeparator("wikitext/"+ownUrl.getTitre()+"-1.csv", ';'));
     }
 
     @Test
@@ -160,6 +160,7 @@ public class ApplicationTest {
     }
 
     @Test
+    @Ignore
     @DisplayName("Test avec des tableau contenant des row span ou de col span")
     public void rowSpanColSpanTableTest() throws MalformedURLException, InterruptedException {
 

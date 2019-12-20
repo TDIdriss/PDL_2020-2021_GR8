@@ -1,0 +1,29 @@
+Kernel name;Programming language;Used in;Creator;Executableformat(also see#Binary format supportsectionbelow);Type;Integrated firewall;SMP support;Multiple architecturesupport(also see#Supported CPU architecturessection below).;Multitasking;Operating system-level virtualizationVirtualization;Security;Profiling/Debugging;Soft Real-time computingreal-time support;Hard Real-time computingreal-time support;Can keep Real-time clockRTC in UT
+Agnix ;;;;;;;;;yes;;;;;;
+Amiga Exec;;AmigaOS;Commodore International;HUNK;Exokernel (atypical);no;no;no;yes;no;no;yes;no;no;no
+Amiga Exec SG (2nd Generation);;AmigaOS 4;Hyperion Entertainment;ELF/HUNK;Exokernel (atypical);no;no;no;yes;no;no;yes;no;no;
+DragonFly BSD#KernelDragonFly BSD kernel;;DragonFly BSD;Matt Dillon;ELF;hybrid;Ipfirewall,PF;yes;no;yes;chroot, Operating-system-level virtualizationjail, vkernel;Unix permissions;DDB, KGDB;;;
+FreeBSD kernel;;FreeBSD,;The FreeBSD Project;ELF, others - platform dependent;monolithic;IPFilter, Ipfirewall,PF;yes;yes;yes;chroot, jail, bhyve;Unix permissions, POSIX.1e and NFSv4 ACLs, Capsicum, TrustedBSD MAC, OpenBSM;KDB, DDB, KGDB, DTrace, hwpmc;yes;;yes
+GNU Hurd ;;GNU/Hurd (GNU variants#Arch HurdArch Hurd, GNU variants#Debian GNU/HurdDebian GNU/Hurd);GNU Project/Free Software Foundation;ELF;multiserver microkernel;no;partial;no;yes;chroot, Xen;Unix permissions, POSIX ACL, Capability-based security#POSIX capabilitiesPOSIX Capabilities;;;;
+GNU Mach ;;part of GNU Hurd, used in GNU/Hurd;GNU Project/Free Software Foundation;ELF;microkernel;no;partial;no;yes;chroot, Xen;Unix permissions, POSIX ACL, Capability-based security#POSIX capabilitiesPOSIX Capabilities;;;;
+Inferno kernel;;Inferno;Bell Labs / Vita Nuova Holdings;;virtual machine;;yes;yes;yes;chroot, Xen;;;;;
+L4 microkernel familyL4;;L4 microkernel familyL4;Jochen Liedtke;no;microkernel;no;yes;yes;yes;yes;Afterburner/L4 , Marzipan , Capability-based securitycapabilities in L4/Fiasco;L4/Fiasco;L4/Fiasco;;
+Linux kernel ;C;Linux, Android, webOS, Firefox OS, Chrome OS, Syllable Server, Mastodon Linux, OpenBSD/Linux, Plan 9/Linux, Sailfish OS, Tizen, others;Linus Torvalds;ELF, others;monolithic;*ipfwadm (2.0 –);yes;yes;yes;cgroups, chroot, Lguest, Xen, Kernel-based Virtual MachineKVM, kvm-lite, LXC;Unix permissions, POSIX ACL, Capability-based security#POSIX capabilitiesPOSIX Capabilities, keyctl, LSM(SELinux, SMACK, TOMOYO Linux, AppArmor);OProfile, kprobe, SystemTap, JProbe, ftrace, KDB, KGDB, kernel marker, perf tools;CONFIG_PREEMPT;(PREEMPT_RTCONFIG_PREEMPT_RT Patch);yes
+Compute Node Linux;;Compute Node Linux;Cray Inc.;;;;;;;;;;;;
+Mach ;;NeXTSTEP and OpenStep#OPENSTEP for MachOPENSTEP for Mach and Tru64 UNIX;Carnegie Mellon University;Mach-O;microkernel, hybrid kernel;;yes;;yes;;;;yes;;
+MINIX 3MINIX 3 kernel ;;MINIX 3;Andrew S. Tanenbaum;ELF,;microkernel;no;no;yes;yes;no;Unix permissions;Call profiling, statistical profiling, Minix Debugger (mdb);no;no;
+MkLinux ;;;OSF Research Institute and Apple Computer;;microkernel;;;;;;;;;;
+NetBSD kernel;;NetBSD,;The NetBSD Project;ELF, others - platform dependent;monolithic, anykernel using rump kernel architecture;IPFilter, PF, NPF;yes;yes;yes;Xen, chroot;kauth, Unix permissions;DDB, KGDB, tprof;POSIX real-time scheduling extensions;Kernel preemption ;
+NetWare kernel;;NetWare;Novell;NLM;hybrid;yes;yes;no;yes;;;;;;
+OpenBSD kernel;;OpenBSD;OpenBSD developers;ELF, others - platform dependent;monolithic;PF;yes;yes;yes;;Unix permissions;;;;
+OS/2OS/2 kernel;;OS/2 version 2 and above;IBM;LX;hybrid;no;yes;no PowerPC version developed but never officially released.;yes;no ;yes;yes;yes;no;
+Plan 9 kernel;;Plan 9 from Bell Labs;Bell Labs;;hybrid;ipmux;yes;yes;yes;;;;;;
+ReactOS kernel;;ReactOS;ReactOS Foundation;PE, others?;hybrid;;;;yes;;;;;;
+Rockbox kernel;;Rockbox;The Rockbox Project;;;;;yes;;;;;;;
+SunOS kernel;;SunOS;Sun Microsystems;a.out;monolithic;;yes;yes;yes;;Unix permissions;;;;
+Solaris kernel;;Solaris,;Sun Microsystems;ELF (32-bit only untilSolaris 7 in 1998);monolithic;IPFilter;yes;yes;yes;Zones, chroot;Unix permissions, ACL, RBAC, Auditing, Privileges, Zones, Trusted Extensions;DTrace, CPU profiling, microstate accounting, perf counters, kernel lock stats, kstats, mdb, kmdb;Real-time scheduler;;
+Trix kernel;;Trix;Massachusetts Institute of Technology;a.out;monolithic;;yes;no;yes;;;;;;
+Architecture of Windows NT#Kernel modeWindows NT kernel ;;Windows NT, Windows 20002000,XP, Windows 20032003, Vista, Windows 7, Windows 8, Windows Phone 8, Windows Phone 8.1, Windows 10;Microsoft;PE, others?;hybrid;yes;yes;yes;yes;Hyper-V;ACL;Event Tracing;Multimedia Class Scheduler Service;no;unofficial
+XNU (Darwin kernel) ;C, C++;Mac OS X, iOS, iPadOS, tvOS, watchOS,;Apple Inc.;Mach-O;hybrid;Ipfirewall,PF (starting in Lion);yes;yes;yes;chroot;Unix permissions, NT/NFSv4 ACLs, TrustedBSD MAC, OpenBSM;KDB, DDB, DTrace;yes;no;yes
+SPARTAN kernel ;;HelenOS;Jakub Jermar;ELF;microkernel;;yes;yes;yes;;;;;;
+Kernel name;;Used in;Creator;Executableformat(also see#Binary format supportsectionbelow);Type;Integrated firewall;SMP support;Multiple architecturesupport(also see#Supported CPU architecturessection below).;Multitasking;Operating system-level virtualizationVirtualization;Security;Profiling/Debugging;Soft Real-time computingreal-time support;Hard Real-time computingreal-time support;Can keep Real-time clockRTC in UT

@@ -1,0 +1,14 @@
+; Trident; Gecko; WebKit; KHTML; Presto
+Basic table elements; Basic table elements; Basic table elements; Basic table elements; Basic table elements; Basic table elements
+table; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
+caption; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
+tr; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
+th; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
+td; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
+Row groups; Row groups; Row groups; Row groups; Row groups; Row groups
+thead; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
+tbody; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
+tfoot; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
+Column groups; Column groups; Column groups; Column groups; Column groups; Column groups
+colgroup; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
+col; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0

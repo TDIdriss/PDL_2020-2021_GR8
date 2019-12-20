@@ -1,0 +1,15 @@
+Feature; Android; iOS; Windows 10 Mobile; BlackBerry 10; Tizen; Sailfish OS; Ubuntu Touch
+Cut, copy, and paste; Yes[ 134]; 3+[ 135]; Yes[ 136]; Yes; Yes[ 137]; Yes; Yes
+Multi-Device clipboard; No; 10+[ 138]; No, 3rd party software[ 139]; No; No; No; No
+Undo; No[ 140]; 3+[ 141]; Optional for developers, UWP API have this feature[ 142] [ 143]; No; No; No[ 144]; Yes
+Custom home and lock screen wallpaper; Yes; 4+[ 82]; Yes; Yes; Yes; Yes (incl. Ambience); Yes
+Desktop sync; No,[ 145] but available using the vendor's companion/PC suite application such as Samsung Smart Switch & HTC Sense[ 146]; Yes; Yes; Yes; Yes; ?; Yes
+Local full backup; Yes, via external computer[ 147]; Yes, using external computer[ 148]; 3rd party software, like WP internals on external computer, officially removed in WP8,[ 149] was available on WP7 in Zune only when performing update, or anytime via 3rd party software[ 150] [ 151]; Yes, using external computer[ 152] and memory card (7+)[ 153]; No[ 154]; Yes; Yes
+Core data missing sync; Bookmarks[ 155] (before 4), SMSs and Settings[ 156]; ; Favorites,[ 157] Text Messages[ 158] and Settings[ 159]; ?; ?; ?; ?
+Notification center; Yes; 5+[ 160]; 8.1+[ 101]; 6+[ 161]; 2+[ 162]; Yes; Yes
+Push notifications; Yes[ 163]; Yes (Apple Push Notification Service); Yes[ 164]; Yes; 2+[ 165]; Yes; Yes
+Screenshot; 4+ also available on earlier versions with customized firmware, such as Cyanogen Mod and on older Samsung Galaxy smartphones[ 166]; Yes[ 82] [ 167]; 8+[ 168]; 10+[ 169]; Yes; 2.0.2+[ 170]; Yes
+iCalendar import; No,[ 171] but 3rd party app available[ 172]; Yes[ 173]; 3rd party software (only import not subscribe)[ 174]; Yes[ 175]; ?; 1.1.6.27+[ 176]; No
+Text/document support (read only creating using third party apps); Microsoft Office, PDF, TXT/RTF; Microsoft Office,[ 177] [ 178] [ 179] iWork, PDF, Images, TXT/RTF, VCF; Microsoft Office 2003/2007, PDF, Images, TXT/RTF; Microsoft Office, PDF, OpenDocument, TXT; Read only: text files, PDF, HTML, Multiple office formats; Microsoft Office, OpenDocument, PDF, Text; Yes
+Printer support; 4.4+ using Google Cloud Print[ 180] but not over USB unless proprietary vendor solutions such as HP Print Service are used[ 181]; Yes (AirPrint)[ 182]; 10+[ 183]; Yes; No; ?; Beta
+Show remembered Wi-Fi connections; Yes; No, 3rd party software on jailbroken devices[ 184]; Yes; Yes; ?; Yes; Yes

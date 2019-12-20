@@ -1,0 +1,5 @@
+Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config1; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS); Supported API version; Supported API version; Nvidia Optimus technology; TBP (Watts)
+Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config1; Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Single precision; Direct3D; OpenGL; Nvidia Optimus technology; TBP (Watts)
+Quadro P3200; GP104; 16; PCIe 3.0 ×16; ; ; ; 1792:112:64:14; ; ; 6144; 168; GDDR5; 192; 5300; 12.1; 4.5; Yes; 78
+Quadro P4200; GP104; 16; PCIe 3.0 ×16; ; ; ; 2304:144:64:18; ; ; 8192; 168; GDDR5; 7600; 115; 12.1; 4.5; Yes; 
+Quadro P5200; GP104; 16; PCIe 3.0 ×16; ; ; ; 2560:160:64:20; ; ; 16384; 230; GDDR5; 8900; 150; 12.1; 4.5; Yes; 

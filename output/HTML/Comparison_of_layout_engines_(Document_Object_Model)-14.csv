@@ -1,0 +1,41 @@
+; ; Trident; Tasman; Gecko; WebKit; KHTML; Presto
+Exception ExceptionVAL; Exception ExceptionVAL; Exception ExceptionVAL; Exception ExceptionVAL; Exception ExceptionVAL; Exception ExceptionVAL; Exception ExceptionVAL; Exception ExceptionVAL
+DOM3; code; No; No; No; No; No; No
+Interface DocumentEditVAL; Interface DocumentEditVAL; Interface DocumentEditVAL; Interface DocumentEditVAL; Interface DocumentEditVAL; Interface DocumentEditVAL; Interface DocumentEditVAL; Interface DocumentEditVAL
+DOM3; continuousValidityChecking; No; No; No; No; No; No
+DOM3; domConfig; No; No; No; No; No; No
+DOM3; getDefinedElements(); No; No; No; No; No; No
+DOM3; validateDocument(); No; No; No; No; No; No
+Interface NodeEditVAL; Interface NodeEditVAL; Interface NodeEditVAL; Interface NodeEditVAL; Interface NodeEditVAL; Interface NodeEditVAL; Interface NodeEditVAL; Interface NodeEditVAL
+DOM3; defaultValue; No; No; No; No; No; No
+DOM3; enumeratedValues; No; No; No; No; No; No
+DOM3; canInsertBefore(); No; No; No; No; No; No
+DOM3; canRemoveChild(); No; No; No; No; No; No
+DOM3; canReplaceChild(); No; No; No; No; No; No
+DOM3; canAppendChild(); No; No; No; No; No; No
+DOM3; nodeValidity(); No; No; No; No; No; No
+Interface ElementEditVAL; Interface ElementEditVAL; Interface ElementEditVAL; Interface ElementEditVAL; Interface ElementEditVAL; Interface ElementEditVAL; Interface ElementEditVAL; Interface ElementEditVAL
+DOM3; allowedChildren; No; No; No; No; No; No
+DOM3; allowedFirstChildren; No; No; No; No; No; No
+DOM3; allowedParents; No; No; No; No; No; No
+DOM3; allowedNextSiblings; No; No; No; No; No; No
+DOM3; allowedPreviousSiblings; No; No; No; No; No; No
+DOM3; allowedAttributes; No; No; No; No; No; No
+DOM3; requiredAttributes; No; No; No; No; No; No
+DOM3; contentType; No; No; No; No; No; No
+DOM3; canSetTextContent; No; No; No; No; No; No
+DOM3; canSetAttribute; No; No; No; No; No; No
+DOM3; canSetAttributeNode; No; No; No; No; No; No
+DOM3; canSetAttributeNS; No; No; No; No; No; No
+DOM3; canRemoveAttribute; No; No; No; No; No; No
+DOM3; canRemoveAttributeNS; No; No; No; No; No; No
+DOM3; canRemoveAttributeNode; No; No; No; No; No; No
+DOM3; isElementDefined; No; No; No; No; No; No
+DOM3; isElementDefinedNS; No; No; No; No; No; No
+Interface CharacterDataEditVAL; Interface CharacterDataEditVAL; Interface CharacterDataEditVAL; Interface CharacterDataEditVAL; Interface CharacterDataEditVAL; Interface CharacterDataEditVAL; Interface CharacterDataEditVAL; Interface CharacterDataEditVAL
+DOM3; isWhitespaceOnly(); No; No; No; No; No; No
+DOM3; canSetData(); No; No; No; No; No; No
+DOM3; canAppendData(); No; No; No; No; No; No
+DOM3; canReplaceData(); No; No; No; No; No; No
+DOM3; canInsertData(); No; No; No; No; No; No
+DOM3; canDeleteData(); No; No; No; No; No; No

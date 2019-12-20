@@ -1,0 +1,99 @@
+; ; ; Trident; EdgeHTML; Gecko; WebKit; KHTML; Presto
+Numbers[ spec 11]; Numbers[ spec 11]; Numbers[ spec 11]; Numbers[ spec 11]; Numbers[ spec 11]; Numbers[ spec 11]; Numbers[ spec 11]; Numbers[ spec 11]; Numbers[ spec 11]
+CSS2; < number>; A floating-point number; 3.0; 12; 1.0; 85; Yes; 1.0
+CSS2; < length>; < number> followed by units; 3.0; 12; 1.0; 85; Yes; 1.0
+CSS2; < percentage>; < number> followed by %; 3.0; 12; 1.0; 85; Yes; 1.0
+CSS2; < integer>; An integer; 3.0; 12; 1.0; 85; Yes; 1.0
+css-values-3; < angle>; < number> angle-unit; 9.0[ t 1]; 12; Yes; Partial; Partial; Partial
+css-values-3; < time>; < number> time-unit; 9.0[ t 1]; 12; 2.0[ g 50]; 2.5; 
+css-values-3; < frequency>; < number> frequency-unit; Yes; Yes; No; No; 
+css-values-3; < fraction>; No; Remaining space; No; No; No; No; No
+Strings; Strings; Strings; Strings; Strings; Strings; Strings; Strings; Strings
+CSS2; < string>; String; 3.0; 12; 1.0; 85; Yes; 1.0
+CSS2; \code; Unicode escapes; 6.0; 12; 1.0; 85; Yes; 1.0
+Functions; Functions; Functions; Functions; Functions; Functions; Functions; Functions; Functions
+CSS2; rect(); A rectangle; 8.0; 12; 1.0; 85; Yes; 1.0
+CSS2; url(); Uniform Resource Identifier; 3.0; 1.0; 85; Yes; 1.0; 
+CSS2; counter(); ; 12; 1.0; 85; Yes; 1.0; 
+CSS2; attr(); 8.0; 12; 1.0; 85; Yes; 1.0; Attribute identifier
+css-values-3; calc(); ; 9.0[ t 1]; 12; 16.0[ g 61]; Yes[ w 36]; No; No
+css-values-3; toggle(); Toggling between values; No; No; No[ g 62]; No; No; No
+css- grid-1  ?; repeat(); Repeat n times; No; No; 32.0[ g 63]; No; No; No
+Colors; Colors; Colors; Colors; Colors; Colors; Colors; Colors; Colors
+CSS2; HTML4 color keywords; 16 predefined web colors; 3.0; 12; 1.0; 85; Yes; 1.0
+CSS2; #rrggbb or #rgb; Hexadecimal notation; 3.0; 12; 1.0; 85; Yes; 1.0
+CSS2; rgb(r, g, b); RGB notation; 4.0; 12; 1.0; 85; Yes; 1.0
+CSS2; system colors[ spec 12]; 28 predefined system colors; 3.0; 12; 1.0; 85; Yes; 1.0
+css-color-3; SVG color keywords; ; 8.0; 12; Yes; Yes; Yes; Yes
+css-color-3; currentColor; The value of the color property.; 1.8; 12; 528; Yes; 2.1; 
+css-color-3; rgba(r, g, b, a); 9.0[ t 1]; RGBA notation; 12; 1.9; 4.0; 2.2; 
+css-color-3; hsl(h, s, l); 9.0[ t 1]; 525; 12; HSL notation; 1.5; 3.5.5; 2.1
+css-color-3; hsla(h, s, l, a); 9.0[ t 1]; 525; 12; HSLA notation; 1.9; 3.5.5; 2.2
+css-color-3; transparent; Full transparency; 525; 12; 9.0; 1.9; 4.0; Partial
+Image values; Image values; Image values; Image values; Image values; Image values; Image values; Image values; Image values
+CSS2; < url>; Image types; 3.0; 12; 1.0; 85; Yes; 1.0
+css3- images; < sprite>; Image types; No; No; No; No; No; No
+css3- images; < image-list>; Image types; No; No; No; No; No; No
+css3- images; < linear-gradient>; Image types; 12; 16.0; Yes; Experimental; No; 
+css3- images; 10.0[ t 52]; Image types; 12; 16.0; Yes; Experimental; No; < radial-gradient>
+css3- images; 10.0[ t 52]; linear-gradient(); 12; 16.0; Yes; Experimental; No; 
+css3- images; 10.0[ t 52]; Color gradients; 12; 16.0; Yes; Experimental; No; radial-gradient()
+css3- images; 10.0[ t 52]; Color gradients; 12; 16.0; Yes; Experimental; No; repeating-linear-gradient()
+css3- images; 10.0[ t 52]; Color gradients; 12; 16.0; Yes; Experimental; No; repeating-radial-gradient()
+css- images-4; conic-gradient(); ; No; No; No; No; No; No
+css- images-4; repeating-conic-gradient(); ; No; No; No; No; No; No
+css- images-4; element(); Reproduce element; No; No; Experimental; No; No; No
+css- images-4; cross-fade(); Transitioning between images; No; No; No[ g 64]; No; No; No
+css- images-4; image-set(); Resolution negotiation; No; No; No; No; No; No
+Counter Styles[ spec 13]; Counter Styles[ spec 13]; Counter Styles[ spec 13]; Counter Styles[ spec 13]; Counter Styles[ spec 13]; Counter Styles[ spec 13]; Counter Styles[ spec 13]; Counter Styles[ spec 13]; Counter Styles[ spec 13]
+css- counter- styles-3; symbols(); Anonymous Counter Styles; No; No; No; No; No; No
+Keywords; Keywords; Keywords; Keywords; Keywords; Keywords; Keywords; Keywords; Keywords
+CSS2; auto; Automatically calculated; 6.0; 12; 1.0; 85; Yes; 1.0
+CSS2; inherit; Inherited from the parent; 8.0; 12; 1.0; 85; Yes; 1.0
+css-values-3; initial; ; No; 13; 19.0; 125; No; No
+Units; Units; Units; Units; Units; Units; Units; Units; Units
+CSS2; px; Pixel; 3.0; 12; 1.0; 85; Yes; 1.0
+CSS2; pt; Point; 3.0; 12; 1.0; 85; Yes; 1.0
+CSS2; pc; Pica; 3.0; 12; 1.0; 85; Yes; 1.0
+CSS2; cm; Centimetre; 3.0; 12; 1.0; 85; Yes; 1.0
+CSS2; mm; Millimetre; 3.0; 12; 1.0; 85; Yes; 1.0
+CSS2; in; inch; 3.0; 12; 1.0; 85; Yes; 1.0
+CSS2; em; em; 3.0; 12; 1.0; 85; Yes; 1.0
+CSS2; ex; ex; 3.0; 12; 1.0; 85; Yes; 1.0
+CSS2; %; Percentage; 3.0; 12; 1.0; 85; Yes; 1.0
+css-values-3; deg; Degree; 9.0[ t 1]; 12; 1.9.1; Yes; Yes; 2.5
+css-values-3; grad; Grad; 9.0[ t 1]; 12; 1.9.1; Yes; Yes; 2.5
+css-values-3; rad; Radian; 9.0[ t 1]; 12; 1.9.1; Yes; Yes; 2.5
+css-values-3; turn; turn; 9.0[ t 1]; 12; 13.0[ g 65]; No; No; No
+css-values-3; ms; Millisecond; 9.0[ t 1]; 12; Yes; 2.5; 
+css-values-3; s; 2.0[ g 66]; 9.0[ t 1]; 12; Yes; 2.5; Second; 
+css-values-3; Hz; Hertz; Yes; Yes; No; No; 
+css-values-3; kHz; No; Kilohertz; Yes; Yes; No; No; 
+css-values-3; dpi; No; Dots per inch; 1.9.1; No; 4.1; 2.5; 
+css-values-3; dpcm; No; 12; 1.9.1; No; 4.1; 2.5; Dots per centimetre
+css-values-3; dppx; No; 12; Dots per pixel-unit; 16.0; No; ?; No
+earlier draft of css-line- grid; gd; No; Cells in the layout-grid; No; No; No; No; No
+unit being considered for css- template- 3; fr; No; Remaining space in a series of length values; No; No; No; No; 
+css-values-3; rem; the font size of the root element; 12; 9.0[ t 1]; 1.9.2; Yes; No; 2.10.229[ p 7]
+css-values-3; vw; the viewport's width; 12; 9.0[ t 1]; No; No; 
+css-values-3; vh; 19.0[ g 3]; 12; 9.0[ t 1]; No; No; the viewport's height; 
+css-values-3; vmin; 19.0[ g 3]; 12; 28.0[ w 37]; No; No; equal to the smaller of ‘vw’ or ‘vh’.; 
+css-values-3; vmax; 19.0[ g 3]; 12; 28.0[ w 37]; No; No; equal to the larger of ‘vw’ or ‘vh’.; 
+css-values-3; ch; the width of the "0" (ZERO, U+0030) glyph found in the font for the font size used to render.; 12; No; 1.9.1; No; No; No
+Filter Effects; Filter Effects; Filter Effects; Filter Effects; Filter Effects; Filter Effects; Filter Effects; Filter Effects; Filter Effects
+filter- effects; 
+filter- effects; grayscale(); ; 13; 35.0[ g 67]; 18.0[ w 38]; No; No; 
+filter- effects; sepia(); No; 13; 35.0[ g 67]; 18.0[ w 38]; No; No; 
+filter- effects; saturate(); No; 13; 35.0[ g 67]; 18.0[ w 38]; No; No; 
+filter- effects; hue-rotate(); No; 13; 35.0[ g 67]; 18.0[ w 38]; No; No; 
+filter- effects; invert(); No; 13; 35.0[ g 67]; 18.0[ w 38]; No; No; 
+filter- effects; opacity(); No; 13; 35.0[ g 67]; 18.0[ w 38]; No; No; 
+filter- effects; brightness(); No; 13; 35.0[ g 67]; 18.0[ w 38]; No; No; 
+filter- effects; contrast(); No; 13; 35.0[ g 67]; 18.0[ w 38]; No; No; 
+filter- effects; blur(); No; 13; 35.0[ g 67]; 18.0[ w 38]; No; No; 
+filter- effects; drop-shadow(); No; 13; 35.0[ g 67]; 18.0[ w 38]; No; No; 
+filter- effects; Variables; Variables; Variables; Variables; Variables; Variables; Variables; Variables
+css- variables- 1; 
+css- variables- 1; --*; define variable; No; 31.0[ g 68]; Experimental [ citation needed]; No; No; 
+css- variables- 1; var(--*); No; No; 31.0[ g 68]; Experimental [ citation needed]; No; No; use variable
+; ; ; Trident; EdgeHTML; Gecko; WebKit; KHTML; Presto

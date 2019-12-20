@@ -1,0 +1,24 @@
+Implementation; Developed by; Open source; Software license; Copyright owner; Written in; Latest stable version, release date; Origin; 
+Botan; Jack Lloyd; Yes; Simplified BSD License; Jack Lloyd; C++; 2.12.1 (October  14, 2019; 2 months ago  (2019-10-14)[ 1] ) [ ±]; US (Vermont); 
+BoringSSL; Google; Yes; OpenSSL-SSLeay dual-license, ISC license; Eric Young, Tim Hudson, Sun, OpenSSL project, Google, and others; C, C++, Go, assembly; ??; Australia/EU; 
+Bouncy Castle; The Legion of the Bouncy Castle Inc.; Yes; MIT License; Legion of the Bouncy Castle Inc.; Java, C#; Java 1.64 / October  7, 2019; 2 months ago  (2019-10-07)[ 2] Java FIPS BC-FJA 1.0.2 / August  24, 2019; 3 months ago  (2019-08-24)[ 3] C# 1.8.5 / January  31, 2019; 10 months ago  (2019-01-31)[ 4] C# FIPS BC-FNA 1.0.1 / December  28, 2016; 2 years ago  (2016-12-28)[ 5]; Java; 1.64 / October  7, 2019; 2 months ago  (2019-10-07)[ 2]; Java FIPS; BC-FJA 1.0.2 / August  24, 2019; 3 months ago  (2019-08-24)[ 3]; C#; 1.8.5 / January  31, 2019; 10 months ago  (2019-01-31)[ 4]; C# FIPS; BC-FNA 1.0.1 / December  28, 2016; 2 years ago  (2016-12-28)[ 5]; Australia
+Java; 1.64 / October  7, 2019; 2 months ago  (2019-10-07)[ 2]; 
+Java FIPS; BC-FJA 1.0.2 / August  24, 2019; 3 months ago  (2019-08-24)[ 3]; 
+C#; 1.8.5 / January  31, 2019; 10 months ago  (2019-01-31)[ 4]; 
+C# FIPS; BC-FNA 1.0.1 / December  28, 2016; 2 years ago  (2016-12-28)[ 5]; 
+cryptlib; Peter Gutmann; Yes; Sleepycat License and commercial license; Peter Gutmann; C; 3.4.5 (2019; 0  years ago  (2019)[ 6] ) [ ±]; NZ; 
+GnuTLS; GnuTLS project; Yes; GNU LGPLv2.1+; Free Software Foundation; C; 3.6.8 (May  28, 2019; 6 months ago  (2019-05-28)[ 7] ) [ ±]; EU (Greece and Sweden); 
+Java Secure Socket Extension (JSSE); Oracle; Yes; GNU GPLv2 and commercial license; Oracle; Java; 13.0.1 (October  16, 2019; 2 months ago  (2019-10-16)[ 8] ) [ ±] 11.0.5 (October  16, 2019; 2 months ago  (2019-10-16)[ 9] ) [ ±] 8u232 (October  16, 2019; 2 months ago  (2019-10-16)[ 10] ) [ ±]; US; 
+LibreSSL; OpenBSD Project; Yes; Apache License 1.0, 4-clause BSD License, ISC License, and some are public domain; Eric Young, Tim Hudson, Sun, OpenSSL project, OpenBSD Project, and others; C, assembly; 3.0.2 (October  19, 2019; 2 months ago  (2019-10-19)[ 11] [ 12] ) [ ±]; Canada; 
+MatrixSSL[ 13]; PeerSec Networks; Yes; GNU GPLv2+ and commercial license; PeerSec Networks; C; 4.0.0 (September  13, 2018; 15 months ago  (2018-09-13) [ 14] ) [ ±]; US; 
+mbed TLS (previously PolarSSL); ARM; Yes; Apache License 2.0, GNU GPLv2+ and commercial license; ARM Holdings; C; 2.16.2 (June  11, 2019; 6 months ago  (2019-06-11)[ 15] ) [ ±] 2.7.10 (March  19, 2018; 21 months ago  (2018-03-19)[ 15] ) [ ±]; EU (Netherlands); 
+Network Security Services (NSS); Mozilla, AOL, Red Hat, Sun, Oracle, Google and others; Yes; MPL 2.0; NSS contributors; C, assembly; 3.46 (August  30, 2019; 3 months ago  (2019-08-30)[ 16] ) [ ±]; US; 
+OpenSSL; OpenSSL project; Yes; OpenSSL-SSLeay dual-license; Eric Young, Tim Hudson, Sun, OpenSSL project, and others; C, assembly; 1.1.1d (September  10, 2019; 3 months ago  (2019-09-10)[ 17] ) [ ±] 1.0.2t (September  10, 2019; 3 months ago  (2019-09-10)[ 17] ) [ ±]; Australia/EU; 
+RSA BSAFE SSL-J; RSA Security; No; Proprietary; RSA Security; Java; 6.2.5 (October  24, 2019; 57 days ago  (2019-10-24)[ 18] ) [ ±]; Australia; 
+RSA BSAFE Micro-Edition Suite; RSA Security; No; Proprietary; RSA Security; C, assembly; 4.4 (September  11, 2019; 3 months ago  (2019-09-11)[ 19] ) [ ±]; Australia; 
+S2n; Amazon; Yes; Apache License 2.0, GNU GPLv2+ and commercial license; Amazon, Inc.; C; Continuous; US; 
+SChannel; Microsoft; No; Proprietary; Microsoft Inc.; ; Windows 10, 2015-07-29; US; 
+Secure Transport; Apple Inc.; Yes; APSL 2.0; Apple Inc.; ; 57337.20.44 (OS X 10.11.2), 2015-12-08; US; 
+wolfSSL (previously CyaSSL); wolfSSL[ 20]; Yes; GNU GPLv2+ and commercial license; wolfSSL Inc.[ 21]; C; 4.2.0 (October  22, 2019; 59 days ago  (2019-10-22)[ 22] ) [ ±]; US; 
+Erlang/OTP SSL application; Ericsson; Yes; Apache License 2.0; Ericsson; Erlang; OTP-21, 2018-06-19; Sweden; 
+Implementation; Developed by; Open source; Software license; Copyright owner; Written in; Latest stable version, release date; Origin; 

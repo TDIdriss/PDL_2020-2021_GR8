@@ -7,6 +7,7 @@ import java.net.URL;
 import java.util.HashSet;
 
 import com.wikipediaMatrix.exception.*;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static junit.framework.Assert.assertTrue;
@@ -30,6 +31,7 @@ public class WikiExtractMainTest {
 	 * @throws InterruptedException si erreur survenue
 	 */
 	@Test
+	@Ignore
 	public void lancerExtraction() throws UrlInvalideException, IOException, ResultatEstNullException, InterruptedException {
 		String BASE_WIKIPEDIA_URL = "output/url_test.txt";
 		BufferedReader br = new BufferedReader(new FileReader(BASE_WIKIPEDIA_URL));
@@ -72,6 +74,7 @@ public class WikiExtractMainTest {
 
 
 	@Test
+	@Ignore
 	public void getUrlValidesTest() {
 		try {
 			HashSet<Url> lesUrlValides = new HashSet<Url>();

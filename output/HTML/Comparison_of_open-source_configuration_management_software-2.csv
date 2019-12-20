@@ -1,0 +1,23 @@
+; AIX; *BSD; HP-UX; Linux; OS X; Solaris; Windows; Others
+Ansible; Yes; Yes; Yes; Yes; Yes; Yes; Yes (Need linux control machine); Yes[ 98]
+Bcfg2; Partial[ 99]; Yes[ 100]; No; Yes[ 101]; Partial[ 102]; Yes; No; No
+CFEngine; Yes; Yes[ 100]; Yes; Yes; No; Yes; Yes; Yes[ 103]
+cdist; ; Yes; ; Yes; Yes; ; No; 
+Chef; Yes[ 104]; Yes; Yes; Yes; Yes; Yes; Yes[ 105]; Yes
+ISconf; Yes; Yes; Yes; Yes; Yes; Yes; No; No
+Juju; ; ; ; Yes; ; ; Yes[ 106]; 
+Local ConFiGuration system (LCFG); No; No; No; Partial[ 107]; Partial[ 108]; Partial[ 109]; No; No
+OCS Inventory NG; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No
+Open pc server integration (Opsi); No; No; No; Yes; No; No; Yes; No
+PIKT; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes[ 110]
+Puppet; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
+Quattor; No; No; No; Yes; Partial[ 111]; Yes; No; No
+Radmind; Yes; Yes[ 100] [ 112] [ 113]; No; Yes; Yes; Yes; Yes; No
+Rex; ; Yes; ; Yes; Yes[ 114]; Yes; Yes[ 114]; No
+Rudder; Yes; Partial[ 115]; No; Yes; Partial[ 115]; Partial[ 116]; Yes; Yes[ 117]
+SmartFrog; No[ 118]; No[ 118]; Yes; Yes; Yes; Yes; Yes; No[ 118]
+Salt; Yes; Yes; Partial[ 119]; Yes[ 120]; Yes; Yes[ 121]; Yes; Partial[ 119]
+Spacewalk; No[ 122]; No; No; Yes[ 123]; No; Yes[ 124]; No; No
+STAF; Yes[ 125]; Yes[ 126]; Yes[ 127]; Yes[ 128]; Yes[ 129]; Yes[ 130]; Yes[ 131]; Yes[ 132]
+Synctool; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes[ 133]
+; AIX; *BSD; HP-UX; Linux; OS X; Solaris; Windows; Others

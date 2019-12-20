@@ -1,0 +1,243 @@
+#; Country; GDP (USD million)
+ ;   World[ 1]; 84,835,462
+1;   China; 13,457,267
+2;   Japan; 5,070,626
+3;   Germany; 4,029,140
+4;   California; 3,018,337
+5;   United Kingdom; 2,808,899
+6;   France; 2,794,696
+7;   India; 2,689,992
+8;   Italy; 2,086,911
+9;   Brazil; 1,909,386
+10;   Texas; 1,818,585
+11;   Canada; 1,733,706
+12;   New York; 1,701,399
+13;   Russia; 1,657,600
+14;   South Korea; 1,655,608
+15;   Spain; 1,437,047
+16;   Australia; 1,427,767
+17;   Mexico; 1,199,264
+18;   Florida; 1,059,144
+19;   Indonesia; 1,005,268
+20;   Netherlands; 909,887
+21;   Illinois; 879,947
+22;   Pennsylvania; 803,307
+23;   Saudi Arabia; 769,878
+24;   Turkey; 713,513
+25;     Switzerland; 709,118
+26;   Ohio; 689,139
+27;   New Jersey; 634,721
+28;   Taiwan; 602,678
+29;   Georgia (U.S. state); 601,503
+30;   Washington; 576,624
+31;   Massachusetts; 575,635
+32;   North Carolina; 575,605
+33;   Sweden; 554,659
+34;   Poland; 549,478
+35;   Virginia; 544,348
+36;   Michigan; 537,087
+37;   Belgium; 536,055
+38;   Thailand; 490,120
+39;   Argentina; 475,429
+40;   Austria; 459,401
+41;   Norway; 441,439
+42;   United Arab Emirates; 432,612
+43;   Iran; 430,082
+44;   Maryland; 417,776
+45;   Nigeria; 397,472
+46;   Colorado; 376,994
+47;   South Africa; 376,679
+48;   Minnesota; 374,920
+49;   Tennessee; 373,663
+50;   Indiana; 371,629
+51;   Ireland; 366,448
+52;   Israel; 365,599
+53;   Hong Kong; 360,315
+54;   Denmark; 354,683
+55;   Malaysia; 347,290
+56;   Singapore; 346,621
+57;   Arizona; 355,311
+58;   Wisconsin; 342,470
+59;   Colombia; 336,940
+60;   Philippines; 331,678
+61;   Missouri; 323,287
+62;   Pakistan; 306,987
+63;   Chile; 299,887
+64;   Bangladesh; 286,275
+65;   Finland; 276,553
+66;   Connecticut; 279,653
+67;   Louisiana; 255,492
+68;   Egypt; 249,471
+69;   Czech Republic; 244,540
+70;   Vietnam; 241,434
+71;   Romania; 239,440
+72;   Oregon; 243,085
+73;   Portugal; 237,962
+74;   Iraq; 230,911
+75;   South Carolina; 234,367
+76;   Peru; 228,944
+77;   Alabama; 224,654
+78;   Greece; 218,057
+79;   Kentucky; 211,621
+80;   New Zealand; 205,997
+81;   Oklahoma; 203,250
+82;   Iowa; 192,608
+83;   Algeria; 188,342
+84;   Qatar; 188,295
+85;   Kazakhstan; 184,209
+86;   Utah; 180,862
+87;   Kansas; 169,558
+88;   Nevada; 168,752
+89;   Hungary; 156,393
+90;   Kuwait; 144,523
+91;   District of Columbia; 142,502
+92;   Arkansas; 129,812
+93;   Ukraine; 126,390
+94;   Nebraska; 124,742
+95;   Morocco; 118,178
+96;   Angola; 114,504
+97;   Mississippi; 115,749
+98;   Ecuador; 107,266
+99;   Slovakia; 106,940
+100;   Puerto Rico; 104,557
+101;   New Mexico; 101,452
+102;   Venezuela; 96,328
+103;   Sri Lanka; 92,504
+104;   Hawaii; 93,419
+105;   Kenya; 89,591
+106;   New Hampshire; 86,046
+107;   Ethiopia; 83,836
+108;   Oman; 81,682
+109;   Dominican Republic; 81,103
+110;   Guatemala; 79,109
+111;   West Virginia; 79,168
+—;   Syria[ n 1]; 77,460/Na
+112;   Idaho; 78,640
+113;   Delaware; 76,537
+114;   Myanmar; 71,543
+115;   Luxembourg; 68,993
+116;   Panama; 66,031
+117;   Maine; 65,349
+118;   Bulgaria; 63,651
+119;   Rhode Island; 61,341
+120;   Uruguay; 60,933
+121;   Costa Rica; 60,816
+122;   Croatia; 59,971
+123;   Belarus; 56,934
+124;   Lebanon; 56,709
+125;   North Dakota; 55,657
+126;   Tanzania; 55,645
+127;   Slovenia; 54,969
+128;   Macau; 53,961
+129;   Alaska; 54,851
+130;   South Dakota; 52,544
+131;   Lithuania; 52,468
+132;   Ghana; 51,815
+133;   Montana; 49,635
+134;   Serbia; 47,564
+135;   Côte d'Ivoire; 45,875
+136;   Azerbaijan; 45,592
+137;   Uzbekistan; 43,303
+138;   Libya; 43,236
+139;   Democratic Republic of the Congo; 42,692
+140;   Turkmenistan; 42,764
+141;   Jordan; 41,869
+142;   Paraguay; 41,851
+143;   Bolivia; 41,833
+144;   Tunisia; 41,662
+145;   Wyoming; 39,899
+146;   Bahrain; 39,300
+147;   Cameroon; 38,445
+148;   Latvia; 34,286
+149;   Vermont; 34,154
+150;   Sudan; 33,249
+151;   Estonia; 29,527
+152;       Nepal; 28,813
+153;   Yemen; 28,524
+154;   Uganda; 27,855
+155;   Iceland; 26,684
+156;   El Salvador; 25,833
+157;   Zambia; 25,778
+158;   Senegal; 24,240
+159;   Cambodia; 24,141
+160;   Cyprus; 23,963
+161;   Honduras; 23,835
+162;   Trinidad and Tobago; 23,284
+163;   Papua New Guinea; 20,767
+164;   Afghanistan; 20,367
+165;   Bosnia and Herzegovina; 19,984
+166;   Zimbabwe; 19,367
+167;   Botswana; 19,070
+168;   Laos; 18,230
+169;   Mali; 17,407
+170;   Gabon; 17,212
+171;   Georgia; 16,716
+172;   Jamaica; 15,424
+173;   Albania; 15,121
+174;   Brunei; 14,695
+175;   Mozambique; 14,601
+176;   Burkina Faso; 14,284
+177;   Malta; 14,270
+178;   Namibia; 14,148
+179;   Mauritius; 14,033
+180;   Nicaragua; 13,380
+181;   Equatorial Guinea; 13,225
+182;   Bahamas; 12,928
+183;   Mongolia; 12,724
+184;   Armenia; 12,533
+185;   Madagascar; 12,499
+186;   Macedonia; 12,374
+187;   Guinea; 11,503
+188;   Republic of Congo; 11,460
+189;   Moldova; 11,436
+190;   Chad; 11,112
+191;   Benin; 10,546
+192;   Haiti; 9,717
+193;   Rwanda; 9,709
+194;   Niger; 9,458
+195;   Kyrgyzstan; 8,013
+196;   Kosovo; 7,839
+197;   Tajikistan; 7,350
+198;   Malawi; 6,885
+199;   Eritrea; 6,722
+200;   Montenegro; 5,389
+201;   Togo; 5,347
+202;   Fiji; 5,223
+203;   Mauritania; 5,200
+204;   Barbados; 5,172
+205;   Maldives; 4,809
+206;   Eswatini; 4,756
+207;   South Sudan; 3,980
+208;   Suriname; 3,840
+209;   Sierra Leone; 3,754
+210;   Guyana; 3,636
+211;   Burundi; 3,436
+212;   Liberia; 3,218
+213;   Timor-Leste; 3,155
+214;   Lesotho; 2,981
+215;   Bhutan; 2,624
+216;   Central African Republic; 2,307
+217;   Djibouti; 2,187
+218;   Cape Verde; 1,972
+219;   Belize; 1,912
+220;   St. Lucia; 1,774
+221;   San Marino; 1,769
+222;   Antigua and Barbuda; 1,612
+223;   The Gambia; 1,605
+224;   Seychelles; 1,564
+225;   Guinea-Bissau; 1,480
+226;   Solomon Islands; 1,424
+227;   Grenada; 1,192
+228;   St. Kitts and Nevis; 1,005
+229;   Vanuatu; 957
+230;   Samoa; 878
+231;   St. Vincent and the Grenadines; 828
+232;   Comoros; 745
+233;   Dominica; 485
+234;   Tonga; 468
+235;   São Tomé and Príncipe; 450
+236;   Federated States of Micronesia; 335
+237;   Palau; 300
+238;   Marshall Islands; 230
+239;   Kiribati; 205
+240;   Tuvalu; 45

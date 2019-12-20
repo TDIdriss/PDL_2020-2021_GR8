@@ -1,0 +1,53 @@
+; ; Trident; Tasman; Gecko; WebKit; KHTML; Presto
+Exception LSException; Exception LSException; Exception LSException; Exception LSException; Exception LSException; Exception LSException; Exception LSException; Exception LSException
+DOM3; code; No; No; No[ g 13]; No; No; 1.0
+Interface DOMImplementationLS; Interface DOMImplementationLS; Interface DOMImplementationLS; Interface DOMImplementationLS; Interface DOMImplementationLS; Interface DOMImplementationLS; Interface DOMImplementationLS; Interface DOMImplementationLS
+DOM3; createLSParser(); No; No; No; No; No; 1.0
+DOM3; createLSSerializer(); No; No; No; No; No; 1.0
+DOM3; createLSInput(); No; No; No; No; No; 1.0
+DOM3; createLSOutput(); No; No; No; No; No; 1.0
+Interface LSParser; Interface LSParser; Interface LSParser; Interface LSParser; Interface LSParser; Interface LSParser; Interface LSParser; Interface LSParser
+DOM3; domConfig; No; No; No; No; No; 1.0
+DOM3; filter; No; No; No; No; No; 1.0
+DOM3; async; No; No; No; No; No; 1.0
+DOM3; busy; No; No; No; No; No; 1.0
+DOM3; parse(); No; No; No; No; No; 1.0
+DOM3; parseURI(); No; No; No; No; No; 1.0
+DOM3; parseWithContext(); No; No; No; No; No; 1.0
+DOM3; abort(); No; No; No; No; No; 1.0
+Interface LSInput; Interface LSInput; Interface LSInput; Interface LSInput; Interface LSInput; Interface LSInput; Interface LSInput; Interface LSInput
+DOM3; characterStream; No; No; No; No; No; 1.0
+DOM3; byteStream; No; No; No; No; No; 1.0
+DOM3; stringData; No; No; No; No; No; 1.0
+DOM3; systemId; No; No; No; No; No; 1.0
+DOM3; publicId; No; No; No; No; No; 1.0
+DOM3; baseURI; No; No; No; No; No; 1.0
+DOM3; encoding; No; No; No; No; No; 1.0
+DOM3; certifiedText; No; No; No; No; No; 1.0
+Interface LSResourceResolver; Interface LSResourceResolver; Interface LSResourceResolver; Interface LSResourceResolver; Interface LSResourceResolver; Interface LSResourceResolver; Interface LSResourceResolver; Interface LSResourceResolver
+DOM3; resolveResource(); No; No; No; No; No; No
+Interface LSParserFilter; Interface LSParserFilter; Interface LSParserFilter; Interface LSParserFilter; Interface LSParserFilter; Interface LSParserFilter; Interface LSParserFilter; Interface LSParserFilter
+DOM3; whatToShow; No; No; No; No; No; No
+DOM3; startElement(); No; No; No; No; No; 
+DOM3; 2.0; No; No; No; No; No; acceptNode()
+Interface LSProgressEvent; Interface LSProgressEvent; Interface LSProgressEvent; Interface LSProgressEvent; Interface LSProgressEvent; Interface LSProgressEvent; Interface LSProgressEvent; Interface LSProgressEvent
+DOM3; input; No; No; No; No; No; No
+DOM3; position; No; No; No; No; No; No
+DOM3; totalSize; No; No; No; No; No; No
+Interface LSLoadEvent; Interface LSLoadEvent; Interface LSLoadEvent; Interface LSLoadEvent; Interface LSLoadEvent; Interface LSLoadEvent; Interface LSLoadEvent; Interface LSLoadEvent
+DOM3; newDocument; No; No; No; No; No; 2.0
+DOM3; input; No; No; No; No; No; No
+Interface LSSerializer; Interface LSSerializer; Interface LSSerializer; Interface LSSerializer; Interface LSSerializer; Interface LSSerializer; Interface LSSerializer; Interface LSSerializer
+DOM3; domConfig; No; No; No; No; No; 1.0
+DOM3; newLine; No; No; No; No; No; 1.0
+DOM3; filter; No; No; No; No; No; 1.0
+DOM3; write(); No; No; No; No; No; 1.0
+DOM3; writeToURI(); No; No; No; No; No; 1.0
+DOM3; writeToString(); No; No; No; No; No; 1.0
+Interface LSOutput; Interface LSOutput; Interface LSOutput; Interface LSOutput; Interface LSOutput; Interface LSOutput; Interface LSOutput; Interface LSOutput
+DOM3; characterStream; No; No; No; No; No; 1.0
+DOM3; byteStream; No; No; No; No; No; 1.0
+DOM3; systemId; No; No; No; No; No; 1.0
+DOM3; encoding; No; No; No; No; No; 1.0
+Interface LSSerializerFilter; Interface LSSerializerFilter; Interface LSSerializerFilter; Interface LSSerializerFilter; Interface LSSerializerFilter; Interface LSSerializerFilter; Interface LSSerializerFilter; Interface LSSerializerFilter
+DOM3; whatToShow; No; No; No; No; No; No

@@ -1,0 +1,4 @@
+Model (Codename); Release Date; Architecture &   Fab; Transistors &   Die Size; Core; Core; Fillrate[ a] [ b] [ c]; Fillrate[ a] [ b] [ c]; Processing power[ a] [ d] (TFLOPS); Processing power[ a] [ d] (TFLOPS); Memory; Memory; Memory; Memory; TDP; Bus interface
+Model (Codename); Release Date; Architecture &   Fab; Transistors &   Die Size; Config[ e]; Clock[ a] (MHz); Texture (GT/s); Pixel (GP/s); Single; Double; Bus  type &   width; Size (GiB); Clock (MT/s); Band- width (GB/s); TDP; Bus interface
+Radeon Pro 5300M (Navi 14)[ 315] [ 316]; November 2019; RDNA 1.0 7 nm; 6.4×109 155 mm2; 1280:80:32 20 CU; 1000 1250; 100; 40; 3.2; 1/16 SP; GDDR6 128-bit; 4; 12000; 192.0; 85  W; PCIe 4.0 ×16
+Radeon Pro 5500M (Navi 14)[ 315] [ 317]; November 2019; RDNA 1.0 7 nm; 6.4×109 155 mm2; 1536:96:32 24 CU; 1000 1300; 124.8; 41.6; 4.0; 1/16 SP; GDDR6 128-bit; 4 or 8; 12000; 192.0; 85  W; PCIe 4.0 ×16

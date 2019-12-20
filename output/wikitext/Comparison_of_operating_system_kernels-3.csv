@@ -1,0 +1,6 @@
+Kernel Name;File access control;Disable memory execution support;Kernel ASLR;Mandatory access control;Capability-based security;In-kernel key management;Audit API;Sandbox;SYN flood protection;UDP flood protection;Ping flood protection;Smurf attack protection;Network Behavior Analysis
+Linux;Filesystem permissions#Traditional Unix permissionsTraditional Unix permissions, POSIX ACL;yes;yes;LSM (SELinux, SMACK, TOMOYO Linux, AppArmor);seccomp;keyctl;fanotify;SELinux Sandbox, seccomp;SYN cookies;no?;no?;no?;no
+FreeBSD Kernel;Filesystem permissions#Traditional Unix permissionsTraditional Unix permissions, POSIX and NFSv4 ACL;yes;;TrustedBSD MAC;Capsicum;;OpenBSM;Capsicum, MAC framework;SYN cookies;;;;
+Solaris Kernel;Filesystem permissions#Traditional Unix permissionsTraditional Unix permissions, POSIX ACL, NFSv4 ACL;Default;;Solaris Trusted Extensions;;;;;;;;;
+Windows NT kernel;Access control list;DEP;yes;Mandatory Integrity Control;AppContainers;;yes;Windows Event Log;yes;;;;
+XNU;Filesystem permissions#Traditional Unix permissionsTraditional Unix permissions, NT/NFSv4 ACL;yes;yes;TrustedBSD MAC;;;OpenBSM;Apple XNU Sandbox;;;;;

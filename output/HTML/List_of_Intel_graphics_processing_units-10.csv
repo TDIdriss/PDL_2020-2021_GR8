@@ -1,0 +1,11 @@
+Name; Release year; Market; Processor; Processor; Device ID; Core config1; Clock rate; Clock rate; API support[ 62] [ 12] [ 31] [ 47] [ 48]; API support[ 62] [ 12] [ 31] [ 47] [ 48]; API support[ 62] [ 12] [ 31] [ 47] [ 48]; API support[ 62] [ 12] [ 31] [ 47] [ 48]; Memory bandwidth (GB/s)
+Name; Release year; Market; Code name; Model; Device ID; Core config1; Min (MHz); Max (MHz); Direct3D; OpenGL; OpenCL; Vulkan; Memory bandwidth (GB/s)
+UHD Graphics; 2019; Mobile; Ice Lake; Core i3-1000G1 Core i3-1005G1; 8A58; 256:32:4 (GT1); 300; 900; 12 FL12_1; 4.6Windows 4.6Linux ES  3.2Linux; 2.1Windows 2.1Linux; 1.1Windows 1.1Linux; 59.7
+UHD Graphics; 2019; Mobile; Ice Lake; Core i5-1035G1; 8A56; 256:32:4 (GT1); 300; 1050; 12 FL12_1; 4.6Windows 4.6Linux ES  3.2Linux; 2.1Windows 2.1Linux; 1.1Windows 1.1Linux; 59.7
+Iris Plus Graphics; 2019; Mobile; Ice Lake; Core i3-1000G4; 900; 300; 12 FL12_1; 4.6Windows 4.6Linux ES  3.2Linux; 2.1Windows 2.1Linux; 1.1Windows 1.1Linux; 59.7
+Iris Plus Graphics; 2019; Mobile; Ice Lake; 384:48:6 (GT1.5); Core i5-1030G4; 300; 12 FL12_1; 4.6Windows 4.6Linux ES  3.2Linux; 2.1Windows 2.1Linux; 1.1Windows 1.1Linux; 59.7
+Iris Plus Graphics; 2019; Mobile; Ice Lake; 384:48:6 (GT1.5); Core i5-1035G4; 8A5A; 300; 12 FL12_1; 4.6Windows 4.6Linux ES  3.2Linux; 2.1Windows 2.1Linux; 1.1Windows 1.1Linux; 59.7
+Iris Plus Graphics; 2019; Mobile; Ice Lake; Core i5-1030G7; 1050; 300; 12 FL12_1; 4.6Windows 4.6Linux ES  3.2Linux; 2.1Windows 2.1Linux; 1.1Windows 1.1Linux; 59.7
+Iris Plus Graphics; 2019; Mobile; Ice Lake; 512:64:8 (GT2); Core i7-1060G7; 1100; 300; 12 FL12_1; 4.6Windows 4.6Linux ES  3.2Linux; 2.1Windows 2.1Linux; 1.1Windows 1.1Linux; 59.7
+Iris Plus Graphics; 2019; Mobile; Ice Lake; 512:64:8 (GT2); Core i5-1035G7; 1050; 300; 12 FL12_1; 4.6Windows 4.6Linux ES  3.2Linux; 2.1Windows 2.1Linux; 1.1Windows 1.1Linux; 59.7
+Iris Plus Graphics; 2019; Mobile; Ice Lake; 512:64:8 (GT2); Core i7-1065G7; 1100; 300; 12 FL12_1; 4.6Windows 4.6Linux ES  3.2Linux; 2.1Windows 2.1Linux; 1.1Windows 1.1Linux; 59.7

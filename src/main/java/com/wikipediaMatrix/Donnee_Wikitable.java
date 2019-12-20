@@ -148,15 +148,18 @@ public class Donnee_Wikitable extends Donnee{
      * @throws IOException
      * @throws ExtractionInvalideException
      */
-    public void wikitableVersCSV(String titre, String wikitable) throws IOException {
+    public void wikitableVersCSV(String titre, String wikitable) {
 
         wikitable = wikitableReplace(wikitable);
         ArrayList<String> tableaux  = reconstituerTable(wikitable);
-//        wikitableVersCSVAux(wikitable, titre);
         int i = 0;
         for (String table : tableaux) {
-            wikitableVersCSVAux2(table, titre, i + 1);
-            i++;
+            try {
+                wikitableVersCSVAux2(table, titre, i + 1);
+                i++;
+            } catch (Exception e) {
+                System.out.println("Ectraction wikitext a échoué");
+            }
         }
     }
 
@@ -177,7 +180,6 @@ public class Donnee_Wikitable extends Donnee{
             }
             if (line.contains("|}")) {
                 tableau = false;
-                System.out.println("("+i+","+j+")");
                 i = j = 0;
                 saveFile(tab, title, nbTab);
             }
@@ -186,26 +188,19 @@ public class Donnee_Wikitable extends Donnee{
                     if (line.startsWith("!")) {
                         tab.add(new String[nbColMax]);
                         if (line.contains("!!")) {
-                            System.out.println(line);
                             line = line.replaceAll("^(\\||! ?)\\|?","");
                             String[] innerLines = line.split(" ?\\|\\| ?| ?!!");
-//                            System.out.println(line);
                             for (String innerLine : innerLines) {
                                 innerLine = formatLine(innerLine);
                                 innerLine = innerLine.trim();
-                                System.out.println(innerLine);
                                 if (tab.size() <= i)
                                     tab.add(new String[nbColMax]);
                                 tab.get(i)[j] = innerLine;
-                                System.out.println("x: "+(i)+" y: "+j);
                                 j++;
                             }
                         }
                         else {
-                            System.out.println(line);
-                            System.out.println("x: "+(i)+" y: "+j);
                             line = formatLine(line);
-                            System.out.println(line);
                             if (line.contains("rowspan")) {
                                 nb = rowColSpan(line);
                                 for (int k = 0; k < nb; k++) {
@@ -217,7 +212,6 @@ public class Donnee_Wikitable extends Donnee{
                                         tab.get(i+k)[j] = getCell(line);
                                     }
                                 }
-                                System.out.println("rowspan : "+rowColSpan(line));
                             }
                             else if (line.contains("colspan")) {
                                 nb = rowColSpan(line);
@@ -226,14 +220,12 @@ public class Donnee_Wikitable extends Donnee{
                                         tab.add(new String[nbColMax]);
                                     tab.get(i)[j] = getCell(line);
                                 }
-                                System.out.println("colspan : "+rowColSpan(line));
                             }
                             else {
                                 if (tab.size() <= i)
                                     tab.add(new String[nbColMax]);
                                 tab.get(i)[j] = getCell(line);
                             }
-                            System.out.println("Valeur: " + getCell(line));
                             j++;
                         }
                         first = false;
@@ -247,9 +239,7 @@ public class Donnee_Wikitable extends Donnee{
                     }
                     else if ((line.startsWith("|") || line.startsWith("||") || line.startsWith("!") || line.startsWith("!!")) && !line.contains("|+")) {
                         if (!line.contains("||")) {
-                            System.out.println(line);
                             line = formatLine(line);
-                            System.out.println(line);
                             if (line.contains("rowspan")) {
                                 nb = rowColSpan(line);
                                 for (int k = 0; k < nb; k++) {
@@ -264,7 +254,6 @@ public class Donnee_Wikitable extends Donnee{
                                     }
                                 }
                                 j++;
-                                System.out.println("rowspan : "+rowColSpan(line));
                             }
                             else if (line.contains("colspan")) {
                                 nb = rowColSpan(line);
@@ -275,30 +264,22 @@ public class Donnee_Wikitable extends Donnee{
                                     j++;
 
                                 }
-                                System.out.println("colspan : "+rowColSpan(line));
                             }
                             else {
                                 if (tab.size() <= i)
                                     tab.add(new String[nbColMax]);
-                                if (i == 26)
-                                    "lol".trim();
                                 while (tab.get(i)[j] != null)
                                     j++;
                                 tab.get(i)[j] = getCell(line);
                                 j++;
                             }
-                            System.out.println("Valeur: " + getCell(line));
-                            System.out.println("x: "+(i)+" y: "+j);
                         }
                         else {
-//                            System.out.println(line);
                             line = line.replaceAll("^(\\||! ?)\\|?","");
                             String[] innerLines = line.split("\\|\\| | !!");
-//                            System.out.println(line);
                             for (String innerLine : innerLines) {
                                 innerLine = formatLine(innerLine);
                                 innerLine = innerLine.trim();
-                                System.out.println(innerLine);
                                 if (innerLine.contains("rowspan")) {
                                     nb = rowColSpan(innerLine);
                                     for (int k = 0; k < nb; k++) {
@@ -313,7 +294,6 @@ public class Donnee_Wikitable extends Donnee{
                                         }
                                     }
                                     j++;
-                                    System.out.println("rowspan : "+rowColSpan(innerLine));
                                 }
                                 else if (innerLine.contains("colspan")) {
                                     nb = rowColSpan(innerLine);
@@ -324,7 +304,6 @@ public class Donnee_Wikitable extends Donnee{
                                         j++;
 
                                     }
-                                    System.out.println("colspan : "+rowColSpan(innerLine));
                                 }
                                 else {
                                     if (tab.size() <= i)
@@ -334,7 +313,6 @@ public class Donnee_Wikitable extends Donnee{
                                     tab.get(i)[j] = getCell(innerLine);
                                     j++;
                                 }
-                                System.out.println("x: "+(i)+" y: "+j);
                             }
                         }
                     }
@@ -380,8 +358,6 @@ public class Donnee_Wikitable extends Donnee{
                 i++;
             }
             if (Pattern.compile("(\\|})$").matcher(line).find()) {
-                if(i==18)
-                    "lol".trim();
                 tab = false;
                 currentTab.append(line);
                 tableaux.add(currentTab.toString());
@@ -395,7 +371,6 @@ public class Donnee_Wikitable extends Donnee{
     }
 
     private String formatLine(String ligne) {
-        //Todo ajouter des filtre
         ligne = ligne.replaceAll("^(\\||! ?)\\|?","");
         ligne = ligne.replaceAll("([{a-zA-Z]*icon\\|[a-zA-Z} ]*\\[\\[)","");
         ligne = ligne.replaceAll("(dunno)","");
@@ -410,8 +385,6 @@ public class Donnee_Wikitable extends Donnee{
         ligne = ligne.replaceAll("<[a-zA-Z0-9=( )*]*>","");
         ligne = ligne.replaceAll("</[a-zA-Z0-9=( )*]*>","");
         ligne = ligne.replaceAll("(F|)ile:(.)* ?","");
-//        ligne = ligne.replaceAll("[a-zA-Z0-9=( )*]*'''","");
-//        ligne = ligne.replaceAll("'''[a-zA-Z0-9=( )*]*","");
         return ligne;
     }
 
@@ -439,7 +412,7 @@ public class Donnee_Wikitable extends Donnee{
 
 
     private void saveFile(ArrayList<String[]> tab, String title, int nbtab) throws IOException {
-        String outputPath = "output/wikitext/" + title + nbtab + ".csv";
+        String outputPath = "output/wikitext/" + title +"-"+ nbtab + ".csv";
         FileOutputStream outputStream = new FileOutputStream(outputPath);
         OutputStreamWriter writer = new OutputStreamWriter(outputStream, StandardCharsets.UTF_8);
         int j, i = tab.size();
@@ -458,6 +431,7 @@ public class Donnee_Wikitable extends Donnee{
             }
         }
         writer.close();
+        nbTableauxExtraits++;
     }
 
     /**

@@ -1,0 +1,6 @@
+Feature; Android; iOS; Windows 10 Mobile; BlackBerry 10; Tizen; Sailfish OS; Ubuntu Touch
+Custom ringtones; Yes; Yes[ 477]; 7.10.7720.0+[ 478]; Yes; Yes; Yes; Yes
+Custom SMS/MMS tones; Yes[ 479]; 5+[ 480]; 8 GDR3+[ 83]; Yes[ 481]; ?; Yes; No
+Custom vibrate alert patterns; No,[ 482] possible on some Samsung devices such as Galaxy S III, but limited[ 483]; 5+[ 484] [ 485]; No; Yes[ 481]; ?; API available for 3rd party apps; No
+Dismiss repeating alarm clock before trigger; 4.4+[ 486]; No[ 487]; No; No; No; ?; Yes
+Tap to snooze[ 488]; 3rd party apps[ 489]; Yes; No; No; No; ?; Yes

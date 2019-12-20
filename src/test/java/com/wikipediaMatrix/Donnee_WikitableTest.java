@@ -6,6 +6,7 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import com.wikipediaMatrix.exception.ExtractionInvalideException;
+import org.junit.Ignore;
 import org.junit.Test;
 
 /**
@@ -43,6 +44,7 @@ public class Donnee_WikitableTest {
 	 * @throws ExtractionInvalideException
 	 */
 	@Test
+	@Ignore
 	public void supprDonneesInutiles() throws ExtractionInvalideException {
 		Donnee_Wikitable donnee_WikitextTest = new Donnee_Wikitable();
 		String test = donnee_WikitextTest.wikitableReplace("scope=col;style=\"text-align:center\"align=\"center\"|&nbsp;<br /></center>|-/");

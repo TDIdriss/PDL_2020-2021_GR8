@@ -1,0 +1,22 @@
+Model; Launch; Code name; Fab (nm)[ 2]; Transistors (million); Die size (mm2); Bus interface; Core config1; Clock rate; Clock rate; Clock rate; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Supported API version; Supported API version; Processing power (GFLOPS)3; TDP (Watts); Comments
+Model; Launch; Code name; Fab (nm)[ 2]; Transistors (million); Die size (mm2); Bus interface; Core config1; Core (MHz); Shader (MHz); Memory (MHz); Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; Single precision; TDP (Watts); Comments
+GeForce 8100 mGPU[ 14]; 2008; MCP78; TSMC 80  nm; Unknown; Unknown; PCIe 2.0 ×16; 8:8:4; 500; 1200; 400 (system memory); 2; 4; Up to 512 from system memory; 6.4 12.8; DDR2; 64 128; 10.0; 3.3; 28.8; Unknown; The block of decoding of HD-video PureVideo HD is disconnected
+GeForce 8200 mGPU[ 14]; 2008; MCP78; TSMC 80  nm; Unknown; Unknown; PCIe 2.0 ×16; 8:8:4; 500; 1200; 400 (system memory); 2; 4; gt; 6.4 12.8; DDR2; 64 128; 10.0; 3.3; 28.8; Unknown; 
+GeForce 8300 mGPU[ 14]; 2008; MCP78; TSMC 80  nm; Unknown; PureVideo 3 with VP3; PCIe 2.0 ×16; 8:8:4; 500; Unknown; 400 (system memory); 2; 4; 1500; 6.4 12.8; DDR2; 64 128; 10.0; 3.3; Up to 512 from system memory; 36; Unknown
+GeForce 8300 GS[ 15]; July 2007; G86; TSMC 80  nm; 210; 127; PCIe 1.0 ×16; 8:8:4; 450; 900; 400; 1.8; 3.6; 128 512; 6.4; DDR2; 64; 10.0; 3.3; 14.4; OEM only; 
+GeForce 8400 GS; June 15, 2007; G86; TSMC 80  nm; 210; 127; PCIe 1.0 ×16 PCI; 16:8:4; 450; 900; 400; 1.8; 3.6; 28.8; 6.4; DDR2; 64; 10.0; 3.3; 40; 
+GeForce 8400 GS rev.2; December 10, 2007; G98; TSMC 65  nm; 210; 86; ; PCIe 2.0 ×16 PCIe ×1 PCI; 8:8:4; 567; 400; 1400; 2.268; 4.536; 6.4; DDR2; 64; 10.0; 3.3; 22.4; 
+GeForce 8400 GS rev.3; July 12, 2010; GT218; TSMC 40  nm; 260; 57; ; PCIe 2.0 ×16; 8:4:4; 520 589; 1230; 600; 25; 2.08 2.356; 2.08 2.356; 512 1024; 4.8 9.6; DDR3; 3.3; 32 64; 10.1; 19.7
+GeForce 8500 GT; April 17, 2007; G86; TSMC 80  nm; 210; 127; ; PCIe 1.0 ×16 PCI; 16:8:4; 450; 900; 1.8; 3.6; 256 512 1024; 12.8; DDR2; 128; 10.0; 3.3; 28.8; 45; 
+GeForce 8600 GS; April 2007; G84; TSMC 80  nm; 289; 169; PCIe 1.0 ×16; 16:8:8; 540; 1180; 400; 4.32; 4.32; 256 512; 12.8; DDR2; 128; 10.0; 3.3; 75.5; OEM only; 
+GeForce 8600 GT; April 17, 2007; G84; TSMC 80  nm; 289; 169; PCIe 1.0 ×16 PCI; 1188; 540; 400 700; 8.64; 4.32; 256 512 1024; 12.8 22.4; DDR2 GDDR3; 76; 128; 10.0; 3.3; 
+GeForce 8600 GTS; April 17, 2007; G84; TSMC 80  nm; 289; 169; PCIe 1.0 ×16; 675; 1450; 1000; 5.4; 10.8; ; 256 512; 32; 92.8; 128; 10.0; 3.3; 71; 
+GeForce 8800 GS; January 2008; G92; TSMC 65  nm; 754; 324; PCIe 2.0 ×16; 96:48:12; 550; GDDR3; 1375; 6.6; ; 26.4; 384 768; 38.4; 192; 10.0; 3.3; 264; 105; 
+GeForce 8800 GTS (G80); February 12, 2007 (320) November 8, 2006 (640); G80; TSMC 90  nm; 681; 484; PCIe 1.0 ×16; 96:24:20; 513; GDDR3; 800; 1188; ; 10.3; 12.3; 320 640; 228; 10.0; 3.3; 146; 
+GeForce 8800 GTS 112 (G80); November 19, 2007; G80; TSMC 90  nm; 681; 484; PCIe 1.0 ×16; 112:282:20; 500; GDDR3; 800; 1200; 10; 64; 320; 14; 640; 10.0; 3.3; 268.8; 150; only XFX, EVGA and BFG models, very short-lived[ 16]
+GeForce 8800 GT; October 29, 2007 (512) December 11, 2007 (256, 1024); G92; TSMC 65  nm; 754; 324; PCIe 2.0 ×16; 112:56:16; 600; GDDR3; 1500; 700 (256) 900 (512, 1024); 9.6; 33.6; 256 512 1024; 57.6; 336; 10.0; 3.3; 125; 
+GeForce 8800 GTS (G92); December 11, 2007; G92; TSMC 65  nm; 754; 324; PCIe 2.0 ×16; 128:64:16; 650; GDDR3; 1625; 970; 10.4; 41.6; 512; 256; 62.1; 10.0; 3.3; ; 416; 135
+GeForce 8800 GTX; November 8, 2006; G80; TSMC 90  nm; 681; 484; PCIe 1.0 ×16; 128:322:24; 575; GDDR3; 1350; 900; 13.8; 18.4; 86.4; 384; 345.6; 10.0; 3.3; ; 145; 
+GeForce 8800 Ultra; May 2, 2007; G80; TSMC 90  nm; 681; 484; PCIe 1.0 ×16; 128:322:24; 612; GDDR3; 1500; 1080; 14.7; 768; 19.6; 384; 103.7; 10.0; 3.3; ; 384; 175
+Model; Launch; Code name; Fab (nm)[ 2]; Transistors (million); Die size (mm2); Bus interface; Core config1; Core (MHz); Shader (MHz); Memory (MHz); Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; Single precision; TDP (Watts); Comments
+Model; Launch; Code name; Fab (nm)[ 2]; Transistors (million); Die size (mm2); Bus interface; Core config1; Memory; Supported API version; Supported API version; Processing power (GFLOPS)3; TDP (Watts); Comments

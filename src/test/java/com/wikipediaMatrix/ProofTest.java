@@ -20,16 +20,16 @@ import static org.junit.Assert.assertTrue;
  */
 public class ProofTest {
 
+        String BASE_WIKIPEDIA_URL = "output/proof.txt";
     /**
      * Test de la validité du format du csv généré par l'extracteur Html
      *
      * @throws InterruptedException Lève une exception lors d'une erreur de lecture
      */
     @Test
-    @DisplayName("Test de la validité du format du csv généré par l'extracteur Html")
+    @DisplayName("Test de vérité terrain pour l'extracteur Html")
     public void proofHTMLExtractorTest() throws InterruptedException {
 
-        String BASE_WIKIPEDIA_URL = "output/proof.txt";
 
         try {
             BufferedReader br = new BufferedReader(new FileReader(BASE_WIKIPEDIA_URL));
@@ -38,6 +38,33 @@ public class ProofTest {
 
             while ((url = br.readLine()) != null) {
                 bool = testHTMLUrl(url);
+                System.out.println("Vérification de : " + url + " : " + bool);
+
+                assertTrue(bool);
+            }
+
+
+        } catch (FileNotFoundException e) {
+            System.out.println("Erreur lors de la lecture du fichier");
+        } catch (IOException e) {
+            System.out.println("Erreur lors de la lecture de la ligne");
+        }
+
+    }
+
+    @Test
+    @DisplayName("Test de vérité terrain pour l'extracteur Wikitext")
+    public void proofWIKITEXTExtractorTest() throws InterruptedException {
+
+
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(BASE_WIKIPEDIA_URL));
+            String url;
+            boolean bool;
+
+            while ((url = br.readLine()) != null) {
+
+                bool = testWIKILUrl(url);
                 System.out.println("Vérification de : " + url + " : " + bool);
 
                 assertTrue(bool);
@@ -85,6 +112,37 @@ public class ProofTest {
             uri2 = "output/HTML/" + wikiUrl.getTitre() + "-" + i + ".csv";
 
             if (!csvValidator.compareCSV(uri1, separator, uri2, separator))
+                return false;
+        }
+
+        return true;
+    }
+
+    /**
+     * <p>
+     * Permet de vérifier avec l'url fournit si tous les csv associés sont valides
+     * et les compare à la vérité terrain
+     * </p>
+     * @param url url du fichier
+     * @return un boolean true ou false selon la correspondance
+     * @throws MalformedURLException si l'url n'est pas correcte
+     * @throws InterruptedException s'il y a une erreur à l'extraction
+     */
+    private boolean testWIKILUrl(String url) throws MalformedURLException, InterruptedException {
+        CSVValidator csvValidator = CSVValidator.getInstance();
+        int numberOfCSV;
+
+        Url wikiUrl = new Url(new URL(url));
+        assertTrue(wikiUrl.estTitreValide());
+
+        Donnee_Wikitable donneeWikitable = new Donnee_Wikitable();
+        donneeWikitable.setUrl(wikiUrl);
+        donneeWikitable.start();
+        donneeWikitable.join();
+        numberOfCSV = donneeWikitable.getNbTableaux();
+
+        for (int i = 1; i <= numberOfCSV; i++){
+            if (!csvValidator.checkCSVWithSeparator("wikitext/" + wikiUrl.getTitre() + "-" + i + ".csv", ';'))
                 return false;
         }
 

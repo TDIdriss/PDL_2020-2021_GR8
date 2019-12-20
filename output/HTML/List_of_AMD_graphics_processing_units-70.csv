@@ -1,0 +1,4 @@
+Model (Codename); Release Date; Architecture &   Fab; Transistors &   Die Size; Core; Core; Fillrate[ a] [ b] [ c]; Fillrate[ a] [ b] [ c]; Processing power[ a] [ d] (GFLOPS); Processing power[ a] [ d] (GFLOPS); Processing power[ a] [ d] (GFLOPS); Memory; Memory; Memory; Memory; TDP; Bus interface
+Model (Codename); Release Date; Architecture &   Fab; Transistors &   Die Size; Config[ e]; Clock[ a] (MHz); Texture (GT/s); Pixel (GP/s); Half; Single; Double; Bus  type &   width; Size (GiB); Clock (MT/s); Band- width (GB/s); TDP; Bus interface
+Radeon Vega Pro 16 (Vega 12 XLA) [ 312] [ 313]; November 2018; GCN 5th gen 14 nm; Unknown; 1024:64:32 16 CU; 300 1190; 76.16; 38.08; ?; 2437; 152.3; HBM2 1024-bit; 4; 2400; 307.2; 75  W; PCIe 3.0 ×16
+Radeon Vega Pro 20 (Vega 12 XTA) [ 312] [ 314]; November 2018; GCN 5th gen 14 nm; Unknown; 1280:80:32 20 CU; 308 1190; 95.20; 38.08; ?; 3047; 190.4; HBM2 1024-bit; 4; 2400; 307.2; 100  W; PCIe 3.0 ×16

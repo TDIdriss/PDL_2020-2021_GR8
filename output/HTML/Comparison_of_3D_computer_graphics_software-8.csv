@@ -1,0 +1,7 @@
+Application; Hard surface Modeling; Hard surface Modeling; Sculpt Modeling; Sculpt Modeling; Sculpt Modeling; Sculpt Modeling; Non-destructive Modeling; Non-destructive Modeling; Non-destructive Modeling
+Application; Polygon Modeling; Subdivision Modeling; Base-mesh Creation; Sculpting; Hand Retopology; Automatic Retopology; Boolean; Bevel; Procedural
+Maya; Yes; Yes; (SOuP BMesh); Yes; Yes; 2020 and later; Yes; Yes; Yes
+3ds Max; Yes; Yes; (Form); Paint Deform; Yes; No; Yes; Yes; Yes
+Blender; Yes; Yes; Skin Modifier; Yes; Yes; 2.81 and later; Yes; Yes; stack only
+ZBrush; ZModeler; ZModeler; ZSphere and ZSketch; Yes; Yes; ZRemesher; 4R8 and later; ?; No
+Curvy 3D; No; No; sketch-based; Yes; ?; ?; ?; ?; No

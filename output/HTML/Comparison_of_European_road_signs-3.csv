@@ -1,0 +1,48 @@
+; Austria; Belgium; Czech Republic; Denmark; Estonia; Finland; France; Germany; Greece; Hungary; Iceland; Ireland; Italy; Luxembourg; Netherlands; Norway; Poland; Portugal; Romania; Russia & Belarus; Slovakia; Slovenia; Spain; Sweden; Switzerland & Liechtenstein; Turkey; Ukraine; United Kingdom
+Give Way ahead; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Stop ahead; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Traffic signals ahead; ; ; ; ; ; ; ; ; ; ; ; ; or; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Roundabout ahead; ; NOT USED; ; ; ; ; ; NOT USED; ; ; ; or; ; ; ; ; ; ; ; ; ; ; ; ; REPLACED by sign No. 4.54; ; ; 
+Two-way traffic ahead; ; ; ; ; or; ; ; ; ; ; ; or; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; or
+Traffic queues likely ahead; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Level crossing without barriers ahead; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Level crossing with barriers ahead; ; ; ; ; ; ; ; [ note 1]; ; ; NOT USED; or; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Level crossing; ; ; ; ; ; ; ; ; ; ; NOT USED; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; (no gates)
+Level crossing (multiple tracks); ; ; ; ; ; ; ; NOT USED; ; ; NOT USED; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; DEPRE- CATED; ; ; DEPRE- CATED
+; Austria; Belgium; Czech Republic; Denmark; Estonia; Finland; France; Germany; Greece; Hungary; Iceland; Ireland; Italy; Luxembourg; Netherlands; Norway; Poland; Portugal; Romania; Russia & Belarus; Slovakia; Slovenia; Spain; Sweden; Switzerland & Liechtenstein; Turkey; Ukraine; United Kingdom
+Tram crossing; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Crossroads with priority to the right; ; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; [ note 2]; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED
+Crossroads with a minor road; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Junction with a minor side road; ; ; ; ; ; ; NOT USED; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; DISUSED; ; ; 
+Merging traffic; NOT USED; NOT USED; NOT USED; NOT USED; NOT USED; ; NOT USED; NOT USED; ; ; ; ; ; ; ; ; NOT USED; ; NOT USED; ; ; ; NOT USED; NOT USED; DISUSED; ; 
+Road narrows on both sides; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Road narrows on right (left); ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Dangerous crosswinds; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; or; ; ; DEPRE- CATED; ; ; 
+Low-flying aircraft; [ note 1]; ; ; or; ; ; ; [ note 3]; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; or; DEPRE- CATED; ; ; or
+Steep descent; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Steep ascent; ; ; ; ; ; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+; Austria; Belgium; Czech Republic; Denmark; Estonia; Finland; France; Germany; Greece; Hungary; Iceland; Ireland; Italy; Luxembourg; Netherlands; Norway; Poland; Portugal; Romania; Russia & Belarus; Slovakia; Slovenia; Spain; Sweden; Switzerland & Liechtenstein; Turkey; Ukraine; United Kingdom
+Road bump ahead; ; ; ; ; ; ; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Uneven road ahead; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Curve; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Double curve; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Slippery road surface; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Loose road surface; ; ; ; ; ; ; ; [ note 3]; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Soft verges or dangerous shoulder; ; NOT USED; ; ; ; ; NOT USED; [ note 1]; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; 
+Children; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Pedestrian crossing ahead; ; ; ; ; ; ; ; [ note 3]; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Cyclists; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Falling rocks or debris; ; ; ; ; ; ; ; [ note 3]; ; ; ; ; ; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; 
+; Austria; Belgium; Czech Republic; Denmark; Estonia; Finland; France; Germany; Greece; Hungary; Iceland; Ireland; Italy; Luxembourg; Netherlands; Norway; Poland; Portugal; Romania; Russia & Belarus; Slovakia; Slovenia; Spain; Sweden; Switzerland & Liechtenstein; Turkey; Ukraine; United Kingdom
+Caution, snow or ice; ; ; ; ; ; NOT USED; NOT USED; [ note 3] or; ; ; ; ; ; ; ; ; ; ; ; (Belarus); ; ; ; ; [ note 4]; ; ; 
+Caution, fog likely; ; ; ; ; ; NOT USED; NOT USED; NOT USED; ; ; ; ; ; ; ; ; NOT USED; ; ; NOT USED; ; ; ; ; [ note 5]; ; ; NOT USED
+Opening or swing bridge; ; ; ; ; NOT USED; ; ; [ note 3]; ; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; 
+Unprotected quayside or riverbank; ; ; ; ; ; ; ; [ note 3]; ; or; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; or
+Domestic animals; ; ; ; ; ; ; ; [ note 3]; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Wild animals; ; ; ; ; ; or; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Tunnel ahead; NOT USED; NOT USED; ; ; NOT USED; NOT USED; NOT USED; NOT USED; ; ; ; ; NOT USED; NOT USED; NOT USED; ; NOT USED; ; ; ; ; ; NOT USED; ; REPLACED by sign no. 4.07a [ note 6] [ 7]; ; ; 
+Accident area / accident ahead; NOT USED; NOT USED; ; NOT USED; ; NOT USED; ; ; NOT USED; ; NOT USED; ; ; ; ; ; ; ; ; (Belarus); ; ; ; ; [ note 7]; NOT USED; ; 
+Roadworks ahead; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Other danger; ; ; ; ; ; or (Åland); ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Other danger (temporary); NOT USED; NOT USED; NOT USED; NOT USED; ; NOT USED; ; NOT USED; ; NOT USED; NOT USED; NOT USED; ; NOT USED; NOT USED; ; NOT USED; NOT USED; NOT USED; NOT USED; ; NOT USED; ; NOT USED; NOT USED; ; NOT USED; NOT USED
+; Austria; Belgium; Czech Republic; Denmark; Estonia; Finland; France; Germany; Greece; Hungary; Iceland; Ireland; Italy; Luxembourg; Netherlands; Norway; Poland; Portugal; Romania; Russia & Belarus; Slovakia; Slovenia; Spain; Sweden; Switzerland & Liechtenstein; Turkey; Ukraine; United Kingdom

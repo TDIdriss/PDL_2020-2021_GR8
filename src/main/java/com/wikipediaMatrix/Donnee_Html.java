@@ -131,14 +131,13 @@ public class Donnee_Html extends Donnee {
 		nbLignesColonnes(wikitables);
 		
 		for (int i = 0 ; i < wikitables.size() ; i++) {
-			String outputPath = "output/HTML/" + titre + "-" + i+1 + ".csv"; // TODO Review this
+			String outputPath = "output/HTML/" + titre + "-" + (i+1) + ".csv"; // TODO Review this
 			FileOutputStream outputStream = new FileOutputStream(outputPath);
 			OutputStreamWriter writer = new OutputStreamWriter(outputStream, "UTF-8");
 
 			//TODO Remove this code
 			//System.out.println(i);
-			if (i != 23)
-				continue;
+			//if (i != 23) continue;
 
 			// On recupere le nmobre de lignes et de colonnes du tableau en cours
 			nbLignesGlob = getNbLignesTableaux().get(i);
@@ -153,10 +152,17 @@ public class Donnee_Html extends Donnee {
 			}
 			// On stocke les donnees en provenance de la wikitable dans une matrice
 			this.rowspanFound.clear();
-			stockerLignes(wikitables.get(i));
-			// On cree un fichier CSV en parcourant la matrice
-			ecrireTableau(writer);
-			writer.close();
+
+			try {
+				stockerLignes(wikitables.get(i));
+				// On cree un fichier CSV en parcourant la matrice
+				ecrireTableau(writer);
+				writer.close();
+			}
+			catch (Exception e){
+				System.out.println("L'extraction à échouée");
+				writer.close();
+			}
 		}	
 	}
 
@@ -177,6 +183,7 @@ public class Donnee_Html extends Donnee {
 			gerant les colspans et rowspans si besoin */
 			count = 1;
 			for (Element cellule : cellules) {
+				//System.out.println("Ligne " + this.ligneActuelle + " ; Colonne " + this.colonneActuelle);
 				// Si on un colspan et un rowspan sur la meme cellule
 				if ((cellule.hasAttr("colspan")) && (cellule.hasAttr("rowspan"))){
 					String colspanValue = cellule.attr("colspan").replaceAll("[^0-9.]", "");
@@ -236,7 +243,7 @@ public class Donnee_Html extends Donnee {
 	private void addSeparator() {
 		for (int i = 0; i < this.nbLignesGlob; i++) {
 			for (int j = 0; j< this.nbColonnesGlob; j++){
-				if ( j != nbColonnesGlob-1 ) {
+				if ( j != nbColonnesGlob-1 && !this.tableau[i][j].equals("VIDE")) {
 					this.tableau[i][j] = this.tableau[i][j].concat("; ");
 				}
 			}
@@ -251,12 +258,15 @@ public class Donnee_Html extends Donnee {
 	public void stockerCellule(Element cellule) {
 		/* Si les coordonnees donnees en parametre sont deja reservees, on avance
 		 	d'autant de colonnes qu'il faudra jusqu'a pouvoir stocker notre cellule*/
-		while(!this.tableau[this.ligneActuelle][this.colonneActuelle].equals("VIDE")) {
-			this.colonneActuelle++;
+
+		int innerColumn = this.colonneActuelle;
+
+		while(innerColumn < this.nbColonnesGlob - 1 && !this.tableau[this.ligneActuelle][innerColumn].equals("VIDE")) {
+			innerColumn++;
 		}
 		// On ajoute le texte de la cellule extraite a la matrice
-		if (this.tableau[this.ligneActuelle][this.colonneActuelle].equals("VIDE")) {
-			this.tableau[this.ligneActuelle][this.colonneActuelle] = cellule.text();
+		if (this.tableau[this.ligneActuelle][innerColumn].equals("VIDE")) {
+			this.tableau[this.ligneActuelle][innerColumn] = cellule.text();
 		}
 	}
 

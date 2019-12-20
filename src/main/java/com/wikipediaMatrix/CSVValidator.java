@@ -98,6 +98,7 @@ public class CSVValidator {
         return response.getStatusLine().getStatusCode() == 200;
     }
 
+
     public List<String[]> readCSV(String pathFile, char separator) {
         List<String[]> list = null;
 
@@ -115,6 +116,7 @@ public class CSVValidator {
             list = csvReader.readAll();
         } catch(Exception e) { }
 
+        assert list != null;
         return correctLinesCSV(list);
     }
 
@@ -131,8 +133,15 @@ public class CSVValidator {
         return listAux;
     }
 
+    public boolean compareCSV(String uri1, char separator1, String uri2, char separator2){
+        List<String[]> list1 = readCSV(uri1, separator1);
+        List<String[]> list2 = readCSV(uri2, separator2);
 
-    public boolean compareCSV(List<String[]> list1, List<String[]> list2){
+        return compareList(list1, list2);
+    }
+
+
+    public boolean compareList(List<String[]> list1, List<String[]> list2){
 
         //test du nombre de ligne du fichier
         if (list1.size()==list2.size()){

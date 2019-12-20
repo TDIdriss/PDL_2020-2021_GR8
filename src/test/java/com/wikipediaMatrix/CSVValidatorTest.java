@@ -95,7 +95,7 @@ public class CSVValidatorTest {
 
         List<String[]> l2 = validator.readCSV("output/csv/testComp1.csv", ';');
 
-        assertTrue (validator.compareCSV(l1, l2));
+        assertTrue (validator.compareList(l1, l2));
     }
 
     @Test
@@ -103,7 +103,7 @@ public class CSVValidatorTest {
         List<String[]> list1 = validator.readCSV("output/csv/testComp1.csv", ';');
         List<String[]> list2 = validator.readCSV("output/csv/testComp2.csv", ',');
 
-        assertTrue(validator.compareCSV(list1, list2));
+        assertTrue(validator.compareList(list1, list2));
     }
 
 
@@ -112,7 +112,7 @@ public class CSVValidatorTest {
         List<String[]> list1 = validator.readCSV("output/csv/testComp1.csv", ';');
         List<String[]> list2 = validator.readCSV("output/csv/testComp3.csv", ',');
 
-        assertFalse(validator.compareCSV(list1, list2));
+        assertFalse(validator.compareList(list1, list2));
     }
 
 

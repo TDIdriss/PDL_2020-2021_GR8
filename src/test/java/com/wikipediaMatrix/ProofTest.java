@@ -12,9 +12,19 @@ import java.net.URL;
 
 import static org.junit.Assert.assertTrue;
 
+/**
+ * @author Group 5
+ *
+ * Classe de tests qui vérifie si l'url est valide et corresponds au CSV récupéré
+ *
+ */
 public class ProofTest {
 
-
+    /**
+     * Test de la validité du format du csv généré par l'extracteur Html
+     *
+     * @throws InterruptedException Lève une exception lors d'une erreur de lecture
+     */
     @Test
     @DisplayName("Test de la validité du format du csv généré par l'extracteur Html")
     public void proofHTMLExtractorTest() throws InterruptedException {
@@ -42,7 +52,16 @@ public class ProofTest {
 
     }
 
-
+    /**
+     * <p>
+     * Permet de vérifier avec l'url fournit si tous les csv associés sont valides
+     * et les compare à la vérité terrain
+     * </p>
+     * @param url url du fichier
+     * @return un boolean true ou false selon la correspondance
+     * @throws MalformedURLException si l'url n'est pas correcte
+     * @throws InterruptedException s'il y a une erreur à l'extraction
+     */
     private boolean testHTMLUrl(String url) throws MalformedURLException, InterruptedException {
         CSVValidator csvValidator = CSVValidator.getInstance();
         int numberOfCSV;

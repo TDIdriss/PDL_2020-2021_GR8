@@ -10,15 +10,23 @@ import java.util.List;
 import static org.junit.Assert.*;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
+
+/**
+ * @author Group 5
+ *
+ * Classe de tests that checks if the CSV is valid and
+ *
+ */
 public class CSVValidatorTest {
 
-    private CSVValidator validator;
+    /**
+     * instance de CSVValidator
+     */
+    private CSVValidator validator = CSVValidator.getInstance();
 
-    @Before
-    public void setUp() throws Exception {
-        validator = CSVValidator.getInstance();
-    }
-
+    /**
+     * Vérification de CSVs
+     */
     @Test
     public void checkCSVTest1() {
         byte count = 0;
@@ -47,7 +55,9 @@ public class CSVValidatorTest {
 
     }
 
-
+    /**
+     * Vérification de CSVs
+     */
     @Test
     public void checkCSVTest2() {
         CSVValidator validator = CSVValidator.getInstance();
@@ -69,7 +79,9 @@ public class CSVValidatorTest {
         assertEquals(0, count);
     }
 
-
+    /**
+     * Permet de vérifier si le CSV est valide en précisant le séparateur
+     */
     @Test
     public void checkCSVWithSeparatorTest() {
         CSVValidator validator = CSVValidator.getInstance();
@@ -78,6 +90,9 @@ public class CSVValidatorTest {
         Assert.assertTrue(validator.checkCSVWithSeparator("csv/extract_csv.csv", ';'));
     }
 
+    /**
+     * Teste la lecture de CSVs
+     */
     @Test
     public void readCsvTest() {
         String[] s1 = new String[]{"name","age","gender"};
@@ -98,22 +113,18 @@ public class CSVValidatorTest {
         assertTrue (validator.compareList(l1, l2));
     }
 
+    /**
+     * Compare les listes de CSVs
+     */
     @Test
-    public void compareCSV1() {
+    public void compareListTest() {
         List<String[]> list1 = validator.readCSV("output/csv/testComp1.csv", ';');
         List<String[]> list2 = validator.readCSV("output/csv/testComp2.csv", ',');
+        List<String[]> list3 = validator.readCSV("output/csv/testComp3.csv", ',');
 
         assertTrue(validator.compareList(list1, list2));
+        assertFalse(validator.compareList(list1, list3));
+
     }
-
-
-    @Test
-    public void compareCSV2() {
-        List<String[]> list1 = validator.readCSV("output/csv/testComp1.csv", ';');
-        List<String[]> list2 = validator.readCSV("output/csv/testComp3.csv", ',');
-
-        assertFalse(validator.compareList(list1, list2));
-    }
-
 
 }

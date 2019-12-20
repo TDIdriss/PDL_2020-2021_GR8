@@ -109,13 +109,13 @@ public class ApplicationTest {
         CSVValidator csvValidator = CSVValidator.getInstance();
         csvValidator.setPath("wikitext/");
 
-        assertTrue(csvValidator.checkCSV(urlTest.getTitre()+"1.csv"));
+        assertTrue(csvValidator.checkCSVWithSeparator(urlTest.getTitre()+"-1.csv", ';'));
     }
 
     @Test
     @DisplayName("Test de la validité du format du csv généré par l'extracteur Html")
     public void htmlExtractorTest() throws MalformedURLException, InterruptedException {
-        Url urlTest = new Url(new URL("https://en.wikipedia.org/wiki/Comparison_of_Android_e-book_reader_software"));
+        Url urlTest = new Url(new URL("https://en.wikipedia.org/wiki/Comparison_between_U.S._states_and_countries_by_GDP_(PPP)"));
         assertTrue(urlTest.estTitreValide());
         Donnee_Html donneeHtml = new Donnee_Html();
         donneeHtml.setUrl(urlTest);
@@ -124,7 +124,7 @@ public class ApplicationTest {
 
         CSVValidator csvValidator = CSVValidator.getInstance();
 
-        assertTrue(csvValidator.checkCSV("HTML/" + urlTest.getTitre()+"1.csv"));
+        assertTrue(csvValidator.checkCSVWithSeparator("HTML/" + urlTest.getTitre()+"-1.csv", ';'));
     }
 
     @Test

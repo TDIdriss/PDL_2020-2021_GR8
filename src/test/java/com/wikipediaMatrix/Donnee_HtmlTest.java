@@ -33,7 +33,7 @@ public class Donnee_HtmlTest {
 
 	/**
 	 * La methode pageCompoteTableau doit renvoyer true si la page contient au moins un tableau
-	 * @throws ExtractionInvalideException
+	 * @throws ExtractionInvalideException si erreur à l'extraction on lève une exception
 	 */
 	@Test
 	public void pageComporteTableau() throws ExtractionInvalideException {
@@ -45,7 +45,7 @@ public class Donnee_HtmlTest {
 
 	/**
 	 * La methode pageComporteTableau doit renvoyer false si la page ne contient pas de tableau
-	 * @throws ExtractionInvalideException
+	 * @throws ExtractionInvalideException si erreur à l'extraction on lève une exception
 	 */
 	@Test
 	public void pageNeComportePasTableau() throws ExtractionInvalideException {

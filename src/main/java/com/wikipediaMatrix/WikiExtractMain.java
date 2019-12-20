@@ -53,17 +53,16 @@ public class WikiExtractMain {
 		entree.close();
 	}
 
+
 	/**
 	 * Methode demarrant le parsing en csv des wikitables de 336 pages wikipedia, a partir du html et du wikitext
-	 * @throws ExtractionInvalideException
 	 *
-	 * @throws ConversionInvalideException
-	 * @throws ArticleInexistantException
-	 * @throws IOException
-	 * @throws ResultatEstNullException 
-	 * @throws InterruptedException 
+	 * @throws UrlInvalideException si l'url est invalide
+	 * @throws IOException si erreur survenue
+	 * @throws ResultatEstNullException si le resultat est null
+	 * @throws InterruptedException si erreur survenue
 	 */
-	public static void lancerDoubleExtraction() throws ExtractionInvalideException, UrlInvalideException, ConversionInvalideException, ArticleInexistantException, IOException, ResultatEstNullException, InterruptedException {
+	public static void lancerDoubleExtraction() throws UrlInvalideException, IOException, ResultatEstNullException, InterruptedException {
 		double urlActuelle = 1.0;
 		for (Url urlValide : getUrlValides()) {
 			System.out.println(urlActuelle/336*100 + "% - Extraction de la page " + urlValide.getTitre());

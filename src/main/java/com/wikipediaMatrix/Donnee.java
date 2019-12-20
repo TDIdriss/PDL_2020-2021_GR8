@@ -47,10 +47,10 @@ public abstract class Donnee extends Thread{
 	/**
 	 * A partir d'une Url, determine de combien de lignes et de colonnes
 	 * sera compose le csv en sortie, en prenant en compte les rowspans et colspans
-	 * @param url l'url de la page wikipedia
-	 * @throws MalformedURLException
-	 * @throws UrlInvalideException
-	 * @throws ExtractionInvalideException
+	 * @param wikitables table
+	 * @throws MalformedURLException si l'url est mal écrit
+	 * @throws UrlInvalideException si l'url est invalide on leve une exception
+	 * @throws ExtractionInvalideException si il y a un probleme d'extraction, on leve une exception
 	 */
 	public void nbLignesColonnes(Elements wikitables) throws MalformedURLException, UrlInvalideException, ExtractionInvalideException {
 		nbTableaux = wikitables.size();
@@ -64,8 +64,8 @@ public abstract class Donnee extends Thread{
 
 	/**
 	 * Determine le nombre de lignes et de colonnes qu'une wikitable possedera une fois parsee en CSV
-	 * @param wikitable
-	 * @return
+	 * @param wikitable table
+	 * @return nb de lignes colonnes
 	 */
 	int[] getNbLignesColonnes(Element wikitable) {
 		int[] nbLignesColonnes = new int[2];
@@ -100,7 +100,7 @@ public abstract class Donnee extends Thread{
 
 	/**
 	 * Renvoie le nombre de lignes rajoutees par les rowspans pour un tableau
-	 * @param rowspans
+	 * @param rowspans données rowspans
 	 * @return
 	 */
     int getNbLignesAjouteesRowspans(Elements rowspans) {
@@ -114,7 +114,7 @@ public abstract class Donnee extends Thread{
 
 	/**
 	 * Renvoie le nombre de colonnes rajoutees par les colspans dans un tableau
-	 * @param colspans
+	 * @param ligne données ligne
 	 * @return
 	 */
 	private int getNbColonnesAjouteesColspans(Element ligne) {
@@ -129,14 +129,14 @@ public abstract class Donnee extends Thread{
 
 	/**
 	 * Extraction des donnees
-	 * @param url
-	 * @throws UrlInvalideException
-	 * @throws ExtractionInvalideException
-	 * @throws MalformedURLException
-	 * @throws ConversionInvalideException
-	 * @throws JSONException
-	 * @throws IOException
-	 * @throws ArticleInexistantException
+	 * @param url url à extraire
+	 * @throws UrlInvalideException si l'url est invalide on lève une exception
+	 * @throws ExtractionInvalideException s'il y a une erreur lors de l'extraction on lève une exception
+	 * @throws MalformedURLException s'il y a une erreur dans le mail on lève une exception
+	 * @throws ConversionInvalideException s'il y a une erreur lors de la conversion on lève une exception
+	 * @throws JSONException si erreur survenue avec format json
+	 * @throws IOException si erreur survenue
+	 * @throws ArticleInexistantException si article inexistant on lève une exception
 	 */
 	abstract void extraire(Url url) throws UrlInvalideException, ExtractionInvalideException, MalformedURLException, ConversionInvalideException, IOException, JSONException, ArticleInexistantException;
 
@@ -151,9 +151,10 @@ public abstract class Donnee extends Thread{
 
 	/**
 	 * On verifie que la page demandee contient bien un article
-	 * @return
-	 * @throws ArticleInexistantException
-	 * @throws ExtractionInvalideException
+	 * @return si l'url contient un article
+	 * @param url url dans lequel on va verifier la presence d'article
+	 * @throws ArticleInexistantException si absence d'article
+	 * @throws ExtractionInvalideException si erreur à l'extraction on lève une exception
 	 */
 	public boolean contientUnArticle(URL url) throws ArticleInexistantException, ExtractionInvalideException{
 		String contenu = recupContenu(url);
@@ -168,10 +169,14 @@ public abstract class Donnee extends Thread{
 	/**
 	 * Verification de la presence de tableaux
 	 * @return boolean
-	 * @throws ExtractionInvalideException
+	 * @throws ExtractionInvalideException si erreur à l'extraction on lève une exception
 	 */
 	abstract boolean pageComporteTableau() throws ExtractionInvalideException;
 
+	/**
+	 * Récupération du nombre de tableau
+	 * @return le nombre de tableauK
+	 */
 	public abstract int getNbTableaux();
 
 	/**

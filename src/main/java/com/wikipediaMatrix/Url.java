@@ -39,7 +39,7 @@ public class Url {
 	 * Verification de l'url (provient bien du site Wikipedia) et de la langue de la page
 	 * Initialiation variable langue
 	 * @return true si la langue est en francais ou en anglais, false sinon
-	 * @throws UrlInvalideException
+	 * @throws UrlInvalideException si l'url est invalide
 	 */
 	public boolean estPageWikipedia() throws UrlInvalideException {
 		String debutURL = url.toString().substring(0, url.toString().lastIndexOf('/')+1);;
@@ -54,7 +54,7 @@ public class Url {
 	 * Verification du titre de la page
 	 * Initialiation variable titre
 	 * @return true si le titre comporte au moins un caractere, false sinon
-	 * @throws MalformedURLException 
+	 * @throws MalformedURLException si erreur survenue
 	 */
 	public boolean estTitreValide() throws MalformedURLException {
 		titre = url.toString().substring(url.toString().lastIndexOf('/')+1);
@@ -70,9 +70,8 @@ public class Url {
 	 * Tester une connexion avec le serveur HTTP afin de savoir si l'url renvoie bien a une page existante
 	 * ATTENTION methode lourde (en temps et en memoire)
 	 * @return true si la connexion HTTP est reussie, false sinon
-	 * @throws UrlInvalideException 
-	 * @throws ArticleInexistantException
-	 * @throws IOException 
+	 * @throws ArticleInexistantException si l'article n'existe pas
+	 * @throws IOException si erreur survenue
 	 */
 	public boolean testerConnexionHTTP() throws ArticleInexistantException, IOException {
 		HttpURLConnection connexion = (HttpURLConnection)url.openConnection();
@@ -90,8 +89,8 @@ public class Url {
 	 * - titre de page existant
 	 * - test de la connexion a la page 
 	 * @return true si url valide et connexion reussie, false sinon
-	 * @throws UrlInvalideException
-	 * @throws MalformedURLException 
+	 * @throws UrlInvalideException si l'url est invalide
+	 * @throws MalformedURLException si url n'est pas correcte
 	 */
 	public boolean estUrlValide() throws UrlInvalideException, MalformedURLException {
 		return estTitreValide() && estPageWikipedia() /*&& testerConnexionHTTP()*/;

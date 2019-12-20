@@ -24,8 +24,8 @@ public class UrlTest {
 
 	/**
 	 * Renvoie une exception si la langue n'est pas geree par notre application
-	 * @throws UrlInvalideException
-	 * @throws MalformedURLException
+	 * @throws UrlInvalideException si l'url est invalide
+	 * @throws MalformedURLException si l'url n'est pas correcte
 	 */
 	@Test(expected = UrlInvalideException.class)
 	public void detectionLanguesNonGeree() throws UrlInvalideException, MalformedURLException {
@@ -35,8 +35,8 @@ public class UrlTest {
 	
 	/**
 	 * Verifie qu'il s'agit d'une URL vers une page wikipedia, renvoie une exception sinon
-	 * @throws UrlInvalideException
-	 * @throws MalformedURLException
+	 * @throws UrlInvalideException si l'url est invalide
+	 * @throws MalformedURLException si l'url n'est pas correcte
 	 */
 	@Test(expected = UrlInvalideException.class)
 	public void pageNonWikipedia() throws UrlInvalideException, MalformedURLException {
@@ -46,8 +46,8 @@ public class UrlTest {
 
 	/**
 	 * La methode renvoie false si le titre est invalide
-	 * @throws UrlInvalideException
-	 * @throws MalformedURLException
+	 * @throws UrlInvalideException si l'url est invalide
+	 * @throws MalformedURLException si l'url est incorrecte
 	 */
 	@Test
 	public void titreInexistant() throws UrlInvalideException, MalformedURLException {
@@ -57,8 +57,8 @@ public class UrlTest {
 
 	/**
 	 * Verifie le titre recupere via l'URL
-	 * @throws MalformedURLException
-	 * @throws UrlInvalideException
+	 * @throws MalformedURLException si l'url est incorrecte
+	 * @throws UrlInvalideException si l'url est invalide
 	 */
 	@Test
 	public void titreUrlEgalEspagne() throws MalformedURLException, UrlInvalideException  {
@@ -69,8 +69,8 @@ public class UrlTest {
 
 	/**
 	 * La methode doit renvoyer l'exception specifiee en cas de langue inexistante
-	 * @throws UrlInvalideException
-	 * @throws MalformedURLException
+	 * @throws UrlInvalideException si l'url est invalide
+	 * @throws MalformedURLException si l'url est incorrecte
 	 */
 	@Test(expected = UrlInvalideException.class)
 	public void detectionLlanguesIinexistante() throws UrlInvalideException, MalformedURLException {
@@ -80,8 +80,8 @@ public class UrlTest {
 	
 	/**
 	 * La methode doit renvoyer false si la langue est invalide
-	 * @throws UrlInvalideException
-	 * @throws MalformedURLException
+	 * @throws UrlInvalideException si l'url est invalide
+	 * @throws MalformedURLException si l'url est incorrecte
 	 */
 	@Test
 	public void titreLangueIncomplet() throws UrlInvalideException, MalformedURLException {
@@ -91,8 +91,8 @@ public class UrlTest {
 	
 	/**
 	 * Verfie la validite des 336 URLs fournies
-	 * @throws UrlInvalideException
-	 * @throws IOException
+	 * @throws UrlInvalideException si l'url est invalide
+	 * @throws IOException si l'url est incorrecte
 	 */
 	@Test
 	public void verification336UrlsValides() throws UrlInvalideException, IOException   {
@@ -111,8 +111,8 @@ public class UrlTest {
 	
 	/**
 	 * Methode qui test la connexion pour les 336 URLs fournies
-	 * @throws UrlInvalideException
-	 * @throws IOException
+	 * @throws UrlInvalideException si l'url est invalide
+	 * @throws IOException si l'url est incorrecte
 	 */
 	@Test
 	public void testerConnexion336Urls() throws UrlInvalideException, IOException {

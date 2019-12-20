@@ -23,16 +23,14 @@ public class WikiExtractMainTest {
 
 	/**
 	 * Methode demarrant le parsing en csv des wikitables de 336 pages wikipedia, a partir du html et du wikitext
-	 * @throws ExtractionInvalideException
-	 * @throws UrlInvalideException
-	 * @throws ConversionInvalideException
-	 * @throws ArticleInexistantException
-	 * @throws IOException
-	 * @throws ResultatEstNullException
-	 * @throws InterruptedException 
+	 *
+	 * @throws UrlInvalideException si l'url est invalide
+	 * @throws IOException si erreur survenue
+	 * @throws ResultatEstNullException si le resultat est null
+	 * @throws InterruptedException si erreur survenue
 	 */
 	@Test
-	public void lancerExtraction() throws ExtractionInvalideException, UrlInvalideException, ConversionInvalideException, ArticleInexistantException, IOException, ResultatEstNullException, InterruptedException {
+	public void lancerExtraction() throws UrlInvalideException, IOException, ResultatEstNullException, InterruptedException {
 		String BASE_WIKIPEDIA_URL = "output/url_test.txt";
 		BufferedReader br = new BufferedReader(new FileReader(BASE_WIKIPEDIA_URL));
 		String url;

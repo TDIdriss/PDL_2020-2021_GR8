@@ -65,7 +65,7 @@ public abstract class Donnee extends Thread{
 	/**
 	 * Determine le nombre de lignes et de colonnes qu'une wikitable possedera une fois parsee en CSV
 	 * @param wikitable table
-	 * @return
+	 * @return nb de lignes colonnes
 	 */
 	int[] getNbLignesColonnes(Element wikitable) {
 		int[] nbLignesColonnes = new int[2];
@@ -175,7 +175,7 @@ public abstract class Donnee extends Thread{
 
 	/**
 	 * Récupération du nombre de tableau
-	 * @return le nombre de tableau
+	 * @return le nombre de tableauK
 	 */
 	public abstract int getNbTableaux();
 

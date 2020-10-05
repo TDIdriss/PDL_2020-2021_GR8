@@ -18,5 +18,10 @@ public class UrlInvalideException extends Exception {
 		super();
 		this.message = message;
 	}
+
+	@Override
+	public String getMessage() {
+		return message;
+	}
 }
 

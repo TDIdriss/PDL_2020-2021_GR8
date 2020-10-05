@@ -62,6 +62,8 @@ public class Url {
 			return true;
 	}
 
+
+
 	/**
 	 * Verification du titre de la page
 	 * Initialiation variable titre
@@ -144,5 +146,12 @@ public class Url {
 	 */
 	public String getLangue() {
 		return this.langue;
+	}
+
+	public static boolean EstLangueValide(String chaineUrl) throws UrlInvalideException {
+		String urllangue = chaineUrl.substring(8, chaineUrl.indexOf('.'));
+		if(!urllangue.matches("fr|en")) {
+			throw new UrlInvalideException("Langue non pise en charge");
+		} else return true;
 	}
 }

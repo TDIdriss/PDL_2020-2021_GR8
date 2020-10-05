@@ -28,10 +28,10 @@ public class UrlTest {
 	 * @throws MalformedURLException si l'url n'est pas correcte
 	 */
 	@Test(expected = UrlInvalideException.class)
-	@Ignore
+
 	public void detectionLanguesNonGeree() throws UrlInvalideException, MalformedURLException {
-		Url url = new Url(new URL("https://fy.wikipedia.org/wiki/Espagne"));
-		url.estUrlValide();
+		//Url url = new Url(new URL("https://fy.wikipedia.org/wiki/Espagne"));
+		Url.EstLangueValide("https://fy.wikipedia.org/wiki/Espagne");
 	}
 	
 	/**

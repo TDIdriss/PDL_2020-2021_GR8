@@ -74,11 +74,11 @@ public class WikiExtractMainTest {
 
 
 	@Test
-	@Ignore
+
 	public void getUrlValidesTest() {
 		try {
 			HashSet<Url> lesUrlValides = new HashSet<Url>();
-			String BASE_WIKIPEDIA_URL = "output/url_test.txt";
+			String BASE_WIKIPEDIA_URL = "output/proof_html.txt";
 			BufferedReader br = new BufferedReader(new FileReader(BASE_WIKIPEDIA_URL));
 			String url;
 			while ((url = br.readLine()) != null) {

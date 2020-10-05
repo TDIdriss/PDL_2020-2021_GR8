@@ -2,7 +2,7 @@ package com.wikipediaMatrix.exception;
 
 /**
  * 
- * @author Groupe 4
+ * @author Groupe 8
  *
  */
 public class ResultatEstNullException extends Exception{

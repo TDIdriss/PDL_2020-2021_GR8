@@ -2,7 +2,7 @@ package com.wikipediaMatrix.exception;
  
 /**
  * 
- * @author Groupe 5
+ * @author Groupe 8
  *
  */
 public class ArticleInexistantException extends Exception { 

@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 /**
- * @author Group 5
+ * @author Group 8
  *
  * Classe de tests that checks if the CSV is valid and
  *

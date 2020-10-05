@@ -13,7 +13,7 @@ import java.util.regex.Pattern;
 /**
  * Classe permettant de recuperer les informations d'une page via son url
  * Validation de l'url requise
- * @author Groupe 4
+ * @author Groupe 8
  *
  */
 public class Url {

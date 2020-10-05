@@ -19,7 +19,7 @@ import org.jsoup.select.Elements;
 
 /**
  * Classe abstraite pour recuperer les donnees
- * @author Groupe 4
+ * @author Groupe 8
  *
  */
 

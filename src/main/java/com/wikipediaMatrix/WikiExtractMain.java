@@ -13,7 +13,7 @@ import java.util.Set;
 
 /**
  * Classe permettant a l'utilisateur de faire une extraction a la carte
- * @author Groupe 5
+ * @author Groupe 8
  *
  */
 public class WikiExtractMain {

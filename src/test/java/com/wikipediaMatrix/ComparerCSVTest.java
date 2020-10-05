@@ -10,7 +10,7 @@ import org.mockito.Mockito;
 
 /**
  * Classe de tests unitaires JUnit, utilisant Mockito pour tester les methodes de la classe ComparerCSV 
- * @author Groupe 5
+ * @author Groupe 8
  *
  */
 public class ComparerCSVTest {

@@ -18,7 +18,7 @@ import static org.toilelibre.libe.curl.Curl.curl;
 /**
  * Cette classe permet de vérifier si un CSV est valide et comparer des csv
  *
- * @author Groupe 5
+ * @author Groupe 8
  */
 public class CSVValidator {
 

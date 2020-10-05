@@ -5,7 +5,7 @@ import com.wikipediaMatrix.exception.ResultatEstNullException;
 /**
  * Classe permettant de recuperer dse statistiques sur les deux methodes de recuperation de table wikipedia,
  * afin de determiner laquelle est la meilleure.
- * @author Groupe 5
+ * @author Groupe 8
  *
  */
 public class ComparerCSV {

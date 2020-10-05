@@ -14,7 +14,7 @@ import org.json.JSONObject;
 
 /**
  * Classe permettant de recuperer et convertir des Wikitable en CSV
- * @author Groupe 4
+ * @author Groupe 8
  *
  */
 

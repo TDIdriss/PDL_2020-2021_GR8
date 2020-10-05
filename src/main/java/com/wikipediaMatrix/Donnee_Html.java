@@ -16,7 +16,7 @@ import java.util.List;
 /**
  * Classe permettant de recuperer et convertir les tableaux d'une page wikipedia en fichiers CSV
  *
- * @author Groupe 5
+ * @author Groupe 8
  *
  */
 public class Donnee_Html extends Donnee {

@@ -11,7 +11,7 @@ import org.junit.Test;
 
 /**
  * 
- * @author Groupe 5
+ * @author Groupe 8
  *
  */
 public class Donnee_WikitableTest {

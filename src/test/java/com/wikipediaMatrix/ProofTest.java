@@ -13,7 +13,7 @@ import java.net.URL;
 import static org.junit.Assert.assertTrue;
 
 /**
- * @author Group 5
+ * @author Group 8
  *
  * Classe de tests qui vérifie si l'url est valide et corresponds au CSV récupéré
  *

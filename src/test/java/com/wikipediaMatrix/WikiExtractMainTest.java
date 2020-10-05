@@ -15,7 +15,7 @@ import static junit.framework.TestCase.fail;
 
 /**
  * 
- * @author Groupe 4
+ * @author Groupe 8
  *
  */
 public class WikiExtractMainTest {	

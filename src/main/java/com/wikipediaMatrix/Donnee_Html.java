@@ -102,7 +102,7 @@ public class Donnee_Html extends Donnee {
 			URL urlExtraction = new URL("https://"+langue+".wikipedia.org/wiki/"+titre+"?action=render");
 			this.setHtml(this.recupContenu(urlExtraction));
 		} catch (ExtractionInvalideException erreurExtraction) {
-			System.out.println("ERREUR : " + erreurExtraction.toString());
+			System.out.println("Erreur : " + erreurExtraction.getMessage());
 			hasPage = false;
 		}
 		supprimerPointsVirgule(this.donneeHTML);

@@ -1,0 +1,1013 @@
+[33mcommit 9337ee79375261eb4c0e9053d2d40d708c0f6bf6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Olive BOTON <botonoliv@gmail.com>
+Date:   Mon Oct 5 08:25:57 2020 +0200
+
+    Mise à jour nom du groupe
+
+[33mcommit 0fc417eec508f9ba906c56eba1e8c78a631d1b93[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Sat Dec 21 00:25:31 2019 +0100
+
+    add BenchTest
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit 0f9cf50485c03fc4024c128226162f1f23c4194a[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Fri Dec 20 23:56:41 2019 +0100
+
+    Update BenchTest
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit 8559cf5abc9e06ea9eb466582823cddc5998179c[m
+Author: kouassives <kouassives@gmail.com>
+Date:   Fri Dec 20 22:54:13 2019 +0100
+
+    adding new method to save table
+
+[33mcommit 654b20aaf0cbded7e34ba6cee9a83df73dc30c73[m
+Author: kouassives <kouassives@gmail.com>
+Date:   Fri Dec 20 22:53:12 2019 +0100
+
+    adding reconstituerTable and formatLine methods
+
+[33mcommit 16c39de59e2d872a96792e76184d8a373231cdf5[m
+Merge: c43cab7 c67831d
+Author: kouassives <kouassives@gmail.com>
+Date:   Fri Dec 20 22:52:11 2019 +0100
+
+    adding rowColSpan() and getCell()
+
+[33mcommit c43cab717c94303ed78a655318ba96cf33bda65e[m
+Author: kouassives <kouassives@gmail.com>
+Date:   Fri Dec 20 22:40:42 2019 +0100
+
+    move outPut proof
+
+[33mcommit 3aae719f64d0412d0ce6f625935d10b2c99df261[m
+Author: kouassives <kouassives@gmail.com>
+Date:   Fri Dec 20 22:39:57 2019 +0100
+
+    Adding new save method for table
+
+[33mcommit c2a99d8b0a4f7973b25cfa1bf71a430f23968cb9[m
+Author: kouassives <kouassives@gmail.com>
+Date:   Fri Dec 20 22:39:19 2019 +0100
+
+    Adding reconstituerTable() and formatLine()
+
+[33mcommit c67831d51dfd8bd22a31cff395642bc9cdb9548e[m
+Merge: 8a84cd9 39232ef
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Fri Dec 20 22:39:06 2019 +0100
+
+    Merge branch 'develop' of https://github.com/Qt-tracker/PDL_2019-2020_GR5 into develop
+    
+     Conflicts:
+    	src/main/java/com/wikipediaMatrix/Url.java
+    	src/test/java/com/wikipediaMatrix/ApplicationTest.java
+
+[33mcommit 50cedc8ce7221e398992b3c809e5fc0c06f6990b[m
+Author: kouassives <kouassives@gmail.com>
+Date:   Fri Dec 20 22:38:02 2019 +0100
+
+    Adding getCell() and rowColSpan()
+
+[33mcommit 8a84cd996039198b63f1db2cd5a3d1faafe58c42[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Fri Dec 20 22:34:49 2019 +0100
+
+    ultimate wiktext extractor #8
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit 39232efee891d132c5c764be16ea3483b9474577[m
+Author: kouassives <kouassives@gmail.com>
+Date:   Fri Dec 20 22:18:39 2019 +0100
+
+    Adding proof urls with revision_id
+
+[33mcommit e579afa4c079a5a9748a8f189fe0926bffc51714[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Fri Dec 20 17:39:49 2019 +0100
+
+    ultimate wiktext extractor
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit 729826ac4c51b5e40bd3df709f86b8e9d7a6897c[m
+Author: Talat Laeba <laeba.talat@etudiant.univ-rennes1.fr>
+Date:   Fri Dec 20 14:14:55 2019 +0100
+
+    ajout de javadoc manquantes
+
+[33mcommit 7700464bcaee6e6355fe01445bddb7dd7cdb878d[m
+Author: William ZOUNON <williamzounon@gmail.com>
+Date:   Fri Dec 20 14:13:34 2019 +0100
+
+    Update ProofTest and add BenchTest
+
+[33mcommit 6a64a66a94bb6de6cd0f0a33039bff1ecaf235a4[m
+Author: Talat Laeba <laeba.talat@etudiant.univ-rennes1.fr>
+Date:   Fri Dec 20 14:00:58 2019 +0100
+
+    ajout de javadoc manquantes
+
+[33mcommit 630c134ef231a6ce0d99cd4ddb27195db82bd178[m
+Author: William ZOUNON <williamzounon@gmail.com>
+Date:   Fri Dec 20 13:26:47 2019 +0100
+
+    Remove CURL class et remove simple function checkCSV
+
+[33mcommit 37ed01636fea6ed17bb900b2bfc3ddf0654fe449[m
+Author: William ZOUNON <williamzounon@gmail.com>
+Date:   Fri Dec 20 13:02:26 2019 +0100
+
+    Add Javadoc
+
+[33mcommit 0c914550edf9d4d323f58e6029c5fc7309c2377f[m
+Author: Talat Laeba <laeba.talat@etudiant.univ-rennes1.fr>
+Date:   Fri Dec 20 12:59:32 2019 +0100
+
+    ajout de javadoc et amélioration de CSVValidator
+
+[33mcommit 8801e358aec8713dffceb9a409e503a6dc75d997[m
+Author: William ZOUNON <williamzounon@gmail.com>
+Date:   Fri Dec 20 11:38:51 2019 +0100
+
+    Writting ProofTest
+
+[33mcommit bb863d50ca414ebfda0472532d4d27a3406d4d0c[m
+Author: William ZOUNON <williamzounon@gmail.com>
+Date:   Thu Dec 19 17:11:11 2019 +0100
+
+    A
+
+[33mcommit 667196552ab406545014cd8a17ba9d93a1b0f764[m
+Author: William ZOUNON <williamzounon@gmail.com>
+Date:   Thu Dec 19 17:10:25 2019 +0100
+
+    A
+
+[33mcommit c3ba040f8f0210856aa2240e33a9e0dac7965bba[m
+Author: William ZOUNON <williamzounon@gmail.com>
+Date:   Thu Dec 19 11:28:23 2019 +0100
+
+    Correct CSVValidation
+
+[33mcommit a1e3a6effb069ce131bf87a7293386aad2658c4b[m
+Author: Talat Laeba <laeba.talat@etudiant.univ-rennes1.fr>
+Date:   Fri Dec 6 12:27:22 2019 +0100
+
+    add todo
+
+[33mcommit 7ff071e4ac24a07ec25fbf87aa87fa2d72f4dc85[m
+Author: Talat Laeba <laeba.talat@etudiant.univ-rennes1.fr>
+Date:   Fri Dec 6 12:22:01 2019 +0100
+
+    Update
+
+[33mcommit c2d92ea6ae4c6d69297e91a6cbd16dd9771159d9[m
+Merge: f404fb2 4d91202
+Author: Talat Laeba <laeba.talat@etudiant.univ-rennes1.fr>
+Date:   Fri Dec 6 12:19:55 2019 +0100
+
+    Merge
+
+[33mcommit f404fb20767095f1b9b0b27ce1f93b8a6cfe6ecf[m
+Author: Talat Laeba <laeba.talat@etudiant.univ-rennes1.fr>
+Date:   Fri Dec 6 12:18:48 2019 +0100
+
+    Correct .gitignore
+
+[33mcommit 3a6893b3c017254cdabe73b5b5aab7dbfc8e47c1[m
+Author: Talat Laeba <laeba.talat@etudiant.univ-rennes1.fr>
+Date:   Fri Dec 6 12:11:06 2019 +0100
+
+    Fixed rowspan
+
+[33mcommit 4d912027cd9daf7ec492f88b0f53232e39caee0e[m
+Merge: 8f84241 b6376eb
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Fri Dec 6 09:43:35 2019 +0100
+
+    Merge remote-tracking branch 'origin/develop' into develop
+    
+    # Conflicts:
+    #       src/main/java/com/wikipediaMatrix/Donnee_Html.java
+
+[33mcommit 8f842419e571840dec33958506d12218c2fda28f[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Tue Dec 3 19:41:14 2019 +0100
+
+    wikitext extractor enhancement
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit b6376ebfb2e33f2a621c6b21404bcb58cabc806c[m
+Author: Talat Laeba <laeba.talat@etudiant.univ-rennes1.fr>
+Date:   Fri Nov 22 11:56:19 2019 +0100
+
+    Detection des problemes pour les tableaux multiples et correction de la taille des tableaux
+
+[33mcommit 9cfabec02f9f60181115aae1a21384845fe40f73[m
+Author: William ZOUNON <williamzounon@gmail.com>
+Date:   Thu Nov 21 02:26:06 2019 +0100
+
+    Fix bug with ";" at the end of csv for simple tables
+
+[33mcommit 6e0609228c0b504db8a9c6b28c4bcde8be5c2164[m
+Author: kouassives <yves.kouassi@etudiant.univ-rennes1.fr>
+Date:   Wed Nov 13 14:53:06 2019 +0100
+
+    Fix feature rowspan.attr("rowspan") in getNbLignesAjouteesRowspans
+
+[33mcommit 0619729cae31d050b84db530857e422884e475e5[m
+Author: kouassives <yves.kouassi@etudiant.univ-rennes1.fr>
+Date:   Wed Nov 13 14:50:39 2019 +0100
+
+    Writing Test for rowspan.attr("rowspan") fearture getNbLignesAjouteesRowspans
+
+[33mcommit 38fac9df24c027f1d9a0ea09e97fb066cdb56d4d[m
+Author: kouassives <yves.kouassi@etudiant.univ-rennes1.fr>
+Date:   Wed Nov 13 14:47:29 2019 +0100
+
+    Code Review
+
+[33mcommit bbe91fff9856c1b526f0b926567855ca90bd3977[m
+Merge: 1c222a4 b818af7
+Author: Kouassi Yves <yves.kouassi@etudiant.univ-rennes1.fr>
+Date:   Wed Nov 13 13:53:10 2019 +0100
+
+    Merge remote-tracking branch 'origin/develop' into develop
+
+[33mcommit 1c222a49c7b9870ff6320b870a2f8a5f4a11b9c1[m
+Author: Kouassi Yves <yves.kouassi@etudiant.univ-rennes1.fr>
+Date:   Wed Nov 13 13:50:42 2019 +0100
+
+    fix NumberFormatException:getNbLignesAjouteesRowspans(Elements rowspans)
+
+[33mcommit 8ae2f22f22bd444959a7fabb9848d3fc022d6792[m
+Author: Kouassi Yves <yves.kouassi@etudiant.univ-rennes1.fr>
+Date:   Wed Nov 13 12:09:38 2019 +0100
+
+    adding Titre & Langue setter in the URLConstructor to make it consistent
+
+[33mcommit 52d6b58bb08f09ca92615c8525c392cc4d612f10[m
+Author: Kouassi Yves <yves.kouassi@etudiant.univ-rennes1.fr>
+Date:   Wed Nov 13 12:06:10 2019 +0100
+
+    edit level getNbLignesAjouteesRowspans() to check return
+
+[33mcommit b818af7ee418e7b92e0499e0f0331c79296dd68c[m
+Author: William ZOUNON <williamzounon@gmail.com>
+Date:   Tue Nov 12 15:57:38 2019 +0100
+
+    Write test for MalformedURLException
+
+[33mcommit 879a26afe5c0ba177e7c463c399c323ac80721ab[m
+Author: William ZOUNON <williamzounon@gmail.com>
+Date:   Tue Nov 12 14:34:16 2019 +0100
+
+    Fix CSVValidatorTest bugs
+
+[33mcommit 5678b38251101bd586e1f295347957c75017e5de[m
+Merge: 3eed1a1 4bc657b
+Author: William ZOUNON <williamzounon@gmail.com>
+Date:   Tue Nov 12 14:21:07 2019 +0100
+
+    Merge branch 'develop' of https://github.com/Qt-tracker/PDL_2019-2020_GR5 into develop
+
+[33mcommit 3eed1a140575075e836a974c0e70624c5278d071[m
+Merge: 92b197d 37bdd69
+Author: William ZOUNON <williamzounon@gmail.com>
+Date:   Tue Nov 12 14:20:46 2019 +0100
+
+    Merge branch 'feature/optimize_csv' into develop
+
+[33mcommit 37bdd690467ee6112d6918646c8bb512371733ca[m
+Author: William ZOUNON <williamzounon@gmail.com>
+Date:   Tue Nov 12 14:20:10 2019 +0100
+
+    Review code
+
+[33mcommit 4518dfc3616b7dbb0146b7776ef6c41aa224df30[m[33m ([m[1;31morigin/feature/optimize_csv[m[33m)[m
+Author: William ZOUNON <williamzounon@gmail.com>
+Date:   Tue Nov 12 14:00:11 2019 +0100
+
+    Writting test case for csv validation
+
+[33mcommit 4bc657b974656fed02347e8e41546a061997c992[m
+Merge: caf4205 461acbe
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Tue Nov 12 11:22:17 2019 +0100
+
+    Merge remote-tracking branch 'origin/develop' into develop
+
+[33mcommit caf420571b5793972dab8c48bac347ce70e165c6[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Tue Nov 12 11:21:03 2019 +0100
+
+    test on csv number and csv format added
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit 461acbecfc1801243bb210227760df093f1188f2[m
+Author: Talat Laeba <laeba.talat@etudiant.univ-rennes1.fr>
+Date:   Fri Nov 8 12:51:29 2019 +0100
+
+    Fixed readCsv and write compareCsvTest
+
+[33mcommit d1bbce0c31306842c231ec7da6a5ec8d491bad6e[m
+Merge: 028220d 3549bd5
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Thu Oct 31 15:01:43 2019 +0100
+
+    Merge branch 'feature/fixBug' into develop
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit 3549bd5f2d34dd698d5a283ffb1438ba091afcad[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Thu Oct 31 14:54:55 2019 +0100
+
+    Fixes #4
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit 028220d844e8b31ee583733cb218d1d4f31e77b2[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Thu Oct 31 14:18:00 2019 +0100
+
+    global test refactoring
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit 9187b18aa859ed5efd3024008bdb72ee939b396b[m
+Merge: d6707ad 92b197d
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Thu Oct 31 14:03:25 2019 +0100
+
+    Merge remote-tracking branch 'origin/develop' into develop
+
+[33mcommit d6707adea35ad26f33668d4c84376447fe1f2998[m
+Merge: 9592c8a bb45f6e
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Thu Oct 31 14:02:12 2019 +0100
+
+    Merge branch 'feature/findBug' into develop
+
+[33mcommit bb45f6ecd2b16c833f08c96373db042a2c3092ad[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Thu Oct 31 14:01:56 2019 +0100
+
+    refactoring test case
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit 92b197d2bd6fcdb3ecf6316284df32629491fc70[m
+Merge: 0c892a9 9592c8a
+Author: William ZOUNON <yao.zounon@etudiant.univ-rennes1.fr>
+Date:   Thu Oct 24 10:58:02 2019 +0200
+
+    Merge branch 'develop' of https://github.com/Qt-tracker/PDL_2019-2020_GR5 into develop
+
+[33mcommit 0c892a946b499fdb78ef43303b4b8cc7574ef401[m
+Author: William ZOUNON <yao.zounon@etudiant.univ-rennes1.fr>
+Date:   Thu Oct 24 10:57:48 2019 +0200
+
+    Fix Main CUrl
+
+[33mcommit 9592c8a1cb5efb1c86a32d134a373d8f02028971[m
+Merge: d0b2523 22b8ea5
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Thu Oct 24 10:57:00 2019 +0200
+
+    Merge remote-tracking branch 'origin/develop' into develop
+
+[33mcommit d0b25236a1c6d4b3b127cfe7e703af62453d14f3[m
+Merge: ee67c3d 14d3fc4
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Thu Oct 24 10:56:18 2019 +0200
+
+    Merge branch 'feature/findBug' into develop
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit 8c1d4d20ef867bfc2aeef4041ccf030940bfaf5a[m
+Merge: 22b8ea5 702fe11
+Author: William ZOUNON <yao.zounon@etudiant.univ-rennes1.fr>
+Date:   Thu Oct 24 10:56:05 2019 +0200
+
+    Merge branch 'feature/make_csv_validator' into develop
+
+[33mcommit 702fe116448f26132a69940d90b82bf6f3b90218[m
+Merge: d8fe0ee 22b8ea5
+Author: William ZOUNON <yao.zounon@etudiant.univ-rennes1.fr>
+Date:   Thu Oct 24 10:53:26 2019 +0200
+
+    Merge branch 'develop' of https://github.com/Qt-tracker/PDL_2019-2020_GR5 into feature/make_csv_validator
+    
+     Conflicts:
+    	pom.xml
+
+[33mcommit d8fe0ee2ac12f03b89cc8db8f976a0a0ad239f5f[m
+Author: William ZOUNON <yao.zounon@etudiant.univ-rennes1.fr>
+Date:   Thu Oct 24 10:52:34 2019 +0200
+
+    implementation of CSV Validator
+
+[33mcommit 22b8ea5cd14d5ca1955b8f9ca36fd98989ed1ff2[m
+Author: Talat Laeba <laeba.talat@etudiant.univ-rennes1.fr>
+Date:   Thu Oct 24 10:50:34 2019 +0200
+
+    implémentation du CSVManager
+
+[33mcommit 14d3fc4bb75d5fd4361c0a4079baca0df8ee53f9[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Thu Oct 24 10:31:33 2019 +0200
+
+    first bug
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit 9706d610725feff2f449e43e4f33a7bfde51ba18[m
+Author: William ZOUNON <yao.zounon@etudiant.univ-rennes1.fr>
+Date:   Wed Oct 16 17:09:25 2019 +0200
+
+    Begining implementation of CSV Validator
+
+[33mcommit 01e6268521e4146dc67a583bb97afec70c4aa8fc[m
+Merge: e9279de ee67c3d
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Wed Oct 16 09:15:06 2019 +0200
+
+    Merge branch 'release/v2.01'
+
+[33mcommit ee67c3d4cb29c1600b34fb3ed42fa8277097b1fd[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Tue Oct 15 11:45:32 2019 +0200
+
+    add app.log in gitignore
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit c3dac726d5fa57a80e9c7b5854b0350f1fa378b8[m
+Merge: 934d0b4 7887ef0
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Tue Oct 15 11:43:48 2019 +0200
+
+    Merge branch 'feature/documentation' into develop
+
+[33mcommit 7887ef091ae0e18d53a6d651c06feb72d51eec6a[m
+Merge: c9917b3 934d0b4
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Tue Oct 15 11:39:34 2019 +0200
+
+    Merge branch 'develop' of https://github.com/Qt-tracker/PDL_2019-2020_GR5 into feature/documentation
+
+[33mcommit 934d0b4db7899e5518f1939c079c016e2b508fa8[m
+Merge: e291aed 3812cd5
+Author: William ZOUNON <yao.zounon@etudiant.univ-rennes1.fr>
+Date:   Sun Oct 13 20:09:52 2019 +0200
+
+    Merge branch 'develop' of https://github.com/Qt-tracker/PDL_2019-2020_GR5 into develop
+
+[33mcommit e291aed9c2612c9a9a8fe141d6242682143515e3[m
+Author: William ZOUNON <yao.zounon@etudiant.univ-rennes1.fr>
+Date:   Sun Oct 13 20:09:25 2019 +0200
+
+    Update DESIGN.md
+
+[33mcommit 3812cd519885030dc63661103d21ed9b9ed0e41b[m
+Author: KOFFI Koitrin <koitrinstephanedesire@gmail.com>
+Date:   Thu Oct 10 16:26:15 2019 +0200
+
+    add install guide link in README.md
+
+[33mcommit 1d9534f7ab1ad43180c125f5d3565b057bf9ab70[m
+Merge: cd9a640 e166161
+Author: Laeba <laeba.talat@hotmail.fr>
+Date:   Tue Oct 8 08:24:57 2019 +0200
+
+    Merge branch 'develop' of https://github.com/Qt-tracker/PDL_2019-2020_GR5 into develop
+
+[33mcommit cd9a64074b5845aac3dcc515dafbca99535403d4[m
+Author: Laeba <laeba.talat@hotmail.fr>
+Date:   Tue Oct 8 08:24:42 2019 +0200
+
+    update readme.md
+
+[33mcommit e166161ced8e1709ef201275bfcb47602ce788d1[m
+Author: kouassives <kouassives@gmail.com>
+Date:   Fri Oct 4 20:08:01 2019 +0200
+
+    issue#8 solved
+
+[33mcommit c9917b3118092b31012255c8d275c88ce47a06de[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Fri Oct 4 11:30:05 2019 +0200
+
+    addd results excepted after installation in INSTALL.md
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit 45640e472b3bcd1868b1e75a71dceca11ab5825b[m
+Merge: a879ca1 e0a6e9e
+Author: kouassives <kouassives@gmail.com>
+Date:   Thu Oct 3 20:43:27 2019 +0200
+
+    Merge remote-tracking branch 'origin/develop' into develop
+
+[33mcommit a879ca1780551def124e14e6de4427692e07da9d[m
+Author: kouassives <kouassives@gmail.com>
+Date:   Thu Oct 3 20:37:49 2019 +0200
+
+    FIX testerConnexion336Urls test failed
+
+[33mcommit e0a6e9e76b28b257e0edffde36ade4db6a469ae7[m
+Merge: 6590e91 7b2d017
+Author: Laeba <laeba.talat@hotmail.fr>
+Date:   Thu Oct 3 14:16:51 2019 +0200
+
+    Merge branch 'feature/laeba-doc' into develop
+
+[33mcommit 7b2d017ce58b84370991412ad4b7bcbe5e320c0f[m
+Merge: 4a170c6 8bd05b1
+Author: Laeba <laeba.talat@hotmail.fr>
+Date:   Thu Oct 3 14:16:09 2019 +0200
+
+    Merge branch 'develop' of https://github.com/Qt-tracker/PDL_2019-2020_GR5 into feature/laeba-doc
+
+[33mcommit 8bd05b1a0a49c7c89648638cfff34b291890a1ce[m
+Merge: 585a326 6dbedf7
+Author: William ZOUNON <yao.zounon@etudiant.univ-rennes1.fr>
+Date:   Thu Oct 3 14:10:37 2019 +0200
+
+    Merge branch 'feature/write_doc' into develop
+
+[33mcommit 6dbedf72e65adfdf9d758a38d7d24ad1683a3223[m
+Merge: f893850 585a326
+Author: William ZOUNON <yao.zounon@etudiant.univ-rennes1.fr>
+Date:   Thu Oct 3 14:06:56 2019 +0200
+
+    Merge branch 'develop' of https://github.com/Qt-tracker/PDL_2019-2020_GR5 into feature/write_doc
+
+[33mcommit 585a326dc8af5017b6a5a28915f1f24c6c3b22ea[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Wed Oct 2 22:30:47 2019 +0200
+
+    Refactoring
+    
+    All exception class moved into exception package
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit 4126a103a8205f63ba98d8f94397fe60237f7a93[m
+Merge: 01b24b8 ccb5cf8
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Wed Oct 2 21:45:33 2019 +0200
+
+    Merge branch 'feature/testLogger' into develop
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit 01b24b8369a32a9fc2facfef3b346c5efe0ad8a7[m
+Merge: 06f1c77 bda875b
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Wed Oct 2 21:42:45 2019 +0200
+
+    Merge branch 'feature/travisci' into develop
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit ccb5cf8709bd22e9f9d23c87566af5e8853ca1d2[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Wed Oct 2 21:29:10 2019 +0200
+
+    color in terminal added
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit bda875b47861e288c02b61378018a4cb4b27444b[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Wed Oct 2 21:18:07 2019 +0200
+
+    test fail skipped
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit f8938506e615f823781c1df9994076be635178ee[m
+Author: William ZOUNON <yao.zounon@etudiant.univ-rennes1.fr>
+Date:   Wed Oct 2 17:48:26 2019 +0200
+
+    Redaction du DESIGN.md
+
+[33mcommit 06f1c77617f6a1b86126bc84a774ef5da2359eed[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Wed Oct 2 17:47:50 2019 +0200
+
+    INSTALL.md added
+    
+    Signed-off-by: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+
+[33mcommit 4a170c6730484c54e388e4d2b1631a6d32a009fe[m
+Author: Laeba Talat <laeba@MacBook-Air-de-Laeba.local>
+Date:   Wed Oct 2 17:41:23 2019 +0200
+
+    modif readme
+
+[33mcommit 97b37d34dce591e1312113ab3fdf585c24f223a8[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Wed Oct 2 13:30:04 2019 +0200
+
+    second travis configuration
+
+[33mcommit 115d4a83bba9124107751d8245a30e032b67ca99[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Wed Oct 2 13:18:18 2019 +0200
+
+    first travis configuration
+
+[33mcommit 53c3d1a8e41c58bca517e06d9723d577b78dd373[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Wed Oct 2 12:31:58 2019 +0200
+
+    Log4J 2 added
+
+[33mcommit 6590e91a48b2bad9388028f2c86f67e2d9506f56[m
+Author: Koitrin KOFFI <koitrinstephanedesire@gmail.com>
+Date:   Tue Oct 1 10:00:17 2019 +0200
+
+    First commit on develop
+
+[33mcommit e9279deac6ad0a29110b01d18474537d2bdd100a[m
+Author: mathieulehan <mathieu.lehan@gmail.com>
+Date:   Thu Dec 20 23:56:34 2018 +0100
+
+    jdk prerequisite
+
+[33mcommit 7d004bd7f81c02e2aaa7152a508b1b4abbf460e9[m
+Author: yannb <yann-bourhis@laposte.net>
+Date:   Thu Dec 20 23:45:36 2018 +0100
+
+    Ajout de commentaire
+
+[33mcommit 8e3bc907e87e0b5aa015861c2a8050331cbb2832[m
+Merge: bbaf959 e3f8b23
+Author: Yann Bourhis <yann.bourhis29@gmail.com>
+Date:   Thu Dec 20 22:56:56 2018 +0100
+
+    Merge remote-tracking branch 'origin/V2' into V2
+
+[33mcommit e3f8b235dd7c531c00520a574e5020e3f024d3e9[m
+Author: mathieulehan <mathieu.lehan@gmail.com>
+Date:   Sat Dec 15 00:18:42 2018 +0100
+
+    Création du README
+
+[33mcommit bbaf9599b2c36fac4809a07991c59a4df7407c80[m
+Author: yannb <yann-bourhis@laposte.net>
+Date:   Fri Dec 14 22:44:14 2018 +0100
+
+    Rectifications & jouts de commentaires, modif noms de fonctions
+
+[33mcommit d7ff683394baf78d88fd8a92c2e55ae4744195ec[m
+Author: Yann Bourhis <yann.bourhis29@gmail.com>
+Date:   Fri Dec 14 22:11:21 2018 +0100
+
+    2: Auto stash before merge of "V2" and "origin/V2"
+
+[33mcommit f097530e20eb44fe49d4707acd9f64690d957cd6[m
+Author: Toma <thomasguessant@gmail.com>
+Date:   Fri Dec 14 21:52:54 2018 +0100
+
+    Finitions
+
+[33mcommit 3416918f10c639ea4f46d39ceff67e54d2b071c3[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Tue Dec 11 17:58:11 2018 +0100
+
+    Ajout des dossiers HTML et wikitext dans output.
+
+[33mcommit b83fb56264666a0bb753a32b76ebba163a217ae7[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Sun Dec 9 21:35:20 2018 +0100
+
+    Ajout de la classe WikiExtractMain, qui joue le role d'interface.
+
+[33mcommit 65fd838cf1a8f90f2f5c1003877a8242bf186aaa[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Sun Dec 9 19:33:26 2018 +0100
+
+    Mvn test : 2min09s. Extraction avec Threads. Ajout commentaires + tests
+
+[33mcommit d1e271f2d7d46a1b9ef6cec11d1337749c46b42e[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Sun Dec 9 15:16:06 2018 +0100
+
+    Stats de temps OK. Stats HTML OK. Stats Wikitable à travailler.
+
+[33mcommit d1c69ddb7ecd21d82f1d4bdcb6fdbabd4319a7ca[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Sun Dec 9 11:43:42 2018 +0100
+
+    Execution OK pour HTML et WIKITEXT
+
+[33mcommit bb6ab89052b912eb51250aab7bb9e7f89b492ee0[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Sat Dec 8 22:25:48 2018 +0100
+
+    Commit initial de la V2. Structure Maven.
+
+[33mcommit 14c63cb118c43ced70db7f36e6ab758ae46ad7d8[m
+Merge: eace263 7cb909b
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Thu Dec 6 23:21:51 2018 +0100
+
+    Merge branch 'V1' of https://github.com/mathieulehan/PDL_2018-2019_GR4 into V1
+
+[33mcommit eace263ae83effcd68b7ecabd2b13f28c212b4d0[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Thu Dec 6 23:21:38 2018 +0100
+
+    Dimensions dynamiques de la matrice. Gestion des col&row spans
+    
+    Les urls passent sans erreur jusqu'a :
+    Comparison_of_Chernobyl_and_other_radioactivity_releases
+
+[33mcommit 7cb909bd48d9e3adb8ce421c473a0acf464d56b6[m
+Author: Toma <thomasguessant@gmail.com>
+Date:   Thu Dec 6 17:44:21 2018 +0100
+
+    Correction Bug Wikitext
+
+[33mcommit 1c853c8e3240410a8cdff9e286c1dea0b53c99a8[m
+Author: Toma <thomasguessant@gmail.com>
+Date:   Wed Dec 5 23:24:21 2018 +0100
+
+    Tableau wikitable + gestion des rowspan et des colspan
+
+[33mcommit 7ee19d1b715c6585df3714cbef4addeeeb29e396[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Wed Dec 5 20:49:10 2018 +0100
+
+    Gestion des colspans & rowspans pour le parsing HTML -> CSV
+    
+    Création d'1 CSV par tableau, et non 1 par page.
+
+[33mcommit 7a46f6cb35b76c98df4e5a10db15e2b2b90c1285[m
+Author: Toma <thomasguessant@gmail.com>
+Date:   Mon Dec 3 14:20:16 2018 +0100
+
+    1: Auto stash before merge of "V1" and "ProjetPDL/V1"
+
+[33mcommit ebcc7d571438392d82027a5e6a0095c5125dc9e1[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Thu Nov 29 18:07:11 2018 +0100
+
+    Parsing d'une table html standard en csv OK.
+    
+    En cours : gérer les colspans / rowspans
+
+[33mcommit e69951c3f12fcd7ec2b5e77c031030b637fb1938[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Thu Nov 29 17:02:44 2018 +0100
+
+    Ajout de la fonction getNbTableaux dans Donnee.java.
+    
+    Permet a la classe ComparerCSV d'avoir une statistique supplémentaire à
+    fournir.
+    Utilise la library apache.commons.lang qui a été rajoutée au pom.xml
+
+[33mcommit 4a01a4817a5af2c999daa0c184eb54fbb13050ff[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Thu Nov 29 16:58:30 2018 +0100
+
+    Modifs sur ComparerCSV et ComparerCSVTest
+    
+    La classe ComparerCSV doit seulement permettre d'acceder à des
+    statistiques du parsing de tables wikipedia en CSV.
+    Modification des tests en conséquence.
+
+[33mcommit 0fe48e81b983d216a99404c733a1dfa018e16bb5[m
+Author: Charlotte <charlotte.laurensan@gmail.com>
+Date:   Wed Nov 28 09:51:48 2018 +0100
+
+    Nouveau test sur les urls : 22 pages wikipedia sans article
+
+[33mcommit 1441b176bec4d1ae1101252d9085e2ec4f27ce12[m
+Author: Charlotte <charlotte.laurensan@gmail.com>
+Date:   Mon Nov 26 14:40:06 2018 +0100
+
+    Verification provenance page wikipedia
+
+[33mcommit 13b1bb992d8b799f00c2dffd42bd4bcf8c19dac1[m
+Author: Toma <thomasguessant@gmail.com>
+Date:   Mon Nov 26 14:25:07 2018 +0100
+
+    Modification fonction wikitableEnteteCsv
+
+[33mcommit 186a290567a265fad635c61b8c2a27b9290e71ad[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Mon Nov 26 14:17:36 2018 +0100
+
+    ArticleInexistantException doit être dans le package exceptions
+
+[33mcommit 213cb0f5836f19394b016f3e30586da80ef3ee63[m
+Author: Toma <thomasguessant@gmail.com>
+Date:   Mon Nov 26 10:26:49 2018 +0100
+
+    Problemes d'import
+
+[33mcommit adfe1fd85e52faf560d327c3ffd59f8d2987b306[m
+Author: Toma <thomasguessant@gmail.com>
+Date:   Fri Nov 23 17:18:33 2018 +0100
+
+    Modification fonction entete
+
+[33mcommit 2c4b086c90344fcaa297d5e124239da29808e287[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Fri Nov 23 12:19:12 2018 +0100
+
+    Ajouts de méthodes, d'exceptions et modifs de tests.
+    
+    - Méthode contientUnArticle(Url url) dans Donnee
+    - Exception ArticleInexistantException
+    - Démo d'un assert throw avec lambda expression (JUnit 5 & Java 8)
+    - Suppression de DonneeTest (pas de tests sur classe abstraite)
+
+[33mcommit 8e43d16f0288b627f2b1aa381e07d384f284aaa6[m
+Merge: 7d06eb9 b0d2095
+Author: Charlotte <charlotte.laurensan@gmail.com>
+Date:   Fri Nov 23 10:51:45 2018 +0100
+
+    Merge remote-tracking branch 'chach44/V1' into V1
+
+[33mcommit b0d2095edd43892d5b8b34a00aad3c96233ab007[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Thu Nov 22 14:06:42 2018 +0100
+
+    Ajout et modifs de tests pour la classe Donnees_Html
+
+[33mcommit 7d06eb96f3238c19949178db15d7f2d6f88dfc1d[m
+Merge: bbad515 0741706
+Author: Toma <thomasguessant@gmail.com>
+Date:   Thu Nov 22 12:17:06 2018 +0100
+
+    Merge remote-tracking branch 'ProjetPDL/V1' into V1
+
+[33mcommit bbad51563c12391fc82e20b5086164c829125326[m
+Author: Toma <thomasguessant@gmail.com>
+Date:   Thu Nov 22 12:16:33 2018 +0100
+
+    Fonction entete finie
+
+[33mcommit 0741706ea8914986d705eceec37941fd0d70ae98[m
+Author: Charlotte <charlotte.laurensan@gmail.com>
+Date:   Thu Nov 22 12:06:36 2018 +0100
+
+    Source d'url à tester + Modification de la classe URL
+
+[33mcommit 579b8b9799f4f08f19b566a30d09a74666a8f4a4[m
+Merge: 55f8c38 cd9cf26
+Author: Charlotte <charlotte.laurensan@gmail.com>
+Date:   Thu Nov 22 12:04:54 2018 +0100
+
+    Merge remote-tracking branch 'chach44/V1' into V1
+
+[33mcommit cd9cf261b25496477fdd8cfe0b3456261e94a2ac[m
+Author: yannb <yann-bourhis@laposte.net>
+Date:   Thu Nov 22 11:44:45 2018 +0100
+
+    Adaptation titre csv à celui de la page, extraire via liste d'url
+
+[33mcommit d6d91dc6aff72b80727d29cf1050d1d921311f52[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Thu Nov 22 11:30:51 2018 +0100
+
+    Passage en public des méthodes estTitreValide() et estLangueValide()
+    (à des fins de tests unitaires)
+
+[33mcommit 83ae4d224285900a57b1e3eea16935a641cec7f4[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Thu Nov 22 11:29:41 2018 +0100
+
+    Dernière version de Mockito
+
+[33mcommit 55f8c380551bd5251fcb9936b141eae9b7ab9928[m
+Author: Toma <thomasguessant@gmail.com>
+Date:   Thu Nov 22 10:24:55 2018 +0100
+
+    Modification de wikitable
+
+[33mcommit 2579d85ec60dd9ae89480c08eebf6461347ca8bc[m
+Merge: 841143f a9f373b
+Author: Charlotte <charlotte.laurensan@gmail.com>
+Date:   Mon Nov 19 18:28:09 2018 +0100
+
+    Merge remote-tracking branch 'chach44/V1' into V1
+
+[33mcommit b06991f5e2935f1eefdfb50d2ab202b7fca187ac[m
+Merge: debe9f6 a9f373b
+Author: Yann Bourhis <yann.bourhis29@gmail.com>
+Date:   Mon Nov 19 14:12:56 2018 +0100
+
+    Merge remote-tracking branch 'origin/V1' into V1
+
+[33mcommit a9f373bc367e8d8475d86eb6ba6997d4dfd32630[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Mon Nov 19 12:19:49 2018 +0100
+
+    Ajouts et modifications de tests portants sur les classes ComparerCSV,
+    Donnee_Html et Donnee
+
+[33mcommit debe9f67381e73b6edf21cb7c13b395653a7be26[m
+Merge: dbe6b59 841143f
+Author: Yann Bourhis <yann.bourhis29@gmail.com>
+Date:   Mon Nov 19 11:23:35 2018 +0100
+
+    Merge remote-tracking branch 'origin/V1' into V1
+
+[33mcommit 841143fab3d0f547baf6e9ad9b0d25b3c67fa306[m
+Author: Toma <thomasguessant@gmail.com>
+Date:   Mon Nov 19 11:22:25 2018 +0100
+
+    Wikitable Modification
+
+[33mcommit dbe6b5900f5b29a8bb19f4499f719b0fe57642aa[m
+Author: Yann Bourhis <yann.bourhis29@gmail.com>
+Date:   Mon Nov 19 11:21:39 2018 +0100
+
+    1: Auto stash before merge of "V1" and "origin/V1"
+
+[33mcommit 48ac06247bff08b740b5020444046b3862a904dc[m
+Author: Charlotte <charlotte.laurensan@gmail.com>
+Date:   Mon Nov 19 11:19:32 2018 +0100
+
+    Nouvelle Exception "FormatsEquivalentsException"
+
+[33mcommit 46b43089899591c11abbfb43c66a6770963249ef[m
+Merge: acbd1a4 eeda6e3
+Author: Charlotte <charlotte.laurensan@gmail.com>
+Date:   Mon Nov 19 10:55:18 2018 +0100
+
+    Merge remote-tracking branch 'chach44/V1' into V1
+
+[33mcommit eeda6e386eba83bd1ceaeb1bb7742a9c0f8e355c[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Mon Nov 19 10:54:41 2018 +0100
+
+    Mockito corrigé dans le pom.xml & autres correctifs mineurs
+
+[33mcommit acbd1a466d17f0afd403db11de88c11a721d6852[m
+Merge: 34bacdd 9f2b6fc
+Author: Charlotte <charlotte.laurensan@gmail.com>
+Date:   Mon Nov 19 10:53:52 2018 +0100
+
+    Merge remote-tracking branch 'chach44/V1' into V1
+
+[33mcommit 9f2b6fced63b574d0728397544495fd73652fbdf[m
+Author: Mathieu LE Han <mathieu.lehan@gmail.com>
+Date:   Mon Nov 19 10:32:20 2018 +0100
+
+    Correction du nom de l'exception ConversionInvalideException
+
+[33mcommit 34bacdd04a2e1e7e2d06ab2f73e7697d41ac2048[m
+Author: Charlotte <charlotte.laurensan@gmail.com>
+Date:   Mon Nov 19 10:12:54 2018 +0100
+
+    Modifications URL
+
+[33mcommit 77238993142b07ac8e7bcefb5f499901df9b25c6[m
+Author: Toma <thomasguessant@gmail.com>
+Date:   Mon Nov 19 09:40:38 2018 +0100
+
+    Donnee, Url, DonneeWikitableTest
+
+[33mcommit 69ac65bd35077631847a91e0700dadd4a91ff936[m
+Author: yannb <yann-bourhis@laposte.net>
+Date:   Mon Nov 19 09:36:08 2018 +0100
+
+    Rafraîchissement de Donnee_HtmlTest
+
+[33mcommit 1ceb3662c1d085a9005148985c663421cf775997[m
+Author: Yann Bourhis <yann.bourhis29@gmail.com>
+Date:   Mon Nov 19 09:21:07 2018 +0100
+
+    1: Auto stash before merge of "V1" and "origin/V1"
+
+[33mcommit 00d1661dc52d200dc6df63e79e84ae58c4d25584[m
+Merge: 6b79870 b0badff
+Author: Yann Bourhis <yann.bourhis29@gmail.com>
+Date:   Mon Nov 19 09:15:54 2018 +0100
+
+    Merge remote-tracking branch 'origin/V1' into V1
+
+[33mcommit b0badff2768acfca26ba86a38ffa593940f665ef[m
+Merge: e94c988 97e40dd
+Author: Charlotte <charlotte.laurensan@gmail.com>
+Date:   Sun Nov 18 19:46:57 2018 +0100
+
+    Merge remote-tracking branch 'chach44/V1' into V1

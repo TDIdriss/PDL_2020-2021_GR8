@@ -46,15 +46,20 @@ public class Url {
 	 * @throws UrlInvalideException si l'url est invalide
 	 */
 	public boolean estPageWikipedia() throws UrlInvalideException {
+		String debutURL="";
 		try {
+			debutURL = url.toString().substring(0, url.toString().lastIndexOf('/')+1);;
+		} catch (Exception e) {
+			e.getMessage();
+		}
 
-			String debutURL = url.toString().substring(0, url.toString().lastIndexOf('/')+1);;
+
 			if (!debutURL.matches("https://(fr|en).wikipedia.org/(w|wiki)/")) {
 				throw new UrlInvalideException("URL non prise en charge");
 			}
 			langue = url.toString().substring(8, url.toString().indexOf('.'));
-		} catch (Exception e) {}
-		return true;
+
+			return true;
 	}
 
 	/**

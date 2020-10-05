@@ -40,11 +40,13 @@ public class UrlTest {
 	 * @throws MalformedURLException si l'url n'est pas correcte
 	 */
 	@Test(expected = UrlInvalideException.class)
-	@Ignore
 	public void pageNonWikipedia() throws UrlInvalideException, MalformedURLException {
 		Url url = new Url(new URL("https://www.google.com"));
-		url.estUrlValide();
+		//url.estUrlValide();
+		url.estPageWikipedia();
 	}
+
+
 
 	/**
 	 * La methode renvoie false si le titre est invalide

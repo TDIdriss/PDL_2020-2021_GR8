@@ -50,7 +50,7 @@ public class Url {
 		try {
 			debutURL = url.toString().substring(0, url.toString().lastIndexOf('/')+1);;
 		} catch (Exception e) {
-			//e.getMessage();
+			e.getMessage();
 		}
 
 

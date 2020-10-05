@@ -7,7 +7,7 @@ package com.wikipediaMatrix.exception;
  * - Connexion via l'URL echouee
  * - Langue non geree
  * 
- * @author Groupe 4
+ * @author Groupe 8
  *
  */
 public class UrlInvalideException extends Exception {

@@ -28,7 +28,7 @@ A suite of tools to be able to more easily specify a ground truth and thus help 
 A dataset reusable by anyone wanting to test an array extractor
 
 This is a Master of Business Informatics' project which improve its latest version called "Wikipedia Matrix" (this actuel project has been forked from this one)<br>
-(cf : https://github.com/mathieulehan/PDL_2018-2019_GR4). 
+(cf : https://github.com/TDIdriss/PDL_2020-2021_GR8).
 
 ## Getting Started
 
@@ -135,11 +135,11 @@ git config --global user.email johndoe@example.com
 
 ## Authors
 
-* **Koitrin KOFFI** - *Whole project* - [Koitrin Koffi](https://github.com/Qt-tracker)
-* **William ZOUNON** - *Whole project* - [William Zounon](https://github.com/Wizo17)
-* **Laeba  TALAT** - *Whole project* - [Laeba Talat](https://github.com/Laeba)
-* **Yves KOUASSI** - *Whole project* - [Yves Kouassi](https://github.com/kouassives)
-* **Nguyen-Anh CU** - *Whole project* - [Nguyen-Anh CU](https://github.com/NguyenAnhCu)
+* **Estelle BOLI** - *Whole project* - [Estelle BOLI](https://github.com/boliestestelle)
+* **Olive BOTON** - *Whole project* - [Olive BOTON](https://github.com/nboton)
+* **Jean yves DOUHE** - *Whole project* - [Jean yves DOUHE](https://github.com/gdouhe)
+* **Bonaventure GBEHE ** - *Whole project* - [Bonaventure GBEHE](https://github.com/bgbehe)
+* **Idriss TRAORE** - *Whole project* - [Idriss TRAORE](https://github.com/TDIdriss)
 
 ## License
 

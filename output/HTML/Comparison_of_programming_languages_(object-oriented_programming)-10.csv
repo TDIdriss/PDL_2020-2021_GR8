@@ -11,9 +11,9 @@ Python; N/A; N/A
 Visual Basic .NET; Shared Narrowing Operator CType(operand As type) As returntype instructions End Operator; Shared Widening Operator CType(operand As type) As returntype instructions End Operator
 PHP; N/A; N/A
 Perl; N/A; N/A
-Raku; N/A; N/A
+Raku; ; multi method type«($self:)» is export { instructions }
 Ruby; N/A; N/A
 Windows PowerShell; N/A; N/A
-OCaml; 
+OCaml; N/A; N/A
 F#; ; 
 COBOL; N/A; N/A

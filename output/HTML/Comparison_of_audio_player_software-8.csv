@@ -12,8 +12,10 @@ MediaMonkey; Yes; No; No; Yes[ protocolnotes 3]; ?
 MusicBee; Yes; ?; ?; Yes; ?
 Musicmatch Jukebox; Yes; ?; ?; ?; ?
 musikCube; Yes; No; No; ?; ?
+Music Player Daemon; Yes[ 22]; Yes[ 23]; Yes[ 24]; Yes; Music Player Daemon
 Rhapsody; Yes; Yes; Yes; Yes; ?
 Rhythmbox; Yes; Yes; No; Partial[ protocolnotes 4]; UPNP
+Sayonara Player; Yes; ?; ?; ?; ?
 Sonique; Yes; ?; ?; ?; ?
 XMMS; Yes; ?; ?; ?; ?
 Zinf; Yes; Yes; No; No; ?

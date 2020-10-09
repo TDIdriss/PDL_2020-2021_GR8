@@ -14,7 +14,7 @@ Go; int8; uint8 or byte; int16; uint16; int32; uint32; int64; uint64; int; uint;
 Rust; i8; u8; i16; u16; i32; u32; i64; u64; isize; usize; N/A
 Swift; Int8; UInt8; Int16; UInt16; Int32; UInt32; Int64; UInt64; Int; UInt; 
 D; byte; ubyte; short; ushort; int; uint; long; ulong; N/A; N/A; BigInt
-Common Lisp[ 2]; (integer -128 127); (integer 0 255); (integer -32768 32767); (integer 0 65536); (integer -2147483648 2147483647); (integer 0 4294967296); (integer -9223372036854775808 9223372036854775807); (integer 0 18446744073709551616); ; ; bignum
+Common Lisp[ 2]; (signed-byte 8); (unsigned-byte 8); (signed-byte 16); (unsigned-byte 16); (signed-byte 32); (unsigned-byte 32); (signed-byte 64); (unsigned-byte 64); ; ; bignum
 Scheme; ; ; ; ; ; ; ; ; ; ; 
 ISLISP[ 3]; ; ; ; ; ; ; ; ; ; ; bignum
 Pascal (FPC); shortint; byte; smallint; word; longint; longword; int64; qword; integer; cardinal; N/A

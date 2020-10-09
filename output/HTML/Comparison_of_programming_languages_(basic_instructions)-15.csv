@@ -8,12 +8,13 @@ Java; args[n]; ;
 D; args[n]; first argument; 
 JavaScript Windows Script Host implementation; WScript.Arguments(n); WScript.Arguments.length; WScript.ScriptName or WScript.ScriptFullName
 Go; os.Args[n]; len(os.Args); first argument
+Rust[a]; std::env::args().nth(n) std::env::args_os().nth(n); std::env::args().count() std::env::args_os().count(); std::env::args().next() std::env::args_os().next()
 Swift; Process.arguments[n] or Process.unsafeArgv[n]; Process.arguments.count or Process.argc; first argument
 Common Lisp; ?; ?; ?
 Scheme (R6RS); (list-ref (command-line) n); (length (command-line)); first argument
 ISLISP; N/A; N/A; N/A
 Pascal; ParamStr(n); ParamCount; first argument
-Visual Basic; Command[a]; N/A; App.Path
+Visual Basic; Command[b]; N/A; App.Path
 Visual Basic .NET; CmdArgs(n); CmdArgs.Length; [Assembly].GetEntryAssembly().Location
 Xojo; System.CommandLine; (string parsing); Application.ExecutableFile.Name
 Python; sys.argv[n]; len(sys.argv); first argument
@@ -29,4 +30,4 @@ OCaml; Sys.argv.(n); Array.length Sys.argv; first argument
 F#; args.[n]; args.Length; Assembly.GetEntryAssembly().Location
 Standard ML; List.nth (CommandLine.arguments (), n); length (CommandLine.arguments ()); CommandLine.name ()
 Haskell (GHC); do { args < - System.getArgs return length args !! n}; do { args < - System.getArgs return length args}; System.getProgName
-COBOL; [b]; [b]; N/A
+COBOL; [c]; [c]; N/A

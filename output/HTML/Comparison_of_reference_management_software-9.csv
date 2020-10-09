@@ -1,5 +1,5 @@
 Software; Passworded; Networking; Networking
-Software; Passworded; User-specific permissions[ 43]; Simultaneous write access
+Software; Passworded; User-specific permissions[ 49]; Simultaneous write access
 Bebop; No; N/A; N/A
 BibBase; N/A; N/A; N/A
 BibDesk; Yes; No; No
@@ -7,24 +7,25 @@ Biblioscape; Yes; Yes; Yes
 BibSonomy; Yes; Yes; Yes
 Bibus; ?; ?; ?
 Bookends; ?; ?; ?
-Citavi; Yes[ 44]; Yes; Yes
+Citavi; Yes[ 50]; Yes; Yes
 CiteULike; Yes; No; Yes
 colwiz; Yes; Yes; Yes
-EndNote; Yes; No[ 45]; No[ 45]
-F1000Workspace; Yes; Yes; Yes
+EndNote; Yes; No[ 51]; No[ 51]
 JabRef; No; No; Partial
 KBibTeX; No; N/A; N/A
-Mendeley; Yes[ 46]; Yes; Yes
-Paperpile; Yes[ 47]; Yes; Yes
+Mendeley; Yes[ 52]; Yes; Yes
+Paperpile; Yes[ 53]; Yes; Yes
 Pybliographer; ?; ?; ?
 Qiqqa; Yes; Yes; Yes
-ReadCube (now Papers); Yes; Yes; No
+ReadCube (now Papers); Yes; Yes; Yes[ 54]
 refbase; Yes; Yes; Yes
 RefDB; Yes; Yes; Yes
 Reference Manager; Yes; No; Yes
 Referencer; ?; ?; ?
+RefME; ?; ?; ?
 RefWorks; Yes; ?; Yes
+SciRef; ?; ?; ?
 Sente; Yes; Yes; Yes
 Wikindx; Yes; Yes; Yes
 WizFolio; Yes; Yes; Yes
-Zotero; Yes[ 48]; Yes; Yes
+Zotero; Yes[ 55]; Yes; Yes

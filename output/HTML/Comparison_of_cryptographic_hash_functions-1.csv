@@ -1,6 +1,7 @@
 Function; Year; Designer; Derived from; Reference
 BLAKE; 2008; Jean-Philippe Aumasson Luca Henzen Willi Meier Raphael C.-W. Phan; ChaCha20; Website Specification
 BLAKE2; 2012; Jean-Philippe Aumasson Samuel Neves Zooko Wilcox-O'Hearn Christian Winnerlein; BLAKE; Website Specification RFC  7693
+BLAKE3; 2020; Jack O'Connor Jean-Philippe Aumasson Samuel Neves Zooko Wilcox-O'Hearn; BLAKE2; Website Specification
 GOST R 34.11-94; 1994; FAPSI and VNIIstandart; GOST 28147-89; RFC  5831
 HAVAL; 1992; Yuliang Zheng Josef Pieprzyk Jennifer Seberry; ; Website Specification
 KangarooTwelve; 2016; Guido Bertoni Joan Daemen Michaël Peeters Gilles Van Assche; Keccak; Website Specification

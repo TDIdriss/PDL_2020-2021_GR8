@@ -6,7 +6,7 @@ Maximum bitrate; Raw data transfer; Raw data transfer; 128 Mbit/s; 53.95 Mbit/s;
 Maximum bitrate; Audio+Video+Subtitles; ; 48.0 Mbit/s; 30.24 Mbit/s; 30.24 Mbit/s; 27 Mbit/s; 27 Mbit/s; 10.08 Mbit/s; 
 Maximum bitrate; Video; ; 40.0 Mbit/s; 29.4 Mbit/s; 29.4 Mbit/s; Unknown; Unknown; 9.8 Mbit/s; 
 Mandatory video codecs; Mandatory video codecs; Mandatory video codecs; H.265/MPEG-H Part 2; H.264/MPEG-4 AVC / VC-1 / MPEG-2; H.264/MPEG-4 AVC / VC-1 / MPEG-2; China's AVS / H.264/MPEG-4 AVC / VC-1 / MPEG-2; H.264/MPEG-4 AVC; H.264/MPEG-4 AVC MPEG-2; MPEG-1 / MPEG-2
-Audio codecs (maximum data rates shown); lossy; Dolby Digital; TBD; Mandatory 640 kbit/s; Mandatory 504 kbit/s [1]; Mandatory 504 kbit/s [1]; Mandatory 64-640 kbit/s; Mandatory 64-640 kbit/s; Mandatory 448 kbit/s
+Audio codecs (maximum data rates shown); lossy; Dolby Digital; TBD; Mandatory 640 kbit/s; Mandatory 504 kbit/s [ 2]; Mandatory 504 kbit/s [ 2]; Mandatory 64-640 kbit/s; Mandatory 64-640 kbit/s; Mandatory 448 kbit/s
 Audio codecs (maximum data rates shown); lossy; DTS; TBD; Unknown; N/A; N/A; Optional 1.5 Mbit/s; 
 Audio codecs (maximum data rates shown); lossy; Dolby Digital Plus[d]; TBD; Optional 1.7 Mbit/s; N/A; N/A; N/A; 
 Audio codecs (maximum data rates shown); lossy; DTS-HD High Resolution; TBD; Optional 6.0 Mbit/s; Optional 3.0 Mbit/s; Unknown; N/A; 
@@ -18,7 +18,7 @@ Secondary audio decoder; Secondary audio decoder; Secondary audio decoder; TBD; 
 Interactivity; Interactivity; Interactivity; TBD; BDMV and Blu-ray Disc Java; Standard Content and Advanced Content; CETC; Rudimentary; Rudimentary; Rudimentary
 Internet support; Internet support; Internet support; TBD; Mandatory for BD-Live players; Mandatory; Unknown; N/A; N/A; N/A
 Video resolution (maximum); Video resolution (maximum); Video resolution (maximum); 4K UHD 3840×2160; 1920×1080p; 1920×1080p; 1920×1080p; 1920×1080p; 1920×1080p; 720×480 (NTSC) 720×576 (PAL)
-Frame rates at maximum resolution; Frame rates at maximum resolution; Frame rates at maximum resolution; HFR 60p; 24/25/30p, 50/60i[ 2] [g]; 24/25/30p, 50/60i; 24/25/30p, 50/60i; 24/25/30p, 50/60i; Unknown; 24/25/30p[g] 50/60i
+Frame rates at maximum resolution; Frame rates at maximum resolution; Frame rates at maximum resolution; HFR 60p; 24/25/30p, 50/60i[ 3] [g]; 24/25/30p, 50/60i; 24/25/30p, 50/60i; 24/25/30p, 50/60i; Unknown; 24/25/30p[g] 50/60i
 Dynamic range video; Dynamic range video; Dynamic range video; HDR10 / HDR10+ / SL-HDR2; SDR; ; ; ; ; 
 Color space; Color space; Color space; Rec. 2020; ; ; ; ; ; 
 Digital Rights Management; Digital Rights Management; Digital Rights Management; ; AACS-128bit / BD+ / ROM-Mark; AACS-128bit; AACS-128bit / DKAA; None (Not intended for prerecorded content); None (Not intended for prerecorded content); CSS 40-bit

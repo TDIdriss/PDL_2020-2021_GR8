@@ -6,8 +6,8 @@ Member accessibility levels; Yes public, package, protected, private; Yes public
 Class-level inner classes; Yes static inner classes are class level; Yes all inner classes are class level
 Instance-level inner classes; Yes; No
 Statement-level (local) anonymous classes; Yes; Yes but without methods
-Partial classes; No Third-party library[ 46]; Yes
-Implicit (inferred) anonymous classes; No; Yes[ 47]
+Partial classes; No Third-party library[ 47]; Yes
+Implicit (inferred) anonymous classes; No; Yes[ 48]
 Deprecation/obsolescence; Yes; Yes
 Overload versioning; Some; Yes
 Enums can implement interfaces; Yes; No

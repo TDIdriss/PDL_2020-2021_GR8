@@ -5,5 +5,5 @@ Flow control; Yes; Yes
 Assignment; Yes; Yes
 Exception control; Yes; Yes
 Variable declaration; Yes; Yes
-Variable type inference; Yes[ 42]; Yes
+Variable type inference; Yes[ 43]; Yes
 Deterministic disposal (ARM-blocks); Yes; Yes

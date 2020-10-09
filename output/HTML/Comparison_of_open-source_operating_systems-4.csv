@@ -5,7 +5,6 @@ OpenBSD; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No
 NetBSD; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 DragonFly BSD; Yes; ; Yes; Yes; Yes; Yes; Yes; 
 OpenSolaris, illumos; Yes; ; Yes; Yes; Yes; Yes; No; No
-AuroraUX; Yes; ; Yes; Yes; Yes; Yes; No; No
 Darwin, OpenDarwin; Yes; ; ; ; ; ; ; 
 MINIX; Yes; ; Yes; ; ; ; ; 
 FreeDOS; Yes; Yes; Yes; ; ; ; ; 

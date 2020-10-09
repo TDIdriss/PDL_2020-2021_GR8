@@ -1,9 +1,16 @@
-; 2001[ 151]; 2002[ 152]; 2003[ 153]; 2004[ 154]; 2005[ 155]; 2006[ 156]; 2007[ 157]; 2008[ 158]; 2009[ 159]; 2010[ 160]; Total
-  China; 1; 5; 7; 8; 5; 6; 9; 11; 6; 15; 73
-  Japan; 1; 3; 3; -; 2; 6; 2; 1; 3; 2; 23
-  India; 2; 1; 2; 1; 1; 1; 3; 3; 2; 3; 19
-  Israel; -; 1; -; 1; -; -; 1; -; -; 1; 4
-  Iran; -; -; -; -; -; -; -; 1; 1; -; 2
-  South Korea; -; -; -; -; -; -; -; -; 1; 1; 2
-  North Korea; -; -; -; -; -; -; -; -; 1; -; 1
-Total; 4; 10; 12; 10; 8; 13; 15; 16; 14; 22; 124
+Country; Program; Agency engaged; First orbital crewed launch; First orbital crewed launch; First orbital crewed launch; First orbital crewed launch; First orbital crewed launch
+Country; Program; Agency engaged; Spacecraft; Term(s) for space traveler; First human(s) launched; Date; Launch system
+  People's Republic of China; Project 714 (1968–72); Chinese space program; Shuguang spacecraft (Intended); 宇航员 (in Chinese) yǔhángyuán航天员 (in Chinese)hángtiānyuán; N/A; N/A; Long March 2A (Intended)
+  People's Republic of China; Project 863 (1976–80); Chinese space program; Piloted FSW spacecraft (Intended); 宇航员 (in Chinese) yǔhángyuán航天员 (in Chinese)hángtiānyuán; N/A; N/A; Long March 2 (Intended)
+  Japan; HOPE-X (late 1980s-2003); National Space Development Agency of Japan; HOPE-X spaceplane (Intended); 宇宙飛行士 (in Japanese) uchūhikōshi orアストロノートastoronoto; N/A; N/A; H-IIA (Intended)
+  Ba'athist Iraq; ... (1989-2001); Space Research Center, Baghdad; N/A; رجل فضاء (in Arabic) rajul faḍāʼرائد فضاء (in Arabic)rāʼid faḍāʼملاح فضائي (in Arabic)mallāḥ faḍāʼiy; N/A; N/A; Tammouz 2 or 3 (Intended)
+  People's Republic of China; Project 921 (1992–present); China National Space Administration; Shenzhou spacecraft and Tiangong space laboratory; 宇航员 (in Chinese) yǔhángyuán航天员 (in Chinese)hángtiānyuántaikonaut("太空人" tàikōng rén); 杨利伟 (Yang Liwei); 2003-10-15; Long March 2F, Long March 3
+  People's Republic of China; Project 869 (1990s); China National Space Administration; Tianjiao-1 or Chang Cheng-1 (Great Wall-1) winged spaceplanes (Intended); 宇航员 (in Chinese) yǔhángyuán航天员 (in Chinese)hángtiānyuántaikonaut("太空人" tàikōng rén); N/A; N/A; 869 reusable shuttle system (Intended)
+  Japan; Kankoh-maru (1993-1997,2005); Japanese Rocket Society  [ ja] , Kawasaki Heavy Industries and Mitsubishi Heavy Industries; Kankoh-maru reusable shuttle system (Intended); 宇宙飛行士 (in Japanese) uchūhikōshi orアストロノートastoronoto; N/A; N/A; Kankoh-maru reusable shuttle system (Intended)
+  Japan; ... (2001-2003); National Space Development Agency of Japan; Fuji spacecraft (Intended); 宇宙飛行士 (in Japanese) uchūhikōshi orアストロノートastoronoto; N/A; N/A; H-IIA (Intended)
+  People's Republic of China; Project 921-2 (2020–present); China National Space Administration; X-11 reused spacecraft, Tianzhou non-reentry and Shenzhou Cargo reentry cargo spacecrafts and permanent modular Chinese Space Station; 宇航员 (in Chinese) yǔhángyuán航天员 (in Chinese)hángtiānyuántaikonaut("太空人" tàikōng rén); TBD; TBD; Long March 3, Long March 5
+  India; Indian Human Spaceflight Programme (2007–present); Human Space Flight Centre (ISRO); Gaganyaan spacecraft and small space laboratory; Vyomanaut/Gaganaut; TBA; December 2021 (Planned) Before 2022-08-15 (Scheduled); GSLV Mk III
+  People's Republic of China; Project 921-3 (2000s–present); China National Space Administration; Shenlong spaceplane; 宇航员 (in Chinese) yǔhángyuán航天员 (in Chinese)hángtiānyuántaikonaut("太空人" tàikōng rén); TBD; TBD; 921-3 RLV (or Tengyun either HTS maglev launch assist) reusable shuttle system
+  Japan; ... (2008–present); Japan Aerospace Exploration Agency; HTV-based spacecraft and small space laboratory; 宇宙飛行士 (in Japanese) uchūhikōshi orアストロノートastoronoto; TBD; TBD; H-IIB
+  Iran; Iranian human spaceflight program (2005-2017, on hold); Iranian Space Agency; Class E Kavoshgar spacecraft and small space laboratory; ; TBD; TBD; TBD
+  North Korea; DPRK space program (2010s-present); National Aerospace Development Administration; Spacecraft and small space laboratory; ; TBD; TBD; Unha 9, 20

@@ -1,5 +1,5 @@
 GIS software; Free software; Open source; Windows; Mac OS X; Linux; BSD; Unix; Web; Other
-ArcGIS; Viewer(s); No; Yes; Yes; Yes; Yes; Yes; Yes; Google Earth Plugin, KML, WMS
+ArcGIS; Viewer(s); No; Yes; Yes; No; No; Yes; Yes; Google Earth Plugin, KML, WMS
 Autodesk; Viewer(s); No; Yes; No; Yes; No; No; Yes; No
 Cadcorp; Viewer(s); No; Yes; No; No; No; No; Yes; No
 CAPAWARE; Yes; Yes; Yes; No; No; No; No; No; No
@@ -13,7 +13,6 @@ GeoTools; Yes; Yes; Java; Java; Java; Java; Java; No; No
 GRASS; Yes; Yes; Yes; Yes; Yes; Yes; Yes; via pyWPS[ 1]; No
 gvSIG; Yes; Yes; Java; Java; Java; Java; Java; No; No
 IDRISI; No; No; Yes; No; No; No; No; No; No
-JViews Maps (By Rogue Wave, formerly ILOG); Viewer(s); No; Java; Java; Java; Java; Java; Java & DHTML/Ajax; Live/active symbol overlays
 ILWIS; Yes; Yes; Yes; No; No; No; No; No; No
 GeoMedia; Viewer(s); No; Yes; No; No; No; CLIX; Yes; KML
 JUMP GIS; Yes; Yes; Java; Java; Java; Java; Java; No; No

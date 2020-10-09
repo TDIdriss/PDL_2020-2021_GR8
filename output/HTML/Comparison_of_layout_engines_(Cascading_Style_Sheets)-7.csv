@@ -32,14 +32,14 @@ css-color-3; hsla(h, s, l, a); 9.0[ t 1]; 525; 12; HSLA notation; 1.9; 3.5.5; 2.
 css-color-3; transparent; Full transparency; 525; 12; 9.0; 1.9; 4.0; Partial
 Image values; Image values; Image values; Image values; Image values; Image values; Image values; Image values; Image values
 CSS2; < url>; Image types; 3.0; 12; 1.0; 85; Yes; 1.0
-css3- images; < sprite>; Image types; No; No; No; No; No; No
-css3- images; < image-list>; Image types; No; No; No; No; No; No
-css3- images; < linear-gradient>; Image types; 12; 16.0; Yes; Experimental; No; 
-css3- images; 10.0[ t 52]; Image types; 12; 16.0; Yes; Experimental; No; < radial-gradient>
-css3- images; 10.0[ t 52]; linear-gradient(); 12; 16.0; Yes; Experimental; No; 
-css3- images; 10.0[ t 52]; Color gradients; 12; 16.0; Yes; Experimental; No; radial-gradient()
-css3- images; 10.0[ t 52]; Color gradients; 12; 16.0; Yes; Experimental; No; repeating-linear-gradient()
-css3- images; 10.0[ t 52]; Color gradients; 12; 16.0; Yes; Experimental; No; repeating-radial-gradient()
+css- images-3; < sprite>; Image types; No; No; No; No; No; No
+css- images-3; < image-list>; Image types; No; No; No; No; No; No
+css- images-3; < linear-gradient>; Image types; 12; 16.0; Yes; Experimental; No; 
+css- images-3; 10.0[ t 52]; Image types; 12; 16.0; Yes; Experimental; No; < radial-gradient>
+css- images-3; 10.0[ t 52]; linear-gradient(); 12; 16.0; Yes; Experimental; No; 
+css- images-3; 10.0[ t 52]; Color gradients; 12; 16.0; Yes; Experimental; No; radial-gradient()
+css- images-3; 10.0[ t 52]; Color gradients; 12; 16.0; Yes; Experimental; No; repeating-linear-gradient()
+css- images-3; 10.0[ t 52]; Color gradients; 12; 16.0; Yes; Experimental; No; repeating-radial-gradient()
 css- images-4; conic-gradient(); ; No; No; No; No; No; No
 css- images-4; repeating-conic-gradient(); ; No; No; No; No; No; No
 css- images-4; element(); Reproduce element; No; No; Experimental; No; No; No
@@ -72,7 +72,7 @@ css-values-3; kHz; No; Kilohertz; Yes; Yes; No; No;
 css-values-3; dpi; No; Dots per inch; 1.9.1; No; 4.1; 2.5; 
 css-values-3; dpcm; No; 12; 1.9.1; No; 4.1; 2.5; Dots per centimetre
 css-values-3; dppx; No; 12; Dots per pixel-unit; 16.0; No; ?; No
-earlier draft of css-line- grid; gd; No; Cells in the layout-grid; No; No; No; No; No
+earlier draft of css-line- grid-1; gd; No; Cells in the layout-grid; No; No; No; No; No
 unit being considered for css- template- 3; fr; No; Remaining space in a series of length values; No; No; No; No; 
 css-values-3; rem; the font size of the root element; 12; 9.0[ t 1]; 1.9.2; Yes; No; 2.10.229[ p 7]
 css-values-3; vw; the viewport's width; 12; 9.0[ t 1]; No; No; 

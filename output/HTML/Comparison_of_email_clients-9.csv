@@ -10,20 +10,19 @@ Elm; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
 eM Client; Yes; Yes; No; No; No; No; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; ?; ?; ?; ?; ?; ?; ?
 EmailTray; Yes; No; No; No; No; No; ?; Yes; Yes; Yes; Yes; Yes; Yes; Yes; ?; No; Yes; Yes; Yes; Yes; No; No; ?
 Eudora; Yes; Yes; No; No; Yes; ?; ?; Yes; Yes; ?; Yes; Yes; Yes; Yes; QuickTime; Yes; ?; ?; ?; ?; ?; ?; ?
-Eureka Email; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
 Evolution; Yes; Yes; ?; ?; No; ?; Yes; Yes; Yes; ?; Yes; Yes; Yes; Yes; ?; ?; ?; ?; ?; ?; ?; ?; ?
 Gnus; Yes; Yes; Yes; ?; ?; ?; ?; Yes; Yes; Yes; Yes; Yes; Yes; Yes; XPM; Yes; ?; ?; ?; ?; ?; ?; ?
 GroupWise; Yes; Yes; Yes; Yes; Yes; ?; ?; Yes; Yes; Yes; Yes; Yes; Yes; Yes; ?; Yes; Yes; Yes; Yes; Yes; Yes; Yes; ?
 Hiri; Yes; Yes; No; Yes; No; No; No; Yes; No; Yes; Yes; Yes; Yes; Yes; Yes; No; No; No; No; No; No; No; No
 i.Scribe / InScribe; Yes; No; No; Yes; No; No; No; Yes [ Note 2]; Yes; Yes; Yes [ Note 3]; Yes; Yes; Yes [ Note 4]; ICO, TIFF; Yes; No; No; No; No; No; No; No
-IBM Notes; Yes; Yes; ?; ?; Yes; ?; ?; Yes; Yes; ?; Yes; Yes; Yes; No; CGM, Lotus PIC, PCX, TIFF; ?; Yes; Yes; Yes; Yes; ?; ?; ?
-KMail; Yes[ 78]; Yes; No; Yes; ?; ?; ?; Yes; Yes; ?; Yes; Yes; Yes; Yes; ?; ?; ?; ?; ?; ?; ?; ?; ?
+HCL Notes; Yes; Yes; ?; ?; Yes; ?; ?; Yes; Yes; ?; Yes; Yes; Yes; No; CGM, Lotus PIC, PCX, TIFF; ?; Yes; Yes; Yes; Yes; ?; ?; ?
+KMail; Yes[ 32]; Yes; No; Yes; ?; ?; ?; Yes; Yes; ?; Yes; Yes; Yes; Yes; ?; ?; ?; ?; ?; ?; ?; ?; ?
 Mailbird; Yes; Yes; ?; Yes; ?; ?; ?; Yes; Yes; Yes; Yes; Yes; Yes; Yes; ?; Yes; Yes; Yes; Yes; Yes; No; No; ?
 Mailpile; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
 Microsoft Entourage; Yes; Yes; ?; Yes[ Note 5]; ?; ?; ?; Yes; Yes; ?; Yes; Yes; ?; Yes; ?; ?; ?; Yes; ?; ?; ?; ?; ?
 Microsoft Office Outlook; Yes; Yes; No; Yes; Yes; ?; ?; Yes; Yes; No; Yes; Yes; Yes; Yes; ?; Yes; Yes; with a plugin; Yes; Yes; 2010; 2010; PowerPoint
 Mozilla Mail & Newsgroups; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
-Mozilla Thunderbird; Yes; Yes; ?; ?; with a plugin[ 79]; ?; ?; Yes; Yes; Yes [ Note 6]; Yes; Yes; Yes; Yes; ICO; Yes [ Note 7]; Yes; Yes; No; No; No; No; No
+Mozilla Thunderbird; Yes; Yes; ?; ?; with a plugin[ 33]; ?; ?; Yes; Yes; Yes [ Note 6]; Yes; Yes; Yes; Yes; ICO; Yes [ Note 7]; Yes; Yes; No; No; No; No; No
 Mulberry; ?; Yes; ?; ?; ?; ?; ?; Yes; Yes; ?; No; No; No; No; No; ?; ?; ?; ?; ?; ?; ?; ?
 Mutt; Yes; Yes; No; No; Yes; ?; ?; Yes; Yes; ?; No; No; No; No; No; postpone; ?; ?; ?; ?; ?; ?; ?
 Netscape Messenger; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?

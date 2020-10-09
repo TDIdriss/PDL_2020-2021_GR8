@@ -1,4 +1,4 @@
-Name; GUI; CLI; Scripting; Horizontal / Vertical; Syntax Highlighting; Reports
+Name; GUI; CLI; Scripting; Horizontal / vertical; Syntax highlighting; Reports
 Beyond Compare; Yes; Yes; Yes; Both; Yes; XML, HTML, CSV, Text, Unix Patch
 Compare++; Yes; Yes; ; Both; Yes; HTML, Text(combined or side-by-side)
 diff; No; Yes; ; Horizontal; Yes pipe to diff-highlight[ 30]; 
@@ -22,6 +22,6 @@ Tkdiff; Yes; ; ; ; ;
 Total Commander (compare); Yes; ; ; Both; No; No
 vimdiff; Yes; Yes; vim script; Both; Yes; HTML
 WinDiff; Yes; Yes; ; Horizontal; No; Text
-WinMerge; Yes; Yes; ; Vertical; Yes; CSV, Tab-delimited, HTML, XML
+WinMerge; Yes; Yes; ; Both; Yes; CSV, Tab-delimited, HTML, XML
 UCC; Yes; Yes; ; Vertical; Yes; Text, CSV
-Name; GUI; CLI; Scripting; Horizontal / Vertical; Syntax Highlighting; Reports
+Name; GUI; CLI; Scripting; Horizontal / vertical; Syntax highlighting; Reports

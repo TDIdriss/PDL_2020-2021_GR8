@@ -8,11 +8,11 @@ C#; type[]; type[,,...]; System.Collections.ArrayList or System.Collections.Gene
 Java; type[][b]; type[][]...[b]; ArrayList or ArrayList< type>; ; 
 D; type[size]; type[size1][size2]; type[]; ; 
 Go; [size]type; [size1][size2]...type; []type; [][]type; 
-Rust; [type size]; [[type size1] size2]; [type]; N/A; 
+Rust; [type size]; [[type size1] size2]; Vec< type>; Vec< Vec< type> >; 
 Swift; ; ; [type] or Array< type>; [[type]] or Array< Array< type> >; 
 Objective-C; NSArray; ; NSMutableArray; ; 
 JavaScript; N/A; N/A; Array[d]; Array[d]; 
-Common Lisp; ; ; ; ; 
+Common Lisp; (simple-array type (dimension)); (simple-array type (dimension1 dimension2)); (array type (dimension)); (array type (dimension1 dimension2)); 
 Scheme; ; ; ; ; 
 ISLISP; ; ; ; ; 
 Pascal; array[first..last] of type[c]; array[first1..last1] of array[first2..last2] ... of type [c] or array[first1..last1, first2..last2, ...] of type [c]; N/A; N/A; 

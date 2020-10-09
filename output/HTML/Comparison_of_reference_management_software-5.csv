@@ -10,7 +10,6 @@ Citavi; Yes; Yes; Yes; Yes; 10600+ styles. Styles can be requested and are centr
 CiteULike; Yes; Yes; Yes; Yes; various[ citation needed]; none
 colwiz; Yes; Yes; Yes; Yes; 9464 styles; CSL
 EndNote; Yes; Yes; Yes; Yes; 6926 styles; EndNote format (through GUI)
-F1000Workspace; Yes; Yes; Yes; Yes; 9464 styles; CSL
 JabRef; Yes; Yes; Yes; Yes; any BibTeX style; BibTeX
 KBibTeX; Yes; Yes; Yes; Yes; any BibTeX style; BibTeX
 Mendeley; Yes; Yes; Yes; Yes; 9464 styles; CSL
@@ -22,6 +21,7 @@ refbase; Yes; Yes; Yes; Yes; various polar & marine journals; PHP
 RefDB; Yes; Yes; Yes; Yes; 21 biomedical & law journals; XML (citestylex.dtd), interactive script
 Reference Manager; Yes; Yes; Yes; Yes; various; Reference Manager format (through GUI)
 Referencer; ?; ?; ?; ?; ?; ?
+RefME; ?; ?; ?; ?; ?; ?
 RefWorks; Yes; Yes; Yes; Yes; 4256, plus CSL styles; RefWorks format (through GUI) CSL
 SciRef; Yes; Yes; Yes; Yes; various; SciRef format (through GUI)
 Sente; Yes; Yes; Yes; Yes; various; Sente format (through GUI)

@@ -1,4 +1,4 @@
-Name; ZIP support; FTP support; SFTP support; Version Control browsing; Patch creation; Patch application; Patch preview; Unicode support; XML-aware
+Name; ZIP support; FTP support; SFTP support; Version control browsing; Patch creation; Patch application; Patch preview; Unicode support; XML-aware
 Beyond Compare; Yes; Yes; Yes; SVN; Yes; Yes; Yes; Yes; 
 Compare++; ; ; ; SVN, CVS, Git, Microsoft TFS, Perforce, VSS using command line; ; ; ; Yes; 
 diff; No; No; ; No; Yes; Yes with patch; Yes with patch; No; No
@@ -24,4 +24,4 @@ vimdiff; Yes; Yes; ; ; Yes; ; ; Yes;
 WinDiff; No; No; ; ; No; ; ; No; 
 WinMerge; Yes; No; ; Mercurial,[ 36] Subversion,[ 37] Visual Source Safe, Rational ClearCase[ 38]; Yes; ; ; Yes; 
 UCC; Yes; No; ; ; ; ; ; Yes; 
-Name; ZIP support; FTP support; SFTP support; Version Control browsing; Patch creation; Patch application; Patch preview; Unicode support; XML-aware
+Name; ZIP support; FTP support; SFTP support; Version control browsing; Patch creation; Patch application; Patch preview; Unicode support; XML-aware

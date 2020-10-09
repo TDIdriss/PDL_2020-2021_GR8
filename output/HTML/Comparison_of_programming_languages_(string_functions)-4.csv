@@ -18,12 +18,13 @@ string1.CompareTo(string2); VB .NET, C#, F#
 (string-compare string1 string2 p< p= p> ); Scheme (SRFI 13)
 (string= string1 string2); ISLISP
 compare string1 string2; OCaml
-String.compare (string1, string2); Standard ML [ 3]
-compare string1 string2; Haskell [ 4]
+String.compare (string1, string2); Standard ML [ 4]
+compare string1 string2; Haskell [ 5]
 [string]::Compare(string1, string2); Windows PowerShell
 [string1 compare:string2]; Objective-C (NSString * only)
-LLT(string1,string2) LLE(string1,string2) LGT(string1,string2) LGE(string1,string2); Fortran [ 5]
+LLT(string1,string2) LLE(string1,string2) LGT(string1,string2) LGE(string1,string2); Fortran [ 6]
 string1.localeCompare(string2); JavaScript
 bytes.Compare([]byte(string1), []byte(string2)); Go
 string compare  ?-nocase?  ?-length int? string1 string2; Tcl
-compare(string1,string2,count); PL/I[ 6]
+compare(string1,string2,count); PL/I[ 7]
+string1.cmp(string2); Rust[ 8]

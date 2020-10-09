@@ -3,7 +3,7 @@ Flag; Country; IOC; FIFA; ISO; *
 ; Åland Islands; ; ; ALA; 1--ï
 ; Albania; ALB; ALB; ALB; 3OFI
 ; Algeria; ALG; ALG; DZA; 3OFï
-; American Samoa[ 1]; ASA; ASA; ASM; 3OFï
+; American Samoa[ 2]; ASA; ASA; ASM; 3OFï
 ; Andorra; AND; AND; AND; 3OFI
 ; Angola; ANG; ANG; AGO; 3OFï
 ; Anguilla; ; AIA; AIA; 2-FI
@@ -32,7 +32,7 @@ Flag; Country; IOC; FIFA; ISO; *
 ; Bouvet Island; ; ; BVT; 1--ï
 ; Brazil; BRA; BRA; BRA; 3OFI
 ; British Indian Ocean Territory; ; ; IOT; 1--ï
-; British Virgin Islands[ 2]; IVB; VGB; VGB; 3öFI
+; British Virgin Islands[ 3]; IVB; VGB; VGB; 3öFI
 ; Brunei; BRU; BRU; BRN; 3OFï
 ; Bulgaria; BUL; BUL; BGR; 3OFï
 ; Burkina Faso; BUR; BFA; BFA; 3öFI
@@ -45,13 +45,13 @@ Flag; Country; IOC; FIFA; ISO; *
 ; Central African Republic; CAF; CTA; CAF; 3OƒI
 ; Chad; CHA; CHA; TCD; 3OFï
 ; Chile; CHI; CHI; CHL; 3OFï
-; China, People's Republic of[ 3]; CHN; CHN; CHN; 3OFI
+; China, People's Republic of[ 4]; CHN; CHN; CHN; 3OFI
 ; Christmas Island; ; ; CXR; 1--ï
 ; Cocos (Keeling) Islands; ; ; CCK; 1--ï
 ; Colombia; COL; COL; COL; 3OFI
 ; Comoros; COM; COM; COM; 3OFI
-; Congo, Democratic Republic of the[ 4]; COD; COD; COD; 3OFI
-; Congo, Republic of the[ 5]; CGO; CGO; COG; 3OFï
+; Congo, Democratic Republic of the[ 5]; COD; COD; COD; 3OFI
+; Congo, Republic of the[ 6]; CGO; CGO; COG; 3OFï
 ; Cook Islands; COK; COK; COK; 3OFI
 ; Costa Rica; CRC; CRC; CRI; 3OFï
 ; Côte d'Ivoire; CIV; CIV; CIV; 3OFI
@@ -67,7 +67,7 @@ Flag; Country; IOC; FIFA; ISO; *
 ; Ecuador; ECU; ECU; ECU; 3OFI
 ; Egypt; EGY; EGY; EGY; 3OFI
 ; El Salvador; ESA; SLV; SLV; 3öFI
-; England; ; ENG; [ 6]; 1-ƒ-
+; England; ; ENG; [ 7]; 1-ƒ-
 ; Equatorial Guinea; GEQ; EQG; GNQ; 3öƒï
 ; Eritrea; ERI; ERI; ERI; 3OFI
 ; Estonia; EST; EST; EST; 3OFI
@@ -79,7 +79,7 @@ Flag; Country; IOC; FIFA; ISO; *
 ; Finland; FIN; FIN; FIN; 3OFI
 ; France; FRA; FRA; FRA; 3OFI
 ; French Guiana; ; ; GUF; 1--ï
-; French Polynesia[ 7]; ; TAH; PYF; 2-ƒï
+; French Polynesia[ 8]; ; TAH; PYF; 2-ƒï
 ; French Southern and Antarctic Lands; ; ; ATF; 1--ï
 ; Gabon; GAB; GAB; GAB; 3OFI
 ; The Gambia; GAM; GAM; GMB; 3OFï
@@ -100,14 +100,14 @@ Flag; Country; IOC; FIFA; ISO; *
 ; Haiti; HAI; HAI; HTI; 3OFï
 ; Heard Island and McDonald Islands; ; ; HMD; 1--ï
 ; Honduras; HON; HON; HND; 3OFï
-; Hong Kong[ 8]; HKG; HKG; HKG; 3OFI
+; Hong Kong[ 9]; HKG; HKG; HKG; 3OFI
 ; Hungary; HUN; HUN; HUN; 3OFI
 ; Iceland; ISL; ISL; ISL; 3OFI
 ; India; IND; IND; IND; 3OFI
 ; Indonesia; INA; IDN; IDN; 3öFI
 ; Iran; IRI; IRN; IRN; 3öFI
 ; Iraq; IRQ; IRQ; IRQ; 3OFI
-; Ireland[ 9]; IRL; IRL; IRL; 3OFI
+; Ireland[ 10]; IRL; IRL; IRL; 3OFI
 ; Isle of Man; ; ; IMN; 1--ï
 ; Israel; ISR; ISR; ISR; 3OFI
 ; Italy; ITA; ITA; ITA; 3OFI
@@ -118,14 +118,14 @@ Flag; Country; IOC; FIFA; ISO; *
 ; Kazakhstan; KAZ; KAZ; KAZ; 3OFI
 ; Kenya; KEN; KEN; KEN; 3OFI
 ; Kiribati; KIR; ; KIR; 2O-I
-; Korea, Democratic People's Rep. (North)[ 10]; PRK; PRK; PRK; 3OFI
-; Korea, Republic of (South)[ 11]; KOR; KOR; KOR; 3OFI
-; Kosovo; KOS; KVX; [ 12]; 2öƒ-
+; Korea, Democratic People's Rep. (North)[ 11]; PRK; PRK; PRK; 3OFI
+; Korea, Republic of (South)[ 12]; KOR; KOR; KOR; 3OFI
+; Kosovo; KOS; KVX; [ 13]; 2öƒ-
 ; Kuwait; KUW; KUW; KWT; 3OFï
 ; Kyrgyzstan; KGZ; KGZ; KGZ; 3OFI
 ; Laos; LAO; LAO; LAO; 3OFI
 ; Latvia; LAT; LVA; LVA; 3öFI
-; Lebanon; LBN; LIB; LBN; 3OƒI
+; Lebanon; LBN; LBN; LBN; 3OFI
 ; Lesotho; LES; LES; LSO; 3OFï
 ; Liberia; LBR; LBR; LBR; 3OFI
 ; Libya; LBA; LBY; LBY; 3öFI
@@ -165,9 +165,9 @@ Flag; Country; IOC; FIFA; ISO; *
 ; Nigeria; NGR; NGA; NGA; 3öFI
 ; Niue; ; ; NIU; 1--ï
 ; Norfolk Island; ; ; NFK; 1--ï
-; Northern Ireland; ; NIR; [ 6]; 1-ƒ-
+; Northern Ireland; ; NIR; [ 7]; 1-ƒ-
 ; Northern Mariana Islands; ; ; MNP; 1--ï
-; North Macedonia[ 13]; MKD; MKD; MKD; 3OFI
+; North Macedonia[ 14]; MKD; MKD; MKD; 3OFI
 ; Norway; NOR; NOR; NOR; 3OFI
 ; Oman; OMA; OMA; OMN; 3OFï
 ; Pakistan; PAK; PAK; PAK; 3OFI
@@ -194,11 +194,11 @@ Flag; Country; IOC; FIFA; ISO; *
 ; Saint Martin (French part); ; ; MAF; 1--ï
 ; Saint Pierre and Miquelon; ; ; SPM; 1--ï
 ; Saint Vincent and the Grenadines; VIN; VIN; VCT; 3OFï
-; Samoa[ 1]; SAM; SAM; WSM; 3OFï
+; Samoa[ 2]; SAM; SAM; WSM; 3OFï
 ; San Marino; SMR; SMR; SMR; 3OFI
 ; São Tomé and Príncipe; STP; STP; STP; 3OFI
 ; Saudi Arabia; KSA; KSA; SAU; 3OFï
-; Scotland; ; SCO; [ 6]; 1-ƒ-
+; Scotland; ; SCO; [ 7]; 1-ƒ-
 ; Senegal; SEN; SEN; SEN; 3OFI
 ; Serbia; SRB; SRB; SRB; 3OFI
 ; Seychelles; SEY; SEY; SYC; 3OFï
@@ -220,11 +220,11 @@ Flag; Country; IOC; FIFA; ISO; *
 ; Sweden; SWE; SWE; SWE; 3OFI
 ; Switzerland; SUI; SUI; CHE; 3OFï
 ; Syria; SYR; SYR; SYR; 3OFI
-; Taiwan[ 14]; TPE; TPE; TWN; 3OFï
+; Taiwan[ 15]; TPE; TPE; TWN; 3OFï
 ; Tajikistan; TJK; TJK; TJK; 3OFI
 ; Tanzania; TAN; TAN; TZA; 3OFï
 ; Thailand; THA; THA; THA; 3OFI
-; Timor-Leste[ 15]; TLS; TLS; TLS; 3OFI
+; Timor-Leste[ 16]; TLS; TLS; TLS; 3OFI
 ; Togo; TOG; TOG; TGO; 3OFï
 ; Tokelau; ; ; TKL; 1--ï
 ; Tonga; TGA; TGA; TON; 3OFï
@@ -237,17 +237,17 @@ Flag; Country; IOC; FIFA; ISO; *
 ; Uganda; UGA; UGA; UGA; 3OFI
 ; Ukraine; UKR; UKR; UKR; 3OFI
 ; United Arab Emirates; UAE; UAE; ARE; 3OFï
-; United Kingdom[ 16]; GBR; ; GBR; 2O-I
+; United Kingdom[ 17]; GBR; ; GBR; 2O-I
 ; United States; USA; USA; USA; 3OFI
 ; United States Minor Outlying Islands; ; ; UMI; 1--ï
-; United States Virgin Islands[ 17]; ISV; VIR; VIR; 3öFI
+; United States Virgin Islands[ 18]; ISV; VIR; VIR; 3öFI
 ; Uruguay; URU; URU; URY; 3OFï
 ; Uzbekistan; UZB; UZB; UZB; 3OFI
 ; Vanuatu; VAN; VAN; VUT; 3OFï
 ; Vatican City State; ; ; VAT; 1--ï
 ; Venezuela; VEN; VEN; VEN; 3OFI
 ; Vietnam; VIE; VIE; VNM; 3OFï
-; Wales; ; WAL; [ 6]; 1-ƒ-
+; Wales; ; WAL; [ 7]; 1-ƒ-
 ; Wallis and Futuna; ; ; WLF; 1--ï
 ; Western Sahara; ; ; ESH; 1--ï
 ; Yemen; YEM; YEM; YEM; 3OFI

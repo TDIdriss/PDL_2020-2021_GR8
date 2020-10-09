@@ -1,4 +1,4 @@
-Software; Collaborative software; Issue tracking system; Scheduling; Project Portfolio Management; Resource Management; Document Management; Workflow system; Reporting and Analyses
+Software; Collaborative software; Issue tracking system; Scheduling; Project portfolio management; Resource management; Document management; Workflow system; Reporting and analyses
 2-plan; Yes; No; Yes[ 20]; Yes; Yes; Yes; Yes; Yes
 24SevenOffice; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 Actionspace; Yes; Yes; Yes; No; No; No (Integrates with SharePoint); Yes; Yes
@@ -9,13 +9,14 @@ Asana; Yes; No; Yes; Yes; Yes; No; Yes; Yes
 Assembla; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 Axosoft; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 Basecamp; Yes[ 21]; No; No; No; Yes[ 19]; Yes; No; No
+BigGantt; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes
+BigPicture; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes
 Calligra Plan; No; No; Yes; No; Yes; No; No; No
 CEITON; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 Clarizen; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 Collabtive; Yes; No; No; No; No; Yes; No; Yes
 Compuware Changepoint; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 ConceptDraw Project; Yes[ 22]; Yes[ 23]; Yes[ 24]; Yes; Yes; Yes; Yes; Yes
-Concerto Project Management; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 Copper Project; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes
 dotProject; Yes; Yes; No; Yes; Yes; Yes; No; Yes
 DynaRoad; No; No; Yes; No; Yes; No; Yes; Yes
@@ -51,7 +52,6 @@ LiquidPlanner; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 LisaProject; No; No; Yes; No; Yes; No; No; No
 MacProject; No; No; Yes; No; Yes; No; No; No
 MantisBT; No; Yes; No; No; No; No; No; No
-MeisterTask; Yes; Yes; Yes; Unknown; Unknown; No; Yes; Yes
 Métier; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 Microsoft Dynamics AX; Yes; No; Yes; No; Yes; Yes; Yes; Yes
 Microsoft Office Project Server; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
@@ -67,7 +67,7 @@ OnePager Pro; Yes; No; Yes; Yes; Yes; Yes; No; Yes
 OmniPlan; Yes; No; Yes; No; Yes; No; No; Yes
 Open Workbench; No; No; Yes; No; Yes; No; No; No
 OpenProj; No; No; Yes; No; Yes; No; No; No
-OpenProject; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes (Via OpenProject plug-ins)[ 25]
+OpenProject; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes (via OpenProject plug-ins)[ 25]
 Oracle Primavera EPPM (Primavera P6); Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 phpGroupWare; Yes; Yes; No; Unknown; Yes; Yes; No; No
 PHProjekt; Yes; Yes; Yes; No; No; No; No; No
@@ -121,6 +121,6 @@ web2project; Yes; Yes; No; Yes; Yes; Yes; No; Yes
 Workamajig; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 Workfront; Yes; Yes[ 19]; Yes[ 19]; Yes[ 19]; Yes; Yes; Yes; Yes
 WorkPLAN Enterprise; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
-workspace.com; Yes; Yes; Yes; Yes; Yes; Yes; Unknown; Unknown
+Workspace.com; Yes; Yes; Yes; Yes; Yes; Yes; Unknown; Unknown
 Wrike; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 Zoho Projects; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes

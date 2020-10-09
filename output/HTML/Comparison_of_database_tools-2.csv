@@ -17,12 +17,12 @@ Navicat Data Modeler; desktop; No; Yes; No; Yes; No; No; No; No; Yes; Yes; Yes; 
 Oracle Enterprise Manager; Browser-based; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; ?; Yes
 Oracle SQL Developer; desktop; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No
 Orbada; desktop; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No
-pgAdmin III; TDI; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Some
+pgAdmin; TDI; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Some
 phpLiteAdmin; Browser-based; Yes; Yes; No; Yes; Yes; Yes; No; Yes; Yes; Yes; ?; ?
 phpMyAdmin; Browser-based; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 SQL Database Studio; desktop; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No
 SQLyog; desktop; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; ?; ?
 SQuirreL SQL; desktop; ?; ?; ?; ?; Yes; Yes; ?; ?; Yes; Yes; Some; ?
-Toad; desktop; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; ?; ?
+Toad; desktop; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 Toad Data Modeler; desktop; Yes; Yes; Yes; Yes; Some; Some; Some; Some; No; Yes; ?; ?
 TOra; desktop; No; Yes; Yes; No; Yes; Yes; Yes; Yes; Yes; Yes; Yes; ?

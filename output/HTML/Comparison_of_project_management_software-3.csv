@@ -1,4 +1,4 @@
-Software; Budget Management; Time Tracking; Invoicing
+Software; Budget management; Time tracking; Invoicing
 2-plan; No; No; No
 24SevenOffice; Yes; Yes; Yes
 Actionspace; No; Yes; No
@@ -9,13 +9,14 @@ Asana; No; Yes; No
 Assembla; No; Yes; No
 Axosoft; No; Yes; No
 Basecamp; No; No; No
+BigGantt; No; Yes; No
+BigPicture; No; Yes; No
 Calligra Plan; No; No; No
 CEITON; Yes; Yes; Yes
 Clarizen; Yes; Yes; No
 Collabtive; No; Yes; No
 Compuware Changepoint; No; Yes; No
 ConceptDraw Project; Yes [ 35]; Yes [ 36]; No
-Concerto Project Management; Yes; Yes; Yes
 Copper Project; Yes; Yes; Yes
 dotProject; No; No; No
 DynaRoad; Yes; Yes; No
@@ -47,7 +48,6 @@ LiquidPlanner; No; Yes; No
 LisaProject; No; No; No
 MacProject; No; No; No
 MantisBT; No; Yes[ 39]; No
-MeisterTask; No; Yes; No
 Métier; Yes; Yes; Yes
 Microsoft Dynamics AX; Yes; Yes; Yes
 Microsoft Office Project Server; Yes; Yes; No
@@ -115,6 +115,6 @@ web2project; No; No[ 48]; No
 Workamajig; Yes; Yes; No
 Workfront; Yes; Yes; No
 WorkPLAN Enterprise; No; Yes; No
-workspace.com; No; Yes; No
+Workspace.com; No; Yes; No
 Wrike; No; Yes; No
 Zoho Projects; Yes[ 49]; Yes[ 49]; Yes[ 49]

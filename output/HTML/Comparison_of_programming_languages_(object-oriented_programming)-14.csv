@@ -1,6 +1,7 @@
 ; String representation; String representation; Object copy; Value equality; Object comparison; Hash code; Object ID
 ; Human-readable; Source-compatible; Object copy; Value equality; Object comparison; Hash code; Object ID
 ABAP Objects; N/A; N/A; N/A; N/A; N/A; N/A; N/A
+APL (Dyalog); ⍕x; ⎕SRC x; ⎕NS x; x = y; N/A; N/A; 
 C++ (STL); ; ; ; x == y[ 50]; ; ; pointer to object can be converted into an integer ID
 C#; x.ToString(); ; x.Clone(); x.Equals(y); x.CompareTo(y); x.GetHashCode(); System.Runtime.CompilerServices.RuntimeHelpers.GetHashCode(x)
 Java; x.toString(); ; x.clone()[ 51]; x.equals(y); x.compareTo(y)[ 52]; x.hashCode(); System.identityHashCode(x)

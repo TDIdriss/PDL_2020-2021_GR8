@@ -11,7 +11,7 @@ C#; foo(«parameters»); Same as above alternatively, if only one statement: voi
 JavaScript; foo(«parameters»); function foo(«parameters») { instructions } or var foo = function («parameters») {instructions } or var foo = new Function («"parameter", ... ,"last parameter"» "instructions"); function foo(«parameters») { instructions ... return value }; N/A
 Go; foo(«parameters»); func foo(«parameters») { instructions }; func foo(«parameters») type { instructions ... return value }; func main() { instructions }
 Swift; foo(«parameters»); func foo(«parameters») { instructions }; func foo(«parameters») -> type { instructions ... return value }; N/A
-Common Lisp; (foo «parameters»); (defun foo («parameters») instructions) or (setf (symbol-function 'symbol) lambda); (defun foo («parameters») ... value); N/A
+Common Lisp; (foo «parameters»); (defun foo («parameters») instructions) or (setf (symbol-function 'symbol) function); (defun foo («parameters») ... value); N/A
 Scheme; (foo «parameters»); (define (foo parameters) instructions) or (define foo (lambda (parameters) instructions)); (define (foo parameters) instructions... return_value) or (define foo (lambda (parameters) instructions... return_value)); N/A
 ISLISP; (foo «parameters»); (defun foo («parameters») instructions); (defun foo («parameters») ... value); N/A
 Pascal; foo«(parameters)»; procedure foo«(parameters)» «forward »[a] «label label declarations»«const constant declarations»«type type declarations»«var variable declarations»«local function declarations» begin instructionsend; function foo«(parameters)»: type «forward »[a] «label label declarations»«const constant declarations»«type type declarations»«var variable declarations»«local function declarations» begin instructions foo  := valueend; program name «label label declarations»«const constant declarations»«type type declarations»«var variable declarations»«function declarations» begin instructions end.
@@ -26,7 +26,7 @@ PHP; foo(«parameters»); function foo(«parameters») { instructions }; functio
 Perl; foo(«parameters») or & foo«(parameters)»; sub foo { «my (parameters) = @_ » instructions }; sub foo { «my (parameters) = @_ » instructions... «return» value }; N/A
 Raku; foo(«parameters») or & foo«(parameters)»; «multi  »sub foo(parameters) { instructions }; «our «type»  »«multi  »sub foo(parameters) { instructions... «return» value }; N/A
 Ruby; foo«(parameters)»; def foo«(parameters)» instructions end; def foo«(parameters)» instructions «return» value end; N/A
-Rust; foo(«paramaters»); fn foo(«paramaters») { instructions }; fn foo(«paramaters») -> type { instructions }; fn main() { instructions }
+Rust; foo(«parameters»); fn foo(«parameters») { instructions }; fn foo(«parameters») -> type { instructions }; fn main() { instructions }
 Scala; foo«(parameters)»; def foo«(parameters)»«: Unit =» { instructions }; def foo«(parameters)»«: type» = { instructions ... «return» value }; def main(args: Array[String]) { instructions }
 Windows PowerShell; foo «parameters»; function foo { instructions } or function foo { «param(parameters)» instructions }; function foo «(parameters)» { instructions … return value } or function foo { «param(parameters)» instructions … return value }; N/A
 Bash shell; foo «parameters»; function foo {         instructions } or foo () {         instructions }; function foo {         instructions         return «exit_code» } or foo () {         instructions         return «exit_code» }; N/A

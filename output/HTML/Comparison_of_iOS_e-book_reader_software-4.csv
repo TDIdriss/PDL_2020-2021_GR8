@@ -15,7 +15,8 @@ MapleRead; Free ebook libraries only; Yes; Yes; Yes; Yes; Built-in web server Ca
 Marvin; Free ebook libraries only; Yes; Yes; Yes; Yes; Calibre (Bonjour) eMail (MIME type) Dropbox iTunes File Sharing; Yes; Yes
 MegaReader; No; Yes; Yes; No; Yes; Calibre (Bonjour) eMail (MIME type); No; No
 PocketBook reader; Yes; Yes; No; Yes; Yes; iTunes File Sharing eMail (MIME type); No; Yes
-ShuBook; Yes; Yes; Yes; Yes; Yes; Calibre (Bonjour) eMail (MIME type) iTunes File Sharing; Yes; Yes
+ShuBook 2; Yes; Yes; Yes; Yes; Yes; Calibre (Bonjour) eMail (MIME type) iTunes File Sharing; Yes; Yes
+SideBooks; No; Yes; No; No; No; iTunes File Sharing Dropbox; No; No
 Stanza; No; Yes; Yes; No; Yes; Calibre (Bonjour) eMail (MIME type) iTunes File Sharing; Yes; Yes
 uBooks XL; No; Yes; Yes; No; Yes; eMail (MIME type) iTunes File Sharing; No; Yes
 iBouquiniste; Free ebook libraries only; Yes; Yes; No; Yes; eMail (MIME type); No; Yes

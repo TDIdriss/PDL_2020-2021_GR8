@@ -1,8 +1,8 @@
-; ZIP; TAR; GZ; BZ/BZ2; 7z; xz; RAR; LHA/LZH; ACE; SIT; SITX; ARJ; KGB; DAR; ARC; CAB; ALZ; ISO/CD Image; ZPAQ
+File archivers; ZIP; TAR; GZ; BZ/BZ2; 7z; xz; RAR; LHA/LZH; ACE; SIT; SITX; ARJ; KGB; DAR; ARC; CAB; ALZ; ISO/CD Image; ZPAQ
 7-Zip; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No[1]; No; No; Yes; No; No; No; Yes; No; Yes; No
 ALZip; Yes; Yes; Yes; Yes; Yes; Unknown; Yes; Yes; Yes; No; No; Yes; No; No; Yes; Yes; Yes; Yes; No
 TAR; No; Yes; No; No; No; No; No; No; No; No; No; No; No; No; No; No; No; No; No
-Archive Utility; Yes; Yes; Yes; Yes; No; Unknown; No; No; No; No; No; No; No; No; No; No; No; No[7]; No
+Archive Utility; Yes; Yes; Yes; Yes; No; Yes; No; No; No; No; No; No; No; No; No; No; No; No[7]; No
 Ark; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes; No
 B1 Free Archiver; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes; No; No; No; No[11]; No; No; No; Yes; Yes; Yes; No
 BetterZip; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes; No; Yes; No; Yes; No; No; No; Yes; No; Yes; No

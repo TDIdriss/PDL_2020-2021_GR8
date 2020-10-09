@@ -1,5 +1,4 @@
 Name; Parsing algorithm; Output languages; Grammar, code; Development platform; License
-Arpeggio; PEG parser interpreter, Packrat; Python (no generation, interpreted); Mixed; All; Free, MIT
 AustenX; Packrat (modified); Java; Separate; All; Free, BSD
 Aurochs; Packrat; C, OCaml, Java; Mixed; All; Free, GNU GPL
 BNFlite; Recursive descent; C++; Mixed; All; Free, MIT
@@ -10,7 +9,6 @@ Frisby; Packrat; Haskell; Mixed; All; Free, BSD
 grammar::peg; Packrat; Tcl; Mixed; All; Free, BSD
 Grako; Packrat + Cut + Left Recursion; Python, C++ (beta); Separate; All; Free, BSD
 IronMeta; Packrat; C#; Mixed; Windows; Free, BSD
-Katahdin; Packrat (modified), mutating interpreter; C#; Mixed; All; Free, public domain
 Laja; 2-phase scannerless top-down backtracking + runtime support; Java; Separate; All; Free, GNU GPL
 lars::Parser; Packrat (supporting left-recursion and grammar ambiguity); C++; Identical; All; Free, BSD
 LPeg; Parsing machine; Lua; Mixed; All; Free, MIT
@@ -29,9 +27,9 @@ parboiled; Recursive descent; Java, Scala; Mixed; Java virtual machine; Free, Ap
 Lambda PEG; Recursive descent; Java; Mixed; Java virtual machine; Free, Apache 2.0
 parsepp; Recursive descent; C++; Mixed; All; Free, public domain
 Parsnip; Packrat; C++; Mixed; Windows; Free, GNU GPL
+Patterns; Parsing machine; Swift; Identical; All; Free, MIT
 peg; Recursive descent; C; Mixed; All; Free, MIT
 PEG.js; Packrat (partial memoization); JavaScript; Mixed; All; Free, MIT
-peg-parser; PEG parser interpreter; Dylan; Separate; All; ?
 Pegasus; Recursive descent, Packrat (selectively); C#; Mixed; Windows; Free, MIT
 pegc; Recursive descent; C; Mixed; All; Free, public domain
 pest; Recursive descent; Rust; Separate; All; Free, MPL
@@ -39,10 +37,8 @@ PetitParser; Packrat; Smalltalk, Java, Dart; Mixed; All; Free, MIT
 PEGTL; Recursive descent; C++11; Mixed; All; Free, MIT
 Parser Grammar Engine (PGE); Hybrid recursive descent / operator precedence[ 6]; Parrot bytecode; Mixed; Parrot virtual machine; Free, Artistic 2.0
 PyPy rlib; Packrat; Python; Mixed; All; Free, MIT
-pyPEG; PEG parser interpreter, Packrat; Python; Mixed; All; Free, GNU GPL
 Rats!; Packrat; Java; Mixed; Java virtual machine; Free, GNU LGPL
 Spirit2; Recursive descent; C++; Mixed; All; Free, Boost
-textX; PEG parser interpreter, Packrat; Python (no generation, interpreted); Separate; All; Free, MIT
 Treetop; Recursive descent; Ruby; Mixed; All; Free, MIT
 Yard; Recursive descent; C++; Mixed; All; Free, MIT or public domain
 Waxeye; Parsing machine; C, Java, JavaScript, Python, Racket, Ruby; Separate; All; Free, MIT

@@ -1,34 +1,23 @@
-BitTorrent client; Cache [ Note 18]; Hash Web seeding; HTTP Web seeding; Broad-catching (RSS); Prioritization; Selective downloads; Sequential downloading; SOCKS; Tracker exchange [ 74]; Remote control via web; Search engine; Auto updates; Reviews and Comments; Notes
-ABC; No; Yes; No; No; Yes; No; No; No; No; Yes; Separate download; No; No; 
-Acquisition; No; No; ; No; No; No; No; No; No; No; No; No; No; 3 torrents max, infinite when registered
-BitComet; Yes; No; Yes[ 75]; Beta; Yes; Yes; Yes[ Note 19]; Yes; No; Yes; Built-in Web browser; Yes; No; Portable version available
-BitLet; No; No; No; No; No; No; No; No; No; No; No; Yes; No; 
-BitLord; Yes; No; Partial [ Note 20] [ Note 21]; Yes; Yes; Yes; No; Yes; No; No; Built-in Web browser; Yes; No; 
-BitTornado; Yes; Yes; No; No; Yes; Yes; No; No; No; No; No; via PMS; No; 
-BitTorrent 5, Mainline; No; Yes; Partial [ Note 21]; No; Yes; Yes; No; No; No; No; Yes; Yes; No; 
-BitTorrent 6; Yes; Yes; ; Yes; Yes; Yes; Yes[ Note 22]; Yes; No; Yes; Yes; Yes; Yes; 
-BitTyrant; Yes; Yes[ 76]; Yes; Plugin; Yes; Yes; No; Yes; No; Plugin[ Note 23]; 3rd party plugins; Yes; No; Upload priority optimized according to a series of research papers
-Blog Torrent; No; No; No; No; No; No; No; No; No; No; No; No; No; 
-Deluge; Yes; Yes; Partial [ Note 20]; Plugin; Yes; Yes; Yes; Yes; No; Yes; No; via PMS; No; 
+BitTorrent client; Cache [ Note 16]; Hash Web seeding; HTTP Web seeding; Broad-catching (RSS); Prioritization; Selective downloads; Sequential downloading; SOCKS; Tracker exchange [ 67]; Remote control via web; Search engine; Auto updates; Reviews and Comments; Notes
+BitComet; Yes; No; Yes[ 68]; Beta; Yes; Yes; Yes[ Note 17]; Yes; No; Yes; Built-in Web browser; Yes; No; Portable version available
+BitLord; Yes; No; Partial [ Note 18] [ Note 19]; Yes; Yes; Yes; No; Yes; No; No; Built-in Web browser; Yes; No; 
+BitTorrent 5, Mainline; No; Yes; Partial [ Note 19]; No; Yes; Yes; No; No; No; No; Yes; Yes; No; 
+BitTorrent 6; Yes; Yes; ; Yes; Yes; Yes; Yes[ Note 20]; Yes; No; Yes; Yes; Yes; Yes; 
+Deluge; Yes; Yes; Partial [ Note 18]; Plugin; Yes; Yes; Yes; Yes; No; Yes; No; via PMS; No; 
 FlashGet; No; No; ; No; No; No; No; No; No; No; No; No; No; FlashGet (standalone application) is not FlashGot (Firefox Addon)
 Free Download Manager; No; Yes; No; No; Yes; Yes; No; No; No; Yes; No; Optional; No; 
 KTorrent; Yes; Yes; ; Yes; Yes; Yes; Yes; Yes; No; Yes; Built-in Web browser; via PMS; No; 
 LimeWire; Yes; Yes; No; No; Yes; Yes; No; Yes; No; No; No; Yes; No; 
-Meerkat Bittorrent Client; Yes; No; ; No; No; No; No; No; No; No; No; No; No; 
-MLDonkey; Yes; No; ; 3rd party bash script; Yes; No; No; No[ 77]; No; Yes; Built-in Web browser; via PMS; No; 
-μTorrent; Yes; Yes[ 78]; Partial [ Note 21]; Yes[ 79]; Yes[ 80]; Yes; Yes[ Note 24]; Yes; No; Yes; Yes; Yes; Yes; 
-OneSwarm; Yes; Yes; Partial [ Note 21]; No; Yes; Yes; No; Yes; No; No; No; Yes; No; has all BitTyrant features
-Opera 12; No; No; ; Yes[ Note 25]; No; No; No; No; No; No; built-into Web browser; Windows and Mac OS X only via PMS on Linux; No; Web browser
-qBittorrent; Yes; Yes; Partial [ Note 20]; Yes; Yes; Yes; Yes; Yes; hard-coded as disabled in newer versions; Yes; Yes; via PMS; No; 
-rTorrent; Partial; No; No; 3rd party utility [ 81]; Yes; Yes; No; No; No; Yes; No; via PMS; No; No built-in disk cache but a delayed sync
-Shareaza; Yes; Yes; No; No; Yes; Yes[ Note 26]; in mod client; No; Yes [ Note 27] [ 82] [ Note 28]; Yes; Yes; Yes; No; [ Note 29]
-SymTorrent; No; No; ; No; No; No; No; No; No; No; No; No; No; BitTorrent client for cell phones
-Tixati; Yes; Yes; Partial [ Note 20] [ Note 30] [ Note 21]; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; No; lightweight client, Portable version available, option to keep all peers unchoked available Integral encrypted chatrooms that allow streaming audio and video, link sharing and searching
-Tomato Torrent; No; No; No; No; No; No; No; No; No; No; No; No; No; supports AppleScript
+MLDonkey; Yes; No; ; 3rd party bash script; Yes; No; No; No[ 69]; No; Yes; Built-in Web browser; via PMS; No; 
+μTorrent; Yes; Yes[ 70]; Partial [ Note 19]; Yes[ 71]; Yes[ 72]; Yes; Yes[ Note 21]; Yes; No; Yes; Yes; Yes; Yes; 
+Opera 12; No; No; ; Yes[ Note 22]; No; No; No; No; No; No; built-into Web browser; Windows and Mac OS X only via PMS on Linux; No; Web browser
+qBittorrent; Yes; Yes; Partial [ Note 18]; Yes; Yes; Yes; Yes; Yes; hard-coded as disabled in newer versions; Yes; Yes; via PMS; No; 
+rTorrent; Partial; No; No; 3rd party utility [ 73]; Yes; Yes; No; No; No; Yes; No; via PMS; No; No built-in disk cache but a delayed sync
+Shareaza; Yes; Yes; No; No; Yes; Yes[ Note 23]; in mod client; No; Yes [ Note 24] [ 74] [ Note 25]; Yes; Yes; Yes; No; [ Note 26]
+Tixati; Yes; Yes; Partial [ Note 18] [ Note 27] [ Note 19]; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; No; lightweight client, Portable version available, option to keep all peers unchoked available Integral encrypted chatrooms that allow streaming audio and video, link sharing and searching
 Tonido; No; No; ; No; Yes; Yes; No; No; No; Yes; No; Yes; No; 
-TorrentFlux; Yes; Yes; No; Yes; Yes; Yes; No; No; No; Yes; Yes; No; No; 
-Transmission; Yes; No; Partial [ Note 21] [ Note 31]; No; Yes; Yes; Yes[ 83] [ 84]; No; No; Yes; No; Yes; No; 
-Tribler; Yes; No; No; Yes; Yes; Yes; No; No; No; Partial; Yes (DHT)[ 85]; Yes; No; Fully distributed keyword search integrated anti-spam measures[ 86]
-Vuze (formerly Azureus); Yes; ; Yes[ 76]; Yes; Yes; Yes; in paid version [ 87]; Yes; No; Plugin[ Note 23]; Yes; Yes; Yes[ 88]; The only client to bridge between i2p and the clearnet.
+Transmission; Yes; No; Partial [ Note 19] [ Note 28]; No; Yes; Yes; No; No; No; Yes; No; Yes; No; 
+Tribler; Yes; No; No; Yes; Yes; Yes; No; No; No; Partial; Yes (DHT)[ 75]; Yes; No; Fully distributed keyword search integrated anti-spam measures[ 76]
+Vuze (formerly Azureus); Yes; ; Yes[ 77]; Yes; Yes; Yes; in paid version [ 78]; Yes; No; Plugin[ Note 29]; Yes; Yes; Yes[ 79]; The only client to bridge between i2p and the clearnet.
 Xunlei; Yes; No; ; Yes; Yes; Yes; Yes; ; ; Yes; No; Yes; No; 
 BitTorrent client; Cache; Hash Web seeding; HTTP Web seeding; Broad-catching (RSS); Prioritization; Selective downloads; Sequential downloading; SOCKS; Tracker exchange; Remote control via web; Search engine; Auto updates; Reviews and Comments; Notes

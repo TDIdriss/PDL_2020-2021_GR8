@@ -1,5 +1,6 @@
-Model; Launch; Code name; Fab (nm); Bus interface; Core clock (MHz); Memory clock (MHz); Core config1,2; Fillrate; Fillrate; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS)3; API support; API support; API support
-Model; Launch; Code name; Fab (nm); Bus interface; Core clock (MHz); Memory clock (MHz); Core config1,2; MOperations/s; MPixels/s; MTexels/s; MVertices/s; Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Single precision; Direct3D; OpenGL; Other
-XGPU (Xbox)[ 219] [ 220]; November 15, 2001; NV2A; TSMC 150  nm; Integrated; 233; 200; 4:2:8:4; 932; 932; 1864; 116.5; 64; 5.34; DDR; 128; 5.8; 8.1; 1.4; N/A
-RSX (PS3)[ 221] [ 222] [ 223]; November 11, 2006; G70; Sony 90/65/40 nm; FlexIO; 500 550 (shaders); 650; 24:8:24:8; 13200; 4000; 13200; 1230; 256 256; 22.4 20 (read), 15 (write); GDDR3 XDR; 128; 192; N/A; ES 1.1 w/Cg; N/A
-NX-SoC (Nintendo Switch)[ 224] [ 225]; March 3, 2017; GM20B; TSMC 20/16 nm; Integrated; 307-384 (Undocked) 768 (Docked, Max clockspeed); 1333 1600; 256:16:16; 157000 196000 393000; 4400 5500 11000; 4900 6200 12300; N/A; 4096; 25.6; LPDDR4; 64; 157 196 393; N/A; 4.5[ 226] ES 3.2[ 227]; Vulkan 1.0[ 228] NVN[ 224]
+Model; Archi- tecture; Chips; Thread processors (total); Bus interface; Memory; Memory; TDP (Watts)
+Model; Archi- tecture; Chips; Thread processors (total); Bus interface; Bus type; Size (GB); TDP (Watts)
+GRID K1[ 228]; Kepler; 4× GK107; 4× 192; PCIe 3.0 ×16; DDR3; 4× 4GB; 130
+GRID K2[ 229]; Kepler; 2× GK104-895; 2× 1536; PCIe 3.0 ×16; 2× 4GB; 
+GRID K340; Kepler; 4× GK107; GDDR5; PCIe 3.0 ×16; 225; 4× 384; 4× 1GB
+GRID K520; Kepler; 2× GK104; GDDR5; PCIe 3.0 ×16; 225; 2× 1536; 2× 4GB

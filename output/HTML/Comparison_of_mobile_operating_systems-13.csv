@@ -1,16 +1,16 @@
-Feature; Android; iOS; Windows 10 Mobile; BlackBerry 10; Tizen; Sailfish OS; Ubuntu Touch
-Multitasking; Yes; 7+ [ 432] 4–6: Limited[ 433]; 8+,[ 434] 7.5: Limited; Yes; 2+[ 165]; Yes; Yes
-Quick app switching; 7+[ 435]; 9+: via 3D Touch [ 436] 5+: only on iPad[ 437]; via Back button when no back history; No; No; No; Yes
-Document-centric multitasking; 5+[ 438]; 13+: can open different views of same app side by side[ 439]; No; No; No; No; No
-Split-screen app usage; 7+, some manufacturers earlier[ 440]; 9+: only on iPad with 2 GB RAM or more[ 441]; No, 3rd party software like Monument Browser[ 442]; No, 3rd party software[ 443]; Yes[ 444]; No [ 445]; Tablet-only
-Desktop interactive widgets; Yes; 10+: App icons via 3D Touch and/or dedicated widget screen[ 446]; No (Live Tiles are not interactive)[ 447]; No; No; Yes; No
-Lock screen widgets; Yes (Notifications and settings). Full Widgets on Android 4.2–4.4 only.[ 448] [ 449]; Media player, voicemail, camera [ 450] 5+: Notifications 7+: Control Center 8+: Interactive Notifications[ 451] 10+: Full widgets[ 446]; Media Player 8+: Live Apps and notifications[ 452]; Yes, interactive notifications, camera, alarm; Media player Notifications (SMS, call); Yes; No
-Notification view widgets; 4.1+: Google Now and possible with 3rd party apps; 8+; No; Yes, BB 10.2; No; Yes; No
-Quick settings toggles; 2+[ 453]; 7+[ 454]; 8.1+[ 101]; 10+, customizable in 10.2.1+[ 455]; No; Via the Patchmanager app[ 456]; Yes
-Search multiple internal apps at once; Yes; Yes; 8.1+[ 457]; Yes; Yes; No[ 458]; Yes
-Settings search; 5+ or 3rd party software like LineageOS[ 459]; 9+[ 460]; 8.1update2+[ 53]; Yes; No; No; Yes
-Search all fields of internal objects; Only search Contacts name field but not any other field[ 461]; 6+[ 462]; Contacts are searched by name, nick and company,[ 463] but not other fields like address or notes[ 464]; Yes[ 465]; Only searches contacts by name; First name, last name, nickname, also the multiple field called "Details"[ 466] |?; 
-Core apps missing search; Calendar[ 467] (available since 3+ and HTC Sense); Bookmarks[ 468]; Video[ 469]; ?; ?; ?; ?
-Phone number links to dialer; Available in stock Android, but not all devices enable it.[ 470]; Yes; Yes; Yes; Yes, but not in browser; Yes; Yes
-Addresses links to maps; In Contacts, but not in Calendar[ 471] nor in Gmail[ 472]; Yes[ 473]; Yes[ 474]; Yes[ 475]; ?; Yes; ?
-Dates links to calendar; No; Yes[ 476]; Yes; Yes; Yes; Yes; ?
+Feature; Android; iOS; Tizen; Sailfish OS; Ubuntu Touch
+Multitasking; Yes; 7+ [ 292] 4–6: Limited[ 293]; 2+[ 110]; Yes; Yes
+Quick app switching; 7+[ 294]; 9+: via 3D Touch [ 295] 5+: only on iPad[ 296]; No; No; Yes
+Document-centric multitasking; 5+[ 297]; 13+: can open different views of same app side by side[ 298]; No; No; No
+Split-screen app usage; 7+, some manufacturers earlier[ 299]; 9+: only on iPad with 2 GB RAM or more[ 300]; Yes[ 301]; No [ 302]; Tablet-only
+Desktop interactive widgets; Yes; 10+: App icons via 3D Touch and/or dedicated widget screen[ 303]; No; Yes; No
+Lock screen widgets; Yes (Notifications and settings). Full Widgets on Android 4.2–4.4 only.[ 304] [ 305]; Media player, voicemail, camera [ 306] 5+: Notifications 7+: Control Center 8+: Interactive Notifications[ 307] 10+: Full widgets[ 303]; Media player Notifications (SMS, call); Yes; No
+Notification view widgets; 4.1+: Google Now and possible with 3rd party apps; 8+; No; Yes; No
+Quick settings toggles; 2+[ 308]; 7+[ 309]; No; Via the Patchmanager app[ 310]; Yes
+Search multiple internal apps at once; Yes; Yes; Yes; No[ 311]; Yes
+Settings search; 5+ or 3rd party software like LineageOS[ 312]; 9+[ 313]; No; No; Yes
+Search all fields of internal objects; Only search Contacts name field but not any other field[ 314]; 6+[ 315]; Only searches contacts by name; First name, last name, nickname, also the multiple field called "Details"[ 316] |?; 
+Core apps missing search; Calendar[ 317] (available since 3+ and HTC Sense); Bookmarks[ 318]; ?; ?; ?
+Phone number links to dialer; Available in stock Android, but not all devices enable it.[ 319]; Yes; Yes, but not in browser; Yes; Yes
+Addresses links to maps; In Contacts, but not in Calendar[ 320] nor in Gmail[ 321]; Yes[ 322]; ?; Yes; ?
+Dates links to calendar; No; Yes[ 323]; Yes; Yes; ?

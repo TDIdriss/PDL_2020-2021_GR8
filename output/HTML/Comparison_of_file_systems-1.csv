@@ -13,6 +13,7 @@ FAT (8-bit); Microsoft (Marc McDonald) for NCR; 1977; Microsoft Standalone Disk 
 DOS 3.x; Apple; 1978; Apple DOS
 UCSD p-System; UCSD; 1978; UCSD p-System
 CBM DOS; Commodore; 1978; Commodore BASIC
+Atari DOS; Atari; 1979; Atari 8-bit
 Version 7 Unix file system (V7FS); Bell Labs; 1979; Version 7 Unix
 ODS-2; DEC; 1979; OpenVMS
 FAT12; Seattle Computer Products (Tim Paterson); 1980; QDOS/86-DOS (later IBM PC DOS 1.0)
@@ -75,7 +76,7 @@ Google File System; Google; 2003; Linux
 ZFS; Sun Microsystems; 2004; Solaris
 Reiser4; Namesys; 2004; Linux
 Non-Volatile File System; Palm, Inc.; 2004; Palm OS Garnet
-BeeGFS; Fraunhofer/ ThinkParQ; 2005; Linux, Windows via Samba
+BeeGFS; Fraunhofer/ ThinkParQ; 2005; Linux
 GlusterFS; Gluster Inc.; 2005; Linux
 Minix V3 FS; Andrew S. Tanenbaum; 2005; MINIX 3
 OCFS2; Oracle Corporation; 2005; Linux

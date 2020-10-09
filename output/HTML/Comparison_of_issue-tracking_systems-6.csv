@@ -31,7 +31,6 @@ Trac; Yes; Optional[ 88]; No; Optional[ 89]; No; Yes; Unknown; No
 TrackerSuite.Net; Yes; No; No; No; No; Yes; No; No
 Tuleap; Yes; No; No; Yes; Yes; Yes; No; No
 Twproject; Yes; Unknown; Unknown; Unknown; Unknown; Yes; Unknown; Yes, Simple container auth.
-Usersnap; Yes; No; No; No; No; No; No; No
 Wrike; Unknown; Unknown; Unknown; Unknown; Unknown; Yes; Unknown; Unknown
 YouTrack; Yes; No; Yes; Yes; Yes; Yes; Unknown; Yes: JIRA account
 System; Form based; Public key cryptography; Two-factor; OpenID; OAuth; LDAP; Shibboleth; Others

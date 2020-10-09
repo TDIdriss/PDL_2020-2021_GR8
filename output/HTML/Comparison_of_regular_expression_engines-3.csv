@@ -7,19 +7,19 @@ FREJ; No[ Note 6]; No; Some[ Note 6]; Yes; No; No; No; Yes; Yes
 GLib/GRegex; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 GNU grep; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; ?
 Haskell; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes
-Helios RXPF; Yes; Yes; Yes; Yes; No; No; No; Yes; Yes
+RXP; Yes; Yes; Yes; Yes; No; No; No; Yes; Yes
 ICU Regex; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes
 Java; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes
-JavaScript (ECMAScript); Yes; Yes; Yes; Yes; No; Yes; No; Yes; Yes
+JavaScript (ECMAScript); Yes; Yes; Yes; Yes; No; Yes; Yes[ Note 7]; Yes; Yes
 JGsoft; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes
-Lua; Yes; Yes; Some[ Note 7]; No; No; No; No; Yes; No
+Lua; Yes; Yes; Some[ Note 8]; No; No; No; No; Yes; No
 .NET; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes
 OCaml; Yes; Yes; No; No; No; No; No; Yes; No
 OmniOutliner 3.6.2; Yes; Yes; Yes; No; No; No; No; ?; ?
 PCRE; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 Perl; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 PHP; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
-Python; Yes; Yes; Yes; Yes; Yes[ Note 8]; Yes; Yes; Yes; Yes
+Python; Yes; Yes; Yes; Yes; Yes[ Note 9]; Yes; Yes; Yes; Yes
 Qt/QRegExp; Yes; Yes; Yes; Yes; No; Yes; No; Yes; Yes
 RE2; Yes; Yes; Yes; Yes; No; No; No; No; Yes
 Ruby / Onigmo; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes

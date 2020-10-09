@@ -1,11 +1,11 @@
 Model; Features; Features; Features; Features; Features; Features
 Model; Gamma-correct antialiasing; 64-bit OpenEXR HDR; Scalable Link Interface (SLI); TurboCache; Dual Link DVI; 
-GeForce 7100 GS; No; No; Yes (PCIe only) (No SLI bridge); Yes; No; 
+GeForce 7100 GS; No; No; Yes (PCIe only, No SLI bridge); Yes; No; 
 GeForce 7200 GS; Yes; Yes; No; Yes; No; 
 GeForce 7300 SE; Yes; Yes; No; Yes; No; 
 GeForce 7300 LE; Yes; Yes; No; Yes; No; 
-GeForce 7300 GS; Yes; Yes; Yes (PCIe only) (No SLI bridge); Yes; No; 
-GeForce 7300 GT; Yes; Yes; Yes (PCIe only) (No SLI bridge); No; One port; 
+GeForce 7300 GS; Yes; Yes; Yes (PCIe only); Yes; No; 
+GeForce 7300 GT; Yes; Yes; Yes (PCIe only, No SLI bridge); No; One port; 
 GeForce 7600 GS; Yes; Yes; Yes (PCIe only); No; One port; 
 GeForce 7600 GT; Yes; Yes; Yes (PCIe only); No; One port; 
 GeForce 7600 GT (80  nm); Yes; Yes; Yes; No; One port; 
@@ -18,5 +18,6 @@ GeForce 7900 GS; Yes; Yes; Yes (PCIe only); No; Two ports;
 GeForce 7900 GT; Yes; Yes; Yes; No; Two ports; 
 GeForce 7900 GTO; Yes; Yes; Yes; No; Two ports; 
 GeForce 7900 GTX; Yes; Yes; Yes; No; Two ports; 
+GeForce 7900 GX2 (GTX Duo); Yes; Yes; Yes; No; Two ports; 
 GeForce 7950 GT; Yes; Yes; Yes (PCIe only); No; Two ports; 
 GeForce 7950 GX2; Yes; Yes; Yes; No; Two ports; 

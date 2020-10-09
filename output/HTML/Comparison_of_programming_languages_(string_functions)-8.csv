@@ -1,8 +1,8 @@
 Format; Languages
 string1 & string2; Ada, FreeBASIC, Seed7, BASIC, VB, VB .NET, COBOL (between literals only)
-strcat(string1, string2); C, C++ (char * only)[ 8]
+strcat(string1, string2); C, C++ (char * only)[ 11]
 string1 . string2; Perl, PHP
-string1 + string2; ALGOL 68, C++ (STL), C#, Cobra, FreeBASIC, Go, Pascal, Object Pascal (Delphi), Java, JavaScript, Windows PowerShell, Python, Ruby, Rust, F#, Swift, Turing, VB, Ya
+string1 + string2; ALGOL 68, C++ (STL), C#, Cobra, FreeBASIC, Go, Pascal, Object Pascal (Delphi), Java, JavaScript, Windows PowerShell, Python, Ruby, Rust,[ 12] F#, Swift, Turing, VB, Ya
 string1 ~ string2; D, Raku
 (string-append string1 string2); Scheme, ISLISP
 (concatenate 'string string1 string2); Common Lisp

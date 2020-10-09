@@ -23,6 +23,6 @@ AV1; Lossy or lossless; No; No; No; No; No; No; No; Beta; Planned; No; Yes; No; 
 MVC; Stereoscopic; Yes; No; No; No; No; No; No; Yes[ 12]; No; No; Yes; No[ VII] [ VIII]; No; No; No; No; No
 HuffYUV; Lossless; No; No; Needs HuffYUV[ 55]; No; No; No; No; VCM[ c]; No; No; No; No; No; No; No; No; No
 YCbCr[ IX]; Not compressed; No; Yes; Yes; No; No; No; No; Yes; No; No; SheerVideo; Yes[ 56]; Beta[ 57]; Yes; No; No; No
-Other; Other; —; —; —; —; —; Screen Video; —; —; JPEG 2000, TICO; —; —; —; MNG, JNG, PNG[ 58]; DVC Pro 50, Photo JPEG, Graphics, Quicktime Animation; —; —; —
+Other; Other; —; —; —; —; —; Screen Video; —; —; JPEG 2000, TICO; —; —; —; MNG, JNG, PNG[ 58]; DVC Pro 50, Photo JPEG, Graphics, QuickTime Animation, Apple ProRes; —; —; —
 Obsolete; Other; —; —; —; —; —; —; —; —; —; —; —; —; —; —; —; —; —
 Format; Type; 3GP, 3G2; ASF[ 27]; AVI[ a]; DMF; EVO; FLV[ I]; F4V; MKV; PS, TS[ II]; M2TS; MP4[ 34]; MXF; Ogg[ b]; QTFF[ 37]; RMVB; VOB; WebM[ 24]

@@ -24,7 +24,7 @@ jenni; Michael Yanovich; EFLv2; Unix-like; Python (2); ?; ?; Threaded, general p
 irccd; David Demelier; ISC; Cross-platform; C++17 and JavaScript; 2013-09-13 (1.0.0); 2019-08-15 (3.0.0); Multiple servers, rules filtering, templates system, cross-platform, extensible with Javascript and C++ plugins; bot framework; [24]
 Jerkbot; Jason Stephenson; Artistic License 2.0; Cross-platform; Sleep; 2014-02-10 (1.0); 2017-08-29 (1.7.65); Configurable chatter bot, written as jIRCii script; responsive chatter + learns + modules; [25]
 JSONBOT; Bart Thate; MIT; Unix-like; Python; 2010-04; 2012-03-23 (0.84.4); Beta; ; [26]
-JZBot; Alexander Boyd, Maximilian Dirkmann, James Stoker; LGPL; Cross-platform; Java; ?; ?; ?; feeds, werewolf / maffia, karma system, reminders; [27][ permanent dead link]
+JZBot; Alexander Boyd, Maximilian Dirkmann, James Stoker; LGPL; Cross-platform; Java; ?; ?; ?; feeds, werewolf / maffia, karma system, reminders; [27]
 KGB; Martín Ferrari and Damyan Ivanov; GPL-2+; Cross-platform; Perl; 2008-07-14 (Git); 2014-09-17 (1.3.3 see commits); KGB is a system that provides notifications on IRC for commits made to Git, Subversion and CVS repositories.; notifications on code commits; [28]
 Lambdabot; Andrew J. Bromage et al.; MIT; Unix-like; Haskell; ? (1.0); 2011-01-20 (4.2.3.2); Many plugins usable offline as a Haskell development tool embeddable in GHCi; haskell development tool; [29]
 Limnoria; ; BSD; Cross-platform; Python; ?; 2017-03-30 (2017.03.30); See Supybot; A maintained fork of Supybot; [30]
@@ -39,7 +39,7 @@ Rubybot; umby24; GPL-3.0; Cross-platform; Ruby; ?; 2013-10-30 (4.2); Simple, yet
 Schongo; Selig, Posiden, Wil; ?; Cross-platform; Python 3; ?; ?; Focus on simplicity, highly extandable module system, rapid development cycle; internet searches; [39]
 Shocky; Shockah, clone1018; GPL-2.0; Cross-platform; Java; ?; ?; A Very advanced Java irc bot, that supports all kinds of stuff; user management, factoids, games, karma system; [40]
 sircbot; Alpine Linux; GPL-2.0; Unix-like; C (Lua scriptable); ?; 2011-12-15; Simple IRC bot for shell and lua scripts; ?; git wiki
-Sopel; Elsie Powell, Dimitri Molenaars, Elad Alfassa, Ari Koivula; EFLv2; Cross-platform; Python; 2012-07-15 (3.0.0); 2018-04-06 (6.5.3); SSL, (un)loading of modules at runtime, threaded, user/channel settings database, Python 3 support. (Formerly Willie based originally on phenny); Twitter & other feeds, internet searches, meetingbot; [41]
+Sopel; dgw, Elsie Powell, Dimitri Molenaars, Elad Alfassa, Ari Koivula; EFLv2; Cross-platform; Python; 2012-07-15 (3.0.0); 2020-08-04 (7.0.6); SSL, (un)loading of plugins at runtime, threaded, user/channel/plugin settings database, Python 3 support. (Formerly Willie based originally on phenny); Twitter & other feeds, internet searches, meetingbot, link information; [41]
 Tennu; Havvy (Ryan Scheel); ISC; Cross-platform; Javascript; 2012-03-08 (1.0.0); 2016-06-22 (4.9.0); Node.js, Plugin architecture, Promise driven; user management; [42]
 Ultros; gdude2002 and rakiru; Artistic License 2.0; Cross-platform; Python2; 2013-04-08 (Git); 2014-09-25 (1.1.0+ - see commits); Python IRC bot with an extensible plugin and protocol system, and a package manager. Also supports mumble.; internet searches, games; git site
 VikingBot; Tor Henning Ueland; GPL-3.0; Unix-like; PHP; ?; 2013-10-09; Simple PHP based IRC bot with support for secure IRC servers and plugin support; bot stats; [43]

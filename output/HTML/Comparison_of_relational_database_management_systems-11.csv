@@ -2,7 +2,7 @@
 4D; Yes (with SSL); ?; Yes; ?; Yes; Yes; ?; ?; ?; ?; ?
 Adaptive Server Enterprise; Yes (optional to pay); Yes; Yes (optional  ?); Yes; Partial (need to register depend on which product)[ 157]; Yes; Yes; Yes; Yes; Yes (EAL4+  1); ?
 Advantage Database Server; Yes; No; No; No; Yes; Yes; No; No; Yes; ?; ?
-DB2; Yes; ?; Yes (LDAP, Kerberos…); Yes; ?; Yes; Yes; Yes; Yes; Yes (EAL4+6); ?
+DB2; Yes; ?; Yes (LDAP, Kerberos...); Yes; ?; Yes; Yes; Yes; Yes; Yes (EAL4+6); ?
 Empress Embedded Database; ?; ?; No; No; Yes; Yes; Yes; No; Yes; No; ?
 EXASolution; No; No; Yes (LDAP); No; Yes; Yes; Yes; Yes; Yes; No; ?
 Firebird; Yes; Yes[ 158]; Yes (Windows trusted authenification); Yes (by custom plugin); Yes (no security page)[ 159]; Yes; Yes[ 160]; Yes; No7; ?; ?
@@ -20,12 +20,12 @@ OpenLink Virtuoso; Yes; Yes; Yes; Yes (optional); Yes (optional); Yes; Yes (opti
 Oracle; Yes; Yes; Yes; Yes; ?; Yes; Yes; Yes; Yes; Yes (EAL4+1); ?
 Pervasive PSQL; Yes; ?; No; No; Yes; Yes; Yes 12; No; No; No; ?
 Polyhedra DBMS; Yes (with SSL. Optional); No; No; No; No; Yes; Yes 13; Yes; Yes 13; No; ?
-PostgreSQL; Yes; Yes (for 9.1); Yes (LDAP, Kerberos…9); Yes (as of 9.0 with passwordcheck module); Yes[ 165]; Yes; Limited, with triggers[ 166]; Yes; Yes; Yes (EAL11); ?
+PostgreSQL; Yes; Yes (for 9.1); Yes (LDAP, Kerberos...9); Yes (as of 9.0 with passwordcheck module); Yes[ 165]; Yes; Limited, with triggers[ 166]; Yes; Yes; Yes (EAL11); ?
 Raima Database Manager; No; No; No; No; No; Yes; No; No; No; No; ?
 RDM Server; Yes; No; No; No; No; Yes; Yes; No; Yes; No; ?
 SAP HANA; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
 solidDB; No; No; Yes; No; No; Yes; Yes; No; No; No; No
 SQL Anywhere; Yes; ?; Yes (Kerberos); Yes; ?; Yes; Yes; No; Yes; Yes (EAL3+1 as Adaptive Server Anywhere); ?
 SQLite; No (not relevant, only file permissions); No (not relevant); No (not relevant); No (not relevant); Partial (no security page)[ 167]; Yes (file access); Yes; Yes; No; No; ?
-Teradata; Yes; No; Yes (LDAP, Kerberos…); Yes; ?; Yes; Yes; Yes; Yes; Yes; Yes
+Teradata; Yes; No; Yes (LDAP, Kerberos...); Yes; ?; Yes; Yes; Yes; Yes; Yes; Yes
 ; Native network encryption1; Brute-force protection; Enterprise directory compatibility; Password complexity rules2; Patch access3; Run unprivileged4; Audit; Resource limit; Separation of duties (RBAC)5; Security Certification; Attribute-Based Access Control (ABAC)

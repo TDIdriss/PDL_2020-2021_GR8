@@ -9,13 +9,12 @@ Courier; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes; ?; ?; ?
 Elm; No; No; No; ?; ?; ?; ?; ?; ?; ?; ?
 eM Client; Yes; No; No; Yes; Yes; No; No; No; Yes; Yes; No
 EmailTray; Yes; No; No; Yes; Yes; No; No; No; No; No; No
-Eureka Email; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
 Evolution; Yes; No; Yes; Yes; Yes; Yes; Yes; Yes; plug-in; ?; plug-in
 Gnus; Yes; Yes; No; Yes; Yes; Yes; Yes; Yes; ?; ?; ?
 GroupWise; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes
 Hiri; No; No; No; No; No; No; Yes; Yes; Yes; Yes; No
 i.Scribe / InScribe; Yes; No; Yes; Yes; Yes; No; Yes [ Note 3]; Yes [ Note 3]; No; No; Yes
-IBM Notes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; No
+HCL Notes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; No
 KMail; Yes; Yes; Yes; Yes; Yes; No [ Note 4]; Yes; ?; ?; ?; ?
 Mailbird; Yes; ?; ?; Yes; Yes; ?; Yes; Yes; ?; Yes; ?
 Mailpile; Yes; No; No; Yes; Yes; ?; ?; ?; ?; ?; ?
@@ -23,7 +22,7 @@ Microsoft Entourage; Yes; ?; ?; Yes; Yes; Yes; No; Yes; Partial; ?; ?
 Microsoft Entourage 2008, Web Services Edition; Yes; ?; ?; Yes; Yes; ?; ?; Yes; Yes; ?; ?
 Microsoft Office Outlook; Yes; No; No; Yes; Yes; No; Yes; ?; Yes; Yes; Yes
 Mozilla Mail & Newsgroups; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
-Mozilla Thunderbird; Yes; No; No; Yes; Yes; Yes; Partial; Partial[ 29]; extensible[ 30]; Yes; ?
+Mozilla Thunderbird; Yes; No; No; Yes; Yes; Yes; Partial; Partial[ 25]; extensible[ 26]; Yes; ?
 Mulberry; Yes; No; No; Yes; Yes; No; Yes; ?; ?; Yes; Yes
 Mutt; Yes; No (possible with POP3 browser); No (possible with POP3 browser); Yes; Yes; No (slrn looks alike); Partial (resolve real names through NSS); ?; ?; Yes; ?
 Netscape Messenger; Yes; ?; ?; Yes; ?; Yes; ?; ?; ?; ?; ?

@@ -1,17 +1,17 @@
-Feature; Android; iOS; Windows 10 Mobile; BlackBerry 10; Tizen; Sailfish OS; Ubuntu Touch
-Unified Inbox; No,[ 254] but 3rd party apps available[ 255]; Yes; 7.5+[ 256]; Yes; Yes; Yes; ?
-Email sync protocols supported; POP3, IMAP, MAPI; POP3, IMAP, MAPI, ActiveSync[ 257]; POP3, IMAP, MAPI, ActiveSync; BES, BIS, Push e-mail, 10+: POP3, IMAP, ActiveSync; POP3, IMAP; POP3, IMAP, ActiveSync; ?
-Non-carrier-based integrated messaging; Google Hangouts; 5+ (iMessage)[ 258]; Skype[ 259]; BBM; ?; 3rd party software; 3rd party software
-Visual voicemail; 2.1+[ 260]; Yes; Yes[ 261]; Yes; ?; ?; ?
-Call log duration; Yes[ 262]; Yes[ 263]; 8.1+[ 264]; Yes[ 265]; ?; Yes; Yes
-Multiple mobile phones per contact; Yes; Yes; Yes; Yes; ?; Yes; Yes
-Contact groups; 4+[ 266] or 3rd party software[ 267]; Via iCloud or 3rd party software[ 268]; 7.5+[ 269]; Yes; Yes; No[ 270]; ?
-Voice over IP; Yes (SIP)[ 271] or 3rd party software[ 272]; FaceTime 3rd party software[ 273]; 8+ Skype[ 274]; BBM 7+[ 275] or 3rd party software[ 276]; No[ 277]; 3rd party software; 3rd party software
-NFC payment software; Available on any device that supports the hardware. Android Pay for NFC payments available in Play Store.[ 278]; 8+: iPhone 6/6 Plus and later (iPhone 5 and later if used with Apple Watch), via Apple Pay; 8+[ 279]; Yes[ 280]; No; No; No
-Tethering; Mobile Wi-Fi Hotspot, USB, Bluetooth; 4.3+: Personal Hotspot (Wi-Fi, Bluetooth, USB carrier dependent); Internet Sharing (Wi-Fi Hotspot),[ 281] Bluetooth (8.1 Update+); USB, Bluetooth, Mobile Wi-Fi Hotspot; microUSB, Bluetooth 3.0, Mobile Wi-Fi Hotspot; Mobile Wi-Fi Hotspot, USB, Bluetooth; Mobile Wi-Fi Hotspot
-USB On-The-Go; 3.1+[ 282] [ 283]; 13+ [ 284] 9+: Only for connecting cameras; 10+[ 285]; 10.2+[ 286]; No; Yes; Yes
-Direct file transfer over Wi-Fi Direct; 4+[ 68] and selected devices[ 287] [ 288]; No, 3rd party software on jailbroken devices; No; 10.2+; No, was available on bada 2+,[ 289] but removed on Tizen; No[ 290]; No
-DHCP v4; Yes; Yes; ?; Yes; ?; ?; ?
-DHCP v6; No; Yes; ?; Yes (Manually selected Wi-Fi only); ?; ?; ?
-Direct file transfer over Bluetooth; 2+[ 291]; AirDrop: 7+: Between iOS only 8+: Between Mac/iOS only. (Note: AirDrop utilizes Wi-Fi as well); 8+[ 292]; Yes; No, was available on bada,[ 293] but removed on Tizen; Yes[ 294] but limited to images, videos and contacts; No
-Direct file transfer over NFC; 4+[ 68]; No; 8+[ 295]; 7.1+[ 296]; 2+[ 289]; No; No
+Feature; Android; iOS; Tizen; Sailfish OS; Ubuntu Touch
+Unified Inbox; No,[ 176] but 3rd party apps available[ 177]; Yes; Yes; Yes; ?
+Email sync protocols supported; POP3, IMAP, MAPI; POP3, IMAP, MAPI, ActiveSync[ 178]; POP3, IMAP; POP3, IMAP, ActiveSync; ?
+Non-carrier-based integrated messaging; Google Hangouts; 5+ (iMessage)[ 179]; ?; 3rd party software; 3rd party software
+Visual voicemail; 2.1+[ 180]; Yes; ?; ?; ?
+Call log duration; Yes[ 181]; Yes[ 182]; ?; Yes; Yes
+Multiple mobile phones per contact; Yes; Yes; ?; Yes; Yes
+Contact groups; 4+[ 183] or 3rd party software[ 184]; Via iCloud or 3rd party software[ 185]; Yes; No[ 186]; ?
+Voice over IP; Yes (SIP)[ 187] or 3rd party software[ 188]; FaceTime 3rd party software[ 189]; No[ 190]; 3rd party software; 3rd party software
+NFC payment software; Available on any device that supports the hardware. Android Pay for NFC payments available in Play Store.[ 191]; 8+: iPhone 6/6 Plus and later (iPhone 5 and later if used with Apple Watch), via Apple Pay; Samsung Pay; No; No
+Tethering; Mobile Wi-Fi Hotspot, USB, Bluetooth; 4.3+: Personal Hotspot (Wi-Fi, Bluetooth, USB carrier dependent); microUSB, Bluetooth 3.0, Mobile Wi-Fi Hotspot; Mobile Wi-Fi Hotspot, USB, Bluetooth; Mobile Wi-Fi Hotspot
+USB On-The-Go; 3.1+[ 192] [ 193]; 13+ [ 194] 9+: Only for connecting cameras; No; Yes; Yes
+Direct file transfer over Wi-Fi Direct; 4+[ 52] and selected devices[ 195] [ 196]; No, 3rd party software on jailbroken devices; No, was available on bada 2+,[ 197] but removed on Tizen; No[ 198]; No
+DHCP v4; Yes; Yes; ?; ?; ?
+DHCP v6; No; Yes; ?; ?; ?
+Direct file transfer over Bluetooth; 2+[ 199]; AirDrop: 7+: Between iOS only 8+: Between Mac/iOS only. (Note: AirDrop utilizes Wi-Fi as well); No, was available on bada,[ 200] but removed on Tizen; Yes[ 201] but limited to images, videos and contacts; No
+Direct file transfer over NFC; No, removed on Android 10; No; 2+[ 197]; No; No

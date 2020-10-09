@@ -61,7 +61,7 @@ DPX; Digital Picture eXchange file format; ; ; .dpx; image/dpx; ;
 DRF; Kodak Pro Back RAW; Kodak; ; .drf; ; ; 
 Dr. Halo; ; ; ; .cut; ; ; 
 Encapsulated PostScript; page description/scripting language (see PostScript); Adobe; ; .epi, .eps, .eps2, .eps3, .epsf, .epsi, .ept; application/postscript; printing/publishing industry standard format; 
-ECW; Enhanced Compressed Wavelet; ERDAS; ; .ecw; ; Wavelet image format used primarily with geo-referenced aerial and satellite imagery; No
+ECW; Enhanced Compressed Wavelet; ERDAS; ; .ecw; ; Wavelet image format used primarily with geo-referenced aerial and satellite imagery; Yes
 EDG; EDGE2 Original Format; TAKABO; ; .edg; ; Used by EDGE2; 
 EGI; Exclusive Graphics Format; ; ; .egi; ; ; 
 EMF; Enhanced Metafile Format; Microsoft; ; .emf, .emz; ; Microsoft Office; 
@@ -160,7 +160,7 @@ Panasonic RAW; ; Panasonic; TIFF; .raw, .rw2; ; ;
 PCIF; Polyomino Compressed Image Format; ; ; .pcf; ; ; 
 PhaseOne P25/P30/P45 RAW; ; Phase One; ; .tif, .tiff; ; ; 
 PictureGear Pocket Image; ; ; ; .prc; ; ; 
-PBM; Portable Bitmap File Format; ; ; .pbm; image/x-portable-bitmap; ; No
+PBM; Portable Bitmap File Format; ; ASCII; .pbm; image/x-portable-bitmap; ; No
 PCD; Kodak ImagePac Photo CD; Kodak; ; .pcd; image/jpcd; ; 
 PCF; Pixel Coordination Format; ; ; .pcf; image/pcf; ; 
 PCX; ZSoft PC Paintbrush File; ZSoft Corporation; ; .pcx, .pcc, .dcx; image/x-pcx; Dated rle packed indexed image format, used in some early 3d shooting games like Unreal Tournament as it takes up very little space and is easy to decode.; ?
@@ -168,10 +168,10 @@ PDF; Portable Document Format; Adobe Systems; ; .pdf, .epdf; application/pdf; ;
 PDN; Paint.NET Image; dotPDN LLC; ; .pdn; ; Preferred and supported by Paint.NET; 
 PEF; PENTAX RAW; PENTAX; TIFF; .pef; ; ; 
 PGF; Progressive Graphics File; xeraina GmbH; ; .pgf; ; Photographic images, eventual replacement for JPEG.; No
-PGM; Portable Graymap File Format; ; ; .pgm; image/x-portable-graymap; ; No
+PGM; Portable Graymap File Format; ; ASCII; .pgm; image/x-portable-graymap; ; No
 PGML; Precision Graphics Markup Language; Adobe Systems, IBM, Netscape, Sun Microsystems; ; ; ; ; No
 Photochrome; ; ; ; .pcs; ; ; 
-PNM; Portable Anymap File Format; ; ; .pnm; image/x-portable-anymap; ; No
+PNM; Portable Anymap File Format; ; ASCII; .pnm; image/x-portable-anymap; ; No
 PTX; Pentax RAW Bitmap Graphic; Pentax; ; .ptx; ; ; 
 Pi; ; Yanagisawa; ; .pi; ; Used by some old Japanese applications.; 
 PIC; Yanagisawa PIC; Yanagisawa; ; .pic; ; Used by many old Japanese applications.; 
@@ -183,7 +183,7 @@ PLD; PhotoLine Document; Computerinsel GmbH; ; .pld; application/pld; Native for
 PMP; ; Sony; JPEG; .pmp; ; Used by Sony Cyber-Shot; 
 PNG; Portable Network Graphics; World Wide Web Consortium; ; .png; image/png; W3C endorsed replacement for GIF. Supported by most web browsers.; No
 PostScript; page description/scripting language, levels 1–3; Adobe; ; .ps, .ps2, .ps3; ; printing/publishing industry standard format; 
-PPM; Portable Pixmap File Format; ; ; .ppm; image/x-portable-pixmap; Very easy to understand. Programs to analyze and write to this format are easily written.; No
+PPM; Portable Pixmap File Format; ; ASCII; .ppm; image/x-portable-pixmap; Very easy to understand. Programs to analyze and write to this format are easily written.; No
 PSD; Photoshop Document; Adobe Systems; ; .psd, .psb, .pdb, .pdd; image/vnd.adobe.photoshop[ 8]; Used mainly for storing image manipulation & editing data.; Yes
 PSP; Paint Shop Pro Document; Corel Corporation; ; .psp, .tub, .pspimage; image/x-psp; Supported by Paint Shop Pro, GIMP; ?
 PSX TIM; ; ; ; .tim; ; ; 

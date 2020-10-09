@@ -1,13 +1,13 @@
-Feature; Android; iOS; Windows 10 Mobile; BlackBerry 10; Tizen; Sailfish OS; Ubuntu Touch
-Camera focus at specified point; 2.3+[ 396]; Yes[ 82]; Yes[ 397]; 10+; ?; 1.0.4.20+[ 398]; Yes
-Camera exposure metering from specified point; No,[ 399] available on some phones.[ 400] [ 401]; Yes[ 402]; 8.1+[ 403]; No; No; ?; No
-On device picture info (including Exif data); Only date and location more with 3rd party software[ 404]; Only date and location more with 3rd party software[ 405]; 3rd party apps[ 406]; Date and location[ 407]; No; ?; Yes
-On device picture categorization; No[ 408] 3rd party software like TouchWiz[ 409]; 5+[ 410]; Yes[ 411]; Yes, photos can be renamed and searched; No; ?; No
-On device picture description and search; No[ 412]; 10+: Items/objects in picture [ 413] 7+: Only date and location[ 414]; Yes; Yes; No; ?; No
-Turn off shutter sound; In silent mode[ 415]; In silent mode[ 416]; 7.5+[ 417]; 10.2+ – In silent mode[ 418]; In silent mode; In silent mode[ 419]; No
-Picture crop; Yes; 5+[ 420]; 8+[ 421]; 10+[ 422]; No; Yes; Yes
-Photo rotation; Yes; 5+[ 420]; 8+[ 421]; 10+[ 422]; No; Yes; Yes
-Photo red-eye reduction; 2.3+[ 423]; 5+[ 420]; Yes 8.1+[ 424]; 10+[ 422]; No; No[ 425]; No
-HDR photos option; 4.2+, some manufacturers earlier[ 426]; Yes[ 427]; 8.1+; 10.1+[ 428]; No; No[ 429]; Yes
-Photo/video import from memory cards; Yes; With Camera Connection Kit[ 390]; Yes; Yes; Yes; Yes; Yes
-Video trim; 2.3+; Yes; 8+[ 430]; 10+[ 431]; No; ?; No
+Feature; Android; iOS; Tizen; Sailfish OS; Ubuntu Touch
+Camera focus at specified point; 2.3+[ 269]; Yes[ 60]; ?; 1.0.4+[ 270]; Yes
+Camera exposure metering from specified point; No,[ 271] available on some phones.[ 272] [ 273]; Yes[ 274]; No; ?; No
+On device picture info (including Exif data); Only date and location more with 3rd party software[ 275]; Only date and location more with 3rd party software[ 276]; No; ?; Yes
+On device picture categorization; No[ 277] 3rd party software like TouchWiz[ 278]; 5+[ 279]; No; ?; No
+On device picture description and search; No[ 280]; 10+: Items/objects in picture [ 281] 7+: Only date and location[ 282]; No; ?; No
+Turn off shutter sound; In silent mode[ 283]; In silent mode[ 284]; In silent mode; In silent mode[ 285]; No
+Picture crop; Yes; 5+[ 286]; No; Yes; Yes
+Photo rotation; Yes; 5+[ 286]; No; Yes; Yes
+Photo red-eye reduction; 2.3+[ 287]; 5+[ 286]; No; No[ 288]; No
+HDR photos option; 4.2+, some manufacturers earlier[ 289]; Yes[ 290]; No; No[ 291]; Yes
+Photo/video import from memory cards; Yes; With Camera Connection Kit[ 266]; Yes; Yes; Yes
+Video trim; 2.3+; Yes; No; ?; No

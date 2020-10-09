@@ -1,26 +1,25 @@
-; Windows; OS X; Linux; BSD; Unix
-Ddoc; Yes; Yes[ a]; Yes; Yes[ a]; No
-Document! X; Yes; No; No; No; No
-Doxygen; Yes; Yes; Yes; Yes; Yes
-Epydoc; Yes; Yes; Yes; Yes; Yes
-Haddock; Yes; Yes; Yes; Yes; Yes
-HeaderDoc; No; Yes; Yes; Yes; Yes
-Imagix 4D; Yes; No; Yes; No; Yes
-Javadoc; Yes; Yes; Yes; Yes; Yes
-JSDoc; Yes; Yes; Yes; Yes; Yes
-JsDoc Toolkit; Yes; Yes; Yes; Yes; Yes
-mkd; Yes; No?; Yes; Yes; Yes
-Natural Docs; Yes; Yes; Yes; Yes; Yes
-NDoc; Yes; No; No; No; No
-Pandoc; Yes; Yes; Yes; Yes; Yes
-pdoc; Yes; Yes; Yes; Yes; Yes
-perldoc; Yes; Yes; Yes; Yes; Yes
-phpDocumentor; Yes; Yes; Yes; Yes; Yes
-pydoc; Yes; Yes; Yes; Yes; Yes
-RDoc; Yes; Yes; Yes; Yes; Yes
-ROBODoc; Yes; Yes; Yes; Yes; Yes
-Sandcastle; Yes; No; No; No; No
-Sphinx; Yes; Yes; Yes; Yes; Yes
-Visual Expert; Yes; No; No; No; No
-VSdocman; Yes; No; No; No; No
-; Windows; OS X; Linux; BSD; Unix
+; HTML; CHM; RTF; PDF; LaTeX; PostScript; man pages; DocBook; XML; ePub
+COBOLDoc; Yes; No; No; No; No; No; No; No; No; 
+Ddoc; Yes; Yes[ a]; No; Yes[ a]; Yes[ a]; Yes[ a]; Yes[ a]; No; Yes[ a]; 
+Document! X; Yes; Yes; No; No; No; No; No; No; No; 
+Doxygen; Yes; Yes; Yes; Indirectly[ b]; Yes; Indirectly[ b]; Yes; Yes; Yes; No
+Epydoc; Yes; No; No; Yes; Indirectly[ c]; Indirectly[ c]; No; No; No; 
+Haddock; Yes; Yes; No; No; No; No; No; Partial; No; 
+HeaderDoc; Yes; No; No; No; No; No; Yes; No; Yes; 
+Imagix 4D; Yes; No; Yes; No; No; No; No; No; No; 
+Javadoc; Yes; Indirectly[ d]; Indirectly[ d]; Indirectly[ d]; Indirectly[ d]; Indirectly[ d]; Indirectly[ d]; Indirectly[ d]; Indirectly[ d]; 
+JSDoc; Yes; No; No; No; No; No; No; No; No; 
+JsDoc Toolkit; Yes; No; No; No; No; No; No; No; Yes+JSON; 
+Natural Docs; Yes; No; No; No; No; No; No; No; No; 
+NDoc; Yes; Yes; No; No; No; No; No; No; No; 
+pdoc3; Yes; No; No; Indirectly[ e]; No; No; No; No; No; No
+phpDocumentor; Yes; Yes; No; Yes; No; No; No; Yes; Yes; 
+pydoc; Yes; No; No; No; No; No; No; No; No; No
+RDoc; Yes; Yes[ f]; No; No; No; No; Indirectly[ g]; No; Yes[ f]; 
+ROBODoc; Yes; Indirectly; Yes; Indirectly[ c]; Yes; Indirectly[ c]; Yes; Yes; No; 
+Sandcastle; Yes; Yes; No; No; No; No; No; No; No; 
+Sphinx; Yes; Yes; ; Indirectly[ h]; Yes; ; Yes; ; ; Yes
+Visual Expert; Yes; No; No; No; No; No; No; No; No; 
+VSdocman; Yes; Yes; No; Yes; No; No; No; No; Yes; 
+YARD; Yes; No; No; No; No; No; No; No; No; 
+; HTML; CHM; RTF; PDF; LaTeX; PostScript; man pages; DocBook; XML; ePub

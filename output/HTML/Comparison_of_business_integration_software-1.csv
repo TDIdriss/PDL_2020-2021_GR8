@@ -16,7 +16,7 @@ JBoss Enterprise Service Bus (ESB); JBoss, a division of Red Hat, Inc.; 4.12; Ma
 JBoss Enterprise SOA Platform; JBoss, a division of Red Hat, Inc.; 5.1; February 2011; Free / Commercial support available; Yes; GNU LGPL; Replaced by JBoss Fuse
 Magic xpi Integration Platform; Magic Software Enterprises; 4.0; May 2015; ; No; Proprietary; 
 Openadaptor; The Software Conservancy; 3.4.6; February 2011; Free; Yes; variant of MIT; 
-OpenESB; OpenESB Community; 3.1.2; December 2018; Free / Enterprise Edition with commercial support; Yes; CDDL; 
+OpenESB; OpenESB Community; 3.2.2; December 2019; Free / Enterprise Edition with commercial support; Yes; CDDL; 
 OpenLink Virtuoso; OpenLink Software; 7.2.5.1; 2018-08-15; Varies[ 4]; Yes; Dual (GPL or proprietary); 
 Oracle BPEL Process Manager[ 5]; Oracle Corporation; 12.1.3.0.0; June 2014; Varies[ 6]; No; Proprietary; 
 Oracle Enterprise Service Bus[ 5]; Oracle Corporation; 12.1.3.0.0; June 2014; Varies[ 7]; No; Proprietary; 
@@ -30,5 +30,5 @@ TrackerSuite.Net; Automation Centre; 4.0; June 2012; Based on number of users an
 Unify NXJ; Unify Corporation; 11; ; ; No; Proprietary; 
 webMethods Integration Server; Software AG; 9.0[ 11]; May 2013; varies; No; Proprietary; Enterprise Service Bus[ 12]
 WebSphere Message Broker (now known as IBM Integration Bus); IBM; 8.0; October 2011; No longer marketed under this name - replacement name is IBM Integration Bus; No; Proprietary; Enterprise Service Bus
-WSO2 Enterprise Integrator; WSO2; 6.4; 2018; Free / Commercial support available; Yes; Apache License 2.0; Enterprice Service Bus, Message Broker, Application Server, Business Process Server, Data Services Server
+WSO2 Enterprise Integrator; WSO2; 6.4; 2018; Free / Commercial support available; Yes; Apache License 2.0; Enterprise Service Bus, Message Broker, Application Server, Business Process Server, Data Services Server
 WSO2 Enterprise Service Bus (ESB); WSO2; 5.0.0; 2016; Free / Commercial support available; Yes; Apache Software License; 

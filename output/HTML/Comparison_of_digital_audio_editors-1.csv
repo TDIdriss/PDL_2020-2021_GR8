@@ -5,7 +5,7 @@ AudioDesk; Mark of the Unicorn; Proprietary; No; Yes; No; No; ; ;
 Audition; Adobe Systems; Proprietary; Yes; Yes; No; No; ; ; 
 Bitwig Studio; Bitwig; Proprietary; Yes; Yes; Yes; No; ; ; 
 Cakewalk by BandLab[ 1]; BandLab Technologies; Proprietary (Freeware); Yes; No; No; No; ; ; 
-Cubase; Steinberg; Proprietary; Yes; Yes; No; Yes; ; ; Requires hardware dongle
+Cubase; Steinberg; Proprietary; Yes; Yes; No; Yes; Yes; ; Requires hardware dongle
 Digital Performer; Mark of the Unicorn; Proprietary; Yes; Yes; No; No; ; ; 
 FL Studio; Image-Line; Proprietary; Yes; Yes; No; Yes; Yes; ; 
 GarageBand; Apple; Proprietary; No; Yes; No; Yes; ; ; 
@@ -24,7 +24,7 @@ Nuendo; Steinberg; Proprietary; Yes; Yes; No; No; ; ;
 Podium; Zynewave; Proprietary / Freemium; Yes; No; No; No; ; ; 
 Pro Tools; Avid; Proprietary; Yes; Yes; No; No; ; MediaNet (proprietary); Yes
 Qtractor; Qtractor; GNU GPL; No; No; Yes; No; ; NFS; 
-REAPER; Cockos; Proprietary; Yes; Yes; Yes (pre-beta); Yes; ; ; 
+REAPER; Cockos; Proprietary; Yes; Yes; Yes (pre-beta); No; ; ; 
 Reason; Propellerhead Software; Proprietary; Yes; Yes; No; No; ; ; 
 Record; Propellerhead Software; Proprietary; Yes; Yes; No; No; ; ; 
 Renoise; Renoise Team; Proprietary; Yes; Yes; Yes; No; ; ; 
@@ -33,4 +33,4 @@ Samplitude/Sequoia; Magix; Proprietary; Yes; No; No; No; ; ;
 Soundscape 32; Mackie; Proprietary; Yes; No; No; No; ; ; External 2U rack unit
 Studio One; PreSonus; Proprietary; Yes; Yes; No; No; ; SoundCloud; 
 Tracktion; Tracktion Software Inc; Proprietary; Yes; Yes; Yes; No; ; ; 
-Digital audio editor; Creator / developer; Software license; Microsoft Windows; MacOS; Linux; iOS; ; Network storage; External hardware
+Digital audio editor; Creator / developer; Software license; Microsoft Windows; MacOS; Linux; iOS; Android; Network storage; External hardware

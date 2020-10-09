@@ -12,7 +12,7 @@ Xojo; Shell.Execute(command «,  Parameters»); FolderItem.Launch(parameters, a
 D; std.process.system("command"); ; std.process.execv(path, arglist)
 Java; ; Runtime.exec(command) or new ProcessBuilder(command).start(); 
 JavaScript Windows Script Host implementation; WScript.CreateObject ("WScript.Shell").Run(command «,  WindowStyle» «,  isWaitOnReturn»); WshShell.Exec(command); 
-Common Lisp; (shell command); ; 
+Common Lisp; (uiop:run-program command); ; 
 Scheme; (system command); ; 
 ISLISP; N/A; N/A; N/A
 Pascal; system(command); ; 

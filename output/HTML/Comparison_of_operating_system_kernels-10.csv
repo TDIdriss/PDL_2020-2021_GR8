@@ -1,5 +1,5 @@
 Kernel name; Intel; NVIDIA; AMD; ARM; Qualcomm; Imagination Technologies; Broadcom; VeriSilicon
 Kernel name; Intel HD/Iris Graphics; GeForce/Quadro/Tesla; Radeon; Mali; Adreno; PowerVR; VideoCore4; Vivante
-Linux kernel; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Etnaviv
-Windows NT kernel; Yes; Yes; Yes; ?; Windows RT; ?; ?; ?
+Linux kernel; Yes; Yes; Yes; Yes; Yes; 2D only[ 36] [ 37]; Yes; Etnaviv
+Windows NT kernel; Yes; Yes; Yes; ?; Windows RT, Windows Phone 8.x, Windows 10 Mobile; ?; ?; ?
 XNU; via I/O Kit (macOS only); via I/O Kit (macOS only); via I/O Kit (macOS only); No; No; via I/O Kit (iOS only); No; No

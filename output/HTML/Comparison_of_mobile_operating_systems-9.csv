@@ -1,5 +1,5 @@
-Feature; Android; iOS; Windows 10 Mobile; BlackBerry 10; Tizen; Sailfish OS; Ubuntu Touch
-Safe driving mode; 3rd party software; 11+[ 332]; 8 GDR3+[ 333]; No; ?; ?; ?
-Turn-by-turn navigation; 2+[ 334]; 6+[ 335]; 8+[ 336]; 10+[ 337]; ?; Yes; 3rd party software
-Offline maps; 3rd party software Google Maps,[ 338] Here Maps; 6+[ 339]; 8+[ 340]; 3rd party software; ?; 3rd party software; 3rd party software
-Alternative routes in maps; Yes[ 341]; 5+[ 342] [ 343]; 10+[ 344]; ?; ?; 3rd party software; 3rd party software
+Feature; Android; iOS; Tizen; Sailfish OS; Ubuntu Touch
+Safe driving mode; 3rd party software; 11+[ 230]; ?; ?; ?
+Turn-by-turn navigation; 2+[ 231]; 6+[ 232]; ?; Yes; 3rd party software
+Offline maps; 3rd party software Google Maps,[ 233] Here WeGo; 6+[ 234]; ?; 3rd party software; 3rd party software
+Alternative routes in maps; Yes[ 235]; 5+[ 236] [ 237]; ?; 3rd party software; 3rd party software

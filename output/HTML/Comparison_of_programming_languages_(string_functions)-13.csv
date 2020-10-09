@@ -32,8 +32,9 @@ string.find(string, substring) (string):find(substring); Lua; returns nil
 string indexOfSubCollection: substring startingAt: startpos ifAbsent: aBlock string findString: substring startingAt: startpos; Smalltalk (Squeak, Pharo); evaluate aBlock which is a block closure (or any object understanding value) returns 0
 startpos = INDEX(string, substring «,back» «, kind»); Fortran; returns 0 if substring is not in string returns LEN(string)+1 if substring is empty
 POSITION(substring IN string); SQL; returns 0 (positions start at 1)
-index(string, substring, startpos ); PL/I[ 9]; returns 0 (positions start at 1)
+index(string, substring, startpos ); PL/I[ 14]; returns 0 (positions start at 1)
 index(string, substring, occurrence ); Pick Basic; returns 0 if occurrence of substring is not in string (positions start at 1)
 string.indexOf(substring«,startpos«, charcount»»); Cobra; returns −1
 string first substring string startpos; Tcl; returns −1
 (substring⍷string)⍳1; APL; returns 1 + the last position in string
+string.find(substring); Rust[ 15]; returns None

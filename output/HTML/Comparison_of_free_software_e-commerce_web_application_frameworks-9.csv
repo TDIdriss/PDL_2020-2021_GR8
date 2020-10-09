@@ -1,19 +1,17 @@
 ; Access control list; Form CAPTCHA; Staff action logging; PA/DSS certified
 Apache OFBiz; Yes; Yes; Yes; No
 Batavi; Yes; No; Yes; No
-Bigcommerce; Yes; Yes; Yes; Yes
-Drupal Commerce; Yes; free add-on; Yes; No
+Bigcommerce; Yes; Yes; Yes; No
+Drupal Commerce; Yes; add-on; Yes; No
 KonaKart; Yes; No; Yes; No
-LemonStand; Yes; Yes; Yes; No
-Magento; Yes; Yes; enterprise; Yes / Magento Payment Bridge
-Miva Merchant; n/a; n/a; n/a; Yes
+Magento; Yes; Yes; enterprise; No
+Miva Merchant; No; Yes; No; Yes
 nopCommerce; Yes; Yes; Yes; No
 osCommerce; Yes; No; No; No
 pimcore; Yes; No; No; No
 PrestaShop; Yes; Yes; No; No
-Sana Commerce; Yes; No; Yes; Yes
 Shopify; Yes; Yes; Yes; No
 SupaDupa; Yes; No; No; No
-WooCommerce; ?; ?; ?; ?
-Zen Cart; Yes; free add-on; Yes; Yes
+WooCommerce; No; add-on; No; No
+Zen Cart; Yes; add-on; Yes; No
 ; Access control list; Form CAPTCHA; Staff action logging; PA/DSS certified

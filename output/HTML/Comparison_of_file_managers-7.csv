@@ -15,7 +15,7 @@ Files by Google; ; ; ; ; ; ; ; ;
 Finder; Yes; ?; Yes; Yes; No; ?; ?; Yes; ?
 ForkLift; Yes; Partial; Yes; Yes; Yes; Yes; ?; No; No
 Konqueror; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes
-Krusader; Yes; ?; Yes; Yes; Yes[ 92]; No; No; Yes; Yes
+Krusader; Yes; ?; Yes; Yes; Yes[ 79]; No; No; Yes; Yes
 GNOME Files (Nautilus); Yes; ?; Partial [ s 4]; Partial [ s 4]; ?; ?; ?; Yes; ?
 Nemo; ?; ?; ?; ?; ?; ?; ?; ?; ?
 Nomad.NET; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes

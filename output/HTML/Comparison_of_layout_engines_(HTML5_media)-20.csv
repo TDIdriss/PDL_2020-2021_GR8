@@ -9,8 +9,8 @@ footer; 5.0[ t 1]; 12; 2.0[ g 1] [ g 2]; 533[ w 1] [ w 2] [ w 3] [ w 4] [ w 5] [
 ping; No; No; Disabled; Yes; No
 time; No; No; 22.0[ g 3]; No; 2.8.146
 mark; 5.0[ t 1]; 12; 2.0[ g 4]; Yes[ w 7]; 2.7.70
-ruby,[ 19] rt, rp; 3.1[ t 2]; 12; 38.0[ g 5]; 533[ w 8] [ w 9]; No
-dialog[ 20]; No; No; No[ g 6]; Only in Chrome[ w 10]; No
+ruby,[ 20] rt, rp; 3.1[ t 2]; 12; 38.0[ g 5]; 533[ w 8] [ w 9]; No
+dialog[ 21]; No; No; No[ g 6]; Only in Chrome[ w 10]; No
 figure; 5.0[ t 1]; 12; 2.0[ g 7]; Yes[ w 11]; 2.7.70
 figcaption; 5.0[ t 1]; 12; 2.0[ g 7]; Yes[ w 11]; 2.7.70
 embed; < 3.1[ IE 3.0]; 12; 1.7; 85; 1.0

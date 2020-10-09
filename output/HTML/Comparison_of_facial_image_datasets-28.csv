@@ -1,2 +1,2 @@
 Dataset Name; Brief description; Preprocessing; Instances; Format; Default Task; Created (updated); Reference; Creator
-Tox21 Dataset; Prediction of outcome of biological assays.; Chemical descriptors of molecules are given.; 12707; Text; Classification; 2016; [ 394]; A. Mayr et al.
+Tox21 Dataset; Prediction of outcome of biological assays.; Chemical descriptors of molecules are given.; 12707; Text; Classification; 2016; [ 413]; A. Mayr et al.

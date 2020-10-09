@@ -18,7 +18,7 @@ Ingres; Yes; Yes; Yes; Yes; Yes; Yes
 InterBase; Yes; Yes; Yes; Yes; Yes; Yes
 Linter SQL RDBMS; No; Yes; Yes; Yes; Yes; No
 LucidDB; No; Yes; No; Yes  2; Yes  2; Yes  2
-MariaDB; Yes[ 154]; Yes; Yes; Yes; Yes; Yes
+MariaDB; Yes[ 155]; Yes; Yes; Yes; Yes; Yes
 MaxDB; Yes; Yes; Yes; Yes; Yes; ?
 Microsoft Access (JET); Yes; No; No; No; Yes, But single DML/DDL Operation; Yes
 Microsoft Visual Foxpro; No; Yes; Yes; Yes; Yes; Yes

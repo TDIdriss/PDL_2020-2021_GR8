@@ -1,12 +1,12 @@
-Graphics; Launch; Market; Processor; Code name; Device ID[ 3]; Clock rate (MHz); Core config1; API support[ 12] [ 31] [ 46] [ 47] [ 48]; API support[ 12] [ 31] [ 46] [ 47] [ 48]; API support[ 12] [ 31] [ 46] [ 47] [ 48]; API support[ 12] [ 31] [ 46] [ 47] [ 48]; eDRAM (MiB); Memory bandwidth (GB/s)
+Graphics; Launch; Market; Processor; Code name; Device ID[ 3]; Clock rate (MHz); Core config1; API support[ 13] [ 32] [ 48] [ 49] [ 50]; API support[ 13] [ 32] [ 48] [ 49] [ 50]; API support[ 13] [ 32] [ 48] [ 49] [ 50]; API support[ 13] [ 32] [ 48] [ 49] [ 50]; eDRAM (MiB); Memory bandwidth (GB/s)
 Graphics; Launch; Market; Processor; Code name; Device ID[ 3]; Clock rate (MHz); Core config1; Direct3D; OpenGL; OpenCL; Vulkan; eDRAM (MiB); Memory bandwidth (GB/s)
 HD Graphics; 2015; Ultramobile; Atom x5-Z8300; Cherryview Braswell (Gen8LP); 22B0 22B1 22B2 22B3; 200-500; 96:12:2; 11.2; 4.3Windows 4.6Linux ES  3.2Linux; 2.0Windows 1.2Linux; 1.1Linux; -; 12.8
 HD Graphics; 2015; Ultramobile; Atom x5-Z8500; Cherryview Braswell (Gen8LP); 22B0 22B1 22B2 22B3; 200-600; 96:12:2; 11.2; 4.3Windows 4.6Linux ES  3.2Linux; 2.0Windows 1.2Linux; 1.1Linux; -; 
-HD Graphics; 2015; Ultramobile; 25.6; Cherryview Braswell (Gen8LP); 22B0 22B1 22B2 22B3; Celeron N3000 Celeron N3050; 96:12:2; 11.2; 4.3Windows 4.6Linux ES  3.2Linux; 2.0Windows 1.2Linux; 1.1Linux; -; 320-600
+HD Graphics; 2015; Ultramobile; 25.6; Cherryview Braswell (Gen8LP); 22B0 22B1 22B2 22B3; Atom x5-E8000 Celeron N3000 Celeron N3050; 96:12:2; 11.2; 4.3Windows 4.6Linux ES  3.2Linux; 2.0Windows 1.2Linux; 1.1Linux; -; 320-600
 HD Graphics; 2015; Ultramobile; 25.6; Cherryview Braswell (Gen8LP); 22B0 22B1 22B2 22B3; Celeron N3150; 96:12:2; 11.2; 4.3Windows 4.6Linux ES  3.2Linux; 2.0Windows 1.2Linux; 1.1Linux; -; 320-640
 HD Graphics; 2015; Ultramobile; 25.6; Cherryview Braswell (Gen8LP); 22B0 22B1 22B2 22B3; Atom x7-Z8700; 200-600; 11.2; 4.3Windows 4.6Linux ES  3.2Linux; 2.0Windows 1.2Linux; 1.1Linux; -; 
 HD Graphics; 2015; Ultramobile; 25.6; Cherryview Braswell (Gen8LP); 22B0 22B1 22B2 22B3; Pentium N3700; 400-700; 11.2; 4.3Windows 4.6Linux ES  3.2Linux; 2.0Windows 1.2Linux; 1.1Linux; -; 
-HD Graphics 400; 2016; Ultramobile; 25.6; Cherryview Braswell (Gen8LP); 22B0 22B1 22B2 22B3; Atom x5-Z8350[ 49]; 200-500; 11.2; 4.3Windows 4.6Linux ES  3.2Linux; 2.0Windows 1.2Linux; 1.1Linux; -; 
+HD Graphics 400; 2016; Ultramobile; 25.6; Cherryview Braswell (Gen8LP); 22B0 22B1 22B2 22B3; Atom x5-Z8350[ 51]; 200-500; 11.2; 4.3Windows 4.6Linux ES  3.2Linux; 2.0Windows 1.2Linux; 1.1Linux; -; 
 HD Graphics 400; 2016; Ultramobile; 25.6; Cherryview Braswell (Gen8LP); 22B0 22B1 22B2 22B3; Celeron N3010 Celeron N3060; 320-600; 11.2; 4.3Windows 4.6Linux ES  3.2Linux; 2.0Windows 1.2Linux; 1.1Linux; -; 
 HD Graphics 400; 2016; Ultramobile; 25.6; Cherryview Braswell (Gen8LP); 22B0 22B1 22B2 22B3; Celeron N3160; 320-640; 11.2; 4.3Windows 4.6Linux ES  3.2Linux; 2.0Windows 1.2Linux; 1.1Linux; -; 
 HD Graphics 400; 2016; Ultramobile; 25.6; Cherryview Braswell (Gen8LP); 22B0 22B1 22B2 22B3; Celeron J3060 Celeron J3160; 320-700; 11.2; 4.3Windows 4.6Linux ES  3.2Linux; 2.0Windows 1.2Linux; 1.1Linux; -; 

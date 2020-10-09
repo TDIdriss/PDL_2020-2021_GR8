@@ -64,7 +64,7 @@ XEP; Description; Status; ejabberd; iChat Server; jabberd14; jabberd2; Metronome
 0154; User profile; Deferred; Contrib.[ 8]; Unknown; Unknown; No[ 17]; Yes[ 18]; No; No; Unknown; No[ 20]; No
 0157; Contact Addresses for XMPP Services; Approved; Yes[ 8] [ 37]; Unknown; Yes[ 2]; Yes[ 17]; Yes[ 18]; No; Yes; Unknown; Contrib.[ 20]; Yes[ 6]
 0158; CAPTCHA Forms; Draft; Yes[ 8]; Unknown; Unknown; No[ 17]; No[ 18]; No; No; Unknown; No[ 20]; No
-0159; Spim-Blocking Control; Deferred; Unknown; Unknown; Unknown; No[ 17]; No[ 18]; No; No; Unknown; No[ 20]; No
+0159; Spim-Blocking Control; Deferred; Unknown; Unknown; Unknown; No[ 17]; Yes[ 18]; No; No; Unknown; No[ 20]; No
 0160; Best Practices for Handling Offline Messages; Approved; Yes[ 8]; Unknown; Yes[ 2]; Yes[ 17]; Yes[ 18]; No; Yes; Unknown; Yes[ 20]; Yes[ 6]
 0161; Abuse Reporting; Deferred; Unknown; Unknown; Unknown; No[ 17]; No[ 18]; No; No; Unknown; No[ 20]; No
 0163; Personal Eventing Protocol; Draft; Yes[ 8]; Unknown; Unknown; No[ 17]; Yes[ 18]; Yes[ 19]; Yes; Yes[ 5]; Yes[ 20]; Yes[ 6]
@@ -119,7 +119,7 @@ XEP; Description; Status; ejabberd; iChat Server; jabberd14; jabberd2; Metronome
 0255; Location Query; Deferred; Unknown; Unknown; Unknown; No[ 17]; No; No; No; Unknown; No[ 20]; No
 0256; Last Activity in Presence; Draft; Unknown; Unknown; Unknown; No[ 17]; No[ 18]; No; Unknown; Unknown; No[ 20]; No
 0257; Client Certificate Management for SASL EXTERNAL; Deferred; Unknown; Unknown; Unknown; No[ 17]; No[ 18]; No; No; Unknown; Contrib.[ 20]; Unknown
-0258; Security Labels in XMPP; Draft; Unknown; Unknown; Unknown; Unknown; Unknown; Yes[ 19]; No; Unknown; Contrib.[ 20]; Unknown
+0258; Security Labels in XMPP; Draft; Unknown; Unknown; Unknown; Unknown; Yes[ 18]; Yes[ 19]; No; Unknown; Contrib.[ 20]; Unknown
 0259; Message Mine-ing; Deferred; Unknown; Unknown; Unknown; No[ 17]; No[ 18]; No; No; Unknown; No[ 20]; Unknown
 0268; Incident Handling; Deferred; Unknown; Unknown; Unknown; Unknown; Yes[ 18]; No; No; Unknown; Contrib.[ 46]; No
 0270; XMPP Compliance Suites 2010; Obsolete; Yes[ 8]; Unknown; Unknown; No[ 17]; Yes; Yes[ 19]; Yes; Unknown; Unknown; Unknown
@@ -127,7 +127,7 @@ XEP; Description; Status; ejabberd; iChat Server; jabberd14; jabberd2; Metronome
 0278; Jingle Relay Nodes; Experimental; Yes[ 8]; Unknown; Unknown; No[ 17]; Yes[ 18]; No; No; Unknown; Unknown; No
 0279; Server IP Check; Deferred; Yes[ 8]; Unknown; Unknown; No[ 47] [ 47]; Yes[ 18]; No; Yes; Unknown; Contrib.[ 20] [ 48]; No
 0280; Message Carbons; Experimental; Yes[ 8]; Unknown; Unknown; Unknown; Yes[ 18]; No; Yes[ 49]; Yes[ 43]; Yes[ 50]; Yes[ 51]
-0288; Bidirectional Server-to-Server Connections; Draft; Unknown; Unknown; Unknown; Unknown; Yes; Yes[ 19]; No; Unknown; Unknown; Unknown
+0288; Bidirectional Server-to-Server Connections; Draft; Unknown; Unknown; Unknown; Unknown; Yes[ 18]; Yes[ 19]; No; Unknown; Unknown; Unknown
 0289; Federated MUC for Constrained Environments; Deferred; Unknown; Unknown; Unknown; Unknown; No; Yes[ 19]; No; Unknown; Unknown; Unknown
 0302; XMPP Compliance Suites 2012; Obsolete; Yes[ 8]; Unknown; Unknown; Unknown; Yes; No; Yes; Unknown; Unknown; Yes[ 6]
 0309; Service Directories; Deferred; Unknown; Unknown; Unknown; Unknown; Yes[ 18]; Unknown; No; Unknown; Contrib.[ 20]; Unknown
@@ -135,6 +135,6 @@ XEP; Description; Status; ejabberd; iChat Server; jabberd14; jabberd2; Metronome
 0321; Remote Roster Management; Deferred; Yes[ 41]; Unknown; Unknown; Unknown; Unknown[ 18]; Unknown; No; Unknown; Unknown[ 55]; Unknown
 0357; Push Notifications; Experimental; Contrib; Unknown; No; No; Yes[ 18]; No; Yes[ 56]; No; Contrib.[ 57]; Yes[ 6]
 0363; HTTP File Upload; Experimental; Contrib; Unknown; No; No; Yes[ 18]; No; Yes[ 58]; Yes/Plugin[ 59]; Yes[ 60]; Yes[ 6]
-0375; XMPP Compliance Suites 2016; Experimental; Contrib; Unknown; Unknown; Unknown; Yes; Unknown; Unknown; Unknown; Unknown; Unknown
+0375; XMPP Compliance Suites 2016; Retracted; Contrib; Unknown; Unknown; Unknown; Yes; Unknown; Unknown; Unknown; Unknown; Unknown
 0376; Pubsub Account Management; Deferred; Contrib; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown
 XEP; Description; Status; ejabberd; iChat Server; jabberd14; jabberd2; Metronome; Isode M-Link; MongooseIM; Openfire; Prosody; Tigase

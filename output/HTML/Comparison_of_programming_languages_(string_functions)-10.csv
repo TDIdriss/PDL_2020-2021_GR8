@@ -3,7 +3,7 @@ string_in_string(string, loc int, substring); ALGOL 68
 ContainsStr(string, substring); Object Pascal (Delphi)
 strstr(string, substring)  != NULL; C, C++ (char * only)
 string.Contains(substring); C#, VB .NET, Windows PowerShell, F#
-string.contains(substring); Cobra, Java (1.5+), Raku
+string.contains(substring); Cobra, Java (1.5+), Raku, Rust[ 13]
 string.indexOf(substring) > = 0; JavaScript
 strpos(string, substring)  !== false; PHP
 pos(string, substring) < > 0; Seed7
@@ -17,7 +17,7 @@ String.isSubstring substring string; Standard ML
 (not (null (string-index substring string))); ISLISP
 (substring? substring string); Clojure
 ! StringFreeQ[string, substring]; Mathematica
-index(string, substring, startpos)> 0; Fortran, PL/I[ 9]
+index(string, substring, startpos)> 0; Fortran, PL/I[ 14]
 index(string, substring, occurrence)> 0; Pick Basic
 strings.Contains(string, substring); Go
 string.find(substring)  != string::npos; C++

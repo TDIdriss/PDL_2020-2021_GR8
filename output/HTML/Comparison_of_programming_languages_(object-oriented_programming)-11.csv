@@ -5,7 +5,8 @@ C++ (STL); x.method(parameters) or ptr-> method(parameters); x.field or ptr-> fi
 Objective-C; [x method«:parameter «bar:parameter ...»»]; x-> field; x.property (2.0 only) or [x property]; [cls method«:parameter «bar:parameter ...»»]; 
 Smalltalk; x method«:parameter «bar:parameter ...»»; N/A; ; cls method«:parameter «bar:parameter ...»»; 
 Swift; x.method(parameters); ; x.property; cls.member; 
-C#; x.method(parameters); x.field; x.property; cls.member; ns.member
+APL (Dyalog); left argument» x.method «right argument(s)»; x.field; x.property; cls.member; ns.member
+C#; x.method(parameters); x.field; cls.member; ns.member
 Java; x.method(parameters); x.field; N/A; cls.member; ns.member
 D; x.method(parameters); x.field; cls.member; ns.member
 Python; x.method(parameters); x.field; cls.member; ns.member

@@ -1,8 +1,19 @@
-Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config12; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS); Supported API version; Supported API version; TBP (Watts); Notes
-Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config12; Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Single precision; Direct3D; OpenGL; TBP (Watts); Notes
-Quadro2 Go [ 206]; NV11GLM?; ; AGP 4×; 143; ; 130 360; 2:0:4:2; 0.286; 0.592; 32 64; 2.9 5.8; SDR DDR; 128; ; 7.0; 1.2; ; First mobile Quadro based on the GeForce2 Go, Dynamic core clock 100–143  MHz, dynamic voltage 1.575V, graphics core listed as 64-bit and 128-bit for DDR and SDR SDRAM types respectively according to Nvidia [ 207] [ 208]
-Quadro4 500 Go GL [ 209] [ 210]; NV17 GLM; 150; AGP 4×,8×; ?; ; ?; 2:0:4:2; 0.44; 0.88; 7.0; DDR; 7.0; 128; ; Based on the GeForce4 Go, dynamic core clock 66–220  MHz, core voltage 1.35  V, uses DDR SDRAM according to Nvidia brochures[ 208]; ; 
-Quadro4 700 Go GL [ 209] [ 211] [ 212]; NV28 GLM; 150; AGP 4×,8×; 176; ; 200; 4:2:4:4; 0.704; 64; 0.704; DDR; 7.4?; 128?; ; 8.1; Based on GeForce4 Go 4200, uses DDR according to Nvidia brochures; ; 
-Quadro FX Go 700 [ 213]; NV31 GLM; 130; AGP 8×; 295?; ; 590?; 1.18; 1.18; 128; 9.44?; DDR; 128; 9.0; ; 2.1?; Based on the Geforce FX Go (FX 56XX); ; 
-Quadro FX Go 1000 [ 214]; NV36 GLM; 120; AGP 8×; 295?; ; 4:3:4:4; 1.18; 1.18; 128; 570?; DDR; 128; 9.0; ; 2.1?; 9.12?; ; Seems to be an overclocked Quadro FX 700 Go.
-Quadro FX Go 1400 [ 214]; NV41 GLM; 130; PCIe; 275; ; 590; 12:5:12:12?; 2.20; 2.2; 256; DDR; 18.9?; 9.0; ; 2.1?; 256; ; Last chip designated as a Quadro FX Go, uses PCIe instead of AGP 8×. Core config has been mentioned as either 8:5:8:8 or 12:5:12:12 - the latter is likely since chip is derived from GeForce Go 6800.
+Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config12*; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS); Supported API version; Supported API version; TBP (Watts); Notes
+Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config12*; Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Single precision; Direct3D; OpenGL; TBP (Watts); Notes
+NVS 50; NV18; 150; AGP 4×/PCI; 250; 250; 200; 0:2:4:2; 0.5; 1.0; 64; 1.6; DDR; 32; ; 7; 1.2; ; DVI-I, S-Video
+NVS 100; NV17; 150; AGP 4×/PCI; 200; ; 333; 0:2:4:2; ; ; 64; 2.664; DDR; 64; ; 7; 1.2; ; 2× DVI-I, VGA, S-Video
+NVS 200; NV17; 150; AGP 4×/PCI; 250; 250; 250; 0:2:4:2; 0.5; 1.0; 64; 8.0; DDR; LFH-60; ; 7; 1.2; ; 
+NVS 210S; MCP51; 90; Integrated; 425; ; ; 1:2:2:1; 0.425; 128; 0.850; Up to 256 from system memory; DDR; ; ; 9.0c; 1.2; ; DVI + VGA
+NVS 280; NV34GL; 150; PCIe ×16/AGP 8× / PCI; 275; 275; 250; 0:2:4:2/ 1:2:2:2 *:4:4:4; 0.55; 128; 1.1; 64; DDR; 8.0; ; 1.5; 13; DMS-59; 
+NVS 285; NV44; 110; PCIe ×1/×16; 275; 275; 275; 3:4:4:2; 0.55; 128; 1.1; 128; DDR; 9.0; ; 8.8; 2.1; 18; DMS-59
+NVS 290; G86; 80; PCIe ×1/×16; 460; 920; 800; 16:8:4; 1.84; 3.68; 6.4; DDR2; 64; 44.16; 10; 3.3; 21; DMS-59; 
+NVS 295; G98; 65; PCIe ×1/×16; 550; 1300; 1400; 8:8:4; 2.2; 256; 4.4; 11.2; 64; GDDR3; 10; 3.3; 31.2; 23; 2× DisplayPort or 2× DVI-D
+NVS 300; GT218; 40; PCIe ×1/×16; 589; 1402; 1580; 16:8:4; 2.356; 4.712; 12.64; DDR3; 64; 67.3; 10.1; 3.3; 17.5; DMS-59; 
+NVS 310; GF119; 40; PCIe ×16; ; ; 1750; 48:8:4; ; 512; ; DDR3; 64; 14; 4.1; 19.5; 2× DisplayPort; 
+NVS 315; GF119; 40; PCIe ×16; 900; 900; 1800; 48:8:4; 3.6; 7.2; 1024; DDR3; 64; 11.0; 4.1; 19.5; 14.4; DMS-59 Idle Power Consumption 7W; 
+NVS 400; 2× NV17; 150; PCI; 220; 220; 343; 2× 0:2:4:2; 2× 0.44; 2× 0.88; 2× 64; 2× 11.0; DDR; 2× 128; 2× 5.328; ; ; ; DMS-59
+NVS 420; 2×G98; 65; PCIe ×1/×16; 550; 1300; 1400; 2× 8:8:4; 2× 2.2; 2× 4.4; 2× 256; 2× 11.2; GDDR3; 2× 64; 2× 31.2; 10; 3.3; 40; through VHDCI to (4× DisplayPort or 4× DVI-D)
+NVS 440; 2×NV43; 110; PCIe ×1/×16; 250; ; ; ; ; 2× 128; ; DDR; ; ; ; ; 31; 2× DMS-59[ 214]; 
+NVS 450; 2×G98; 65; PCIe ×1/×16; 550; 1300; 1400; 2× 8:8:4; 2× 2.2; 2× 4.4; 2× 256; 2× 11.2; 2× 64; 2× 31.2; 10; 3.3; 35; 4× DisplayPort; 
+NVS 510; GK107; 28; PCIe ×16; ; ; 1800; 192:16:8 (1 SMX); ; ; 2048; GDDR3; 28.5; 128; 11.0; 4.5; 35; 4× miniDisplayPort; 
+NVS 810; 2× GM107; 28; PCIe ×16; ; ; ; 2× 512:32:16; ; ; 2× 2048; GDDR3; ; ; 11.0; 4.5; 2× 128; 68; 8× miniDisplayPort

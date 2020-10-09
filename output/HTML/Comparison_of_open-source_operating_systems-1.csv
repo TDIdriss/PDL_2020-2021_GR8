@@ -5,7 +5,6 @@ OpenBSD; BSD; Monolithic; C; 1:1; BSD, Unix-like; 6.4; MirOS
 NetBSD; BSD; Monolithic with modules; C; 1:1; BSD, Unix-like; 7.0; OpenBSD
 DragonFly BSD; BSD; Hybrid; C; 1:1; BSD, Unix-like; No; 
 OpenSolaris, illumos; CDDL; Monolithic with modules; C; 1:1, M:N; Unix; No; 
-AuroraUX; BSD/CDDL; Monolithic with modules; C, Ada; 1:1, M:N; Unix; No; 
 Darwin, OpenDarwin; APSL; Hybrid; C, C++[ Note 2]; 1:1; BSD, Unix, Unix-like, OS X; No; 
 MINIX; BSD; Microkernel; C; ; Unix-like; No; 
 RedoxOS; MIT; Microkernel; Rust; ; Unix-like; No; 

@@ -1,5 +1,5 @@
-Feature; Android; iOS; Windows 10 Mobile; BlackBerry 10; Tizen; Sailfish OS; Ubuntu Touch
-System wide base text size; Yes; Yes[ 105] [ 106] [ 107]; Yes; Yes[ 108]; ?; 2.1.0+: Set text size[ 109]; ?
-Monaural output; Yes; Yes; No; No; No; No; No
-Always visible scrollbar; No; No; No; No; No; No; No
-Reduced Animations; Yes; Yes; No; No; No; No; No
+Feature; Android; iOS; Tizen; Sailfish OS; Ubuntu Touch
+System wide base text size; Yes; Yes[ 76] [ 77] [ 78]; ?; 2.1.0+: Set text size[ 79]; ?
+Monaural output; Yes; Yes; No; No; No
+Always visible scrollbar; No; No; No; No; No
+Reduced Animations; Yes; Yes; No; No; No

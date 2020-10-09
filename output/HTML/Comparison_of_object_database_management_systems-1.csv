@@ -1,6 +1,6 @@
 Name; Current Stable Version; Language(s); SQL support; Datatypes; License; Description
 Caché; 2017.2.1; Caché ObjectScript (dynamic language), Basic. Java/.NET object mapping supported.; SQL subset. Object notation allowed. Supports embedded SQL, dynamic SQL and xDBC access.; ; Proprietary; MUMPS ancestry. Includes built-in support for XML, Web/AJAX and an EMB system called Ensemble. Supports embedded, client/server and distributed implementations.
-ConceptBase; ; Telos; CBQL (based on Datalog); no types but classes; open source, FreeBSD-style license; historical db, active rules, meta-modeling, deductive rules
+ConceptBase; 8.1.13 (2019-12-09); Telos; CBQL (based on Datalog); no types but classes; open source, FreeBSD-style license; historical db, active rules, meta-modeling, deductive rules
 Db4o; 8.0 (2011-03-09); C#, Java; db4o-sql; .NET and Java data types; GPL, custom,[ 1] proprietary; Native Queries, LINQ support, automatic schema evolution, Transparent Activation/Persistence, replication to RDBMS, Object Manager plugin for Visual Studio and Eclipse
 GemStone/S; 3.2.2; Smalltalk; None; Objects and code; Proprietary, free version available; Persistent, transactional, multi-user Smalltalk developed by GemTalk Systems.
 ObjectDatabase++; 4.4 (2015-07-03); C++, TScript; ; ; Proprietary; Embedded

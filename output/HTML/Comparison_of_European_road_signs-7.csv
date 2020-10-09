@@ -1,15 +1,14 @@
-; Austria; Belgium; Czech Republic; Denmark; Estonia; Finland; France; Germany; Greece; Hungary; Iceland; Ireland; Italy; Luxembourg; Netherlands; Norway; Poland; Portugal; Romania; Russia & Belarus; Slovakia; Slovenia; Spain; Sweden; Switzerland & Liechtenstein; Turkey; Ukraine; United Kingdom
-One-way street; ; ; ; ; ; NOT USED; ; [ note 1]; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
-One-way street; ; NOT USED; ; ; ; ; NOT USED; ; ; ; ; NOT USED; ; ; ; ; NOT USED; ; ; ; ; ; ; ; NOT USED; ; ; 
-Pedestrian crossing; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; or; [ note 14]; ; ; NOT USED
-Advisory speed limit; NOT USED; NOT USED; ; ; ; ; ; [ note 1]; ; ; NOT USED; NOT USED; ; ; ; ; NOT USED; ; ; ; ; ; ; ; NOT USED; ; ; or (temporary)
-Lane ends; ; ; ; ; or [ note 15]; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
-Road bump; ; ; ; ; ; ; ; NOT USED; ; ; ; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; 
-Residential area/Living street; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; ; ; ; ; or; ; ; 
-Pedestrian zone; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED; ; (Russia) (Belarus); or; ; ; ; or; ; ; 
-Bus lane; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
-Limited-access road; ; ; ; ; NOT USED; ; ; ; ; ; NOT USED; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED
-End of limited-access road; ; ; ; ; NOT USED; ; ; ; ; ; NOT USED; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED
-Motorway; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
-End of motorway; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
-; Austria; Belgium; Czech Republic; Denmark; Estonia; Finland; France; Germany; Greece; Hungary; Iceland; Ireland; Italy; Luxembourg; Netherlands; Norway; Poland; Portugal; Romania; Russia & Belarus; Slovakia; Slovenia; Spain; Sweden; Switzerland & Liechtenstein; Turkey; Ukraine; United Kingdom
+; Austria; Belgium; Czechia; Denmark; Estonia; Finland; France; Germany; Greece; Hungary; Iceland; Ireland; Italy; Luxembourg; Netherlands; Norway; Poland; Portugal; Romania; Russia Belarus; Slovakia; Slovenia; Spain; Sweden; Switzerland Liechtenstein; Turkey; Ukraine; UK; Åland
+Straight ahead only; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Proceed right only; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; ; ; NOT USED; ; ; ; ; ; ; NOT USED; ; 
+Turn right ahead only; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Proceed straight or turn right only; ; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED; 
+Pass on this side; ; ; ; ; ; ; or; ; ; or; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Pass on either side; ; ; ; ; ; ; ; NOT USED; ; ; ; ; ; ; ; ; ; NOT USED; ; ; DEFUNCT; ; ; ; ; ; ; ; 
+Roundabout; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; (mini- roundabout); 
+Route for vehicles carrying dangerous goods; ; ; NOT USED; NOT USED; ; NOT USED; ; NOT USED; NOT USED; ; NOT USED; NOT USED; ; ; NOT USED; NOT USED; ; NOT USED; ; ; DEFUNCT; ; ; ; ; ; ; NOT USED; NOT USED
+Bicycles only; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; [ note 5]; ; ; ; 
+Pedestrians only; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED; 
+Bicycles and pedestrians only; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; [ note 5]; ; ; ; 
+Equestrians only; ; ; ; ; ; ; ; ; ; NOT USED; ; NOT USED; ; ; ; NOT USED; NOT USED; ; ; (Belarus); DEFUNCT; ; ; ; ; ; ; NOT USED; 
+; Austria; Belgium; Czechia; Denmark; Estonia; Finland; France; Germany; Greece; Hungary; Iceland; Ireland; Italy; Luxembourg; Netherlands; Norway; Poland; Portugal; Romania; Russia Belarus; Slovakia; Slovenia; Spain; Sweden; Switzerland Liechtenstein; Turkey; Ukraine; UK; Åland

@@ -1,27 +1,23 @@
 Name; Creator; First release date; Latest stable version; Latest release date; License; Language; Web application framework; CMS extension
 AbanteCart Software; Belavier Commerce, LLC; 2011; 1.2.15[ 1]; 2019-05-13[ ±]; OSL 3.0; PHP; Model-View-Controller; integrated, and 3rd party extensions
-Apache OFBiz; Apache Software Foundation; 2007; 16.11.06[ 2]; 2019-08-27; Apache; Java; Apache OFBiz; integrated, and 3rd party extensions
-Batavi; Batavi; ?; 1.3[ 3]; 2013-11-28; GPL; PHP; ; 
+Apache OFBiz; Apache Software Foundation; 2007; 17.12.04[ 2]; 2020-07-13; Apache 2.0; Java; Apache OFBiz; integrated, and 3rd party extensions
+Batavi; Batavi; ?; Continuous/SaaS; Continuous/SaaS; Proprietary; PHP; ; 
 Bigcommerce; Bigcommerce Inc; ?; Continuous/SaaS; Continuous/SaaS; Proprietary; PHP; ; 
 CE Phoenix; osCommerce and Gary Burton; 2019-07-04; 1.0.2.0; 2019-08-14; GNU GPL; PHP; Bootstrap 4; 
-Drupal Commerce; Drupal Commerce; 2011-08-23; 2.14[ 4]; 2019-08-30[ ±]; GPL; PHP; ; Drupal
-KonaKart; DS Data Systems UK Ltd; ?; 9.0.0.0[ 5]; 2019-08-26; GNU LGPL; Java; ; 
-LemonStand; Limewheel Creative Inc.; ?; 1.5.52; 2011-06-03; Proprietary; PHP; ; 
-Magento; Varien; 2007-08-13; 2.3.3[ 6]; 2019-10-08[ ±]; OSL 3.0; PHP; Zend Framework; 
+Drupal Commerce; Drupal Commerce; 2011-08-23; 2.17[ 3]; 2020-02-28[ ±]; GPL; PHP; ; Drupal
+KonaKart; DS Data Systems UK Ltd; ?; 9.0.0.0[ 4]; 2019-08-26; GNU LGPL; Java; ; 
+Magento; Varien; 2007-08-13; 2.3.5-p1[ 5]; 2020-04-28[ ±]; OSL 3.0; PHP; Zend Framework; 
 Miva Merchant; Miva, Inc.; ?; 9.14; 2019-08-07; Proprietary; MIVA Script; ; 
-nopCommerce; Nop Solutions Ltd; 2008-10-23; 4.20[ 7]; 2019-06-19[ ±]; GPL; C#; ASP.NET MVC; 
-OpenCart; OpenCart Ltd.; 1999-05-11; 3.0.3.2[ 8]; 2019-04-09[ ±]; GPL; PHP; ; 
-osCommerce; osCommerce; 2000-03; 2.3.4.1[ 9]; 2017-08-18; GNU GPL; PHP; ; 
-pimcore; pimcore GmbH; 2010; 6.2.0[ 10]; 2019-09-05[ ±]; BSD; PHP; Symfony[ 11]; pimcore
-PrestaShop; PrestaShop SA; 2007-08-15; 1.7.6.1[ 12]; 2019-08-26[ ±]; OSL 3.0; PHP; Model-View-Controller; 
-ProStores; ProStores Inc.; ?; 10.3; 2011-05-17; Proprietary; PHP; ; 
-Sana Commerce; Sana Commerce; ?; SC v 9.0 [ 13]; 2015-02-15; Proprietary; C#; ASP.NET WebForms and ASP.NET MVC; 
-Shopify; Shopify; 2006[ 14]; Continuous/SAAS[ 15]; Continuous/SAAS; Proprietary; Ruby; Ruby on Rails; 
-Spree Commerce; Sean Schofield; 2007; 3.7.3[ 16]; 2019-05-14[ ±]; BSD; Ruby; Ruby on Rails; 
-Storehippo; Hippo Innovations P Ltd; 2014; Continuous/SAAS; Continuous/SAAS; Proprietary; Node.js; MEAN (software bundle); 
+nopCommerce; Nop Solutions Ltd; 2008-10-23; 4.30[ 6]; 2020-05-18[ ±]; GPL; C#; ASP.NET MVC; 
+OpenCart; OpenCart Ltd.; 1999-05-11; 3.0.3.3[ 7]; 2020-05-01[ ±]; GPL; PHP; ; 
+osCommerce; osCommerce; 2000-03; 2.3.4.1[ 8]; 2017-08-18; GNU GPL; PHP; ; 
+pimcore; pimcore GmbH; 2010; 6.6.10 [ 9]; 2020-07-24[ ±]; BSD; PHP; Symfony[ 10]; pimcore
+PrestaShop; PrestaShop SA; 2007-08-15; 1.7.6.1[ 11]; 2019-08-26[ ±]; OSL 3.0; PHP; Model-View-Controller; 
+Shopify; Shopify; 2006[ 12]; Continuous/SAAS[ 13]; Continuous/SAAS; Proprietary; Ruby; Ruby on Rails; 
+Spree Commerce; Sean Schofield; 2007; 4.1[ 14]; 2020-03-02[ ±]; BSD; Ruby; Ruby on Rails; 
 SupaDupa; SupaDupa; ?; Continuous/SAAS; Continuous/SAAS; Proprietary; Ruby; Ruby on Rails; 
 uCoz; uCoz Media; ?; Continuous/SAAS; Continuous/SAAS; Proprietary; Perl; ; 
-VirtueMart; Max Milbers and Team; ?; 3.4.5[ 17]; 2019-04-01[ ±]; GPL; PHP; ; Mambo or Joomla!
-WooCommerce; WooThemes; 2011[ 18]; 3.4.4[ 19]; 2018-07-25; GPL; PHP; ; WordPress
-Zen Cart; Zen Ventures; 2003-06[ 20]; 1.5.6b[ 21]; 2019-05-27[ ±]; GPL; PHP; ; 
+VirtueMart; Max Milbers and Team; ?; 3.8.4[ 15]; 2020-06-18[ ±]; GPL; PHP; ; Mambo or Joomla!
+WooCommerce; WooThemes; 2011[ 16]; 3.8.1[ 17]; 2019-11-27; GPL; PHP; ; WordPress
+Zen Cart; Zen Ventures; 2003-06[ 18]; 1.5.6b[ 19]; 2019-05-27[ ±]; GPL; PHP; ; 
 ; Creator; First release date; Latest stable version; Latest release date; License; Language; Web application framework; CMS extension

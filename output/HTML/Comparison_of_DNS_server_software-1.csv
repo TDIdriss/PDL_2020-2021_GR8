@@ -1,10 +1,10 @@
-Server; Authoritative; Recursive; Recursion ACL; Slave mode; Caching; DNSSEC; TSIG; IPv6; Wildcard; Free Software; Interface; split horizon
-BIG-IP DNS; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes[ citation needed]; API, command line; Yes
+Server; Authoritative; Recursive; Recursion ACL; Secondary mode; Caching; DNSSEC; TSIG; IPv6; Wildcard; Free Software; Interface; split horizon
+BIG-IP DNS; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; API, command line; Yes
 BIND; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes (since 9.x); Yes (since 4.x); Yes; Web[ Note 1] , command line; Yes
 PowerDNS; Yes; Yes; Yes; Yes[ Note 2]; Yes; Yes (since 3.0) [ Note 3]; Yes (since 3.0); Yes[ Note 2]; Yes; Yes; REST, Web[ Note 4] , command line; Partial[ Note 5]
 djbdns; Yes; Yes; Yes; Yes[ Note 6]; Yes; Partial[ Note 7]; No; Partial via generic records. [6]; Partial[ Note 8]; Yes; command line and web (VegaDNS & NicTool); Yes[ Note 9]
 dbndns; Yes; Yes; Yes; Yes; Yes; No; No; Yes; Partial; Yes; command line and web; Yes
-pdnsd; Partial; Yes; Partial; Partial; Yes; No [ 17]; Partial; Yes; Yes; Yes; command line, pdnsd-ctl program; Partial
+pdnsd; Partial; Yes; Partial; Partial; Yes; No [ 19]; Partial; Yes; Yes; Yes; command line, pdnsd-ctl program; Partial
 MaraDNS; Yes; Yes; Yes; Partial[ Note 10]; Yes; No; No; Partial; Yes; Yes; command line; No
 Posadis; Yes; Yes; Yes; Yes; Yes; No; No; Yes; Yes; Yes; command line, API; No
 Unbound; Partial; Yes; Yes; N/A; Yes; Yes; No; Yes; Yes; Yes; command line, API; Yes
@@ -17,4 +17,4 @@ Microsoft DNS; Yes; Yes; Yes[ Note 15]; Yes; Yes; Yes[ Note 16]; Yes[ Note 17]; 
 Simple DNS Plus; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; GUI, Web, command line; Yes[ Note 22]
 Secure64 DNS Authority; Yes; No; No; Yes; No; Yes; Yes; Yes; Yes; No; Command Line or Web GUI; Yes
 Secure64 DNS Cache; No; Yes; Yes; No; Yes; Yes; No; Yes; Yes; No; Command Line or Web GUI; Yes
-Server; Authoritative; Recursive; Recursion ACL; Slave mode; Caching; DNSSEC; TSIG; IPv6; Wildcard; Free Software; Interface; split horizon
+Server; Authoritative; Recursive; Recursion ACL; Secondary mode; Caching; DNSSEC; TSIG; IPv6; Wildcard; Free Software; Interface; split horizon

@@ -4,7 +4,7 @@ Adobe Bridge; ; ; ; ; ; ; ; ; Displays all file types supported by Adobe Creativ
 Aperture; ; PDF; ; JPEG; PNG; TIFF; GIF; PSD; PSD, OLY,[ citation needed] Various video formats including: AVI, MOV, MPEG
 CDisplay; CBZ, CBR, CBT, CBA; ; BMP; JPEG; PNG; ; GIF; ; 
 Comix; CBZ, CBR, CBT; ; ; JPEG; PNG; ; ; ; ...
-digiKam; ; ; BMP; JPEG; PNG; TIFF; GIF; ; JPEG 2000, PCX, WMF, PNM, PPM, XCF, XPM, PGX, MPEG, MPO, MPE, AVI, MOV, ASF
+digiKam; ; ; BMP; JPEG; PNG; TIFF; GIF; ; JPEG 2000, PCX, WMF, PNM, PPM, XCF, XPM, PGX, MPEG, MPO, MPE, AVI, MOV, ASF, PGF
 Eye of GNOME; ; ; BMP; JPEG; PNG; TIFF; GIF; ; PNM, RAS, ICO, XPM, SVG
 F-Spot; ; ; ; JPEG; PNG; TIFF; GIF; ; PPM, SVG
 FastPictureViewer; ; ; BMP; JPEG; PNG; TIFF; ; PSD; HD Photo, HDP, WDP, JPEG XR (+ RLE, DIB, ICO, MTIFF in the registered edition, as well as DjVu, TGA, PSD, HDR, DDS, EXR, J2K, PNM, PBM, PGM, PBM, LRPREV, JPS through additional WIC codecs from the optional FastPictureViewer Codec Pack or from 3rd parties)
@@ -22,7 +22,6 @@ Lphoto; ; ; ; ; ; ; ; ; iPhoto Clone
 Phase One Media Pro; ; PDF; ; JPEG; PNG; TIFF; GIF; PSD; Supports over 100 file formats for images, videos and documents, including: PSD, IIQ, CR, EIP, DOC
 Picasa; ; ; BMP; JPEG; PNG; TIFF; GIF; ; 8 types including TGA, RAW, and some movie formats
 Preview; ; PDF; BMP; JPEG; PNG; TIFF; GIF; ; All QuickTime images:
-ResourceSpace; ; ; ; ; ; ; ; ; Hundreds all types supported by ImageMagick and FFmpeg plus InDesign
 Shotwell; ; ; ; JPEG; PNG; TIFF; GIF; ; RAW and some video formats
 Simple Comic; CBZ, CBR, CB7; ; ; JPEG; PNG; ; GIF; ; JPEG2000, any other Core Image supported format. Also opens 7-Zip, LHA, RAR, ZIP
 STDU Viewer; ; PDF; BMP; JPEG; PNG; TIFF (multipage); GIF; PSD; TXT, EMF, WMF, DjVu, XPS

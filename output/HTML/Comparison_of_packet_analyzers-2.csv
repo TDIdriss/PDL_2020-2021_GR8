@@ -8,9 +8,10 @@ CommView; Yes; No; No; No; No; No
 dSniff; ?; Yes; Yes; Yes; Yes; ?
 EtherApe; No; Yes; Yes; Yes; Yes; ?
 Ettercap; Yes; Yes; Yes; Yes; Yes; ?
+HTTP Toolkit; Yes; Yes; Yes; No; No; Client available for Android[ 17]
 justniffer; No; Yes; Yes; Yes; Yes; ?
 Kismet; Yes; Yes; Yes; Yes; ?; ?
-LANMeter; No; No; No; No; No; Fluke proprietary hardware
+Lanmeter; No; No; No; No; No; Fluke proprietary hardware
 netsniff-ng; No; No; Yes; No; No; No
 ngrep; Yes; Yes; Yes; Yes; Yes; AIX, BeOS, HP-UX, IRIX, Tru64 UNIX
 Microsoft Network Monitor; Yes; No; No; No; No; No

@@ -142,7 +142,6 @@ public class WikiExtractMain {
 	public static void getStatistiques() {
 		long tempsExeTotal = (System.currentTimeMillis());
 		System.out.println("Temps d'execution : " + tempsExeTotal/1000 + " secondes");
-		System.out.println("-----------STATISTIQUES-----------");
 		System.out.println("- HTML - Temps d'execution : " + tempsExeHtml/1000 + " secondes.");
 		System.out.println("Nombre de tableaux parsés: " + nbTablesHtml + ", lignes parsées : " + nbLignesHtml + ", colonnes parsées : " + nbColonnesHtml);
 		System.out.println("- WIKITEXT - Temps d'execution : " + tempsExeWikitext/1000 + " secondes.");

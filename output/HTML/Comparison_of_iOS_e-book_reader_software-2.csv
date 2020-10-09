@@ -15,7 +15,8 @@ MapleRead; Configurable; Yes; Configurable; Configurable; Configurable; Yes; Ver
 Marvin; Configurable; Yes; Configurable; Yes; Yes; Yes; Vertical swipe; Yes; Configurable; Yes; Yes; Yes; Yes; Yes
 MegaReader; Configurable; Buggy; Configurable; Yes; Using themes; Yes; Vertical swipe; No; No; No; Yes; Yes; Yes; Line only
 PocketBook reader; Yes; Yes; Yes; Yes; Yes; No; Yes; No; No; No; Yes; No; Yes; No
-ShuBook; No; Buggy; Configurable; Yes; Yes; Yes; Vertical swipe; Configurable; No; Yes; None, small, large; Yes; Yes; Yes
+ShuBook 2; No; Buggy; Configurable; Yes; Yes; Yes; Vertical swipe; Configurable; No; Yes; None, small, large; Yes; Yes; Yes
+SideBooks; No; No; Yes; Yes; Yes; Yes; Yes; No; No; No; Yes; No; No; No
 Stanza; No; Yes; Configurable; Yes; Yes; Yes; Vertical swipe; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 uBooks XL; No; Buggy; Yes; No; Yes; No; Yes; No; Yes; Yes; Yes; Yes; Yes; Yes
 iBouquiniste; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; No; Yes; No; Yes; Yes

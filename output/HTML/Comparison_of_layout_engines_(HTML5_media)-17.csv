@@ -6,7 +6,7 @@ bgcolor; body, table, tr, td, th; CSS; 3.1; Yes; Yes; Yes
 border; img, object; CSS; 3.1; Yes; Partial[ note 8]; Yes; Yes
 clear; br; CSS; 3.1; Yes; Yes; Yes
 compact; dl, ul, ol; CSS; No; No; No; Yes; Yes
-color; basefont, font; CSS; 3.1; Partial[ note 9] [ 7]; Partial[ note 9]; Yes; Yes
+color; basefont, font; CSS; 3.1; Partial[ note 9] [ 8]; Partial[ note 9]; Yes; Yes
 height; td, th; CSS; 3.1; Yes; Yes; Yes
 hspace; img, object; CSS; 3.1; Yes; Yes; Yes
 language; script; The type attribute; 3.1; Yes; No[ citation needed]; Yes; Yes

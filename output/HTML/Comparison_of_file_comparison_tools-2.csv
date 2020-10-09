@@ -1,4 +1,4 @@
-Name; Show in-line changes; Directory comparison; Binary comparison; Moved lines; 3-way comparison; Merge; Structured comparison[ 26]; Manual compare alignment; Image Compare
+Name; Show in-line changes; Directory comparison; Binary comparison; Moved lines; 3-way comparison; Merge; Structured comparison[ 26]; Manual compare alignment; Image compare
 Beyond Compare; Yes; Yes; Yes; No; Yes (Files and Folders); Yes (Pro only); ; Yes; Yes
 Compare++; Yes; Yes; ; ; Yes; Yes; Yes (C/C++,C#,Java,Javascript,CSS3); ; 
 diff; No; Yes; partly; No; No; No; ; ; 
@@ -22,6 +22,6 @@ Tkdiff; Yes; No; No; No; No; No; ; ;
 Total Commander (compare); Yes; Yes; Yes; No; No; Yes; No; resync comparison; No
 vimdiff; Yes; Yes (via DirDiff plugin); ; ; Yes; Yes; ; ; 
 WinDiff; Yes; Yes; Yes; Yes; No; No; ; ; 
-WinMerge; Yes; Yes; No; Yes; Yes; Yes; ; No; Yes
+WinMerge; Yes; Yes; Yes; Yes; Yes; Yes; ; No; Yes
 UCC; Yes; Yes; Yes; Yes; No; Yes; ; ; 
 Name; Show in-line changes; Directory comparison; Binary comparison; Moved lines; 3-way comparison; Merge; Structured comparison[ 26]; Manual compare alignment; Image compare

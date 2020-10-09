@@ -1,6 +1,6 @@
 Fields and initialization; Java; C#
 Fields; Yes; Yes
-Constants; Yes; Yes but no support for constant passed parameters[ 51]
+Constants; Yes; Yes but no support for constant passed parameters[ 52]
 Static (class) constructors; Yes; Yes
 Instance constructors; Yes; Yes
 Finalizers/destructors; Yes; Yes

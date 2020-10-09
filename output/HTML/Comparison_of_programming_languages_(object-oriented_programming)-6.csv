@@ -1,5 +1,6 @@
 ; read-write; read-only; write-only
 ABAP Objects; N/A; N/A; N/A
+APL (Dyalog); :Property Bar ∇ result ← Get instructions ∇ ∇ Set arguments instructions ∇ :EndProperty Bar; :Property Bar ∇ result ← Get instructions ∇ :EndProperty Bar; :Property Bar ∇ Set arguments instructions ∇ :EndProperty Bar
 C++ (STL); N/A; N/A; N/A
 C#; type Bar { get { instructions ... return value } set { instructions } }; type Bar { get { instructions ... return value } }; type Bar { set { instructions } }
 D; @property type bar() { instructions ... return value } @property type bar(type value) { instructions ... return value }; @property type bar() { instructions ... return value }; @property type bar(type value) { instructions ... return value }

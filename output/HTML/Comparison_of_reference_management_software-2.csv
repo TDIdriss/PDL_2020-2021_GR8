@@ -2,6 +2,7 @@ Software; Windows; macOS; Linux; ChromeOS; BSD; Unix; iOS App; Android App; Wind
 Bebop; Yes; Yes; Yes; ?; Yes; Yes; No; No; No
 BibBase; N/A; N/A; N/A; N/A; N/A; N/A; ?; ?; ?
 BibDesk; No; Yes; No; ?; No; No; Third-party - PocketBib; ?; ?
+Biblioscape; ?; ?; ?; ?; ?; ?; ?; ?; ?
 BibSonomy; N/A; N/A; N/A; N/A; N/A; N/A; ?; ?; ?
 Bibus; Yes; Experimental; Yes; ?; Yes; Yes; No; No; No
 Bookends; No; Yes; No; ?; No; No; Yes; ?; ?
@@ -9,7 +10,6 @@ Citavi; Yes; No; No; No; No; No; No; No; No
 CiteULike; N/A; N/A; N/A; N/A; N/A; N/A; ?; ?; ?
 colwiz; Yes; Yes; Yes; ?; Yes; Yes; Yes; Yes; No
 EndNote; Yes; Yes; No; No; No; No; Yes; No; No
-F1000Workspace; Yes; Yes; No; No; No; No; Yes; Yes; No
 JabRef; Yes; Yes; Yes; No; Yes; Yes; No; No; No
 KBibTeX; Experimental; Experimental; Yes; ?; Yes; Yes; No; No; No
 Mendeley; Yes; Yes; Yes; No; No; No; Yes; Yes; No
@@ -21,6 +21,7 @@ refbase; Yes; Yes; Yes; ?; Yes; Yes; No; No; No
 RefDB; Yes; Yes; Yes; ?; Yes; Yes; No; No; No
 Reference Manager; Yes[ 12]; No; No; ?; No; No; No; No; No
 Referencer; No; No; Yes; ?; No; No; ?; ?; ?
+RefME; ?; ?; ?; ?; ?; ?; ?; ?; ?
 RefWorks[ 13]; Yes; Yes; No; Yes; Yes; ?; No - but is responsive; ?; No
 SciRef; Yes; No; No; ?; No; No; ?; ?; ?
 Sente; No; Yes; No; ?; No; No; Yes[ 14]; ?; ?

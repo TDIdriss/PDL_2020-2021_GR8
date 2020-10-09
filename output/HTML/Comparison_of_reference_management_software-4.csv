@@ -10,7 +10,6 @@ Citavi; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; various
 CiteULike; Yes; No; No; No; No; No; No; No; No; Yes; No; none
 colwiz; Yes; No; No; Yes; Yes; Yes; No; No; Yes; Yes; No; with built-in browser, bookmarklet
 EndNote; No; No; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes; various[ 19]
-F1000Workspace; Yes; No; No; Yes; No; Yes; No; No; Yes; Yes; No; EndNote XML, NBIB from PubMed, Medline, PDF
 JabRef; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; BibTexML, Biblioscape, Biomail, Inspec, JSTOR, MSBib, PDF widh XMP annotations, REPEC (NEP), SilverPlatter, SixPack
 KBibTeX; Yes; No; No; Yes; No; No; Depends[ 17]; No; Yes; Yes; No; none
 Mendeley; Yes; No; No; Yes; No; No; No; No; No; Yes; No; Browser bookmarks
@@ -22,6 +21,7 @@ refbase; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; RefWorks
 RefDB; Yes; Yes[ 17]; No; Yes[ 17]; Yes[ 17]; Yes; Yes; No; Yes; Yes; Yes[ 17]; MARC, risx
 Reference Manager; Yes; No; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes; various [ 20] user-customizable
 Referencer; Yes; No; No; Yes; No; No; Yes; No; No; Yes; No; none
+RefME; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
 RefWorks; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; various[ 21]
 SciRef; No; No; No; Yes; No; No; No; No; No; Yes; No; ?
 Sente; Yes; No; Yes; Yes; Yes; No; No; Yes; Yes; Yes; Yes; Dublin Core, Marc21 SUTRS, JSTOR, SilverPlatter

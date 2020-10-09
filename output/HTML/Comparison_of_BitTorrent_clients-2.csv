@@ -1,37 +1,27 @@
 BitTorrent client; Windows; macOS; Linux; BSD; iOS; Android; Other
-ABC; Yes; No; Yes; No; No; No; No
-Acquisition; No; Yes; No; No; No; No; No
 BitComet; Yes; Yes; No; No; No; No; No
-BitLet; Web; Web; Web; No; No; No; No
 BitLord; Yes; Yes; No; No; No; No; No
-BitTornado; Yes; Yes; Yes; Yes; No; No; No
-BitTorrent; Yes; Yes; No; No; No; Yes[ 33]; No
-BitTyrant; Yes; Yes; Yes; Yes; No; No; No
-Blog Torrent; Yes; Yes; No; No; No; No; No
+BitTorrent; Yes; Yes; No; No; No; Yes[ 25]; No
 Deluge; Yes; Yes; Yes; Yes; No; No; Solaris
 FlashGet; Yes; No; No; No; No; No; No
-Folx; No; Yes; No; No; No; No; No
 Free Download Manager; Yes; Yes; No; No; No; No; No
-Frostwire; Yes[ 34]; Yes[ 34]; Yes[ 34]; Yes[ 34]; No[ 34]; Yes[ 34]; Unix-like,[ 34] z/OS,[ 35] Solaris, OS/2, eComStation[ 36]
+Frostwire; Yes[ 26]; Yes[ 26]; Yes[ 26]; Yes[ 26]; No[ 26]; Yes[ 26]; Unix-like,[ 26] z/OS,[ 27] Solaris, OS/2, eComStation, ArcaOS[ 28]
 KGet; No; No; Yes; Yes; No; No; No
 KTorrent; No; Yes; Yes; Yes; No; No; No
+Lftp; Yes; Yes; Yes; Yes; No; No; No
 LimeWire; Yes; Yes; Yes; Yes; No; No; Yes[ specify]
-Meerkat Bittorrent Client; Yes; No; No; No; No; No; No
 Miro; Yes; Yes; Yes; Yes; No; No; No
 MLDonkey; Yes; Yes; Yes; Yes; No; No; Solaris, MorphOS
-μTorrent; Yes; Yes; Web; No; No; Yes[ 37]; No
-OneSwarm; Yes; Yes; Yes; No; No; No; No
+μTorrent; Yes; Yes; Web; No; No; Yes[ 29]; No
 Opera 12; Yes[ Note 1]; Yes; Yes[ Note 1]; Yes[ Note 1]; No; Yes[ citation needed]; Solaris
-qBittorrent; Yes[ 38]; Yes[ 38]; Yes[ 38]; Yes[ 38]; No[ 38]; No[ 39]; eComStation[ 38]
-rTorrent; Yes, through Cygwin[ 40]; Yes; Yes; Yes; No; No; Solaris
+qBittorrent; Yes[ 30]; Yes[ 30]; Yes[ 30]; Yes[ 30]; No[ 30]; No[ 31]; OS/2 (including eComStation and ArcaOS), FreeBSD, Haiku[ 30]
+Robert; Yes; Yes; Yes; Yes; No; No; No
+rTorrent; Yes, through Cygwin[ 32]; Yes; Yes; Yes; No; No; Solaris
 Shareaza; Yes; No; No; No; No; No; No
-SymTorrent; No; No; No; No; No; No; Symbian
 Tixati; Yes; No; Yes; No; No; No; No
-Tomato Torrent; No; Yes; No; No; No; No; No
 Tonido; Yes; Yes; Yes; Yes; No; No; No
-TorrentFlux; Yes; Yes; Yes; Yes; No; No; No
-Transmission; Yes [ Note 1]; Yes; Yes; Yes; Yes, through Cydia; No; Solaris, OpenWrt
+Transmission; Yes [ Note 1]; Yes; Yes; Yes; Yes, through Cydia; Yes; Solaris, OpenWrt
 Tribler; Yes; Yes; Yes; Yes; No; No; No
-Vuze; Yes; Yes; Yes; Yes; No; Yes[ 41]; No
+Vuze; Yes; Yes; Yes; Yes; No; Yes[ 33]; No
 Xunlei; Yes; Yes; No; No; Yes; Yes[ citation needed]; No
 Name; Windows; Mac OS X; Linux; BSD; iOS; Android; Other

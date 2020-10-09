@@ -1,10 +1,21 @@
 Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Clock speed; Clock speed; Clock speed; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Supported API version; Supported API version; Processing power (GFLOPS); TBP (Watts); Notes
 Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Core (MHz); Shader (MHz); Memory (MHz); Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; Processing power (GFLOPS); TBP (Watts); Notes
-GeForce G 102M; January 8, 2009; MCP79XT; 65; Integrated (PCIe 1.0 ×16); 16:8:4; 450?; 1000; 800 (system memory); 1.8; 3.6; Up to 512 from system memory; 6.4; DDR2; 64; 10.0; 3.3; 48; 14; PureVideo HD, CUDA, Hybrid SLI, based on GeForce 9400M G
-GeForce G 103M; January 1, 2009; N10M-GE2(G98); 65; PCIe 2.0 ×16; 8:8:4; 640; 1600; 1000; 2.56; 5.12; 512; 8; DDR2; 64; 10.0; 3.3; 38; 14; 
-GeForce G 105M; January 8, 2009; N10M-GE1(G98); 65; PCIe 2.0 ×16; 8:8:4; 640; 1600; 1000 1400; 2.56; 5.12; ; 8 11; GDDR2 GDDR3; 64; 10.0; 3.3; 38; 14; 
-GeForce G 110M; January 8, 2009; N10M-GE1(G96b); 16:8:4; PCIe 2.0 ×16; 400; 1000; 1000 1400; 1.6; 3.2; 8 11; DDR2 GDDR3; 48; PureVideo HD, CUDA, Hybrid SLI; 64; 10.0; 3.3; 14; 
-GeForce GT 120M; February 11, 2009; 55; N10P-GV1(G96b); PCIe 2.0 ×16; 500; 1250; 1000; 4; 1024; 8; 16; DDR2; 110; 23; 10.0; 3.3; PureVideo HD, CUDA, Hybrid SLI, Comparable to the 9500M GT and 9600M GT DDR2 (500/1250/400); 
-GeForce GT 130M; January 8, 2009; 55; N10P-GE1(G96b); PCIe 2.0 ×16; 600; 1500; 1000 1600; 4.8; 1024; 9.6; 16 25.6; 128; DDR2 GDDR3; 23; 10.0; 3.3; 144; PureVideo HD, CUDA, Hybrid SLI, comparable to the 9650M GT; 
-GeForce GTS 150M; March 3, 2009; 55; N10E-GE1(G94b); PCIe 2.0 ×16; 400; 1000; 1600; 6.4; 1024; 12.8; GDDR3; 256; 192; Unknown; 10.0; 3.3; 
-GeForce GTS 160M; March 3, 2009; 55; N10E-GS1(G94b); PCIe 2.0 ×16; 600; 1500; 1600; 9.6; 1024; 51.2; GDDR3; 256; 19.2; 288; 10.0; 3.3; 60; 
+GeForce 9100M G mGPU; 2008; MCP77MH, MCP79MH; 65; Integrated (PCIe 2.0 ×16); 8:8:4; 450; 1100; 1066 (system memory); 1.8; 3.6; Up to 256 from system memory; 17.056; DDR3; 128; 10.0; 3.3; 26.4; 12; Similar to 8400M G
+GeForce 9200M GS; 2008; NB9M-GE(G98); 65; 550; 8:8:4; 1300; 1400; 2.2; 4.4; 256; 11.2; 31.2; 13; ; 10.0; 3.3; 
+GeForce 9300M G; 2008; PCIe 2.0 ×16; NB9M-GE(G86); 80; 16:8:4; 400; 800; 1200; 1.6; DDR2/GDDR3; 64; 3.2; 13; ; 10.0; 3.3; 9.6; 38.4; 
+GeForce 9300M GS; 2008; PCIe 2.0 ×16; NB9M-GE(G98); 8:8:4; 550; 1400; 1400; 2.2; 256/512; DDR2/GDDR3; 64; 4.4; 13; ; 10.0; 3.3; 11.2; 33.6; 
+GeForce 9400M G; October 15, 2008; MCP79MX; 65; Integrated(PCIe 2.0 ×16); 16:8:4; 450; 1100; 800 1066 (system memory); 1.8; 3.6; Up to 256 from system memory; 12.8 17.056; DDR2 DDR3; 54; 10.0; 3.3; 12; PureVideo HD with VP3. Known as the GeForce 9400M in Apple systems[ 126] and Nvidia ION based systems; 
+GeForce 9500M G; 2008; NB9P(G96); 65; PCIe 2.0 ×16; 16:8:8; 500; 1250; 1600; 4; 4; 25.6; DDR2 / GDDR3; 128; 60; 10.0; 3.3; ; 
+GeForce 9500M GS; 2008; NB9P-GV(G96); 80; PCIe ×16; 475; 950; 1400; 3.8; 7.6; 512; 22.4; DDR2 / GDDR3; 128; 20; 10.0; 3.3; 91.2; Rebranded 8600M GT; 
+GeForce 9600M GS; 2008; NB9P-GE2(G96); PCIe 2.0 ×16; 32:16:8; 430; 1075; 800 1600; 3.44; 6.88; 1024; 12.8 25.6; DDR2 / GDDR3; 128; 20; 10.0; 3.3; 103.2; 
+GeForce 9600M GT; 2008; 65; PCIe 2.0 ×16; 32:16:8; NB9P-GS(G96); 500; 4; 8; 512/1024; 120; 23; DDR2 / GDDR3; 128; 10.0; 3.3; 
+GeForce 9650M GS; 2008; NB9P-GS1(G84); PCIe 2.0 ×16; 32:16:8; 1600; 80; 625; 5; 25.6; 120; 10; 512; 128; 29; 10.0; 3.3; Rebranded 8700M GT; 
+GeForce 9650M GT; 2008; NB9P-GT(G96); PCIe 2.0 ×16; 32:16:8; 1600; 65/55; GDDR3; 550; 25.6; 1325; 4.4; 8.8; 128; 1024; 10.0; 3.3; 127.2; 23; 
+GeForce 9700M GT; July 29, 2008; NB9E-GE(G96); 65; 32:16:8; 1600; PCIe ×16; GDDR3; 625; 25.6; ; 1550; 5; 128; 10; 10.0; 3.3; 148.8; 45; 
+GeForce 9700M GTS; July 29, 2008; NB9E-GS(G94); 65; 48:24:16; 1600; 1325; GDDR3; 8.48; 12.7; ; 256; 190.8; 60; 10.0; 3.3; 
+GeForce 9800M GS; 2008; PCIe 2.0 ×16; 65; 530; 1600; 1325; GDDR3; 64:32:16; 8.48; 512; 256; 16.96; 60; 254; 10.0; 3.3; Down Clocked 9800M GTS Via Firmware; 
+GeForce 9800M GTS; July 29, 2008; PCIe 2.0 ×16; NB9E-GT(G94); 64:32:16; 1600; 600; GDDR3; 1500; 9.6; 51.2; 256; 19.2; 512 / 1024; 288; 10.0; 3.3; 75; ; 
+GeForce 9800M GT; July 29, 2008; PCIe 2.0 ×16; 65/55; NB9E-GT2(G92); 1600; 96:48:16; GDDR3; 24; 512; 51.2; 256; 360; 65; Rebranded 8800M GTX; 10.0; 3.3; 
+GeForce 9800M GTX; July 29, 2008; PCIe 2.0 ×16; 500; 1250; 1600; 8; GDDR3; NB9E-GTX(G92); 65; 51.2; 256; 112:56:16; 28; 1024; 10.0; 3.3; 420; 75; 
+Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Core (MHz); Shader (MHz); Memory (MHz); Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; Processing power (GFLOPS); TBP (Watts); Notes
+Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Memory; Memory; Memory; Supported API version; Supported API version; Processing power (GFLOPS); TBP (Watts); Notes

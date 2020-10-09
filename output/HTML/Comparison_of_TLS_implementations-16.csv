@@ -6,12 +6,12 @@ GnuTLS; Yes; Yes; Yes; Yes[ 210]; No; No;
 JSSE; Yes; Yes[ 211]; No; No; ; No; 
 LibreSSL; No; Yes; Yes; No; ; No; 
 MatrixSSL; Yes; Yes; No; Yes; ; No; 
-mbed TLS; Yes; Yes[ 212]; Yes; No; ; No; 
+Mbed TLS; Yes; Yes[ 212]; Yes; No; ; No; 
 NSS; Yes[ 213]; Yes[ 214]; No[ 215]; No; ; No; 
 OpenSSL; Yes[ 216]; Yes; Yes; Yes[ 217]; ; No; Yes
 RSA BSAFE Micro Edition Suite; Yes; Yes; No; Yes; No; No; Yes
 RSA BSAFE SSL-J [ a] [ b]; Yes; Yes; No; Yes; No; No; Yes
 SChannel; No; Yes; No; No; ; No; 
 Secure Transport; No; Yes[ 220] [ 221]; No; Yes; ; No; 
-wolfSSL; No; Yes; No; Yes; Yes; Yes[ 222]; 
+wolfSSL; Yes; Yes; No; Yes; Yes; Yes[ 222]; 
 Implementation; PKCS #11 device; Intel AES-NI; VIA PadLock; ARMv8-A; Intel SGX; Intel QAT; Intel SHA

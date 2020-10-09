@@ -6,7 +6,7 @@ csh; bytes concurrent; Yes; No; Yes; No; N/A[ nb 19]
 tcsh; bytes concurrent; Yes; No; Yes; No; N/A[ nb 19]
 Hamilton C shell; bytes concurrent; Yes; No; Yes; No; ?
 Scsh; text; ?; ?; ?; Yes; N/A[ nb 19]
-ksh (ksh93t+); bytes (may contain serialized objects if print -C is used) concurrent; Yes ($(...) and ${< space> ... }); Yes (if system supports /dev/fd/⟨ n⟩ ); Yes; Yes (and SCTP support, client only); N/A[ nb 19]
+ksh (ksh93t+); bytes (may contain serialized objects if print -C is used) concurrent; Yes ( $(...) and ${< space> ... }); Yes (if system supports /dev/fd/⟨ n⟩ ); Yes; Yes (and SCTP support, client only); N/A[ nb 19]
 pdksh; bytes concurrent; Yes; No; Yes; No; N/A[ nb 19]
 zsh; bytes concurrent; Yes; Yes; Yes; Yes (client and server, but only TCP); N/A[ nb 19]
 ash; bytes concurrent; Yes; No; Yes; No; N/A[ nb 19]
@@ -21,4 +21,4 @@ PowerShell; objects concurrent; Yes; No; Yes; Yes; ?
 rc; text concurrent; Yes; Yes (via: < {cmd} if system supports /dev/fd/⟨ n⟩ ); Yes; No; ?
 BeanShell; not supported; ?; ?; ?; Yes; ?
 VMS DCL; text (via PIPE command); Yes; No; Yes (spawn); Yes (server TCP only); No
-fish; bytes concurrent; Yes (...); No (broken)[ 52]; No; No; N/A[ nb 19]
+fish; bytes concurrent; Yes ( ...); No (broken)[ 52]; No; No; N/A[ nb 19]

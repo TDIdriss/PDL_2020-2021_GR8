@@ -1,7 +1,7 @@
 Name; Founded year; Latest stable version; Release year; License; Online; Windows; Mac OS X; Linux; BSD; Programming language; SDK?; Languages; Fonts; Output Formats; Notes
-Google Drive OCR or Google Cloud Vision; ; ; 2015; Free; Yes; Browser; Browser; Browser; Unknown; Unknown; Yes; 200+; All fonts; text; Google blog post [ 1] [ 2]
-Tesseract; 1985; 4.0.0; 2018; Apache; No; Yes; Yes; Yes; Yes; C++, C; Yes; 100+[ 3]; Any printed font; Text, hOCR,[ 4] PDF, others with different user interfaces[ 5] or the API; Created by Hewlett-Packard under further development by Google[ 6]
-ABBYY FineReader; 1989; 14; 2017-01-25; Proprietary; Yes; Yes; Yes; Yes; Yes; C/C++; Yes; 192[ 7]; ?; DOC, DOCX, XLS, XLSX, PPTX, RTF, PDF, HTML, CSV, TXT, ODT, DjVu, EPUB, FB2[ 8]; ABBYY also supplies SDKs for embedded and mobile devices. Professional, Corporate and Site License Editions for Windows, Express Edition for Mac.[ 9]
+Google Drive OCR or Google Cloud Vision; ; ; 2015; Proprietary; Yes; Browser; Browser; Browser; Unknown; Unknown; Yes; 200+; All fonts; text; Google blog post [ 1] [ 2]
+Tesseract; 1985; 4.1.1; 2019; Apache; No; Yes; Yes; Yes; Yes; C++, C; Yes; 100+[ 3]; Any printed font; Text, ALTO, hOCR,[ 4] PDF, others with different user interfaces[ 5] or the API; Created by Hewlett-Packard under further development by Google[ 6]
+ABBYY FineReader; 1989; 15; 2019; Proprietary; Yes; Yes; Yes; Yes; Yes; C/C++; Yes; 192[ 7]; All fonts; DOC, DOCX, XLS, XLSX, PPTX, RTF, PDF, HTML, CSV, TXT, ODT, DjVu, EPUB, FB2[ 8]; ABBYY also supplies SDKs for embedded and mobile devices. Professional, Corporate and Site License Editions for Windows, Express Edition for Mac.[ 9]
 E-aksharayan; 2010; ; ; ; ; Yes; No; Yes; No; ; ; 14; ; RTF, TXT, BRL; 
 Asprise OCR SDK; 1998; 15; 2015; Proprietary; Yes; Yes; Yes; Yes; Yes; Java, C#,VB.NET, C/C++/Delphi; Yes; 20+[ 10]; ?; Plain text, searchable PDF, XML[ 11]; Java, C#, VB.NET, C/C++/Delphi SDKs for OCR and Barcode recognition on Windows, Linux, Mac OS X and Unix.[ 12]
 AnyDoc Software; 1989; ?; ?; Proprietary; No; Yes; No; No; No; VBScript; ?; ?; ?; ; Works with structured, semi-structured, and unstructured documents.

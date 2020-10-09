@@ -1,17 +1,15 @@
-OLAP server; Issue Tracking System; Forum/Blog; Roadmap; Source code
-Apache Kylin; Jira; [ 41]; ; Open
-Druid; Druid – Github Issues; [ 42]; ; Open
-Apache Pinot (Incubating); Jira; [ 43]; ; Open
-Essbase; myOracle Support; [6]; [7]; Closed
-IBM Cognos TM1; IBM Service Request; [8]; ; Closed
-icCube; YouTrack; [9]; ; Closed
-Infor BI OLAP Server; Infor Xtreme; ; Available upon request; Closed
-Jedox OLAP Server; Mantis; [10]; Available upon request; Open
-Kyligence; Zendesk; [ 44]; ; Closed
-Kyvos; Zendesk; ; Available upon request; Open
-Microsoft Analysis Services; Connect; [11]; -; Closed
-MicroStrategy Intelligence Server; MicroStrategy Resource Center; [12]; -; Closed
-Mondrian OLAP server; Jira; [13]; [14]; Open
-Oracle Database OLAP Option; myOracle Support; [15]; ; Closed
-SAP NetWeaver BW; OSS; [16]; [17]; Closed
-SAS OLAP Server; Support; [18]; ; Closed
+OLAP server; Issue Tracking System; Roadmap; Source code
+Apache Kylin; Jira; Apache Kylin Roadmap; Open
+ClickHouse; ClickHouse – Github Issues; ClickHouse Roadmap; Open
+Druid; Druid – Github Issues; ; Open
+Essbase; myOracle Support; [6]; Closed
+IBM Cognos TM1; IBM Service Request; ; Closed
+icCube; YouTrack; ; Closed
+Jedox OLAP Server; Mantis; Available upon request; Open
+Kyvos; Zendesk; Available upon request; Open
+Microsoft Analysis Services; Connect; -; Closed
+MicroStrategy Intelligence Server; MicroStrategy Resource Center; -; Closed
+Mondrian OLAP server; Jira; [7]; Open
+Oracle Database OLAP Option; myOracle Support; ; Closed
+SAP NetWeaver BW; OSS; [8]; Closed
+SAS OLAP Server; Support; ; Closed

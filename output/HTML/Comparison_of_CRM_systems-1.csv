@@ -1,9 +1,9 @@
 Systems; Creator; Last Stable Version; Release Date; License; Implementation language(s); Server Operating System; Database backend; First Release Date
 Act! CRM; Pat Sullivan and Mike Muhney; 21.1; May 2019; SaaS or Proprietary; C#, .NET; Windows, Web, iOS, Android; MS SQL; 1987
-Adempiere; Jorg Janke; ; ; GPLv2; Java; Windows, Linux, Unix, Mac; ; 2006
+Adempiere; Jorg Janke; 3.9.3; December 2019; GPLv2; Java; Windows, Linux, Unix, Mac; ; 2006
 Base CRM; Base CRM; 2016; 2009; SaaS; Ruby on Rails, Python; Cloud Computing, iOS, Android, Windows Phone; MySQL; 2009
 Capsule (CRM); Zestia Ltd.; 2019; 2009; SaaS; Java, Scala and JavaScript; Web, iOS, Android; MySQL; 2009
-CiviCRM; Dave Greenberg, Donald Lobo, Michal Mach; 5.11.0; 2019 March 7; AGPLv3; PHP 5.6.x, 7.x; Cross-platform; MySQL & MariaDB; 2004
+CiviCRM; Dave Greenberg, Donald Lobo, Michal Mach; 5.22.1; February 2020; AGPLv3; PHP 5.6.x, 7.x; Cross-platform; MySQL & MariaDB; 2004
 Dolibarr; Rodolphe Quiedeville, Laurent Destailleur; 7.0; 2018; GPLv3 or SaaS; PHP 5.3.x; Cross-platform; MySQL or PostgreSQL; 2003
 Dynamics CRM; Microsoft; Dynamics 365 9.1; July 2019; Proprietary or SaaS; .NET, ASP.NET; Windows; MS SQL; 2003
 Epesi CRM; Telaxus LLC; 1.8.0; 2016 September 26; MIT; PHP 5.x; Cross-platform; MySQL, PostgreSQL, AdoDB, others; 2006
@@ -25,7 +25,7 @@ Streak; Aleem Mawani, Omar Ismail; ; ; Proprietary; Java; Windows, Mac; Google A
 SugarCRM; John Roberts, Clint Oram, Jacob Taylor; 9.0.1[ 5]; June 2019; Proprietary or SaaS; PHP; Cross-platform; MySQL, Microsoft SQL Server, IBM DB2, and Oracle (IBM DB2 and Oracle only available for Sugar Enterprise edition); 2004
 SuiteCRM; SalesAgility; 7.11.6; July 2019; AGPLv3; PHP; Cross-platform; MariaDB, MySQL, Microsoft SQL Server; 2013
 SuperOffice CRM; SuperOffice; 7.5; 2014; Proprietary; C++,C# and ASP.NET; Windows; SQL Server; 1990
-TeamLab; Ascensio System SIA; ; 2011; GPLv3, SaaS; ASP.NET; Windows; Microsoft SQL Server, Amazon Server; 2010
+OnlyOffice; Ascensio System SIA; 10.5.1; December 2019; GPLv3, SaaS; ASP.NET; Windows; Microsoft SQL Server, Amazon Server; 2010
 Tryton; Tryton; 4.0; 2016 April; GPLv3; Python, JavaScript; Cross-platform; PostgreSQL, MySQL, SQLite; 2008
 WORKetc; Daniel Barnett; v4.0; 2013; SaaS; C#, .NET; Windows; Microsoft SQL Server, Amazon Server; 2009
 Zoho CRM; Zoho CRM; Zoho CRM 2018; 2018; SaaS; Java; Cloud Computing, Cross Platform; Proprietary; 1999

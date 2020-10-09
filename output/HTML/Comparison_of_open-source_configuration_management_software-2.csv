@@ -1,23 +1,23 @@
 ; AIX; *BSD; HP-UX; Linux; OS X; Solaris; Windows; Others
-Ansible; Yes; Yes; Yes; Yes; Yes; Yes; Yes (Need linux control machine); Yes[ 98]
-Bcfg2; Partial[ 99]; Yes[ 100]; No; Yes[ 101]; Partial[ 102]; Yes; No; No
-CFEngine; Yes; Yes[ 100]; Yes; Yes; No; Yes; Yes; Yes[ 103]
+Ansible; Yes; Yes; Yes; Yes; Yes; Yes; Yes (Need linux control machine); Yes[ 100]
+Bcfg2; Partial[ 101]; Yes[ 102]; No; Yes[ 103]; Partial[ 104]; Yes; No; No
+CFEngine; Yes; Yes[ 102]; Yes; Yes; Yes; Yes; Yes (Enterprise version only); Yes[ 105]
 cdist; ; Yes; ; Yes; Yes; ; No; 
-Chef; Yes[ 104]; Yes; Yes; Yes; Yes; Yes; Yes[ 105]; Yes
+Chef; Yes[ 106]; Yes; Yes; Yes; Yes; Yes; Yes[ 107]; Yes
 ISconf; Yes; Yes; Yes; Yes; Yes; Yes; No; No
-Juju; ; ; ; Yes; ; ; Yes[ 106]; 
-Local ConFiGuration system (LCFG); No; No; No; Partial[ 107]; Partial[ 108]; Partial[ 109]; No; No
+Juju; ; ; ; Yes; ; ; Yes[ 108]; 
+Local ConFiGuration system (LCFG); No; No; No; Partial[ 109]; Partial[ 110]; Partial[ 111]; No; No
 OCS Inventory NG; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No
 Open pc server integration (Opsi); No; No; No; Yes; No; No; Yes; No
-PIKT; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes[ 110]
+PIKT; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes[ 112]
 Puppet; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
-Quattor; No; No; No; Yes; Partial[ 111]; Yes; No; No
-Radmind; Yes; Yes[ 100] [ 112] [ 113]; No; Yes; Yes; Yes; Yes; No
-Rex; ; Yes; ; Yes; Yes[ 114]; Yes; Yes[ 114]; No
-Rudder; Yes; Partial[ 115]; No; Yes; Partial[ 115]; Partial[ 116]; Yes; Yes[ 117]
-SmartFrog; No[ 118]; No[ 118]; Yes; Yes; Yes; Yes; Yes; No[ 118]
-Salt; Yes; Yes; Partial[ 119]; Yes[ 120]; Yes; Yes[ 121]; Yes; Partial[ 119]
-Spacewalk; No[ 122]; No; No; Yes[ 123]; No; Yes[ 124]; No; No
-STAF; Yes[ 125]; Yes[ 126]; Yes[ 127]; Yes[ 128]; Yes[ 129]; Yes[ 130]; Yes[ 131]; Yes[ 132]
-Synctool; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes[ 133]
+Quattor; No; No; No; Yes; Partial[ 113]; Yes; No; No
+Radmind; Yes; Yes[ 102] [ 114] [ 115]; No; Yes; Yes; Yes; Yes; No
+Rex; ; Yes; ; Yes; Yes[ 116]; Yes; Yes[ 116]; No
+Rudder; Yes; Partial[ 117]; No; Yes; Partial[ 117]; Partial[ 118]; Yes; Yes[ 119]
+SmartFrog; No[ 120]; No[ 120]; Yes; Yes; Yes; Yes; Yes; No[ 120]
+Salt; Yes; Yes; Partial[ 121]; Yes[ 122]; Yes; Yes[ 123]; Yes; Partial[ 121]
+Spacewalk; No[ 124]; No; No; Yes[ 125]; No; Yes[ 126]; No; No
+STAF; Yes[ 127]; Yes[ 128]; Yes[ 129]; Yes[ 130]; Yes[ 131]; Yes[ 132]; Yes[ 133]; Yes[ 134]
+Synctool; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes[ 135]
 ; AIX; *BSD; HP-UX; Linux; OS X; Solaris; Windows; Others

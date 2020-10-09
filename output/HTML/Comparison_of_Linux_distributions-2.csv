@@ -1,40 +1,38 @@
 Distribution; Default Linux kernel; Default file system; Default init system; Install-time desktop environment or window manager selection; Reproducible builds
-Alpine Linux; Binary blobs; ext4; openrc; none; No
+Alpine Linux; Binary blobs; ext4; openrc; none; In progress[ 81]
 ALT Linux; Binary blobs; ext3; systemd; KDE Plasma Workspaces, Xfce; No
-Arch Linux; Binary blobs[ 80]; none[ 81]; systemd; none; No
+Arch Linux; Binary blobs[ 82]; none[ 83]; systemd; none; In progress[ 84] [ 85]
 BLAG; Linux-libre; ext3; sysvinit; GNOME; No
 Bodhi Linux; Binary blobs; ext4; systemd; Moksha (Enlightenment fork); No
-Canaima; Binary blobs[ 80]; ?; systemd; Cinnamon and MATE; No
-CentOS; Binary blobs[ 80]; xfs; systemd; GNOME; No
+Canaima; Binary blobs[ 82]; ?; systemd; Cinnamon and MATE; No
+CentOS; Binary blobs[ 82]; xfs; systemd; GNOME; No
 Chakra; Binary blobs; ext4; systemd; KDE Plasma Workspaces; No
 ClearOS; Binary blobs; ext3; systemd; none (Web based); No
 CoreOS; Binary blobs; ext4; systemd; None; No
 CrunchBang Linux; Binary blobs; ext4; sysvinit; Openbox; No
 Damn Small Linux; Binary blobs; ext3; sysvinit; JWM; No
-Debian; By default Linux-libre, but the Debian Project also hosts a non-free repository allowing blobs to be installed optionally.[ 80] Built with Linux-libre tools.[ 82]; ext4; systemd; GNOME, KDE, Xfce, LXDE[ 83]; In progress[ 84] [ 85]
+Debian; By default Linux-libre, but the Debian Project also hosts a non-free repository allowing blobs to be installed optionally.[ 82] Built with Linux-libre tools.[ 86]; ext4; systemd; GNOME, KDE, Xfce, LXDE[ 87]; In progress[ 88] [ 89]
 Devuan; Binary blobs; ext4; sysvinit; Xfce; No
 Dragora GNU/Linux-Libre; Linux-libre; ext4; runit; Xfce; No
 dyne:bolic; Linux-libre; ?; systemd; GNOME; No
-Fedora; Binary blobs; ext4; systemd; GNOME (default Workstation Edition), Spins for: KDE Plasma Workspaces, Xfce, LXDE, MATE (with Compiz), Cinnamon, Sugar on a Stick; In progress[ 86]
+Fedora; Binary blobs; ext4; systemd; GNOME (default Workstation Edition), Spins for: KDE Plasma Workspaces, Xfce, LXDE, MATE (with Compiz), Cinnamon, Sugar on a Stick; In progress[ 90]
 Funtoo; Binary blobs; none; openrc; None; No
-Gentoo; Binary blobs; none; openrc; Awesome, Enlightenment, Fluxbox, GNOME, KDE, LXDE-Meta, Openbox, XBMC and Xfce (live DVD)[ 87]; No
-gNewSense; Debian Linux kernel, and (unlike Debian) blobs cannot be installed[ 82]; ext3; sysvinit; GNOME; No
-gnuLinEx; Binary blobs; ext2; ?; GNOME; No
-Guix; Linux-libre; btrfs, ext4; GNU Shepherd; GNOME, Xfce, Mate, Enlightenment, i3, ratpoison, xmonad; In progress[ 88]
-Hyperbola GNU/Linux-libre; Linux-libre; none; openrc[ 89]; none; No
-Instant WebKiosk; Binary blobs; SquashFS; systemd; Has no DE. It's a browser-only interface; No
+Gentoo; Binary blobs; none; openrc; Awesome, Enlightenment, Fluxbox, GNOME, KDE, LXDE-Meta, Openbox, XBMC and Xfce (live DVD)[ 91]; No
+gNewSense; Debian Linux kernel, and (unlike Debian) blobs cannot be installed[ 86]; ext3; sysvinit; GNOME; No
+Guix System; Linux-libre, Hurd (in progress)[ 92]; btrfs, ext4; GNU Shepherd; GNOME, Xfce, Mate, Enlightenment, i3, ratpoison, xmonad; In progress[ 93] [ 94]
+Hyperbola GNU/Linux-libre; Linux-libre; none; openrc[ 95]; none; No
 Kali Linux; Binary blobs; ext3; systemd; GNOME; No
 Knoppix; Binary blobs; xfs; microknoppix; LXDE; No
-LibreCMC[ 90]; Binary blobs; ext4; busybox-init; none; No
-Linux Mint[ 91]; Binary blobs[ 80]; ext4; systemd; MATE, Cinnamon, KDE 4, XFCE; No
+LibreCMC[ 96]; Binary blobs; ext4; busybox-init; none; No
+Linux Mint[ 97]; Binary blobs[ 82]; ext4; systemd; MATE, Cinnamon, KDE 4, XFCE; No
 Mageia; Binary blobs; ext4; systemd; KDE Plasma Workspaces, GNOME; No
 Mandriva Linux; Binary blobs; ext4; systemd; KDE Plasma Workspaces; No
-Manjaro Linux; Binary blobs; none[ 92]; systemd; Xfce, KDE, GNOME [ 93]; No
+Manjaro Linux; Binary blobs; none[ 98]; systemd; Xfce, KDE, GNOME [ 99]; No
 MEPIS; Binary blobs; ext3, ext4; sysvinit; KDE Plasma Workspaces; No
-Musix GNU+Linux[ 94]; Linux-libre; ext4; initscripts; LXDE; No
+Musix GNU+Linux[ 100]; Linux-libre; ext4; initscripts; LXDE; No
 OpenELEC; Binary blobs; SquashFS; shell script; XBMC Media Center; No
-openSUSE; Binary blobs; btrfs; systemd; KDE Plasma Workspaces, GNOME, Xfce; In progress[ 95]
-OpenWrt; Binary blobs; overlayfs+SquashFS/JFFS2[ 96]; procd[ 97]; none; No
+openSUSE; Binary blobs; btrfs; systemd; KDE Plasma Workspaces, GNOME, Xfce; In progress[ 101]
+OpenWrt; Binary blobs; overlayfs+SquashFS/JFFS2[ 102]; procd[ 103]; none; In progress[ 104]
 Parabola GNU/Linux-libre; Linux-libre; none; openrc or systemd; none; No
 Pardus; Binary blobs; ext4; systemd; KDE Plasma Workspaces; No
 Parsix; Binary blobs; ext4; systemd; GNOME; No
@@ -44,26 +42,25 @@ Porteus; Binary blobs; Squashfs, ext2, ext3, ext4, FAT32, reiser, xfs; sysvinit;
 Puppy Linux; Binary blobs; SquashFS containing ext2; busybox-init; JWM; No
 Red Hat Enterprise Linux; Binary blobs; xfs; systemd; GNOME; No
 Rxart Desktop; Binary blobs; ext3; ?; KDE Plasma Workspaces; No
-Sabayon Linux; Binary blobs; ext4[ 98]; systemd; KDE Plasma Workspaces, GNOME; No
-Scientific Linux; Binary blobs; ext4; sysvinit, systemd[ 99]; GNOME; No
-Slackware; Binary blobs[ 80]; ext4; sysvinit compatible BSD init scripts; KDE Plasma Workspaces, Xfce, Fluxbox, Blackbox, twm; No
+Sabayon Linux; Binary blobs; ext4[ 105]; systemd; KDE Plasma Workspaces, GNOME; No
+Scientific Linux; Binary blobs; ext4; sysvinit, systemd[ 106]; GNOME; No
+Slackware; Binary blobs[ 82]; ext4, ext3, ext2, reiserfs, brtfs, xfs; RC.d and sysvinit compatibile; KDE, XFCE Fluxbox, Blackbox, fvwm2 twm; No
 Slax; Binary blobs; SquashFS; sysvinit; KDE Plasma Workspaces; No
 SliTaz GNU/Linux; Binary blobs; ext3; busybox-init; Openbox; No
 Solus; Binary blobs; ext4; systemd; Budgie, Gnome, MATE; No
 Source Mage GNU/Linux; Binary blobs; ext2; simpleinit-msb; none; No
 SteamOS; Binary blobs; ?; systemd; Steam; No
-SUSE Linux Enterprise Desktop; Binary blobs[ 80]; btrfs[ 100]; systemd; GNOME; No
-Tails; Vanilla Linux[ 80]; ?; systemd; GNOME; No
-Tor-ramdisk; Binary blobs; ext2; ?; none; No
+SUSE Linux Enterprise Desktop; Binary blobs[ 82]; btrfs[ 107]; systemd; GNOME; No
+Tails; Vanilla Linux[ 82]; ?; systemd; GNOME; Reproducible ISO and USB images[ 108] [ 109]
 Trisquel; Linux-libre; ext4, xfs; systemd; GNOME, LXDE; No
 TurnKey GNU/Linux; Binary blobs; ext4; systemd; none - headless server by design provides Webmin for administration; No
-Ubuntu/Edubuntu; Binary blobs[ 80]; ext4[ 101]; systemd; Unity; No
+Ubuntu/Edubuntu; Binary blobs[ 82]; ext4[ 110]; systemd; Unity; No
 Ubuntu GNOME; Binary blobs; ext4; systemd; GNOME 3; No
 Ubuntu MATE; Binary blobs; ext4; systemd; MATE; No
-Kubuntu; Binary blobs; ext4[ 101]; systemd; KDE Plasma Workspaces; No
-Xubuntu; Binary blobs; ext4[ 101]; systemd; Xfce; No
+Kubuntu; Binary blobs; ext4[ 110]; systemd; KDE Plasma Workspaces; No
+Xubuntu; Binary blobs; ext4[ 110]; systemd; Xfce; No
 Lubuntu; Binary blobs; ext4; systemd; LXQt; No
-Ututo; Ututo XS (stable) is de-blobed with Linux-libre tools.[ 102] Ututo UL (development) uses Linux-libre. Ututo UL means "Ubuntu-Libre"; ext3; systemd; GNOME; No
+Ututo; Ututo XS (stable) is de-blobbed with Linux-libre tools.[ 111] Ututo UL (development) uses Linux-libre. Ututo UL means "Ubuntu-Libre"; ext3; systemd; GNOME; No
 VectorLinux; Binary blobs; ReiserFS; sysvinit; KDE, Openbox, Fluxbox, IceWM, Xfce; No
 Void Linux; Binary blobs; none; runit; none; No
 Webconverger; Binary blobs; gitfs; sysvinit; dwm enforcing a Browser-only interface; No

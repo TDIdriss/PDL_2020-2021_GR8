@@ -9,4 +9,5 @@ Pure Data; Mac OS X, Linux, Windows, iPod, Android; C; C, C++, FAUST, Haskell, J
 Reaktor; Mac OS X, Windows; ; ; 
 SuperCollider; Mac OS X, Linux, Windows, FreeBSD; C, C++, Objective-C; C++; Client-server architecture client and server can be used independently, command-line access
 Sporth; Linux, Mac OS X; C; C, Scheme; Many frontends built using the API exist, including Chuck, PD, and LADSPA
+SynthEdit; Windows, MacOS; C++; C++; 
 VCV Rack; Mac OS X, Linux, Windows; C++; C++; 

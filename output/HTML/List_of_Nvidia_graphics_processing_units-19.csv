@@ -2,6 +2,8 @@ Model; Launch; Code name; Fab (nm); Transistors (million); Die size (mm2); Bus i
 Model; Launch; Code name; Fab (nm); Transistors (million); Die size (mm2); Bus interface; Core config1; Core (MHz); Shader (MHz); Memory (MHz); Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); DRAM type; Bus width (bit); Single precision; TDP (Watts); Comments
 GeForce 310; November 27, 2009; GT218; TSMC 40  nm; 260; 57; PCIe 2.0 ×16; 16:8:4; 589; 1402; 1000; 2.356; 4.712; 512; 8; DDR2; 64; 44.8; 30.5; OEM Card, similar to Geforce 210
 GeForce 315; February 2010; GT216; TSMC 40  nm; 486; 100; PCIe 2.0 ×16; 48:16:4; 475; 1100; 3.8; 7.6; 512; 12.6; DDR3; 105.6; 64; 33; OEM Card, similar to Geforce GT220; 
-GeForce GT 320; February 2010; GT215; TSMC 40  nm; 144; 72:24:8; PCIe 2.0 ×16; 540; 1580; 1302; 4.32; 12.96; 1024; 25.3; GDDR3; 128; 187.5; 43; OEM Card; 
-GeForce GT 330 [ 21]; February 2010; 727; TSMC 40  nm; 144; GT215-301-A3; PCIe 2.0 ×16; 96:32:8 96:48?:12? 112:56?:16?[ citation needed]; 500 550[ citation needed]; 1250 1340[ citation needed]; 1000 (DDR2) 1600 (GDDR3); 1024 1536 2048; 24 32[ citation needed]; DDR2 GDDR3; 128 192 256; 240 257.3; 75; Specifications vary depending on OEM, similar to GT230 v2.; 
-GeForce GT 340; February 2010; 727; TSMC 40  nm; 144; GT215; PCIe 2.0 ×16; 4.4; 17.6; 96:32:8; 550; 1340; 3400; 512 1024; 54.4; GDDR5[ 22]; 128; 257.3; 69; OEM Card, similar to GT240
+GeForce GT 320; February 2010; GT215; TSMC 40  nm; 144; 72:24:8; PCIe 2.0 ×16; 540; 1580; 1302; 4.32; 12.96; 1024; 25.3; 128; 187.5; 43; OEM Card; 
+GeForce GT 330[ 24]; February 2010; 727; TSMC 40  nm; 144; GT215-301-A3[ 25]; PCIe 2.0 ×16; 550; 1350; ; 4.40; 17.60; GDDR3; 512; 32.00; 128; 257.3; 
+GeForce GT 330[ 24]; February 2010; 727; TSMC 40  nm; 144; GT92[ 26]; PCIe 2.0 ×16; ; 4.000; 256; 51.20; 256; GDDR3; 75; Specifications vary depending on OEM, similar to GT230 v2.; 
+GeForce GT 330[ 24]; February 2010; 727; TSMC 40  nm; 144; GT92B[ 27]; PCIe 2.0 ×16; 24.00; 96:32:16; ; 8.000; 240.0; 1024; 75; Specifications vary depending on OEM, similar to GT230 v2.; 16.32; DDR2; 128; 
+GeForce GT 340; February 2010; 727; TSMC 40  nm; 144; GT215; PCIe 2.0 ×16; 96:32:8; 550; 1340; 3400; ; ; 512 1024; 54.4; GDDR5[ 28]; 128; 257.3; 69; OEM Card, similar to GT240

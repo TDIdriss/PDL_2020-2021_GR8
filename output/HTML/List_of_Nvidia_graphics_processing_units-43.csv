@@ -1,17 +1,18 @@
-Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Clock speed; Clock speed; Clock speed; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Supported API version; Supported API version; Processing power (GFLOPS)2; TBP (Watts); Notes (original research)
-Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Core (MHz); Shader (MHz); Memory (MT/s); Pixel (GP/s); Texture (GT/s); Size (GB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; Processing power (GFLOPS)2; TBP (Watts); Notes (original research)
-GeForce 810M; February 2014; GF117; 28; PCIe 2.0 ×16; 48:8:4; 738–888; 1476–1776; 1800; 2.95–3.55; 5.9–7.1; 1; 14.4; DDR3; 64; 12; 4.5; 141.7–170.5; 15; 
-GeForce 820M [ 126]; February 2014; GF117; 28; PCIe 2.0 ×16; 96:16:4; 719–954; 1438–1908; 2000; 2.9–3.8; 11.5–15.3; 16; 276.1–366.3; DDR3; 64; 12; 4.5; 15[ 127]; 115% of 620 (Fermi); 
-GeForce 825M [ 128]; January 27, 2014; GK208; 28; PCIe 3.0 ×8; 384:16:8 (2 SMX); 850; 2; 850; 6.8; 13.6; 14.4; 652.8; DDR3; 64; 12; 4.5; 33; 94% of 630 (Kepler); 
-GeForce 830M [ 129]; March 12, 2014; GM108; 28; PCIe 3.0 ×16; 256:16:8 (2 SMM); 1029; 2; 1800; 8.2; 16.5; 14.4; 526.8; DDR3; 64; 12; 4.5; ~25; 50% of 750 (Maxwell); 
-GeForce 840M [ 130]; March 12, 2014; GM108; 28; PCIe 3.0 ×16; 384:24:8 (3 SMM); 1029; 2000; 1029; 8.2–16.5; 24.7; 2–4; 16; DDR3; 64; 12; 4.5; 790.3; 30; 50–80% of 745 (Maxwell)
-GeForce 845M [ 131] [ 132]; February 7, 2015[ 133]; GM108; 28; PCIe 3.0 ×16; 384:32:16 (3 SMM); 1071-1150; 1071-1150; 5000; 18.8; 37.6; 40; GDDR5; 903.2; 64; 12; 4.5; 33; 
-GeForce 845M [ 131] [ 132]; August 16, 2015[ 134]; 512:32:16 (4 SMM); 28; PCIe 3.0 ×16; 863; 863; 2000; 2; 13.8; 27.6; 16; DDR3; ; 64; 12; 4.5; 883.7; 45; 
-GeForce GTX 850M [ 135]; GM107; March 12, 2014; 28; PCIe 3.0 ×16; 876+Boost; 876+Boost; 5000; 14.0; 35.0; 2-4; 80.2; GDDR5; 128; 1121.3; 12; 4.5; 80% of 750Ti; 
-GeForce GTX 850M [ 135]; GM107; March 12, 2014; 28; PCIe 3.0 ×16; 936+Boost; 936+Boost; 2000; 15.0; 37.4; 2-4; 32; DDR3; 128; 1198.1; 12; 4.5; 85% of 750Ti; 
-GeForce GTX 860M [ 136]; GM107; March 12, 2014; 28; PCIe 3.0 ×16; 640:40:16 (5 SMM); 1020–1085; 1020–1085; 16.5; 41.2; 2; 1389; 40–45; 128; equal to 750Ti; 12; 4.5; 
-GeForce GTX 860M [ 136]; GK104; March 12, 2014; 28; PCIe 3.0 ×16; 1152:96:16 (6 SMX); 797–915; 797–915; 80; GDDR5; 12.8; 76.5; 4; 128; 2108; 12; 4.5; 75; similar to 660 OEM.; 
-GeForce GTX 870M [ 137]; GK104; March 12, 2014; 28; PCIe 3.0 ×16; 1344:112:24 (7 SMX); 941–967; 941–967; 22.6; GDDR5; 105.4; 3.6; 120; 192; 2599; 12; 4.5; 110; 105% of 660Ti; 
-GeForce GTX 880M [ 138]; GK104; March 12, 2014; 28; PCIe 3.0 ×16; 1536:128:32 (8 SMX); 954–993; 954–993; 30.5; GDDR5; 122.1; 4.8; 160; 256; 3104; 12; 4.5; 130; 90% of 770; 
 Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Clock speed; Clock speed; Clock speed; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Supported API version; Supported API version; Processing power (GFLOPS)2; TBP (Watts); Notes
-Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Core (MHz); Shader (MHz); Memory (MT/s); Pixel (GP/s); Texture (GT/s); Size (GB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; Processing power (GFLOPS)2; TBP (Watts); Notes
+Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Core (MHz); Shader (MHz); Memory (MT/s); Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; Processing power (GFLOPS)2; TBP (Watts); Notes
+GeForce 710M; January 2013; GF117; 28; PCIe 2.0 ×16; 96:16:4; 800; 1600; 1800; 3.2; 12.8; 1024 2048; 14.4; DDR3; 64; 12; 4.5; 307.2; 12; OEM. About 115% of Mobile 620 & Desktop 530[ original research?]
+GeForce GT 720M; April 1, 2013; GF117; 28; PCIe 2.0 ×16; 96:16:4; 938; 1876; 3.8; 15.0; 16.0; 360.19; ?; DDR3; 64; 12; 4.5; OEM. About 130% of Mobile 625/630 & Desktop 620[ original research?]; 
+GeForce GT 720M; December 25, 2013; GK208; 28; PCIe 2.0 x8; 2000; 192:16:8; 3.032; 2048; 12.13; 12.8; 291; 22; DDR3; 64; 12; 4.5; Kepler, similar to 730M with half of the cores disabled; 
+GeForce GT 730M; January 2013; GK208; 28; PCIe 3.0 ×8; 2000; 719; 719; 2048; 5.8; 23.0; 128; 552.2; DDR3; 33; 12; 4.5; Kepler, similar to Desktop GT640; 
+GeForce GT 735M; April 1, 2013; GK208; 28; PCIe 3.0 ×8; 2000; 7.11; 28.4; 2048; 682.8; 16.0; Kepler, similar to Desktop GT640; DDR3; 12; 4.5; 
+GeForce GT 740M; April 1, 2013; GK208; 28; PCIe 3.0 ×8; 384:32:8 (2 SMX); 64; 1800; 2048; ?; 7.84; 31.4; 14.4; DDR3; 752.6; 12; 4.5; Kepler, similar to Desktop GT640.; 
+GeForce GT 740M; April 1, 2013; GK107; 28; PCIe 3.0 ×16; 384:32:16 (2 SMX); 810[ 141]; 810[ 141]; 1800 5000; 12.96; 25.92; 2048[ 141]; 28.8 80; DDR3 GDDR5[ 141]; 128; 12; 4.5; 622.1; about 76% of Desktop GTX650[ original research?]; 
+GeForce GT 745M; April 1, 2013; GK107; 28; PCIe 3.0 ×16; 384:32:16 (2 SMX); 13.4; 26.8; 32 80; DDR3 GDDR5; 642.8; about 79% of Desktop GTX650[ original research?]; 128; 12; 4.5; 45; 
+GeForce GT 750M; April 1, 2013; GK107; 28; PCIe 3.0 ×16; 384:32:16 (2 SMX); 15.5; 2048; 32 80; DDR3 GDDR5; 30.9; 742.7; about 91% of Desktop GTX650[ original research?]; 128; 12; 4.5; 
+GeForce GT 755M[ 142]; ?; GK107; 28; PCIe 3.0 ×16; 384:32:16 (2 SMX); 50; 2048; 5400; 15.7; 31.4; 86.4; 783; about 93% of Desktop GTX650[ original research?]; 128; 12; 4.5; 
+GeForce GTX 760M; May 2013; GK106; 28; PCIe 3.0 ×16; 719; 719; 2048; GDDR5; 10.5; 42.1; 64; 1104; 55; 128; 12; 4.5; about 71% of Desktop GTX 650Ti[ original research?]; 
+GeForce GTX 765M; May 2013; GK106; 28; PCIe 3.0 ×16; 13.6; 54.4; 2048; GDDR5; 1326; 65; 64; about 92% of Desktop GTX 650Ti[ original research?]; 128; 12; 4.5; 
+GeForce GTX 770M; May 2013; GK106; 28; PCIe 3.0 ×16; 960:80:24 (5 SMX); 19.5; 64.9; GDDR5; 3072; 96; 192; 1530; 75; about 83% of Desktop GTX660[ original research?]; 12; 4.5; 
+GeForce GTX 780M; May 2013; 797; 797; PCIe 3.0 ×16; GK104; 1536:128:32 (8 SMX); 5000; GDDR5; 26.3; 105.3; 4096; 160; 256; 2448; 12; 4.5; 122; about 78% of Desktop GTX770[ original research?]; 
+Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Clock speed; Clock speed; Clock speed; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Supported API version; Supported API version; Processing power (GFLOPS)2; TBP (Watts); Notes
+Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Core (MHz); Shader (MHz); Memory (MT/s); Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; Processing power (GFLOPS)2; TBP (Watts); Notes

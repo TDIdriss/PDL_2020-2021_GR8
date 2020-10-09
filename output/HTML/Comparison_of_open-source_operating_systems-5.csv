@@ -5,7 +5,6 @@ OpenBSD; PF; Yes; Yes; No; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 NetBSD; IPFilter, NPF, PF; Yes; Yes; ; Yes; Yes[ Note 1]; Yes; Yes; Yes; Yes; Yes
 DragonFly BSD; IPFW2, PF; Yes; Yes; No; Yes; Yes; Yes; Yes; Yes; Yes; 
 OpenSolaris, illumos; IPFilter; Yes; Yes; ; Yes; Yes; Yes; Yes; Yes[ Note 2]; Yes; Yes
-AuroraUX; IPFilter; Yes; Yes; ; Yes; Yes; Yes; Yes; ; Yes; Yes
 Darwin, OpenDarwin; IPFW; Yes; Yes; ; ; ; Yes; ; ; Yes; 
 MINIX; ; Yes; ; ; ; ; ; ; ; Yes; 
 FreeDOS; ; Yes; ; Yes; Yes; Yes; Yes; ; ; Yes; 

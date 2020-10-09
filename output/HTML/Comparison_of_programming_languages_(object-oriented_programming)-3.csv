@@ -1,5 +1,6 @@
 ; constructor; destructor; finalizer[ 12]
 ABAP Objects; methods constructor «importing parameter = argument» method constructor. instructions endmethod.[ 13]; N/A; N/A
+APL (Dyalog); ∇ name :Implements Constructor «:Base «expr»» instructions ∇; ; ∇ name :Implements Destructor instructions ∇
 C++ (STL); class(«parameters») «: initializers[ 14] » { instructions }; ~class() { instructions }; 
 C#; class(«parameters») { instructions }; void Dispose(){ instructions }; ~class() { instructions }
 D; this(«parameters») { instructions }; ; ~this() { instructions }

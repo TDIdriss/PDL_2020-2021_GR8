@@ -10,7 +10,6 @@ Elm; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
 eM Client; No; No; Yes; Yes; Yes; No; Yes; No; Yes; Yes
 EmailTray; No; No; No; No; No; No; No; No; ?; ?
 Eudora; No; Yes; No; No; No; No; No; ?; ?; ?
-Eureka Email; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
 Evolution; No; No; No [ Note 12]; No [ Note 12]; No [ Note 12]; No; Yes; Yes; Yes; Yes
 Gnus; ?; ?; Yes; Yes; Yes; No; ?; ?; ?; ?
 GroupWise; ?; No; ?; ?; ?; ?; Yes; ?; ?; ?
@@ -22,7 +21,7 @@ Mailpile; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
 Microsoft Entourage; ?; ?; ?; ?; ?; ?; Yes; ?; ?; ?
 Microsoft Office Outlook; ?; ?; Yes [ Note 16]; Yes [ Note 16]; Yes [ Note 16]; Yes [ Note 16]; Yes [ Note 17]; Yes; No; No
 Mozilla Mail & Newsgroups; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
-Mozilla Thunderbird; No; No; Yes; Yes; Yes; Yes; Yes [ Note 18]; Yes [ Note 19]; Yes; Yes
+Mozilla Thunderbird; No; No; Yes; Yes; Yes; Yes; Yes [ Note 18]; Yes [ Note 19]; Yes; No
 Mulberry; Yes; Yes; No; No; No; No; Yes; ?; Yes; ?
 Mutt; ?; ?; No; No; No; No; No; ?; ?; ?
 Netscape Messenger; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?

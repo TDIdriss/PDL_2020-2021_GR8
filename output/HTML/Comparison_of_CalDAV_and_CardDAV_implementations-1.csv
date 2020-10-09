@@ -8,16 +8,17 @@ CardDavMATE[ 6]; Cross-platform JavaScript Web browser; AGPL; No; No; out of sco
 InfCloud (CalDavZAP+CardDavMATE)[ 7]; Cross-platform JavaScript Web browser; AGPL; No; No; Yes; Yes; Unknown; No; No Does not arrange meetings with participants; Yes vCard 3.0 only; No; InfCloud; No; No The used server is fixed in the configuration file; No Does not arrange meetings with participants; No The used server is fixed in the configuration file; Yes
 Chandler Desktop[ 8]; Cross-platform Python; Apache; Unknown; Unknown; Yes; Yes; Unknown; Unknown; Unknown; No; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown
 DAVx⁵[ 9]; Android; GNU GPL; No; No; Yes; Yes; out of scope; out of scope; No (except attendees/invitations); Yes; No (server always wins); Android, OpenTasks; Google Play, OpenTasks; Yes; out of scope; Yes; Yes
-jqCalDAV[ 10]; Cross-platform JavaScript Web browser; MIT; Unknown; Unknown; Yes; Yes; Unknown; Unknown; Unknown; N/A; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown
-KCardDAV[ 11] (discontinued); Cross-platform Kontact add-on; GNU GPL; Unknown; Unknown; N/A; N/A; N/A; Unknown; Unknown; Yes; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown
+Tasks.org[ 10]; Android; GNU GPL; No; No; No; Yes; No; No; No; No; No; Android; Google Play; Yes; No; No; Yes
+jqCalDAV[ 11]; Cross-platform JavaScript Web browser; MIT; Unknown; Unknown; Yes; Yes; Unknown; Unknown; Unknown; N/A; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown
+KCardDAV[ 12] (discontinued); Cross-platform Kontact add-on; GNU GPL; Unknown; Unknown; N/A; N/A; N/A; Unknown; Unknown; Yes; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown
 KOrganizer, KAddressBook, Kontact; Unix-KDE; GNU GPL; Unknown; Unknown; Yes; Yes; Unknown; Unknown; Unknown; Yes; Unknown; KOrganizer; KOrganizer; Unknown; Unknown; Unknown; Unknown
-Lightning[ 12]; Cross-platform Thunderbird Add-on; MPL, GPL, LGPL; Unknown; Unknown; Yes; Yes; Unknown; Unknown; Unknown; N/A; Out of scope; Lightning; Lightning; Unknown; Unknown; Unknown; Unknown probably not
-CardBook[ 13]; Cross-platform Thunderbird Add-on; MPL; No; No; Out of scope; Out of scope; Out of scope; Out of scope; Out of scope; Yes vCard 3.0 and vCard 4.0; Yes; CardBook; Mozilla Add-ons (ATN); Yes; Out of scope; No; partial
-MineTime[ 14]; Cross-platform; Proprietary; No; No; Yes; No; No; No; No; No; No; No; MineTime; minetime.ai; No; No; No
-Mulberry[ 15]; Cross-platform; Apache; Unknown; Unknown; Yes; Yes; Unknown; Unknown; Unknown; Yes; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown
-Outlook CalDav Synchronizer[ 16]; Windows; AGPL; Unknown; Unknown; Yes; Yes; Unknown; Unknown; Unknown; Yes; Unknown; Outlook; Unknown; Yes; Unknown; Yes; Yes
-pyCardDAV[ 17]; Cross-platform Python; MIT; Unknown; Unknown; N/A; N/A; N/A; Unknown; Unknown; Yes; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown
-The Bat![ 18]; Windows; Proprietary; Unknown; Unknown; No; No; No; Unknown; Unknown; Yes; Unknown; The Bat!; The Bat!'s address book; Unknown; Unknown; Unknown; Unknown
-Inverse SOGo Connector-Integrator[ 19]; Cross-platform Thunderbird Add-on; MPL, GPL, LGPL; Unknown; Unknown; Yes; Yes; Unknown; Unknown; Unknown; Yes; Unknown; Mozilla; Mozilla Add-ons; Unknown; Unknown; Unknown; Unknown
+Lightning[ 13]; Cross-platform Thunderbird Add-on; MPL, GPL, LGPL; Unknown; Unknown; Yes; Yes; Unknown; Unknown; Unknown; N/A; Out of scope; Lightning; Lightning; Unknown; Unknown; Unknown; Unknown probably not
+CardBook[ 14]; Cross-platform Thunderbird Add-on; MPL; No; No; Out of scope; Out of scope; Out of scope; Out of scope; Out of scope; Yes vCard 3.0 and vCard 4.0; Yes; CardBook; Mozilla Add-ons (ATN); Yes; Out of scope; No; partial
+MineTime[ 15]; Cross-platform; Proprietary; No; No; Yes; No; No; No; No; No; No; No; MineTime; minetime.ai; No; No; No
+Mulberry[ 16]; Cross-platform; Apache; Unknown; Unknown; Yes; Yes; Unknown; Unknown; Unknown; Yes; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown
+Outlook CalDav Synchronizer[ 17]; Windows; AGPL; Unknown; Unknown; Yes; Yes; Unknown; Unknown; Unknown; Yes; Unknown; Outlook; Unknown; Yes; Unknown; Yes; Yes
+pyCardDAV[ 18]; Cross-platform Python; MIT; Unknown; Unknown; N/A; N/A; N/A; Unknown; Unknown; Yes; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown; Unknown
+The Bat![ 19]; Windows; Proprietary; Unknown; Unknown; No; No; No; Unknown; Unknown; Yes; Unknown; The Bat!; The Bat!'s address book; Unknown; Unknown; Unknown; Unknown
+Inverse SOGo Connector-Integrator[ 20]; Cross-platform Thunderbird Add-on; MPL, GPL, LGPL; Unknown; Unknown; Yes; Yes; Unknown; Unknown; Unknown; Yes; Unknown; Mozilla; Mozilla Add-ons; Unknown; Unknown; Unknown; Unknown
 Evolution; Cross-platform; GNU GPL; No; No; Yes; Yes; Yes; No; No; Yes vCard 3.0 only; Unknown; Evolution; Evolution; Yes; Yes if the URL does not require authentication; Yes; Yes
-ReminderFox[ 20]; Cross-platform Firefox; MPL 1.1; Unknown; Unknown; Yes; Yes; Unknown; Unknown; No; N/A; Unknown; ReminderFox; Yes; Unknown; Unknown; Unknown; Unknown
+ReminderFox[ 21]; Cross-platform Firefox; MPL 1.1; Unknown; Unknown; Yes; Yes; Unknown; Unknown; No; N/A; Unknown; ReminderFox; Yes; Unknown; Unknown; Unknown; Unknown

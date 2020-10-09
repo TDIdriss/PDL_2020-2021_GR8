@@ -1,4 +1,4 @@
-Client; Windows; Mac OS X; Linux; BSD; Solaris; Android; iOS; Other
+Client; Windows; macOS; Linux; BSD; Solaris; Android; iOS; Other
 Akregator; No; Yes; Yes; Yes; Yes; No; No; No
 Amarok; Yes; Yes; Yes; Yes; Yes; No; No; No
 AOL Explorer; Yes; No; No; No; No; No; No; No
@@ -17,22 +17,23 @@ Gnus; Yes; Yes; Yes; Yes; Yes; Yes; No; DOS
 IBM Lotus Notes; Yes; Yes; Yes; No; No; No; No; No
 Inoreader; Yes; Yes; Yes; No; No; Yes; Yes; No
 Internet Explorer; Included; No; No; No; No; No; No; No
-iTunes; Yes; Included; No; No; No; No; No; No
+iTunes; Yes; as Podcasts app; No; No; No; No; No; No
 Juice; Yes; Yes; No; No; No; No; No; No
 K-Meleon; Yes; No; No; No; No; No; No; No
 Kazehakase; No; No; Yes; Yes; No; No; No; No
 Liferea; No; No; Yes; Yes; No; No; No; No
-Mail (OS X); No; Included; No; No; No; No; No; No
+Apple Mail; No; Included; No; No; No; No; No; No
 Maxthon; Yes; No; No; No; No; No; No; No
 MediaMonkey; Yes; No; No; No; No; No; No; No
 Microsoft Office Outlook; Yes; Yes; No; No; No; No; No; Windows Mobile
 Mozilla Firefox; Add-on; Add-on; Add-on; Add-on; No; No; No; No
 Mozilla Thunderbird; Yes; Yes; Yes; Yes; No; No; No; No
-NetNewsWire; No; Yes; No; No; No; No; No; No
+NetNewsWire; No; Yes; No; No; No; No; Yes; No
 Netscape Browser; Yes; No; No; No; No; No; No; No
 Netscape Navigator 9; Yes; Yes; Yes; No; No; No; No; No
 NewsAccess; No; Yes; No; No; No; No; No; No
 NewsBlur; Web based; Web based; Web based; Web based; Web based; Yes; Yes; every platform with a web browser
+Newsbeuter; No; Yes; Yes; Yes; No; No; No; Source code available
 NewsFire; No; Yes; No; No; No; No; No; No
 OmniWeb; No; Yes; No; No; No; No; No; No
 Opera Mail; Yes; Yes; Yes; Yes[ 37]; Dropped; No; No; BeOS, QNX, OS/2

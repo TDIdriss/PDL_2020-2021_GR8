@@ -1,6 +1,6 @@
-Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config1; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS); Supported API version; Supported API version; TBP (Watts); Notes
-Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config1; Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Single precision; Direct3D; OpenGL; TBP (Watts); Notes
-Quadro FX 360M; G86M; 80; PCIe 1.0 ×16; 400; 800; 1200; 16:8:4; 1.6; 3.2; 256; 9.6; DDR2; 64; 38.4; 10.0; 3.3; 17; Based on the GeForce 8400M GS
-Quadro FX 560M; G73GLM; 90; PCIe 1.0 ×16; 500; 500; 1200; 5:12:12:8; 4; 6; 19.2; 128; ; 9.0c; 2.1; 35?; 7600GS based?; 
-Quadro FX 1600M; G84M; 80; PCIe 1.0 ×16; 625; 1600; 32:16:8; 5; 512; 10; GDDR3; 128; 25.6; 120; 50?; ; 
-Quadro FX 3600M; G92M; 65; PCIe 1.0 ×16; 1250; 1600; 500; 64:32:16 96:48:16; 512; 8 8; GDDR3; 16 24; 10.0; 3.3; 51.2; 256; 240 360; 70; Based on the GeForce 8800M GTX
+Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config1; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS); Supported API version; Supported API version; TBP (Watts)
+Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config1; Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Single precision; Direct3D; OpenGL; TBP (Watts)
+Quadro FX 350M; G72GLM; 90; PCIe 1.0 ×16; 450; 450; 900; 3:4:4:2; 0.9; 1.8; 256; 14.4; GDDR3; 128; ; 9.0c; 2.1; 15
+Quadro FX 1500M; G71GLM; 90; PCIe 1.0 ×16; 375; 375; 1000; 6; 9; 32; 256; GDDR3; ; 9.0c; 2.1; 15
+Quadro FX 2500M; G71GLM; 90; PCIe 1.0 ×16; 500; 8:24:24:16; 500; 8; 512; 12; 256; GDDR3; ; 9.0c; 2.1; 15
+Quadro FX 3500M; G71GLM; 90; PCIe 1.0 ×16; 1200; 8:24:24:16; 575; 38.4; 512; 575; 256; 9.2; GDDR3; 13.8; ; 9.0c; 2.1; 15

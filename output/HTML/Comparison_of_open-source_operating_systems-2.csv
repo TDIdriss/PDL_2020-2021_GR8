@@ -5,13 +5,12 @@ OpenBSD[ 2]; Yes; Yes; No; No; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes; Yes; No; Y
 NetBSD[ 3]; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; SuperH, ns32k, VAX, hppa, M68010, mipseb, mipsel, sh3eb, sh3el, sparc64; 
 DragonFly BSD[ 4]; No; No; No; No; Yes; No; No; No; No; No; No; No; No; No; No; No; ; vkernel
 OpenSolaris[ 5] illumos; Yes; Yes; Yes; No; Yes; No; No; Yes; Yes; No; No; No; No; No; No; No; ; 
-AuroraUX[ 5]; Yes; Yes; Yes; No; Yes; Yes[ Note 1]; No; Yes; Yes; No; Yes[ Note 1]; Yes; No; No; No; No; ; 
 Darwin, OpenDarwin[ 6]; Yes; Yes; No; No; Yes; Yes; Yes; No; No; No; No; Yes; No; Yes; No; No; ; L4/Darwin
 MINIX[ 7]; Yes; No; No; No; No; No; No; No; No; No; No; Yes; No; No; No; No; ; 
 FreeDOS; Yes; No; No; No; No; No; No; No; No; No; No; No; No; No; No; No; ; 
 Genode; Yes; Yes; Yes; No; No; No; No; No; No; No; No; Yes; No; No; No; No; RISC-V; Linux
 Haiku; Yes; Yes; No; No; Yes; No; No; No; No; No; No; No[ Note 1] [ 8]; No; No; No; No; ; 
-KolibriOS; Yes; No; No; No; Yes; No; No; No; No; No; No; No; No; No; No; No; ; 
+KolibriOS; Yes; No; No; No; No; No; No; No; No; No; No; No; No; No; No; No; ; 
 MenuetOS; Yes; No; No; No; Yes; No; No; No; No; No; No; No; No; No; No; No; ; 
 GNU; Yes; Yes[ Note 2]; Yes[ Note 2]; Yes[ Note 2]; Yes[ Note 2]; Yes[ Note 2]; Yes[ Note 2]; Yes[ Note 2]; Yes[ Note 2]; Yes[ Note 2]; Yes[ Note 2]; Yes[ Note 2]; Yes[ Note 2]; Yes[ Note 2]; Yes[ Note 2]; Yes[ Note 2]; FR-V, Cell, ETRAX CRIS, M32R, Xtensa, h8, s390, SuperH[ Note 2]; UML, Itanium Linux-on-Linux[ Note 3]
 ReactOS; Yes; Yes; No[ Note 1]; No; Yes; No[ Note 1]; No[ Note 1]; No; No; No; No; Yes; No; No; No; No; ; 

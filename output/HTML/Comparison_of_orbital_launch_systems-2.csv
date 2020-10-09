@@ -1,97 +1,98 @@
 Vehicle; Origin; Manufacturer; Mass to ... (kg); Mass to ... (kg); Mass to ... (kg); Launches (+  suborbital); Date of flight; Date of flight
 Vehicle; Origin; Manufacturer; LEO; GTO; Other; Launches (+  suborbital); First; Last
-Antares 110–130;   United States; Orbital; 5,100[ 6]; ; 1,500 to SSO; 5[ 6]; 2013; 2014
-Ariane 1;   Europe; Aérospatiale; 1,400; 1,830[ 188]; ; 11[ 188]; 1979; 1986
-Ariane 2;   Europe; Aérospatiale; ; 2,270[ 188]; ; 6[ 188]; 1986; 1989
-Ariane 3;   Europe; Aérospatiale; ; 2,650[ 188]; ; 11[ 188]; 1984; 1989
-Ariane 4 40;   Europe; Aérospatiale; 4,600[ 188]; 2,105; 2,740 to SSO; 7[ 188]; 1990; 1999
-Ariane 4 42L;   Europe; Aérospatiale; 7,000[ 188]; 3,480; 4,500 to SSO; 13[ 188]; 1993; 2002
-Ariane 4 42P;   Europe; Aérospatiale; 6,000[ 188]; 2,930; 3,400 to SSO; 15[ 188]; 1990; 2002
-Ariane 4 44L;   Europe; Aérospatiale; 7,000[ 188]; 4,720; 6,000 to SSO; 40[ 188]; 1989; 2003
-Ariane 4 44LP;   Europe; Aérospatiale; 7,000[ 188]; 4,220; 5,000 to SSO; 26[ 188]; 1988; 2001
-Ariane 4 44P;   Europe; Aérospatiale; 6,500[ 188]; 3,465; 4,100 to SSO; 15[ 188]; 1991; 2001
-Ariane 5 G;   Europe; EADS Astrium; 18,000[ 11]; 6,900[ 11]; ; 16[ 11]; 1996; 2003
-Ariane 5 G+;   Europe; EADS Astrium; ; 7,100[ 11]; ; 3[ 11]; 2004; 2004
-Ariane 5 GS;   Europe; EADS Astrium; 16,000[ 189]; 6,600[ 11]; ; 6[ 11]; 2005; 2009[ 190]
-Ariane 5 ES;   Europe; EADS Astrium; 21,000[ 8]; 8,000[ 11]; ; 8[ 11]; 2008; 2018
-ASLV;   India; ISRO[ 191]; 150[ 192]; ; ; 4[ 192]; 1987; 1994
-Athena I;   United States; Lockheed Martin; 795[ 193]; 515; ; 4[ 194]; 1995; 2001
-Athena II;   United States; Lockheed Martin; 1,800[ 195]; ; ; 3[ 196]; 1998; 1999[ 197]
-Atlas-Centaur;   United States; Lockheed; 1,134[ 198]; 2,222[ 199]; ; 148; 1962; 1983
-Atlas G;   United States; Lockheed; 5,900[ 200]; 2,222; 1,179 to HCO[ 200]; 7[ 200]; 1984; 1989
-Atlas H/MSD;   United States; Lockheed; 3,630[ 201]; ; ; 5; 1983; 1987
-Atlas I;   United States; Lockheed Martin; 5,900[ 200]; 2,340[ 200]; ; 11[ 200]; 1990; 1997
-Atlas II;   United States; Lockheed Martin; 6,780[ 200]; 2,810; 2,000 to HCO[ 200]; 10[ 200]; 1991; 1998
-Atlas IIA;   United States; Lockheed Martin; 7,316[ 200]; 3,180; 2,160 to HCO[ 200]; 23[ 200]; 1992; 2002
-Atlas IIAS;   United States; Lockheed Martin; 8,618[ 200]; 3,833; 2,680 to HCO[ 200]; 30[ 200]; 1993; 2004
-Atlas IIIA;   United States; Lockheed Martin; 8,686[ 200]; 4,060; 2,970 to HCO[ 200]; 2[ 200]; 2000; 2004
-Atlas IIIB/DEC;   United States; Lockheed Martin; 10,759[ 200]; 4,609[ 200]; ; 1[ 200]; 2002; 2002
-Atlas IIIB/SEC;   United States; Lockheed Martin; 10,218[ 202]; 4,193[ 200]; ; 3[ 200]; 2003; 2005
-Black Arrow;   United Kingdom; RAE; 73[ 203]; ; ; 2 (+2); 1969[ note 33]; 1971
-Commercial Titan III;   United States; Martin Marietta; 13,100[ 204]; ; ; 4; 1990; 1992
-Delta 0300;   United States; McDonnell Douglas; ; 340[ 205]; 747 to SSO[ 206]; 3[ 207]; 1972; 1973[ 208]
-Delta 0900;   United States; McDonnell Douglas; 1,300[ 209]; ; 818 to SSO[ 207]; 2[ 207]; 1972; 1972
-Delta 1410;   United States; McDonnell Douglas; 340[ 210]; ; ; 1[ 207]; 1975; 1975
-Delta 1604;   United States; McDonnell Douglas; 390[ 211]; ; ; 2[ 207]; 1972; 1973
-Delta 1900;   United States; McDonnell Douglas; 1,800[ 207]; ; ; 1[ 207]; 1973; 1973
-Delta 1910;   United States; McDonnell Douglas; 1,066[ 212]; ; ; 1[ 207]; 1975; 1975
-Delta 1913;   United States; McDonnell Douglas; 328[ 213]; ; ; 1[ 207]; 1973; 1973
-Delta 1914;   United States; McDonnell Douglas; ; 680[ 214]; ; 2[ 207]; 1972; 1973
-Delta 2310;   United States; McDonnell Douglas; 336[ 215]; ; ; 3[ 207]; 1974; 1981
-Delta 2313;   United States; McDonnell Douglas; ; ; 243 to GEO[ 216]; 3[ 207]; 1974; 1977
-Delta 2910;   United States; McDonnell Douglas; 1,887[ 207]; ; ; 6[ 207]; 1975; 1978
-Delta 2913;   United States; McDonnell Douglas; 2,000[ 217]; 700[ 217]; ; 6[ 207]; 1975; 1976
-Delta 2914;   United States; McDonnell Douglas; ; 724[ 207]; ; 30[ 207]; 1974; 1979
-Delta 3910;   United States; McDonnell Douglas; 2,494[ 207]; 1,154 with PAM-D; ; 10[ 207]; 1980; 1988
-Delta 3913;   United States; McDonnell Douglas; 816[ 218]; ; ; 1[ 207]; 1981; 1981
-Delta 3914;   United States; McDonnell Douglas; ; 954[ 207]; ; 13[ 207]; 1975; 1987
-Delta 3920;   United States; McDonnell Douglas; 3,452[ 207]; 1,284 with PAM-D; ; 10[ 207]; 1982; 1989
-Delta 3924;   United States; McDonnell Douglas; ; 1,104[ 207]; ; 4[ 207]; 1982; 1984
-Delta 4925;   United States; McDonnell Douglas; 3,400[ 219]; 1,312[ 207]; ; 2[ 207]; 1989; 1990
-Delta 5920;   United States; McDonnell Douglas; 3,848[ 220]; ; ; 1[ 207]; 1989; 1989
-Delta II 6920;   United States; McDonnell Douglas; 3,983[ 207]; ; ; 3[ 207]; 1990; 1992
-Delta II 6925;   United States; McDonnell Douglas; ; 1,447[ 207]; ; 14[ 207]; 1989; 1992
-Delta II 7320;   United States; Boeing IDS / ULA; 2,865[ 207]; ; 1,651 to SSO; 12[ 207]; 1999; 2015
-Delta II 7326;   United States; Boeing IDS; ; 934[ 207]; 636 to TLI 629 to HCO; 3[ 207]; 1998; 2001
-Delta II 7420;   United States; ULA; 3,185[ 207]; ; 1,966 to SSO; 14[ 207]; 1998; 2018
-Delta II 7425;   United States; Boeing IDS; ; 1,100[ 207]; 804 to HCO; 4[ 207]; 1998; 2002
-Delta II 7426;   United States; Boeing IDS; ; 1,058[ 207]; 734 to TLI 711 to HCO; 1[ 207]; 1999; 1999
-Delta II 7920;   United States; Boeing IDS / ULA; 5,030[ 207]; ; 3,123 to SSO; 29[ 207]; 1998; 2017
-Delta II 7925;   United States; Boeing IDS / ULA; ; 1,819[ 207]; 1,177 to TLI 1,265 to HCO; 69[ 207]; 1990; 2009
-Delta II-H 7920H;   United States; Boeing IDS / ULA; 6,097[ 207]; ; ; 3[ 207]; 2003; 2011
-Delta II-H 7925H;   United States; Boeing IDS / ULA; ; 2,171; 1,508 to HCO[ 207]; 3[ 207]; 2003; 2007
-Delta III 8930;   United States; Boeing IDS; 8,292[ 207]; 3,810; ; 3[ 207]; 1998; 2000
-Delta IV M;   United States; Boeing IDS; 9,440[ 27]; 4,440; 7,690 to polar; 3[ 28]; 2003; 2006
-Delta IV M+(4,2);   United States; ULA; 13,140[ 27]; 6,390; 10,250 to polar; 14[ 28]; 2002; 2019
-Delta IV M+(5,2);   United States; ULA; 11,470[ 27]; 5,490; 9,600 to polar; 3[ 28]; 2012; 2018
-Delta IV M+(5,4);   United States; ULA; 14,140[ 27]; 7,300; 11,600 to polar; 8[ 28]; 2009; 2019
-Diamant;   France; SEREB; 107[ 221] [ 222]; ; ; 12; 1965; 1975
-Dnepr;   Ukraine; Yuzhmash; 3,700[ 223]; ; ; 22[ 223]; 1999; 2015[ 224]
-Energia[ note 34];   Soviet Union; NPO Energia; 100,000[ 225]; ; 20,000 to GEO[ 225] 32,000 to TLI[ 225]; 1 (failed to orbit)[ 226]; 1987; 1987
-Energia-Buran;   Soviet Union; NPO Energia (Launcher) NPO Molniya (Orbiter); 30,000[ 225] [ note 35]; ; ; 1; 1988; 1988
-Falcon 1;   United States; SpaceX; 470[ 227]; ; ; 5[ 227]; 2006; 2009
-Falcon 9 v1.0;   United States; SpaceX; 10,450[ 228]; 4,540[ 228]; ; 5[ 229]; 2010; 2013
-Falcon 9 v1.1;   United States; SpaceX; 13,150[ note 36] [ 230]; 4,850[ 230]; ; 15[ 229]; 2013; 2016
-Feng Bao 1;   China; Shanghai Bureau No.2; 2,500[ 231]; ; ; 8 (+3)[ 232]; 1972; 1981
-GSLV Mk.I(a);   India; ISRO; 5,000[ 50]; 1,540[ 233]; ; 1[ 233]; 2001; 2001
-GSLV Mk.I(b);   India; ISRO; 5,000[ 50]; 2,150[ 233]; ; 4[ 233]; 2003; 2007
-GSLV Mk.I(c);   India; ISRO; 5,000[ 50]; ; ; 1[ 233]; 2010; 2010
-H-I;   Japan   United States; Mitsubishi; 1,400[ 234]; ; ; 9; 1986; 1992
-H-II / IIS;   Japan; Mitsubishi; 10,060[ 235]; 4,000[ 236]; ; 7[ 236]; 1994; 1999
-H-IIA 2022;   Japan; Mitsubishi; ; 4,500[ 57]; ; 3[ 57]; 2005; 2007
-H-IIA 2024;   Japan; Mitsubishi; 11,000[ 237]; 5,000[ 57]; ; 7[ 57]; 2002; 2008
+Antares 110–130;   United States; Orbital; 5,100[ 7]; ; 1,500 to SSO; 5[ 7]; 2013; 2014
+Ariane 1;   Europe; Aérospatiale; 1,400; 1,830[ 187]; ; 11[ 187]; 1979; 1986
+Ariane 2;   Europe; Aérospatiale; ; 2,270[ 187]; ; 6[ 187]; 1986; 1989
+Ariane 3;   Europe; Aérospatiale; ; 2,650[ 187]; ; 11[ 187]; 1984; 1989
+Ariane 4 40;   Europe; Aérospatiale; 4,600[ 187]; 2,105; 2,740 to SSO; 7[ 187]; 1990; 1999
+Ariane 4 42L;   Europe; Aérospatiale; 7,000[ 187]; 3,480; 4,500 to SSO; 13[ 187]; 1993; 2002
+Ariane 4 42P;   Europe; Aérospatiale; 6,000[ 187]; 2,930; 3,400 to SSO; 15[ 187]; 1990; 2002
+Ariane 4 44L;   Europe; Aérospatiale; 7,000[ 187]; 4,720; 6,000 to SSO; 40[ 187]; 1989; 2003
+Ariane 4 44LP;   Europe; Aérospatiale; 7,000[ 187]; 4,220; 5,000 to SSO; 26[ 187]; 1988; 2001
+Ariane 4 44P;   Europe; Aérospatiale; 6,500[ 187]; 3,465; 4,100 to SSO; 15[ 187]; 1991; 2001
+Ariane 5 G;   Europe; EADS Astrium; 18,000[ 12]; 6,900[ 12]; ; 16[ 12]; 1996; 2003
+Ariane 5 G+;   Europe; EADS Astrium; ; 7,100[ 12]; ; 3[ 12]; 2004; 2004
+Ariane 5 GS;   Europe; EADS Astrium; 16,000[ 188]; 6,600[ 12]; ; 6[ 12]; 2005; 2009[ 189]
+Ariane 5 ES;   Europe; EADS Astrium; 21,000[ 9]; 8,000[ 12]; ; 8[ 12]; 2008; 2018
+ASLV;   India; ISRO[ 190]; 150[ 191]; ; ; 4[ 191]; 1987; 1994
+Athena I;   United States; Lockheed Martin; 795[ 192]; 515; ; 4[ 193]; 1995; 2001
+Athena II;   United States; Lockheed Martin; 1,800[ 194]; ; ; 3[ 195]; 1998; 1999[ 196]
+Atlas-Centaur;   United States; Lockheed; 1,134[ 197]; 2,222[ 198]; ; 148; 1962; 1983
+Atlas G;   United States; Lockheed; 5,900[ 199]; 2,222; 1,179 to HCO[ 199]; 7[ 199]; 1984; 1989
+Atlas H/MSD;   United States; Lockheed; 3,630[ 200]; ; ; 5; 1983; 1987
+Atlas I;   United States; Lockheed Martin; 5,900[ 199]; 2,340[ 199]; ; 11[ 199]; 1990; 1997
+Atlas II;   United States; Lockheed Martin; 6,780[ 199]; 2,810; 2,000 to HCO[ 199]; 10[ 199]; 1991; 1998
+Atlas IIA;   United States; Lockheed Martin; 7,316[ 199]; 3,180; 2,160 to HCO[ 199]; 23[ 199]; 1992; 2002
+Atlas IIAS;   United States; Lockheed Martin; 8,618[ 199]; 3,833; 2,680 to HCO[ 199]; 30[ 199]; 1993; 2004
+Atlas IIIA;   United States; Lockheed Martin; 8,686[ 199]; 4,060; 2,970 to HCO[ 199]; 2[ 199]; 2000; 2004
+Atlas IIIB/DEC;   United States; Lockheed Martin; 10,759[ 199]; 4,609[ 199]; ; 1[ 199]; 2002; 2002
+Atlas IIIB/SEC;   United States; Lockheed Martin; 10,218[ 201]; 4,193[ 199]; ; 3[ 199]; 2003; 2005
+Black Arrow;   United Kingdom; RAE; 73[ 202]; ; ; 2 (+2); 1969[ a]; 1971
+Commercial Titan III;   United States; Martin Marietta; 13,100[ 203]; ; ; 4; 1990; 1992
+Delta 0300;   United States; McDonnell Douglas; ; 340[ 204]; 747 to SSO[ 205]; 3[ 206]; 1972; 1973[ 207]
+Delta 0900;   United States; McDonnell Douglas; 1,300[ 208]; ; 818 to SSO[ 206]; 2[ 206]; 1972; 1972
+Delta 1410;   United States; McDonnell Douglas; 340[ 209]; ; ; 1[ 206]; 1975; 1975
+Delta 1604;   United States; McDonnell Douglas; 390[ 210]; ; ; 2[ 206]; 1972; 1973
+Delta 1900;   United States; McDonnell Douglas; 1,800[ 206]; ; ; 1[ 206]; 1973; 1973
+Delta 1910;   United States; McDonnell Douglas; 1,066[ 211]; ; ; 1[ 206]; 1975; 1975
+Delta 1913;   United States; McDonnell Douglas; 328[ 212]; ; ; 1[ 206]; 1973; 1973
+Delta 1914;   United States; McDonnell Douglas; ; 680[ 213]; ; 2[ 206]; 1972; 1973
+Delta 2310;   United States; McDonnell Douglas; 336[ 214]; ; ; 3[ 206]; 1974; 1981
+Delta 2313;   United States; McDonnell Douglas; ; ; 243 to GEO[ 215]; 3[ 206]; 1974; 1977
+Delta 2910;   United States; McDonnell Douglas; 1,887[ 206]; ; ; 6[ 206]; 1975; 1978
+Delta 2913;   United States; McDonnell Douglas; 2,000[ 216]; 700[ 216]; ; 6[ 206]; 1975; 1976
+Delta 2914;   United States; McDonnell Douglas; ; 724[ 206]; ; 30[ 206]; 1974; 1979
+Delta 3910;   United States; McDonnell Douglas; 2,494[ 206]; 1,154 with PAM-D; ; 10[ 206]; 1980; 1988
+Delta 3913;   United States; McDonnell Douglas; 816[ 217]; ; ; 1[ 206]; 1981; 1981
+Delta 3914;   United States; McDonnell Douglas; ; 954[ 206]; ; 13[ 206]; 1975; 1987
+Delta 3920;   United States; McDonnell Douglas; 3,452[ 206]; 1,284 with PAM-D; ; 10[ 206]; 1982; 1989
+Delta 3924;   United States; McDonnell Douglas; ; 1,104[ 206]; ; 4[ 206]; 1982; 1984
+Delta 4925;   United States; McDonnell Douglas; 3,400[ 218]; 1,312[ 206]; ; 2[ 206]; 1989; 1990
+Delta 5920;   United States; McDonnell Douglas; 3,848[ 219]; ; ; 1[ 206]; 1989; 1989
+Delta II 6920;   United States; McDonnell Douglas; 3,983[ 206]; ; ; 3[ 206]; 1990; 1992
+Delta II 6925;   United States; McDonnell Douglas; ; 1,447[ 206]; ; 14[ 206]; 1989; 1992
+Delta II 7320;   United States; Boeing IDS / ULA; 2,865[ 206]; ; 1,651 to SSO; 12[ 206]; 1999; 2015
+Delta II 7326;   United States; Boeing IDS; ; 934[ 206]; 636 to TLI 629 to HCO; 3[ 206]; 1998; 2001
+Delta II 7420;   United States; ULA; 3,185[ 206]; ; 1,966 to SSO; 14[ 206]; 1998; 2018
+Delta II 7425;   United States; Boeing IDS; ; 1,100[ 206]; 804 to HCO; 4[ 206]; 1998; 2002
+Delta II 7426;   United States; Boeing IDS; ; 1,058[ 206]; 734 to TLI 711 to HCO; 1[ 206]; 1999; 1999
+Delta II 7920;   United States; Boeing IDS / ULA; 5,030[ 206]; ; 3,123 to SSO; 29[ 206]; 1998; 2017
+Delta II 7925;   United States; Boeing IDS / ULA; ; 1,819[ 206]; 1,177 to TLI 1,265 to HCO; 69[ 206]; 1990; 2009
+Delta II-H 7920H;   United States; Boeing IDS / ULA; 6,097[ 206]; ; ; 3[ 206]; 2003; 2011
+Delta II-H 7925H;   United States; Boeing IDS / ULA; ; 2,171; 1,508 to HCO[ 206]; 3[ 206]; 2003; 2007
+Delta III 8930;   United States; Boeing IDS; 8,292[ 206]; 3,810; ; 3[ 206]; 1998; 2000
+Delta IV M;   United States; Boeing IDS; 9,440[ 28]; 4,440; 7,690 to polar; 3[ 29]; 2003; 2006
+Delta IV M+(4,2);   United States; ULA; 13,140[ 28]; 6,390; 10,250 to polar; 14[ 29]; 2002; 2019
+Delta IV M+(5,2);   United States; ULA; 11,470[ 28]; 5,490; 9,600 to polar; 3[ 29]; 2012; 2018
+Delta IV M+(5,4);   United States; ULA; 14,140[ 28]; 7,300; 11,600 to polar; 8[ 29]; 2009; 2019
+Diamant;   France; SEREB; 107[ 220] [ 221]; ; ; 12; 1965; 1975
+Dnepr;   Ukraine; Yuzhmash; 3,700[ 222]; ; ; 22[ 222]; 1999; 2015[ 223]
+Energia[ b];   Soviet Union; NPO Energia; 100,000[ 224]; ; 20,000 to GEO[ 224] 32,000 to TLI[ 224]; 1 (failed to orbit)[ 225]; 1987; 1987
+Energia-Buran;   Soviet Union; NPO Energia (Launcher) NPO Molniya (Orbiter); 30,000[ 224] [ c]; ; ; 1; 1988; 1988
+Falcon 1;   United States; SpaceX; 470[ 226]; ; ; 5[ 226]; 2006; 2009
+Falcon 9 v1.0;   United States; SpaceX; 10,450[ 227]; 4,540[ 227]; ; 5[ 228]; 2010; 2013
+Falcon 9 v1.1;   United States; SpaceX; 13,150[ 229] [ d]; 4,850[ 229]; ; 15[ 228]; 2013; 2016
+Feng Bao 1;   China; Shanghai Bureau No.2; 2,500[ 230]; ; ; 8 (+3)[ 231]; 1972; 1981
+GSLV Mk.I(a);   India; ISRO; 5,000[ 52]; 1,540[ 232]; ; 1[ 232]; 2001; 2001
+GSLV Mk.I(b);   India; ISRO; 5,000[ 52]; 2,150[ 232]; ; 4[ 232]; 2003; 2007
+GSLV Mk.I(c);   India; ISRO; 5,000[ 52]; ; ; 1[ 232]; 2010; 2010
+H-I;   Japan   United States; Mitsubishi; 1,400[ 233]; ; ; 9; 1986; 1992
+H-II / IIS;   Japan; Mitsubishi; 10,060[ 234]; 4,000[ 235]; ; 7[ 235]; 1994; 1999
+H-IIA 2022;   Japan; Mitsubishi; ; 4,500[ 59]; ; 3[ 59]; 2005; 2007
+H-IIA 2024;   Japan; Mitsubishi; 11,000[ 236]; 5,000[ 59]; ; 7[ 59]; 2002; 2008
+H-IIB;   Japan; Mitsubishi; 16,500 (ISS)[ 61]; 8,000; ; 8[ 237]; 2009; 2020
 J-I;   Japan; Nissan Motors[ 238]; 1,000[ 239]; ; ; 0 (+1); 1996; 1996
 Kaituozhe-1;   China; CALT; 100[ 240]; ; ; 2; 2002; 2003
 Kosmos-3M;   Soviet Union   Russia; NPO Polyot; 1,500[ 241]; ; ; 442[ 242]; 1967; 2010
 Lambda 4S;   Japan; Nissan Motors[ 238]; 26[ 243]; ; ; 5; 1966; 1970
 Long March 1;   China; CALT; 300[ 244]; ; ; 2[ 245]; 1970; 1971
-Long March 1D;   China; CALT; 740[ 246]; ; ; 0 (+3)[ 245]; 1995[ note 37]; 2002
-Long March 2A;   China; CALT; 2,000[ 247]; ; ; 4[ 77]; 1974; 1978
-Long March 2E;   China; CALT; 9,200[ 77]; ; ; 7[ 77]; 1990; 1995
-Long March 3;   China; CALT; 5,000[ 79]; ; ; 13[ 79]; 1984; 2000
-Long March 3B;   China; CALT; 11,200[ 78]; 5,100; 5,700 to SSO; 12[ 79]; 1996; 2012
-Long March 4A;   China; CALT; 4,000; ; ; 2[ 80]; 1988; 1990
-M-V;   Japan; Nissan Motors[ 238] (1997–2000) IHI Aerospace[ 31] (2000–2006); 1,850[ 243]; ; ; 7; 1997; 2006
+Long March 1D;   China; CALT; 740[ 246]; ; ; 0 (+3)[ 245]; 1995[ e]; 2002
+Long March 2A;   China; CALT; 2,000[ 247]; ; ; 4[ 76]; 1974; 1978
+Long March 2E;   China; CALT; 9,200[ 76]; ; ; 7[ 76]; 1990; 1995
+Long March 3;   China; CALT; 5,000[ 78]; ; ; 13[ 78]; 1984; 2000
+Long March 3B;   China; CALT; 11,200[ 77]; 5,100; 5,700 to SSO; 12[ 78]; 1996; 2012
+Long March 4A;   China; CALT; 4,000; ; ; 2[ 79]; 1988; 1990
+M-V;   Japan; Nissan Motors[ 238] (1997–2000) IHI Aerospace[ 32] (2000–2006); 1,850[ 243]; ; ; 7; 1997; 2006
 Molniya;   Soviet Union; RSC Energia; 1,800[ 248]; ; ; 40[ 249]; 1960; 1967
 Molniya-M;   Soviet Union   Russia; RSC Energia; 2,400[ 250]; ; ; 280[ 251]; 1965; 2010
 Mu-3C;   Japan; Nissan Motors[ 238]; 195[ 243]; ; ; 4; 1974; 1979
@@ -99,49 +100,50 @@ Mu-3H;   Japan; Nissan Motors[ 238]; 300[ 243]; ; ; 3; 1977; 1978
 Mu-3S;   Japan; Nissan Motors[ 238]; 300[ 243]; ; ; 4; 1980; 1984
 Mu-3SII;   Japan; Nissan Motors[ 238]; 770[ 243]; ; ; 8; 1985; 1995
 Mu-4S;   Japan; Nissan Motors[ 238]; 180[ 243]; ; ; 4; 1971; 1972
-N1;   Soviet Union; NPO Energia; 95,000[ note 38] [ 252] [ 253] [ 254]; ; ; 4[ 255] (never reached orbit); 1969; 1972
+N1;   Soviet Union; NPO Energia; 95,000[ 252] [ 253] [ 254] [ f]; ; ; 4[ 255] (never reached orbit); 1969; 1972
 N-I;   Japan   United States; Mitsubishi; 1,200[ 256]; ; ; 7; 1975; 1982
 N-II;   Japan   United States; Mitsubishi; 2,000[ 257]; ; ; 8; 1981; 1987
 Naro-1;   South Korea   Russia; KARI/Khrunichev; 100[ 258]; ; ; 3; 2009; 2013
-Paektusan;   North Korea; KCST; 700[ 259]; ; ; 0 (+1); 1998; 1998
+NOTS-EV-1 Pilot;   United States; United States Navy; 1.05[ 259]; ; ; 10; 1958; 1958
+Paektusan;   North Korea; KCST; 700[ 260]; ; ; 0 (+1); 1998; 1998
 Polyot;   Soviet Union; RSC Energia; 1,400; ; ; 2; 1963; 1964
-Proton-K;   Soviet Union   Russia; Khrunichev; 19,760[ 260]; 4,930[ 261]; ; 311[ 262]; 1965; 2012
-PSLV-G;   India; ISRO; 3,200[ 124]; 1,050; 1,600 to SSO; 12[ 124]; 1993; 2016[ 263]
-Saturn I;   United States; Chrysler (S-I) Douglas (S-IV); 9,000[ 264]; ; ; 10[ 265]; 1961; 1965[ 265]
-Saturn IB;   United States; Chrysler (S-IB) Douglas (S-IVB); 18,600[ 266]; ; ; 9[ 267]; 1966; 1975
-Saturn V;   United States; Boeing (S-IC) North American  (S-II) Douglas  (S-IVB); 140,000[ 268] [ 269]; ; 47,000 to TLI[ 270]; 13[ 271] [ 272] [ note 39]; 1967; 1973
-Scout;   United States; US Air Force/NASA; 174[ 273]; ; ; 125; 1961; 1994
-Shtil';   Russia; Makeyev; 280–420[ 274]; ; ; 2[ 275]; 1998; 2006
-SLV;   India; ISRO; 40[ 276]; ; ; 4[ 276]; 1979; 1983[ 276]
-Soyuz;   Soviet Union; RSC Energia; 6,450; ; ; 31[ 277]; 1966; 1976
-Soyuz-FG;   Russia; TsSKB-Progress; 6,900[ 278]; ; ; 70[ 134] [ 279]; 2001; 2019
-Soyuz-L;   Soviet Union; RSC Energia; 5,500; ; ; 3[ 280]; 1970; 1971
-Soyuz-M;   Soviet Union; RSC Energia; 6,600; ; ; 8[ 281]; 1971; 1976
-Soyuz-U;   Soviet Union   Russia; TsSKB-Progress; 6,650 from Baikonour[ 282] 6,150 from Plesetsk[ 282]; ; ; 786[ 134] [ 135] [ 283]; 1973; 2017
-Soyuz-U2;   Soviet Union   Russia; TsSKB-Progress; 7,050; ; ; 72[ 284]; 1982; 1995
-Space Shuttle;   United States; ATK (SRBs) Martin Marietta (External tank) Rockwell (Orbiter); 24,400[ note 35]; 4,944 with IUS[ 285] 1,200 with PAM-D[ 286]; 3,550 to escape with IUS[ 285]; 135[ 287]; 1981; 2011
-Sputnik 8K71PS;   Soviet Union; RSC Energia; 500[ 288]; ; ; 2; 1957; 1957
+Proton-K;   Soviet Union   Russia; Khrunichev; 19,760[ 261]; 4,930[ 262]; ; 311[ 263]; 1965; 2012
+PSLV-G;   India; ISRO; 3,200[ 124]; 1,050; 1,600 to SSO; 12[ 124]; 1993; 2016[ 264]
+Rokot;   Russia; Khrunichev; 1,950[ 265]; ; 1,200 to SSO; 34[ 265]; 1990; 2019
+Saturn I;   United States; Chrysler (S-I) Douglas (S-IV); 9,000[ 266]; ; ; 10[ 267]; 1961; 1965[ 267]
+Saturn IB;   United States; Chrysler (S-IB) Douglas (S-IVB); 18,600[ 268]; ; ; 9[ 269]; 1966; 1975
+Saturn V;   United States; Boeing (S-IC) North American  (S-II) Douglas  (S-IVB); 140,000[ 270] [ 271]; ; 47,000 to TLI[ 272]; 13[ 273] [ 274] [ g]; 1967; 1973
+Scout;   United States; US Air Force/NASA; 174[ 275]; ; ; 125; 1961; 1994
+Shtil';   Russia; Makeyev; 280–420[ 276]; ; ; 2[ 277]; 1998; 2006
+SLV;   India; ISRO; 40[ 278]; ; ; 4[ 278]; 1979; 1983[ 278]
+Soyuz;   Soviet Union; RSC Energia; 6,450; ; ; 31[ 279]; 1966; 1976
+Soyuz-FG;   Russia; TsSKB-Progress; 6,900[ 280]; ; ; 70[ 134] [ 281]; 2001; 2019
+Soyuz-L;   Soviet Union; RSC Energia; 5,500; ; ; 3[ 282]; 1970; 1971
+Soyuz-M;   Soviet Union; RSC Energia; 6,600; ; ; 8[ 283]; 1971; 1976
+Soyuz-U;   Soviet Union   Russia; TsSKB-Progress; 6,650 from Baikonour[ 284] 6,150 from Plesetsk[ 284]; ; ; 786[ 134] [ 135] [ 285]; 1973; 2017
+Soyuz-U2;   Soviet Union   Russia; TsSKB-Progress; 7,050; ; ; 72[ 286]; 1982; 1995
+Space Shuttle;   United States; ATK (SRBs) Martin Marietta (External tank) Rockwell (Orbiter); 24,400[ c]; 4,944 with IUS[ 287] 1,200 with PAM-D[ 288]; 3,550 to escape with IUS[ 287]; 135[ 289]; 1981; 2011
+Sputnik 8K71PS;   Soviet Union; RSC Energia; 500[ 290]; ; ; 2; 1957; 1957
 Sputnik 8A91;   Soviet Union; RSC Energia; 1,327; ; ; 2; 1958; 1958
-Start-1;   Russia; MITT; 532; ; 350 to SSO[ 289]; 5[ 290]; 1993; 2006
-Strela;   Russia; Khrunichev; 1,400[ 291]; ; ; 3[ 292]; 2003; 2014
-Titan II GLV;   United States; Martin Marietta; 3,600[ 293]; ; ; 11 (+1); 1964; 1966
-Titan II(23)G;   United States; Martin Marietta; 3,600[ 294]; ; ; 13; 1988; 2003
-Titan IIIA;   United States; Martin Marietta; 3,100[ 295]; ; ; 4; 1964; 1965
-Titan IIIB;   United States; Martin Marietta; 3,000[ 296]; ; ; 70; 1966; 1987
-Titan IIIC;   United States; Martin Marietta; 13,100[ 297]; ; ; 36; 1965; 1982
-Titan IIID;   United States; Martin Marietta; 12,300[ 298]; ; ; 22; 1971; 1982
-Titan IIIE;   United States; Martin Marietta; 15,400[ 299]; ; ; 7; 1974; 1977
-Titan 34D;   United States; Martin Marietta; 4,515[ 300]; ; ; 15; 1982; 1989
-Titan IVA;   United States; Martin Marietta; 17,110[ 301]; 4,944 with IUS; 14,090 to SSO[ 301] 4,536 to GSO with Centaur 3,550 to escape with IUS; 22[ 302]; 1989; 1998
-Titan IVB;   United States; Lockheed Martin; 21,682[ 303]; 5,761[ 303] (9,000 with upper stage); ; 17[ 302]; 1997; 2005
-Tsyklon-2A;   Soviet Union; Yuzhmash; 3,350[ 304]; ; ; 8[ 305]; 1967; 1969
-Tsyklon-2;   Soviet Union   Ukraine; Yuzhmash; 2,820[ 306]; ; ; 106[ 307]; 1969; 2006[ 307]
-Tsyklon-3;   Soviet Union   Ukraine; Yuzhmash; 1,920[ 308]; ; ; 122[ 309]; 1977; 2009[ 309]
-Vanguard;   United States; Martin; 9[ 310]; ; ; 11 (+1); 1957; 1959
-Vector-R[ note 40];   United States; Vector Space Systems; 64[ 312]; ; ; 0; Canceled[ 313]; 
-Vector-H;   United States; Vector Space Systems; 160[ 311]; ; ; 0; Canceled[ 313]; 
-VLS-1;   Brazil; AEB, IAE; 380[ 314]; ; ; 2[ note 41] (never reached orbit); 1997; 2003
-Volna;   Russia; Makeyev; 100[ 315]; ; ; 1 (+5)[ 275]; 1995[ note 42]; 2005[ 275]
+Start-1;   Russia; MITT; 532; ; 350 to SSO[ 291]; 5[ 292]; 1993; 2006
+Strela;   Russia; Khrunichev; 1,400[ 293]; ; ; 3[ 294]; 2003; 2014
+Titan II GLV;   United States; Martin Marietta; 3,600[ 295]; ; ; 11 (+1); 1964; 1966
+Titan II(23)G;   United States; Martin Marietta; 3,600[ 296]; ; ; 13; 1988; 2003
+Titan IIIA;   United States; Martin Marietta; 3,100[ 297]; ; ; 4; 1964; 1965
+Titan IIIB;   United States; Martin Marietta; 3,000[ 298]; ; ; 70; 1966; 1987
+Titan IIIC;   United States; Martin Marietta; 13,100[ 299]; ; ; 36; 1965; 1982
+Titan IIID;   United States; Martin Marietta; 12,300[ 300]; ; ; 22; 1971; 1982
+Titan IIIE;   United States; Martin Marietta; 15,400[ 301]; ; ; 7; 1974; 1977
+Titan 34D;   United States; Martin Marietta; 4,515[ 302]; ; ; 15; 1982; 1989
+Titan IVA;   United States; Martin Marietta; 17,110[ 303]; 4,944 with IUS; 14,090 to SSO[ 303] 4,536 to GSO with Centaur 3,550 to escape with IUS; 22[ 304]; 1989; 1998
+Titan IVB;   United States; Lockheed Martin; 21,682[ 305]; 5,761[ 305] (9,000 with upper stage); ; 17[ 304]; 1997; 2005
+Tsyklon-2A;   Soviet Union; Yuzhmash; 3,350[ 306]; ; ; 8[ 307]; 1967; 1969
+Tsyklon-2;   Soviet Union   Ukraine; Yuzhmash; 2,820[ 308]; ; ; 106[ 309]; 1969; 2006[ 309]
+Tsyklon-3;   Soviet Union   Ukraine; Yuzhmash; 1,920[ 310]; ; ; 122[ 311]; 1977; 2009[ 311]
+Vanguard;   United States; Martin; 9[ 312]; ; ; 11 (+1); 1957; 1959
+Vector-R;   United States; Vector Space Systems; 64[ 313]; ; ; 0 (+2); 2017; 2017
+VLS-1;   Brazil; AEB, IAE; 380[ 314]; ; ; 2[ h] (never reached orbit); 1997; 2003
+Volna;   Russia; Makeyev; 100[ 315]; ; ; 1 (+5)[ 277]; 1995[ i]; 2005[ 277]
 Voskhod;   Soviet Union; RSC Energia; 6,000[ 316]; ; ; 306; 1963; 1976
 Vostok-L;   Soviet Union; RSC Energia; ; ; 390 to TLI[ 317]; 4; 1960; 1960
 Vostok-K;   Soviet Union; RSC Energia; 2,460[ 318]; ; ; 16; 1960; 1964
@@ -150,3 +152,6 @@ Vostok-2M;   Soviet Union; RSC Energia; 1,300[ 319]; ; ; 93; 1964; 1991
 Soyuz/Vostok;   Soviet Union; RSC Energia; 6,000[ 320]; ; ; 2; 1965; 1966
 Zenit-2;   Soviet Union   Ukraine; Yuzhnoye; 13,740[ 321]; ; ; 36[ 322]; 1985; 2004[ 323]
 Zenit-2M / 2SLB;   Ukraine; Yuzhnoye; 13,920[ 321]; ; ; 2[ 322]; 2007; 2011
+Zenit-3F;   Ukraine; Yuzhnoye; ; ; 1,740 to GEO[ 324]; 4[ 325]; 2011; 2017
+Zenit-3SL;   Ukraine; Yuzhmash RSC Energia; 7,000[ 325]; 6,160; ; 36[ 325]; 1999; 2014
+Zenit-3SLB / 3M;   Ukraine; Yuzhmash RSC Energia; ; 3,750[ 325]; ; 6[ 325]; 2008; 2013

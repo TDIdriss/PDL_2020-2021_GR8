@@ -1,7 +1,7 @@
 Audio player; Lossy compression; Lossy compression; Lossy compression; Lossy compression; Lossy compression; Lossy compression; Lossy compression; Lossy compression; Lossy compression; Lossless compression; Lossless compression; Lossless compression; Lossless compression; Lossless compression; Lossless compression
 Audio player; MP3; WMA; RealAudio; Vorbis; Musepack; AAC; Dolby AC-3; VQF; Opus; APE; FLAC; ALAC; SHN; WV; WMA L
 AIMP; Yes; Yes; No; Yes; Yes; Yes; Yes; Yes[ b]; Yes; Yes; Yes; Yes; No; Yes; Yes
-Amarok[ c] [ 18] [ 19]; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes; Yes
+Amarok[ c] [ 19] [ 20]; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes; Yes
 Audacious; Yes; Yes; No; Yes; Yes; Yes; Yes; ?; Yes[ d]; Yes; Yes; Yes; No; Yes; ?
 Audion; Yes; No; No; Yes; No; No; No; ?; ?; No; No; No; No; No; ?
 Banshee; Yes; ?; ?; Yes; ?; ?; ?; ?; ?; No; ?; ?; ?; ?; ?
@@ -9,7 +9,7 @@ cmus; Yes; Yes[ d]; No; Yes; Yes; Yes; Yes[ d]; ?; Yes[ e]; Yes[ d]; Yes; Yes[ d
 Cog; Yes; No; No; Yes; Yes; Yes; No; ?; ?; Yes; Yes; Yes; Yes; Yes; ?
 Exaile; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; ?; Yes; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; ?
 foobar2000; Yes; Yes; No; Yes; Yes; Yes; Partial[ a]; No; Yes; Yes; Yes; Yes; Yes; Yes; Yes
-Groove Music; Yes; Yes; No; No; ; Yes; Yes; ; ; ; Yes; ; ; ; 
+Groove Music; Yes; Yes; No; No; ?; Yes; Yes; ?; ?; ?; Yes; ?; ?; ?; ?
 JRiver Media Center; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 JuK; Yes; No; No; Yes; Yes; No; No; ?; ?; Yes; Yes; No; Yes; No; ?
 Media Jukebox; Yes[ audionotes 1]; Yes; Yes; Yes; Yes; Yes; Yes; ?; ?; Yes; Yes; Yes; Yes; Yes; ?
@@ -22,8 +22,9 @@ musikCube; Yes; Partial[ g]; No; Yes; Partial[ g]; Partial[ g]; Partial[ g]; ?; 
 Quod Libet; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; ?; Yes; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; ?
 Rhapsody; Yes; Yes; Yes; No; No; Yes; No; ?; ?; No; No; No; No; No; ?
 Rhythmbox; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; ?; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; Yes[ f]; ?
+Sayonara Player; Yes; ?; ?; Yes; ?; ?; No; ?; Yes; ?; Yes; ?; ?; ?; ?
 Sonique; Yes; Yes; No; Yes; Partial[ g]; Partial[ g]; No; ?; ?; No; No; No; No; No; ?
-Spotify[ 20]; Yes; No; No; No; No; No; No; No; No; No; No; No; No; No; No
+Spotify[ 21]; Yes; No; No; No; No; Yes; No; No; No; No; No; No; No; No; No
 Style Jukebox; Yes; Yes; No; No; No; Yes; No; No; No; No; Yes; Yes; No; No; Yes
 Winamp; Yes; Yes; Yes[ a]; Yes; Yes[ a]; Yes; ?; ?; ?; ?; Yes; ?; ?; Yes[ a]; ?
 XMMS; Yes; Partial[ g]; Partial[ g]; Partial[ g]; Yes; Yes; No; Yes[ a]; ?; Partial[ g]; Yes; No; Partial[ g]; Yes; ?

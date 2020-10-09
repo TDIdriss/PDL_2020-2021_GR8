@@ -17,6 +17,6 @@ eReader; .pdb; Yes; Yes; ?; No; No; Yes; No; Yes; Yes; ?
 Plain text; .txt; No; No; No; No; No; Yes; Yes; No; No; No
 Plucker; .pdb; Yes; Yes; Yes; No; Yes; Yes; Yes; No; Yes; ?
 Portable Document Format; .pdf; Yes; Yes; Yes; Yes; Yes; Yes/No[ f 7] [ 35]; Yes; Yes; Yes; Yes[ f 8]
-PostScript; .ps; No; Yes; ?; No; No; No; Yes; ?; ?; ?
+PostScript; .ps; No; Yes; ?; No; No; Yes/No[ f 9]; Yes; ?; ?; No
 Tome Raider; .tr2, .tr3; Yes; Yes; ?; No; No; Yes; No; ?; ?; ?
 OpenXPS; .oxps, .xps; ?; Yes; Yes; ?; No; No; Yes; ?; ?; ?

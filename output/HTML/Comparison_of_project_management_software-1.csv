@@ -1,4 +1,4 @@
-Software; Web-based; Hosted On-Premises; SaaS; License; Programming language
+Software; Web-based; Hosted on-premises; SaaS; License; Programming language
 2-plan; Yes[ 1]; Yes; Yes; Proprietary, Open source[ 2]; Java and PHP
 24SevenOffice; Yes; No; Yes; Proprietary; 
 Actionspace; Yes; No; Yes; Proprietary; 
@@ -9,14 +9,16 @@ Asana; Yes; No; Yes; Proprietary;
 Assembla; Yes; Yes; Yes; Proprietary; 
 Axosoft; Yes; Yes; Yes; Proprietary; 
 Basecamp; Yes[ 3]; No[ 4]; Yes; Proprietary; Ruby
+BigGantt; Yes; Yes; Yes; Proprietary; Java, Angular
+BigPicture; Yes; Yes; Yes; Proprietary; Java, Angular
 Calligra Plan; No; File-based; No; GPL; C++ and Java
 CEITON; Yes; Yes; Yes; Proprietary; ASP.NET, JavaScript
 Clarizen; Yes[ 5]; No; Yes[ 5]; Proprietary; 
+Clubhouse Software; Yes; ; Yes; ; Clojure, JavaScript
 Collabtive; Yes; Yes; Yes; Open source (core only); PHP
 Compuware Changepoint; Yes; Yes; Yes; Proprietary; 
 ConceptDraw Project; No; Yes; No; Proprietary; 
 ConceptDraw PLAN; Yes; No; Yes; Proprietary; PHP and Java
-Concerto Project Management; Yes; Yes; Yes; Proprietary; 
 Copper Project; Yes; Yes; Yes; Proprietary; 
 dotProject; Yes; Yes; Yes; GPL; PHP
 DynaRoad; No; Unknown; Unknown; Proprietary; 
@@ -39,7 +41,7 @@ GroveSite; Yes; Unknown; Yes; Unknown;
 Hall.com; Yes; Unknown; Yes; Unknown; 
 Helix ALM; Yes; Yes; Yes; Proprietary; C++
 HeySpace; Yes; No; Yes; Proprietary; JavaScript
-HP Project & Portfolio Software; Yes; Yes; Proprietary; ; 
+HP Project & Portfolio Software; Yes; Yes; Unknown; Proprietary; 
 Huddle; Yes; Unknown; Unknown; Proprietary; 
 Hyperoffice; Yes; Unknown; Unknown; Proprietary; 
 iManageProject; Yes; Unknown; Yes; Unknown; 
@@ -53,7 +55,6 @@ LiquidPlanner; Yes; No; Yes; Proprietary; Ruby
 LisaProject; No; Unknown; Unknown; Proprietary; 
 MacProject; No; Unknown; Unknown; Proprietary; 
 MantisBT; Yes; Yes; No; GPL; PHP
-MeisterTask; Yes; No; Yes; Proprietary; Ruby on Rails, React, Redux
 Métier; Yes; Yes; Yes; Proprietary; 
 Microsoft Dynamics AX; No; Yes; No; Proprietary; X++
 Microsoft Office Project Server; Yes; Yes; Yes; Proprietary; 
@@ -109,6 +110,7 @@ Smartsheet; Yes; Unknown; Yes; Proprietary; PHP
 Spider Project; No; No; No; Proprietary; 
 Streamtime Software; Yes; No; Yes; Proprietary; PHP
 TACTIC; Yes; Yes; Yes; Eclipse Public License; Python
+Taiga; Yes; Yes; Yes; AGPL; Python
 Talygen; Yes; No; Yes; Proprietary; ASP.NET
 TaskJuggler; No; Yes; No; GPL; Ruby
 Teamcenter; Yes; Yes; Yes; Proprietary; 
@@ -128,6 +130,6 @@ web2project; Yes; Unknown; Unknown; GPL; PHP
 Workamajig; Yes; Yes; Yes; Proprietary; 
 Workfront; Yes[ 19]; No; Yes; Proprietary; 
 WorkPLAN Enterprise; No; Unknown; Unknown; Proprietary; 
-workspace.com; Yes; Unknown; Yes; Proprietary; 
+Workspace.com; Yes; Unknown; Yes; Proprietary; 
 Wrike; Yes; Unknown; Yes; Proprietary; 
 Zoho Projects; Yes; No; Yes; Proprietary; PHP

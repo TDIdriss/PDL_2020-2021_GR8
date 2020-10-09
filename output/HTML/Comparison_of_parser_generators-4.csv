@@ -7,7 +7,6 @@ DParser; Scannerless GLR; ?; C; Mixed; scannerless; POSIX; No; Free, BSD
 Dypgen; Runtime-extensible GLR; ?; OCaml; Mixed; generated; All; No; Free, CeCILL-B
 E3; Earley; ?; OCaml; Mixed; external, or scannerless; All; No; ?
 Elkhound; GLR; ?; C++, OCaml; Mixed; external; All; No; Free, BSD
-eu.h8me.Parsing; GLR; ?; N/A (state machine is runtime generated); Separate; external; .NET Framework; No; Free, BSD
 GDK; LALR(1), GLR; ?; C, Lex, Haskell, HTML, Java, Object Pascal, Yacc; Mixed; generated; POSIX; No; Free, MIT
 Happy; LALR, GLR; ?; Haskell; Mixed; external; All; No; Free, BSD
 Hime Parser Generator; GLR; ?; C#, Java, Rust; Separate; generated; .NET Framework, Java virtual machine; No; Free, GNU LGPL
@@ -16,8 +15,6 @@ Jison; LALR(1), LR(0), SLR(1); Yacc; JavaScript, C#, PHP; Mixed; generated; All;
 Syntax; LALR(1), LR(0), SLR(1) CLR(1) LL(1); JSON/Yacc; JavaScript, Python, PHP, Ruby, C#, Rust, Java; Mixed; generated; All; No; Free, MIT
 Laja; Scannerless, two phase; Laja; Java; Separate; scannerless; All; No; Free, GNU GPL
 ModelCC; Earley; Annotated class model; Java; Generated; generated; All; No; Free, BSD
-parglare; Scannerless LR/GLR; BNF-like; Python interpreted, automata run-time generated; Mixed; scannerless; All; No; Free, MIT
-P1; Combinators; BNF-like; OCaml; Mixed; external, or scannerless; All; No; ?
 P3; Earley–combinators; BNF-like; OCaml; Mixed; external, or scannerless; All; No; ?
 P4; Earley–combinators, infinitary CFGs; BNF-like; OCaml; Mixed; external, or scannerless; All; No; ?
 Scannerless Boolean Parser; Scannerless GLR (Boolean grammars); ?; Haskell, Java; Separate; scannerless; Java virtual machine; No; Free, BSD
@@ -29,4 +26,3 @@ UltraGram; LALR, LR, GLR; ?; C++, C#, Java, Visual Basic .NET; Separate; generat
 Wormhole; Pruning, LR, GLR, Scannerless GLR; ?; C, Python; Mixed; scannerless; Windows; No; Free, MIT
 Whale Calf; General tabular, SLL(k), Linear normal form (conjunctive grammars), LR, Binary normal form (Boolean grammars); ?; C++; Separate; external; All; No; Proprietary
 yaep; Earley; Yacc-like; C; Mixed; external; All; No; Free, GNU LGPL
-Zecc; Recursive pattern matching; Zecc/Zacc; Linkable library; Mixed; Scannerless; macOS; Yes; Proprietary

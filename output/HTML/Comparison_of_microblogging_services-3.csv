@@ -1,7 +1,8 @@
 Service; Post via; Post via; Post via; Post via; Post via; Post via; Read via; Read via; Read via; Read via; Read via; Read via
 Service; Web; XMPP; E-Mail; SMS; API; Micropub; Web; XMPP; E-Mail; SMS; API; Feed
 Facebook; Yes; No; Yes; Yes; Yes; No; Yes; No; Yes; Yes; Yes; Yes
-identi.ca / GNU social; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes; Yes; Yes
+GNU social; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; Yes; Yes; Yes
+Loforo [ 12]; Yes; No; No; Yes; Yes; No; Yes; No; No; No; Yes; Yes
 Twitter; Yes; No; No; Yes; Yes; No; Yes; No; ?; Yes; Yes; Yes
 Mastodon; Yes; No; No; No; Yes; No; Yes; No; No; No; Yes; Yes
 Misskey; Yes; No; No; No; Yes; No; Yes; No; No; No; Yes; Yes

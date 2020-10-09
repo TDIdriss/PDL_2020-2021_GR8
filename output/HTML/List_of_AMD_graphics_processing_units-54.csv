@@ -1,7 +1,7 @@
-Model; Launch; Core; Bus interface; Core clock (MHz); Memory clock (MHz); Core config1; Fillrate (GT/s); Memory; Memory; Memory; Memory; API compliance (version); API compliance (version); TDP / idle (watts); Notes
-Model; Launch; Core; Bus interface; Core clock (MHz); Memory clock (MHz); Core config1; Fillrate (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; TDP / idle (watts); Notes
-FireMV 2200 PCI.[ 169]; January 2006; RV280 GL; PCI; 240; 200; 1:4:4:4; 0.96; 64; 3.2; DDR; 64; 8.1; 1.4; 15; DMS-59 for dual DVI-D output
-FireMV 2200 PCIe.[ 170]; January 2006; RV370; PCIe x16; 324; 196; 2:4:4:4; 1.296; 128; 3.2; DDR; 64; 9.0; 2.1; 15; DMS-59 for dual DVI-D output
-FireMV 2260[ 171]; January 2008; RV620; PCIe 2.0 x1/x16, PCI; 600; 500; 40(8×5):4:4; 2.4; 256; 32; DDR2; 256; 10.1[ 172]; 3.3; 15/8; Dual DisplayPort (with adapters: DVI-D)
-FireMV 2400 PCI.[ 173]; January 2008; RV380; PCI; 500; 500; 2:4:4:4; 2.0; 128; 16; DDR; 128; 9.0b; 2.1; 20; 2x VHDCI for quad DVI-D output, VGA
-FireMV 2400 PCIe.[ 174]; January 2008; RV380; PCIe x1; 500; 500; 2:4:4:4; 2.0; 256; 16; DDR3; 128; 9.0b; 2.1; 20; 2x VHDCI for quad DVI-D output, VGA
+Model (Codename); Launch; Architecture (Fab); Core; Core; Fillrate[ a] [ b] [ c]; Fillrate[ a] [ b] [ c]; Processing power[ a] [ d] (GFLOPS); Memory; Memory; Memory; Memory; TDP
+Model (Codename); Launch; Architecture (Fab); Config[ e]; Clock[ a] (MHz); Texture (GT/s); Pixel (GP/s); Processing power[ a] [ d] (GFLOPS); Bus  type &   width; Size (GiB); Clock (MHz); Band- width (GB/s); TDP
+Radeon 610[ 188] (Banks); 13 August 2019; GCN 1st gen (28 nm); 320:20:8; 1030; 20.6; 8.2; 659; GDDR5 64-bit; 2–4; 1125; 36; < =50  W
+Radeon 620[ 189] (Polaris 24 XL); 13 August 2019; GCN 3rd gen (28 nm); 384:24:8; 730 1024; 24.6; 8.2; 786; DDR3 64-bit; 2–4; 900; 14.4; < =50  W
+Radeon 625[ 190] (Polaris 24 XL); 13 August 2019; GCN 3rd gen (28 nm); 384:24:8; 730 1024; 24.6; 8.2; 786; GDDR5 64-bit; 2–4; 1125; 36; < =50  W
+Radeon 630[ 191] (Polaris 23 XL); 13 August 2019; GCN 4th gen (14 nm); 512:32:8; 1082 1219; 39; 9.8; 1248; GDDR5 64-bit[ 192]; 2–4; 1500; 48; < =50  W
+Radeon RX 640[ 193] (Polaris 23 XT); 13 August 2019; GCN 4th gen (14 nm); 640:40:16; 1100 1287; 51.5; 20.6; 1647; GDDR5 64-bit; 2–4; 1750; 56; < =50  W

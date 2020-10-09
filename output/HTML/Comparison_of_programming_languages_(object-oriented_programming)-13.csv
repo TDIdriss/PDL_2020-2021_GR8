@@ -1,6 +1,7 @@
 ; current object; current object's parent object; null reference; Current Context of Execution
 Smalltalk; self; super; nil; thisContext
 ABAP Objects; me; super; initial; 
+APL (Dyalog); ⎕THIS; ⎕BASE; ⎕NULL; 
 C++ (STL); *this; [ 40]; NULL, nullptr; 
 C#; this; base[ 41]; null; 
 Java; this; ; null; 

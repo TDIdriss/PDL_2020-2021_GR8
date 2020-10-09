@@ -22,7 +22,7 @@ formnovalidate; 6.0[ t 21]; 2.0[ g 48]; 528[ w 39]; 2.8[ p 11]
 disabled (fieldset element); < 3.1; 2.0; No; 2.7
 Elements; Elements; Elements; Elements; Elements
 datalist; 6.0[ t 22]; 2.0[ g 49]; Yes[ w 42]; 2.0
-keygen[ 26]; No[ t 23]; 1.0[ g 50]; 125; 1.0
+keygen[ 27]; No[ t 23]; 1.0[ g 50]; 125; 1.0
 output; No; 2.0[ g 51]; Yes[ w 43]; 2.0
 progress; 6.0[ t 24]; 6.0[ g 52]; Yes[ w 44]; 2.7[ p 13]
 meter; No; 16.0[ g 53]; Yes[ w 45]; 2.7[ p 13]

@@ -22,4 +22,4 @@ Lphant; Lphant; No; ?; No; ?; Basic Support for Crumbs; ?; ?; No; No; Yes; ?
 MLDonkey; MLDonkey; No; Folder reserved slot + release file slot; Yes; No (No queue); No; Uses a very low priority list instead; Similar Feature; About 1:4 below 10KB/s; No; Yes; Yes (user selects number of slots)
 Shareaza; Shareaza; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; Reward uploaders; Yes; Yes
 xMule; xMule; No; No; No; No; No; No; No; No; No; Yes; No
-Client; Client; Play While Downloading; PowerShare; Dynamic Upload; SUQWT; SubChunk Transfer; Drop Sources; Push Small files; ZZ Ratio; AntiLeech; IPFilter; Slot Control
+Client; Client; Play While Downloading; PowerShare (eMule); Dynamic Upload; SUQWT; SubChunk Transfer; Drop Sources; Push Small files; ZZ Ratio; AntiLeech; IPFilter; Slot Control

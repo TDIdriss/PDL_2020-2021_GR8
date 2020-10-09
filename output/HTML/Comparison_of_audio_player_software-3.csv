@@ -6,7 +6,7 @@ Audion; No; No; Yes; No; ?; Yes; ?; No
 cmus; No; No; Yes; Yes; Yes; No; Yes; No
 Cog; No; No; No; No; Yes; No; Yes; No
 Clementine; No; No; No; Yes; Yes; Yes; Yes; Yes
-Exaile; No; ?; No; Yes; Yes; No; Yes[ 16]; Yes
+Exaile; No; ?; No; Yes; Yes; No; Yes[ 17]; Yes
 foobar2000; No; Partial[ a]; Yes[ featurenotes 3]; Yes; Yes; Yes; Partial[ a]; Yes
 iTunes; Yes; Yes; Partial[ a]; Yes; Yes; Yes; Yes; Yes
 JRiver Media Center; Yes; via Plugins; Yes; Yes; Yes; Yes; via Plugins; Yes
@@ -20,6 +20,7 @@ musikCube; No; No; No; Yes; No; Partial[ a]; ?; Yes
 Quod Libet; No; No; No; Yes; Yes; No; Yes; Yes
 Rhapsody; No; No; No; Yes; ?; No; ?; ?
 Rhythmbox; No; No; No; Yes; Yes; Yes; Yes; Yes
+Sayonara Player; No; ?; No (Dark Mode available); Yes; Yes; Yes; No; Yes
 Sonique; Partial[ a]; No; Yes; No; No; Yes; ?; No
 Spotify; Yes; ?; No; No; Yes; No; Yes (via app); No
 Winamp; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes

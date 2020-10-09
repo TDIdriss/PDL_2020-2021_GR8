@@ -13,5 +13,5 @@ leftmargin; body; Sets the margin between the browser window and the contents of
 loop; img; Uses the img element to place video or audio clips; Internet Explorer; 3.1; No; No; No; No
 rightmargin; body; Sets the margin between the browser window and the contents of the page; Internet Explorer; 3.1; ?; ?; No; No
 start; img; Uses the img element to place video or audio clips; Internet Explorer; 3.1; No; No; No; No
-target; form; Specifies a target window or frame for the output of a form; Internet Explorer; 3.1; No[ 18]; ?; Yes; No
+target; form; Specifies a target window or frame for the output of a form; Internet Explorer; 3.1; No[ 19]; ?; Yes; No
 valign; caption; Sets vertical alignment of table caption; Internet Explorer; 3.1; ?; ?; No; No

@@ -11,11 +11,11 @@ Navicat Data Modeler; Yes; Yes; Yes; Yes; Yes
 MySQL Workbench; Yes; Yes; Yes; Yes; Yes
 Oracle SQL Developer; Yes; Yes; Yes; Yes; ?
 Orbada; No; No; No; No; No
-pgAdmin III; Yes; No; No; No; No
+pgAdmin; Yes; No; No; No; No
 phpMyAdmin; Yes; Yes; Yes; No; No
 SQL Database Studio; Yes; Yes; Yes; Yes; No
 SQL Server Management Studio; ?; Yes; Yes; ?; ?
-SQLyog; Yes[ 18]; Yes[ 19]; Yes; Yes; ?
+SQLyog; Yes[ 19]; Yes[ 20]; Yes; Yes; ?
 SQuirreL SQL; Yes; Yes; Yes[ note 3]; ?; No
 Toad; Yes; Yes; Yes; Yes; ?
 Toad Data Modeler; No; Yes; Yes; Yes[ note 4]; ?

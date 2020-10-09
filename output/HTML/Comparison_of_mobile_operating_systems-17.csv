@@ -1,8 +1,8 @@
-Feature; Android; iOS; Windows 10 Mobile; BlackBerry 10; Tizen; Sailfish OS; Ubuntu Touch
-Non-intrusive incoming calls; 5+[ 566] or 3rd party software[ 567]; No, 3rd party software on jailbroken devices[ 568]; No; No; No; No[ 569]; ?
-Non-intrusive notifications; Yes[ 570]; 5+[ 160]; Yes,[ 571] except Calendar Reminders[ 572]; 6+[ 573]; ?; ?; ?
-Move apps to external storage; 2.2+[ 574]; External storage not allowed for apps; 8.1+[ 101]; No; No; No; No
-Remote Frame Buffer (RFB) protocol; Yes[ 575]; 3rd party software[ 576]; ?; ?; ?; ?; ?
-Screencast on device; No,[ 577] 3rd party software like LineageOS ScreenCast,[ 578] AOKP or OmniROM[ 579]; 9+[ 580]; No; No; No; No; Yes
-Screencast over USB; 4.4+ over USB,[ 180] for prior versions root required for 3rd party app[ 581]; 8+: on OS X[ 582]; 8.1+[ 583]; No; No; ?; No
-Screen share; On select devices using vendor's implementation[ 584] [ 585] [ 586]; No; Yes; 10+[ 587]; No; No; No
+Feature; Android; iOS; Tizen; Sailfish OS; Ubuntu Touch
+Non-intrusive incoming calls; 5+[ 386] or 3rd party software[ 387]; 14+[ 388]; No; No[ 389]; ?
+Non-intrusive notifications; Yes[ 390]; 5+[ 107]; ?; ?; ?
+Move apps to external storage; 2.2+[ 391]; External storage not allowed for apps; No; No; No
+Remote Frame Buffer (RFB) protocol; Yes[ 392]; 3rd party software[ 393]; ?; ?; ?
+Screencast on device; No,[ 394] 3rd party software like LineageOS ScreenCast,[ 395] AOKP or OmniROM[ 396]; 9+[ 397]; No; No; Yes
+Screencast over USB; 4.4+ over USB,[ 121] for prior versions root required for 3rd party app[ 398]; 8+: on OS X[ 399]; No; ?; No
+Screen share; On select devices using vendor's implementation[ 400] [ 401] [ 402]; 3rd party software[ 403]; No; No; No

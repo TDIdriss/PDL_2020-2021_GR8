@@ -10,7 +10,7 @@ Windows 98 SE; Windows shell; Classic; Internet Explorer 5; PWS; 4.0; COMMAND.CO
 Windows 2000; Windows shell; Classic; Internet Explorer 5.01; IIS 5.0; 5.0 and 6.4 (side by side); COMMAND.COM, CMD.EXE
 Windows Me; Windows shell; Classic; Internet Explorer 5.5; N/A; 6.4 and 7.0 (side by side); COMMAND.COM
 Windows XP; Windows shell; Luna (default), Classic; Internet Explorer 6; IIS 5.1; 5.1, 6.4 and 8 (in RTM) 5.1, 6.4 and 9 (in SP2); COMMAND.COM, CMD.EXE, PowerShell (optional)
-Windows Server 2003; Windows shell; Classic (default), Luna; 6.0; IIS 6.0; 9 (in RTM), 10 (in SP1); COMMAND.COM, CMD.EXE, PowerShell (optional)
+Windows Server 2003; Windows shell; Classic (default), Luna; Internet Explorer 6; IIS 6.0; 9 (in RTM), 10 (in SP1); COMMAND.COM, CMD.EXE, PowerShell (optional)
 Windows Vista; Windows shell; Aero (default), Classic; Internet Explorer 7; IIS 7; 11; COMMAND.COM, CMD.EXE, PowerShell (optional)
 Windows Server 2008; Windows shell, Server Core; Classic (default), Aero (via "Desktop Experience"); Internet Explorer 7; IIS 7; 11 (enabled by installing "Desktop Experience"); COMMAND.COM, CMD.EXE, PowerShell (optional)
 Windows 7; Windows shell; Aero (default), Classic; Internet Explorer 8; IIS 7.5; 12; COMMAND.COM, CMD.EXE, PowerShell v2.0

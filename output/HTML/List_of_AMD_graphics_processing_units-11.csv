@@ -1,10 +1,14 @@
 Model; Launch; Code name; Fab (nm); Core clock (MHz); Memory clock (MHz); Core config1; Fillrate; Fillrate; Fillrate; Fillrate; Memory; Memory; Memory; Memory
 Model; Launch; Code name; Fab (nm); Core clock (MHz); Memory clock (MHz); Core config1; MOperations/s; MPixels/s; MTexels/s; MVertices/s; Size (MiB); Bandwidth (GB/s); Bus type; Bus width (bit)
-Radeon X300; June 21, 2004; RV370 (hari); 110; 325; 200; 4:2:4:4; 1300; 1300; 1300; 162.5; 64, 128; 6.4; DDR; 128
-Radeon X300 LE; June 21, 2004; RV370 (hari); 110; 325; 200; 4:2:4:4; 1300; 1300; 1300; 162.5; 64, 128; 6.4; DDR; 128
-Radeon X300 SE; June 21, 2004; RV370 (hari); 110; 325; 200; 4:2:4:4; 1300; 1300; 1300; 162.5; 64, 128; DDR; 
+Radeon X300; Sept. 1, 2004; RV370 (hari); 110; 325; 200; 4:2:4:4; 1300; 1300; 1300; 162.5; 64, 128; 6.4; DDR; 128
+Radeon X300 LE; Sept. 1, 2004; RV370 (hari); 110; 325; 200; 4:2:4:4; 1300; 1300; 1300; 162.5; 64, 128; 6.4; DDR; 128
+Radeon X300 SE; Sept. 1, 2004; RV370 (hari); 110; 325; 200; 4:2:4:4; 1300; 1300; 1300; 162.5; 64, 128; DDR; 
 Radeon X300 SE HyperMemory; April 4, 2005; RV370 (hari); 110; 325; 300; 4:2:4:4; 1300; 1300; 1300; 162.5; 32, 64, 128 onboard + up to 128 system; DDR; 
-Radeon X550; June 21, 2005; RV370 (hari); 110; 250; 1600; 4:2:4:4; 1600; 1600; 200; 128, 256; 8; 128; DDR; 
-Radeon X600 Pro; June 21, 2004; 400; 130; 1600; 4:2:4:4; 1600; 1600; 200; 128, 256; 300; 128; DDR; 9.6
-Radeon X600 XT; June 21, 2004; 500; RV380 (vishnu); 130; 370; 4:2:4:4; 2000; 2000; 2000; 128, 256; 250; 128; DDR; 11.84
-Radeon X1050; Dec. 7, 2006; RV370 (hari); 110; 400; 333; 4:2:4:4; 1600; 1600; 1600; 128, 256; 200; 5.328; DDR2; 64
+Radeon X550; June 21, 2005; RV370 (hari); 110; 250; 1600; 4:2:4:4; 1600; 1600; 200; 128, 256; 8 4; 128 64; DDR; 
+Radeon X550 HyperMemory; June 21, 2005; RV370 (hari); 110; 250; 1600; 4:2:4:4; 1600; 1600; 200; 128, 256 onboard + up to 512 system; 8 4; 128 64; DDR; 
+Radeon X600 SE; Sept. 1, 2004; RV370 (hari); 110; 250; 325; 4:2:4:4; 1300; 1300; 1300; 162.5; 4; 64; DDR; 
+Radeon X600; Sept. 1, 2004; RV370 (hari); 110; 250; 1600; 4:2:4:4; 128, 256; 200; 8; 128; DDR; 
+Radeon X600 Pro (RV370); Sept. 1, 2004; RV370 (hari); 110; 1600; 1600; 4:2:4:4; 128, 256; 200; 128; DDR; 
+Radeon X600 Pro (RV380); Sept. 1, 2004; 400; 1600; 1600; 4:2:4:4; 128, 256; 200; 128; DDR; 
+Radeon X600 XT; Sept. 1, 2004; RV380 (vishnu); 500; 130; 370; 4:2:4:4; 128, 256; 2000; 2000; 128; 2000; 250; DDR; 11.84
+Radeon X1050 (RV370); Dec. 7, 2006; RV370 (hari); 110; 400; 333; 4:2:4:4; 128, 256; 1600; 1600; 1600; 200; 5.328; DDR2; 64

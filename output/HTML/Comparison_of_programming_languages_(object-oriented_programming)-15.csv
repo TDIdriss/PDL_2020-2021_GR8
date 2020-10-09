@@ -1,7 +1,7 @@
 ; Get object type; Is instance of (includes subtypes); Upcasting; Downcasting; Downcasting
 ; Get object type; Is instance of (includes subtypes); Upcasting; Runtime check; No check
 ABAP Objects; N/A[ 71]; N/A[ 71]; =; ?=; 
-C++ (STL); typeid(x); dynamic_cast< type *> (& x)  != NULL; N/A[ 72]; dynamic_cast< type*> (ptr); (type*) ptr or static_cast< type*> (ptr)
+C++ (STL); typeid(x); dynamic_cast< type *> (& x)  != nullptr; N/A[ 72]; dynamic_cast< type*> (ptr); (type*) ptr or static_cast< type*> (ptr)
 C#; x.GetType(); x is type; N/A[ 72]; (type) x or x as type; 
 D; typeid(x); ; N/A[ 72]; cast(type) x; 
 Delphi; ; x is type; N/A[ 72]; x as type; 

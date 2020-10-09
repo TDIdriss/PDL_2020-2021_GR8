@@ -5,15 +5,14 @@ string.strip(); D
 sequence [ predicate? ] trim; Factor
 (string-trim '(#\Space #\Tab #\Newline) string); Common Lisp
 (string-trim string); Scheme
-string.trim(); Java, JavaScript (1.8.1+, Firefox 3.5+)
-Trim(String); Pascal,[ 33] QBasic, Visual Basic, Delphi
+string.trim(); Java, JavaScript (1.8.1+, Firefox 3.5+), Rust[ 50]
+Trim(String); Pascal,[ 51] QBasic, Visual Basic, Delphi
 string.strip(); Python
 strings.Trim(string, chars); Go
 LTRIM(RTRIM(String)); Oracle SQL, T-SQL
 strip(string [,option, char]); REXX
 string:strip(string [,option, char]); Erlang
 string.strip or string.lstrip or string.rstrip; Ruby
-string =~ s/^\s+//r =~ s/\s+$//r; Perl 5
 string.trim; Raku
 trim(string); PHP, Raku
 [string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]]; Objective-C using Cocoa

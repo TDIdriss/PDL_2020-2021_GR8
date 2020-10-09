@@ -27,7 +27,6 @@ Java[ 16]; 0; no; no; checked; array of array[ 22]; init[ 15]; ?
 JavaScript; 0; no; no; checked[ 35]; array of array[ 22]; yes; yes
 Julia; 1; yes; yes; checked; yes; yes; yes
 Lingo; 1; ?; ?; unchecked; yes; yes; yes
-Ring; 1; ?; partial[ 36]; checked; array of array[ 22]; yes; ?
 Lua; 1; ?; partial[ 36]; checked; array of array[ 22]; yes; ?
 Mathematica; 1; no; no; checked; yes; yes; yes
 MATLAB; 1; ?; no; checked; yes[ 37]; yes; yes
@@ -44,7 +43,9 @@ PL/I; 1; ?; yes; checked; yes; no; ?
 Python; 0; no; no; checked; array of array[ 22]; yes; no[ 45]
 RPG; 1; no; no; ?; no; no; ?
 R; 1; ?; ?; ?; ?; ?; ?
+Ring; 1; ?; partial[ 36]; checked; array of array[ 22]; yes; ?
 Ruby; 0; no; no; checked[ 35]; array of array[ 22]; yes; ?
+Rust; 0; no; no; checked; yes; ?; ?
 Sass; 1; no; no; checked; array of array[ 22]; init[ 30]; ?
 S-Lang; 0; ?; no; checked; yes; yes; yes
 Scala; 0; no; no; checked; array of array[ 22]; init[ 15]; yes (map)

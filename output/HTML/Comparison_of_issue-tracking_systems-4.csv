@@ -6,7 +6,7 @@ Bugzilla; Yes; Yes; Yes; No; No
 Debbugs; Yes; No; No; No; No
 Faveo Helpdesk; Yes; No; No; No; No
 FogBugz; Yes; Yes; No; No; No
-Fossil; No; Yes; No; No; No
+Fossil; Yes; Yes; No; No; No
 FusionForge; Yes; Yes; No; No; No
 GLPI; Yes; No; No; Yes; No
 GNATS; Yes; No; No; No; No
@@ -30,7 +30,6 @@ TestTrack; Yes; Yes; No; No; No
 Trac; Yes; Yes; No; No; No
 TrackerSuite.Net; Yes; No; No; No; No
 Twproject; Yes; Yes; No; No; Yes
-Usersnap; Yes; Yes; No; No; No
 Wrike; Yes; No; No; No; No
 YouTrack; Yes; Yes; No; Yes; No
 System; Email; RSS; Atom; XMPP; Twitter

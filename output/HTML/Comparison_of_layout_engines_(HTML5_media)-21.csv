@@ -1,7 +1,7 @@
 Attribute; Element; Trident; EdgeHTML; Gecko; WebKit; Presto
-manifest; html; 6.0[ 21]; 12; 1.9; Yes; 2.6[ p 8] [ p 9]
+manifest; html; 6.0[ 22]; 12; 1.9; Yes; 2.6[ p 8] [ p 9]
 sizes; link; No; 13; 8.0 (only mobile)[ g 16] [ g 17]; Yes[ w 19]; No
-charset; meta; 4.0[ 22]; 12; 1.9.2; Yes; 2.5.24
+charset; meta; 4.0[ 23]; 12; 1.9.2; Yes; 2.5.24
 scoped; style; No; No; 21.0[ g 18]; No[ w 20]; No
 async; script; 6.0; 12; 1.9.2[ g 19]; Yes[ w 21]; No
 reversed; ol; No; No; 18.0[ g 20]; Yes[ w 22]; No

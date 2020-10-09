@@ -1,14 +1,17 @@
-Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Clock speed; Clock speed; Clock speed; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Supported API version; Supported API version; Supported API version; Processing power (GFLOPS)2; TBP (Watts); Notes
-Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Min (MHz); Average (MHz); Memory (MT/s); Pixel (GP/s); Texture (GT/s); Size (GB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; OpenCL; Processing power (GFLOPS)2; TBP (Watts); Notes
-GeForce 920M; March 12, 2015; GK208; 28; PCIe 3.0 ×16; 384:32:8 (2 SMX); 954; Unknown; 1800; 7.6; 30.5; 2; 14.4; DDR3; 64; 12 (11_0); 4.5; 1.2; 733; 33; 
-GeForce 930M; March 12, 2015; GM108; 28; PCIe 3.0 ×16; 928; 941; 7.4; 1800; 22.3; 713; 2; 14.4; DDR3; 64; 12 (11_0); 4.5; 1.2; 29 [ 139]; 
-GeForce 940M; March 12, 2015; GM108; 28; PCIe 3.0 ×16; 1072; 1176; 2000; 8.6; 25.7; 16; 2; 823; DDR3; 64; 12 (11_0); 4.5; 1.2; 36 [ 140]; 
-GeForce GTX 950M; March 12, 2015; GM107; 28; PCIe 3.0 ×16; 914; Unknown; 5000; 14.6; 36.6; 2, 4; 80; GDDR5; 128; 1170; 12 (11_0); 4.5; 1.2; Unknown; 
-GeForce GTX 950M; March 12, 2015; GM107; 28; PCIe 3.0 ×16; 914; Unknown; 2000; 14.6; 36.6; 2, 4; 32; DDR3; 128; 1170; 12 (11_0); 4.5; 1.2; 55 [ 141]; 
-GeForce GTX 960M; March 12, 2015; GM107; 28; PCIe 3.0 ×16; 1097; 1176; 17.5; 43.8; 1403; 2, 4; 65 [ 142]; 128; 12 (11_0); 4.5; 1.2; 
-GeForce GTX 965M [ 143]; January 5, 2015; GM204; 28; PCIe 3.0 ×16; 1024:64:32 (8 SMM); Unknown; 80; GDDR5; 30.2; 2, 4; 60.4; 1933; 128; 60 [ 144]; Similar core config to GTX 960 (GM206-300); 4.5; 1.2; 
-GeForce GTX 970M [ 145]; October 7, 2014; GM204; 28; PCIe 3.0 ×16; 944; 1280:80:48 (10 SMM); 993; GDDR5; 12 (12_1); 44.4; 73.9; 3, 6; 120; 192; 2365; 4.5; 1.2; 75; Similar core config to GTX 960 OEM (GM204); 
-GeForce GTX 980M [ 146]; October 7, 2014; GM204; 28; PCIe 3.0 ×16; 1536:96:64 (12 SMM); 1038; 1127; GDDR5; 12 (12_1); 66.4; 99.6; 4, 8; 160; 3189; 100; 4.5; 1.2; Similar core config to GTX 970 (GM204-200) with one SMM disabled; 
-GeForce GTX 980 [ 147]; September 22, 2015; GM204; 28; PCIe 3.0 ×16; 2048:128:64 (16 SMM); 1064; Unknown; GDDR5; 12 (12_1); 7010; 68.1; 136.2; 8; 224; 4358; 4.5; 1.2; 165, oc to 200; Similar to Desktop GTX 980; 
-Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Clock speed; Clock speed; Clock speed; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Supported API version; Supported API version; Supported API version; Processing power (GFLOPS)2; TBP (Watts); Notes
-Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Min (MHz); Average (MHz); Memory (MT/s); Pixel (GP/s); Texture (GT/s); Size (GB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; OpenCL; Processing power (GFLOPS)2; TBP (Watts); Notes
+Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Clock speed; Clock speed; Clock speed; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Supported API version; Supported API version; Processing power (GFLOPS)2; TBP (Watts); Notes (original research)
+Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Core (MHz); Shader (MHz); Memory (MT/s); Pixel (GP/s); Texture (GT/s); Size (GB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; Processing power (GFLOPS)2; TBP (Watts); Notes (original research)
+GeForce 810M; February 2014; GF117; 28; PCIe 2.0 ×16; 48:8:4; 738–888; 1476–1776; 1800; 2.95–3.55; 5.9–7.1; 1; 14.4; DDR3; 64; 12; 4.5; 141.7–170.5; 15; 
+GeForce 820M[ 143]; February 2014; GF117; 28; PCIe 2.0 ×16; 96:16:4; 719–954; 1438–1908; 2000; 2.9–3.8; 11.5–15.3; 16; 276.1–366.3; DDR3; 64; 12; 4.5; 15[ 144]; 115% of 620 (Fermi); 
+GeForce 825M[ 145]; January 27, 2014; GK208; 28; PCIe 3.0 ×8; 384:16:8 (2 SMX); 850; 2; 1800; 6.8; 13.6; 14.4; 652.8; DDR3; 64; 12; 4.5; 33; 94% of 630 (Kepler); 
+GeForce 830M[ 146]; March 12, 2014; GM108; 28; PCIe 3.0 ×16; 256:16:8 (2 SMM); 1029; 2; 1800; 8.2; 16.5; 14.4; 526.8; DDR3; 64; 12; 4.5; ~25; 50% of 750 (Maxwell); 
+GeForce 840M[ 147]; March 12, 2014; GM108; 28; PCIe 3.0 ×16; 384:24:8 (3 SMM); 1029; 1029; 2000; 8.2; 24.7; 2–4; 16; DDR3; 64; 12; 4.5; 790.3; 30; 50–80% of 745 (Maxwell)
+GeForce 845M[ 148] [ 149]; February 7, 2015[ 150]; GM108; 28; PCIe 3.0 ×16; 384:32:16 (3 SMM); 5000; 18.8; 37.6; 40; GDDR5; 903.2; 33; ; 64; 12; 4.5; 
+GeForce 845M[ 148] [ 149]; August 16, 2015[ 151]; 512:32:16 (4 SMM); 28; PCIe 3.0 ×16; 2000; 13.8; 27.6; 2; 16; DDR3; 883.7; 45; ; 64; 12; 4.5; 
+GeForce GTX 850M[ 152]; GM107; March 12, 2014; 28; PCIe 3.0 ×16; 876+Boost; 876+Boost; 5000; 14.0; 35.0; 2-4; 80.2; GDDR5; 128; 1121.3; 12; 4.5; 80% of 750Ti; 
+GeForce GTX 850M[ 152]; GM107; March 12, 2014; 28; PCIe 3.0 ×16; 2000; 15.0; 37.4; 32; DDR3; 2-4; 1198.1; 85% of 750Ti; 128; 12; 4.5; 
+GeForce GTX 860M[ 153]; GM107; March 12, 2014; 28; PCIe 3.0 ×16; 640:40:16 (5 SMM); 16.5; 41.2; 2; GDDR5; 1389; 40–45; equal to 750Ti; 128; 12; 4.5; 
+GeForce GTX 860M[ 153]; GK104; March 12, 2014; 28; PCIe 3.0 ×16; 1152:96:16 (6 SMX); 12.8; 76.5; 80; GDDR5; 4; 2108; 75; 128; similar to 660 OEM.; 12; 4.5; 
+GeForce GTX 870M[ 154]; GK104; March 12, 2014; 28; PCIe 3.0 ×16; 1344:112:24 (7 SMX); 22.6; 105.4; 3.6; GDDR5; 120; 192; 2599; 110; 105% of 660Ti; 12; 4.5; 
+GeForce GTX 880M[ 155]; GK104; March 12, 2014; 28; PCIe 3.0 ×16; 1536:128:32 (8 SMX); 30.5; 122.1; 4.8; GDDR5; 160; 256; 3104; 130; 90% of 770; 12; 4.5; 
+Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Clock speed; Clock speed; Clock speed; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Supported API version; Supported API version; Processing power (GFLOPS)2; TBP (Watts); Notes
+Model; Launch; Code name; Fab (nm); Bus interface; Core config1; Core (MHz); Shader (MHz); Memory (MT/s); Pixel (GP/s); Texture (GT/s); Size (GB); Bandwidth (GB/s); Bus type; Bus width (bit); Direct3D; OpenGL; Processing power (GFLOPS)2; TBP (Watts); Notes

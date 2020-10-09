@@ -32,9 +32,9 @@ Team Foundation Server; Microsoft; Proprietary, Commercial; .NET; MS SQL Server 
 TestTrack; Seapine Software; Proprietary; C++, Qt4, JavaScript; Oracle, PostgreSQL, SQL Server, SQLite; 1996; 
 Trac; Edgewall Software; New BSD; Python; SQLite, PostgreSQL, MySQL; 2006-10-01; 
 TrackerSuite.Net; Automation Centre; Proprietary; C#; SQL Server, SQL Server Express; 2006; 
+Trello; Atlassian; Saas; Node.js; MongoDB; 2011; 
 Tuleap; enalean; GPLv2; php; LAMP, MySQL; 2011; 
 Twproject; Open Lab; Proprietary, some parts LGPL; Java; all relational (uses Hibernate); 2003; 
-Usersnap; Usersnap GmbH; Proprietary; Python, JavaScript; MongoDB,; 2013; 
 Wrike; Wrike, Inc.; Proprietary, hosted; Java; PostgreSQL; 2006; 
 YouTrack; JetBrains s.r.o.; Proprietary, stand-alone and hosted, free version, free for open source projects; Java; JavaScript and Kotlin; 2009; 
 System; Creator; License; Implementation language(s); Back end; Launch date; Refs

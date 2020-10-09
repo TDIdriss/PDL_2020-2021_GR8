@@ -1,7 +1,7 @@
-Feature; Android; iOS; Windows 10 Mobile; BlackBerry 10; Tizen; Sailfish OS; Ubuntu Touch
-Official app store; Google Play; App Store; Microsoft Store; BlackBerry World, Amazon Appstore[ 110]; Tizen Store; Jolla Store; OpenStore
-Non-discriminatory stores; No, Some apps like Ad blockers are censored on Google Play[ 111] [ 112] but developers can distribute apps from their own sources; No, Apple discriminates based on country[ 113] and own Apple policies[ 114]; No, Discriminates by country,[ 115] manufacturer[ 116] and type of application[ 117]; 3rd party software; ?; Openrepos.[ 118] Developers can distribute apps from their own sources, supports multiple app stores; ?
-Common APIs for smartphones, tablets, and PCs; Yes[ 119]; Smartphone and tablet only[ 120]; 8.1+[ 121]; No; No; Yes; Yes
-Official SDK platform(s); Linux, macOS and Windows[ 122]; macOS using iOS SDK; Windows[ 123]; Windows, macOS,[ 124] Linux (only Native SDK for 10+)[ 125]; GNU/Linux, Windows, macOS[ 126]; Windows, macOS and Linux[ 127]; Yes
-Cost to develop for the mobile OS; Free; Free with Xcode 7+[ 128]; Free[ 129]; Free; Free; Free; Free
-Cost to publish app to official store; US$25 once to offer it on Google Play[ 130]; US$99/year; US$19, once, for an individual and $99 for a company account.[ 131] Students can get a token for an individual account (1 token for 365 days) which gives free access to Windows Store/Phone Dev Center for 12 months.[ 132]; Free; Free; Free[ 133]; Free
+Feature; Android; iOS; Tizen; Sailfish OS; Ubuntu Touch
+Official app store; Google Play; App Store; Tizen Store; Jolla Store; OpenStore
+Non-discriminatory stores; No, Some apps like Ad blockers are censored on Google Play[ 80] [ 81] but developers can distribute apps from their own sources; No, Apple discriminates based on country[ 82] and own Apple policies[ 83]; ?; Openrepos.[ 84] Developers can distribute apps from their own sources, supports multiple app stores; ?
+Common APIs for smartphones, tablets, and PCs; Yes[ 85]; Smartphone and tablet only[ 86]; No; Yes; Yes
+Official SDK platform(s); Linux, macOS and Windows[ 87]; macOS using iOS SDK; GNU/Linux, Windows, macOS[ 88]; Windows, macOS and Linux[ 89]; Yes
+Cost to develop for the mobile OS; Free; No, Requires Apple hardware.[ 90]; Free; Free; Free
+Cost to publish app to official store; US$25 once to offer it on Google Play[ 91]; US$99/year; Free; Free[ 92]; Free

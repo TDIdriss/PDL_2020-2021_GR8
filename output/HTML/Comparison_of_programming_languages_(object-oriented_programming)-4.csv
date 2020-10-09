@@ -1,5 +1,6 @@
 ; public; private; protected; friend
 ABAP Objects; public section.[ 21] data field type type.; private section.[ 21] data field type type.; protected section.[ 21] data field type type.; [ 22]
+APL (Dyalog); :Field Public field «← value»; :Field «Private» field «← value»; ; 
 C++ (STL); public: type field; private: type field; protected: type field; [ 23]
 C#; public type field «= value»; private type field «= value»; protected type field «= value»; internal type field «= value»
 D; public type field «= value»; private type field «= value»; ; package type field «= value»

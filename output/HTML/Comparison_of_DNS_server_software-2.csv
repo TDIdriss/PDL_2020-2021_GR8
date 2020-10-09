@@ -9,7 +9,7 @@ Knot DNS; Yes; No; Yes; Yes; No
 Knot Resolver; Partial; No; Yes; Yes; No
 PowerDNS; Yes; Yes [7]; Yes; Beta; No
 MaraDNS; Yes; Yes [8]; Yes; Yes; Partial
-pdnsd; Yes; Partial[ 40]; Yes; Yes; No
+pdnsd; Yes; Partial[ 20]; Yes; Yes; No
 Posadis; Yes; Yes; Yes; Yes; Yes [9]
 Unbound; Yes; Yes; Yes; Yes; Yes
 Cisco Network Registrar; No; Yes; Yes; No; Yes

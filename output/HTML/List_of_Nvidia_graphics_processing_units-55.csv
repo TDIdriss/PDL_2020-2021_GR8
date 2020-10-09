@@ -1,10 +1,10 @@
-Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config1; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS)[ 164] [ 165]; Processing power (GFLOPS)[ 164] [ 165]; Supported API version; Supported API version; TBP (Watts); Notes
+Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config1; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS)[ 199] [ 200]; Processing power (GFLOPS)[ 199] [ 200]; Supported API version; Supported API version; TBP (Watts); Notes
 Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config1; Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Single precision; Double precision; Direct3D; OpenGL; TBP (Watts); Notes
-Quadro 400; GT216GL; 40; PCIe 2.0 ×16; 450; 1125; 1540; 48:16:4; 1.8; 7.2; 512; 12.3; DDR3; 64; 108; -; 10.1; 4.5; 32; DisplayPort, Dual Link DVI
-Quadro 600; GF108GL; 40; PCIe 2.0 ×16; 640; 1280; 1600; 96:164:4; 2.56; 10.24; 25.6; 245.76; DDR3; 15; 4.6; 40; DisplayPort, Dual Link DVI
-Quadro 2000; GF106GL (GF106-875); 40; PCIe 2.0 ×16; 625; 1250; 2600; 192:324:16; 1024; 10; 128; 20; 41.6; 11.0; 4.6; 480; 30; 62; Stereo DP Dual Link DVI, Dual DisplayPort; 
-Quadro 4000; GF100; 40; PCIe 2.0 ×16; 475; 950; 2800; 256:324:32; 15.2; GDDR5; 15.2; 2048; 89.6; 11.0; 4.6; 256; 486.4; 243; 142; 
-Quadro 5000; GF100; 40; PCIe 2.0 ×16; 513; 1026; 352:444:40; 20.53; 22.572; GDDR5; 2560; 120; 320; 11.0; 4.6; ; 722.304; 359; 152; 
-Quadro 6000; GF100; 40; PCIe 2.0 ×16; 3000; 574; 1148; 448:564:48; 27.552; GDDR5; 32.144; 6144; 144; 11.0; 4.6; ; 1028.608; 515; 
-Quadro 7000; GF110; 40; PCIe 2.0 ×16; 651; 1301; 3696; 512:644:48; 384; GDDR5; 31.248; 204; 41.7; 11.0; 4.6; ; 6144; 177; 1332; 667
-Quadro Plex 7000[ 167]; 2x GF100; 40; PCIe 2.0 ×16; 574; 1148; 3000; 2x 512:644:48; 2x 18.37; GDDR5; 2x 36.74; 2x 6144; 2x 144; 11.0; 4.6; ; 2x 384; 2x 1176; 2x 588; 600
+Quadro FX 370; G84; 80; PCIe ×16; 360; 720; 1000; 16:8:4; 1.44; 2.88; 256; 6.4; DDR2; 64; 34.56; -; 10.0; 3.3; 35; 
+Quadro FX 370 LP; G86; 80; PCIe ×16; 540; 1080; 1000; 8:8:4; 2.16; 4.32; 256; 8; DDR2; 64; 25.92; -; 10.0; 3.3; 25; DMS-59 for two Single Link DVI
+Quadro FX 470; MCP7A-U; 65; PCIe 2.0 ×16 (Integrated); 580; 1400; 800 (system memory); 16:8:4; 2.32; 4.64; Up to 256MB from system memory.; 12.8; DDR2; 128; 67.2; -; 10.0; 3.3; 30; based on GeForce 9400 mGPU
+Quadro FX 570; G84GL; 80; PCIe ×16; 460; 920; 800; 16:8:8; 3.68; 3.68; 256; 12.8; DDR2; 128; 44.1; -; 10.0; 3.3; 38; 
+Quadro FX 1700; G84GL; 80; PCIe ×16; 460; 920; 800; 32:16:8; 3.68; 7.36; 256; 12.8; DDR2; 128; 88.32; -; 10.0; 3.3; 42; 
+Quadro FX 3700; G92; 65; PCIe 2.0 ×16; 500; 1250; 1600; 112:56:16; 8; 28; 256; 51.2; 256; 420; 78; -; 10.0; 3.3; Stereo display, SLI; 
+Quadro FX 4700X2; 2× G92; 65; PCIe 2.0 ×16; 500; 1250; 1600; 2× 128:64:16; 2× 8; 2× 32; 2× 1024; GDDR3; 2× 51.2; 2× 256; 2× 480; -; 10.0; 3.3; 226; 
+Quadro VX 200; G92; 65; PCIe 2.0 ×16; 450; 1125; 1600; 112:56:16; 8; 28; 512; GDDR3; 51.2; 256; 420; -; 10.0; 3.3; 75; 2× Dual-link DVI, S-Video, optimised for Autodesk AutoCAD

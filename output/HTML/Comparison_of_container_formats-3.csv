@@ -3,10 +3,9 @@ Speex; Speech; No; No; No; No; No; No; Yes; No; ACM[ c]; No; No; No; No; Yes; No
 AMR; Speech; Yes; AMR-NB, AMR-WB; Yes; Yes; No; No; No; No; No; No; No; Yes; No; No; No; No; No; No
 QCELP; Speech; No; 13K; Yes; No; No; No; No; No; No; No; No; No; No; No; Yes; No; No; No
 G.728; Speech; No; No; No; Yes; No; No; No; No; No; No; No; No; No; No; No; Yes; No; No
-MPEG-1 Audio Layer I; Lossy; No; No; Yes; Yes; No; Yes; No; No; Yes; Yes; No; Yes; Yes; No; No; No; No; No
-MPEG-1 Audio Layer II; Lossy; No; No; Yes; Yes; No; Yes; No; No; Yes; Yes; No; Yes; Yes; No; No; No; Yes; No
-MPEG-1 Audio Layer III; Lossy; No; No; Yes; Yes[ β] [ 61]; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes; Needs OGMtools[ 62]; Yes; No; No; No
-MPEG-2 Audio; Lossy; No; No; No; No; No; Yes; No; No; No; No; No; No; No; No; No; No; Layer II; No
+MP1; Lossy; No; No; Yes; Yes; No; Yes; No; No; Yes; Yes; No; Yes; Yes; No; No; No; No; No
+MP2; Lossy; No; No; Yes; Yes; No; Yes; No; No; Yes; Yes; No; Yes; Yes; No; No; No; Yes; No
+MP3; Lossy; No; No; Yes; Yes[ β] [ 61]; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes; Needs OGMtools[ 62]; MPEG-1 Audio; No; No; No
 AAC; Lossy; Yes; Only AAC-LC, HE-AAC v1; Yes; Yes[ β] [ 61]; No; No; Yes; Yes[ γ]; Yes; Private; Yes; Yes; Yes; No; Yes; Only AAC-LC, HE-AAC v1; No; No
 AC-3; Lossy; No; No; Yes; Yes; Yes; Yes; No; No; Yes; Private; Yes; Yes[ 63]; Yes; Needs OGMtools[ 62]; Yes; Yes; Private; No
 E-AC-3; Lossy; No; No; Yes; No; No; Yes; No; No; QuickTime[ δ]; No; Yes; Yes; No; No; Yes; No; No; No
@@ -15,11 +14,11 @@ WMA; Lossy; No; No; Yes; Yes; No; No; No; No; ACM[ c]; No; No; No; No; No; No; N
 ATRAC3; Lossy; No; No; No; No; No; No; No; No; Yes; No; No; No; No; No; No; Yes; No; No
 QDesign Music 1 and 2; Lossy; No; No; No; No; No; No; No; No; QuickTime[ δ]; No; No; No; No; No; Yes; No; No; No
 Vorbis; Lossy; No; No; No; Tricky[ ε]; No; No; No; No; Yes; No; No; Private; No; Yes; No; No; No; Yes
-Opus; Lossy; No; No; Yes; Yes; No; No; No; No; Yes; No; No; Yes; No; Yes; No; No; No; Yes
+Opus; Lossy; No; No; Yes; Yes; No; No; No; No; Yes; Yes; No; Yes; No; Yes; No; No; No; Yes
 FLAC; Lossless; No; No; Yes; Yes; No; No; No; No; Yes; No; No; Not standard[ 66]; No; Yes; No; No; No; No
 ALAC; Lossless; No; No; Yes; Yes; No; No; No; No; Yes; No; No; Yes; No; No; Yes; No; No; No
 MLP; Lossless; No; No; No; No; No; Yes; No; No; No; Private; No; Yes[ 34]; No; No; No; No; Private; No
-Dolby TrueHD; Lossless; No; No; No; No; No; Yes; No; No; No; No; Yes; Yes; No; No; No; No; No; No
+Dolby TrueHD; Lossless; No; No; No; No; No; Yes; No; No; Yes; No; Yes; Yes; No; No; No; No; No; No
 DTS-HD; Lossless; No; No; No; No; No; Yes; No; No; Yes; No; Yes; Yes[ 34]; No; No; Yes; No; No; No
 WMA Lossless; Lossless; No; No; Yes; Yes; No; No; No; No; ACM[ c]; No; No; No; No; No; No; No; No; No
 ALS; Lossless; No; No; No; No; No; No; No; No; No; Yes; No; Yes; No; No; No; No; No; No

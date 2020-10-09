@@ -1,8 +1,9 @@
-Name; COLOR; VT100; TLS; NAWS[ 17]; EOR[ 18]; ECHO[ 19]; MCCP[ 20]; MXP[ 21]; MSP[ 22]; MMCP[ 23]; 256 colors; Unicode
+Name; COLOR; VT100; TLS; NAWS[ 17]; EOR[ 18]; ECHO[ 19]; MCCP[ 20] [ 21]; MXP[ 22]; MSP[ 23]; MMCP[ 24]; 256 colors; Unicode
 Atlantis; Yes; No; Yes; Yes; Yes; No; Yes; No; No; No; Yes; Yes
 Axmud; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 BeipMU; Yes; No; Yes; No; No; No; No; No; No; No; Yes; Yes
 BioMUD; Yes; Yes; No; Yes; Yes; Yes; No; No; No; No; Yes; No
+Blightmud; Yes; Yes; No; No; Yes; No; Yes; No; No; No; Yes; Yes
 BlowTorch; Yes; No; No; No; No; No; No; No; No; No; Yes; No
 CMUD; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; No
 GGMUD; Yes; No; No; No; No; Yes; Yes; No; No; No; No; No
@@ -15,6 +16,7 @@ KMuddy; Yes; No; No; No; No; Yes; Yes; Yes; Yes; No; No; No
 Lyntin; Yes; No; No; No; No; No; No; No; No; No; Yes; No
 mcl; Yes; No; No; No; No; No; Yes; No; No; Yes; Yes; No
 muby; Yes; No; No; No; No; No; No; No; No; No; Yes; No
+Mud Gangster; Yes; No; No; No; No; No; No; No; No; Yes; No; No
 Mudlet; Yes; No; Yes; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes
 MudMagic; Yes; No; No; Yes; Yes; Yes; Yes; Yes; Yes; No; No; No
 MUDRammer; Yes; No; Yes; Yes; No; Yes; Yes; No; Yes; No; Yes; Yes

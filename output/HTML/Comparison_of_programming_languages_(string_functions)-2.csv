@@ -9,7 +9,7 @@ string.Chars(i); VB.NET; 0
 string(i:i); Fortran; 1
 string.charAt(i); Java, JavaScript; 0
 string.[i]; OCaml, F#; 0
-string.chars().nth(i); Rust; 0
+string.chars().nth(i); Rust[ 2]; 0
 string[i,1]; Pick Basic; 1
 String.sub (string, i); Standard ML; 0
 string  !! i; Haskell; 0
@@ -18,7 +18,7 @@ string  !! i; Haskell; 0
 (elt string i); ISLISP; 0
 (get string i); Clojure; 0
 substr(string, i, 1); Perl 5[ 1]; 0
-substr(string, i, 1) string.substr(i, 1); Raku[ 2]; 0
+substr(string, i, 1) string.substr(i, 1); Raku[ 3]; 0
 substr(string, i, 1); PL/I; 1
 string.at(i); C++ (STL) (w/ bounds checking); 0
 lists:nth(i, string); Erlang; 1

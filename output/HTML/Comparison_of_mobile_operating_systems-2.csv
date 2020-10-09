@@ -1,21 +1,22 @@
-Feature; Android; iOS; Windows 10 Mobile; BlackBerry 10; Tizen; Sailfish OS; Ubuntu Touch
-While-in-use permissions; 10+; 11+: Location only[ 42]; No; No; No; No; Yes
-Per-app Internet access; No,[ 43] 3rd party software[ 44]; 7+: Cellular only [ 45] 3rd party software on jailbroken devices[ 46]; No; Yes[ 47]; No; No; No
-Per-app identity access; 8+[ 48]; 6+[ 49] [ 50]; No; Yes; No; No; Yes
-Per-app user data access; 6+[ 51]; 6+[ 52]; 8.1update2+[ 53]; Yes[ 47]; No; No; Yes
-Per-app background execution; No,[ 54] 3rd party apps available[ 55]; 7+[ 56]; Yes[ 57]; 10.2.1+[ 58]; No; No; Background execution not allowed
-Per-app notifications; 4.1+[ 59]; 5+[ 60] [ 61]; 8.1+[ 62]; 10+; No; No; Yes
-Per-app location access; 6+[ 51]; 4+[ 63]; 10+[ 64]; Yes[ 47]; No; No; Yes
-Per-app camera access; 6+[ 51]; 8+[ 65]; 8.1update2+[ 53]; Yes[ 47]; No; No; Yes
-Per-app microphone access; 6+[ 51]; 7+[ 66]; 8.1update2+[ 53]; Yes[ 47]; No; No; Yes
-Per-app shared files access; 6+[ 51]; 8+[ 67]; No; Yes[ 47]; No; No; Yes
-Per-app network data usage auditing; 4+[ 68]; Yes[ 69]; 8 GDR2+ Data Sense[ 70] or Nokia Counters in 7.5+[ 71]; Yes[ 72]; ?; No[ 73]; No
-Fine grained storage usage; Yes[ 74]; 5+[ 75]; 8 GDR3+[ 76]; 10.2.1+; ?; No; Yes
-Parental controls; 4.3+ or 3rd party software[ 77]; Yes[ 78]; 8+[ 79]; 7.1+[ 80]; ?; No; No
-Screen orientation lock; Yes[ 81]; Yes[ 82]; 8 GDR3+[ 83]; 10+[ 84]; ?; 1.0.4.1+[ 85]; Yes
-File manager; 6.0+[ 86]; 11+[ 87]; 8.1+[ 88]; 10+[ 89]; 3rd party software[ 90]; Yes[ 91]; Yes
-File manager write access to external storage; 6+ Or 3rd party software like LineageOS; 3rd party software and external storage[ 92]; Yes; Yes; Yes; Yes; Yes
-Multi-user; 4.2+, including phones 5+[ 93] [ 94]; 9.3+: Education use only on iPad[ 95]; No; No; No; No; No
-Guest mode; 5+[ 96]; 6+[ 97]; No, Kid's Corner removed on Windows 10 Mobile Anniversary Update, Apps Corner is removed on Creators Update[ 98]; No; No; No; No
-Do not disturb mode; 5+[ 99]; 6+[ 100]; 8.1+[ 101]; Yes; No; No; No
-App groups; Yes; 4+[ 102]; 8.1 Update+; Yes[ 103]; ?; 1.0.7.16+[ 104]; Yes
+Feature; Android; iOS; Tizen; Sailfish OS; Ubuntu Touch
+While-in-use permissions; 10+; 11+: Location only[ 32]; No; No; Yes
+Per-app Internet access; No,[ 33] 3rd party software[ 34]; 7+: Cellular only [ 35] 3rd party software on jailbroken devices[ 36]; No; No; No
+Per-app identity access; 8+[ 37]; 6+[ 38] [ 39]; No; No; Yes
+Per-app user data access; 6+[ 40]; 6+[ 41]; No; No; Yes
+Per-app background execution; No,[ 42] 3rd party apps available[ 43]; 7+[ 44]; No; No; Background execution not allowed
+Per-app notifications; 4.1+[ 45]; 5+[ 46] [ 47]; No; No; Yes
+Per-app location access; 6+[ 40]; 4+[ 48]; No; No; Yes
+Per-app camera access; 6+[ 40]; 8+[ 49]; No; No; Yes
+Per-app microphone access; 6+[ 40]; 7+[ 50]; No; No; Yes
+Per-app shared files access; 6+[ 40]; 8+[ 51]; No; No; Yes
+Per-app network data usage auditing; 4+[ 52]; Yes[ 53]; ?; No[ 54]; No
+Fine grained storage usage; Yes[ 55]; 5+[ 56]; ?; No; Yes
+Parental controls; 4.3+ or 3rd party software[ 57]; Yes[ 58]; ?; No; No
+Screen orientation lock; Yes[ 59]; Yes[ 60]; ?; 1.0.4+[ 61]; Yes
+File manager; 6.0+[ 62]; 11+[ 63]; 3rd party software[ 64]; Yes[ 65]; Yes
+File manager write access to external storage; 6+ Or 3rd party software like LineageOS; 13+; Yes; Yes; Yes
+Multi-user; 4.2+, including phones 5+[ 66] [ 67]; 9.3+: Education use only on iPad[ 68]; No; No; No
+Guest mode; 5+[ 69]; 6+[ 70]; No; No; No
+Guided Access; No; Yes[ 71]; No; No; No
+Do not disturb mode; 5+[ 72]; 6+[ 73]; No; No; No
+App groups; Yes; 4+[ 74]; ?; 1.0.7+[ 75]; Yes

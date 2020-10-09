@@ -1,7 +1,7 @@
 Name; Operating system; Vendor; Online storage; Remote desktop; Prior file versions, revision control; Comments; Portable; Detect rename; Detect move; Scheduling; Full duplex transfer
 Microsoft ActiveSync; Windows; Microsoft; No; No; ?; Syncs mobile devices; ; ; ; ; 
-Resilio Sync; Windows, OS X, Linux, FreeBSD, Android, iOS; Resilio, Inc.; No; No; Yes (previous versions moved to archive folder); Distributed peer-to-peer sync; No; Yes; Yes; Pro only[ 22]; Yes
-Briefcase (part of Windows) (removed in Windows 10 build 14942[ 23] ); Windows; Microsoft; No; No; ?; ; ; ; ; ; 
+Resilio Sync; Windows, OS X, Linux, FreeBSD, Android, iOS; Resilio, Inc.; No; No; Yes (previous versions moved to archive folder); Distributed peer-to-peer sync; No; Yes; Yes; Pro only[ 29]; Yes
+Briefcase (part of Windows) (removed in Windows 10 build 14942[ 30] ); Windows; Microsoft; No; No; ?; ; ; ; ; ; 
 Cobian Backup; Windows; CobianSoft; No; No; Yes, trash folder; Backup software with folder synchronization feature remote management Shadow Copy; No; No; No; Yes; 
 Windows Mobile Device Center; Windows; Microsoft; No; No; ?; Syncs mobile devices successor to Microsoft ActiveSync; ; ; ; ; 
 Microsoft Sync Framework; Windows; Microsoft; ?; No; ?; Syncs files, data, services a framework, not a tool; ; Yes; Yes; -; 

@@ -7,7 +7,7 @@ string.uc; Raku
 toupper(char); C (operates on one character)
 for(size_t i = 0, len = strlen(string) i< len i++) string[i] = toupper(string[i]) for (char *c = string *c  != '\0' c++) *c = toupper(*c); C (string / char array)
 std.string.toUpper(string); D
-transform(string.begin(), string.end(), result.begin(), toupper)[ 20]; C++[ 32]
+transform(string.begin(), string.end(), result.begin(), toupper)[ 31]; C++[ 48]
 uppercase(string); Object Pascal (Delphi)
 upcase(char); Object Pascal (Delphi) (operates on one character)
 strtoupper(string); PHP
@@ -16,7 +16,7 @@ echo "string" | tr 'a-z' 'A-Z'; Unix
 translate(string), or UPPER variables, or PARSE UPPER VAR SrcVar DstVar; Rexx
 string.upper(); Python
 upcase(string); Pick Basic
-string.upcase; Ruby [ 22]
+string.upcase; Ruby [ 33]
 strings.ToUpper(string); Go
 (string-upcase string); Scheme, Common Lisp
 String.uppercase string; OCaml
@@ -33,3 +33,4 @@ ToUpperCase[string]; Mathematica
 «FUNCTION» UPPER-CASE(string); COBOL
 string.toUpper; Cobra
 string toupper string; Tcl
+string.to_uppercase(); Rust[ 49]

@@ -33,15 +33,15 @@ CSS2; border-top; 12; 1.0; 85; Yes; 1.0
 CSS2; 5.5; border-right; 12; 1.0; 85; Yes; 1.0
 CSS2; 5.5; border-bottom; 12; 1.0; 85; Yes; 1.0
 CSS2; 5.5; border-left; 12; 1.0; 85; Yes; 1.0
-css- background-3; border-radius; 9.0[ t 1]; 12; 2.0[ g 15]; 533[ w 12]; Experimental; 2.5
-css- background-3; border-image; 15.0[ g 16]; 12; Experimental; 2.5; 
-css- background-3; 11.0; border-image-source; 12; No; No; 
-css- background-3; 11.0; 15.0[ g 17]; 12; No; No; border-image-slice; 
-css- background-3; 11.0; 15.0[ g 17]; 12; No; No; border-image-width; 
-css- background-3; 11.0; 15.0[ g 17]; 12; No; No; border-image-outset; 
-css- background-3; 11.0; 15.0[ g 17]; 12; No; No; border-image-repeat; 
-css- background-3; box-shadow; 9.0[ t 13]; 12; 2.0[ g 18] [ g 19]; Yes[ w 13]; No; 2.5
-css- background-3; box-decoration-break; No; No; 32.0[ g 20]; No[ w 14]; No; 2.7[ p 2]
+css- backgrounds-3; border-radius; 9.0[ t 1]; 12; 2.0[ g 15]; 533[ w 12]; Experimental; 2.5
+css- backgrounds-3; border-image; 15.0[ g 16]; 12; Experimental; 2.5; 
+css- backgrounds-3; 11.0; border-image-source; 12; No; No; 
+css- backgrounds-3; 11.0; 15.0[ g 17]; 12; No; No; border-image-slice; 
+css- backgrounds-3; 11.0; 15.0[ g 17]; 12; No; No; border-image-width; 
+css- backgrounds-3; 11.0; 15.0[ g 17]; 12; No; No; border-image-outset; 
+css- backgrounds-3; 11.0; 15.0[ g 17]; 12; No; No; border-image-repeat; 
+css- backgrounds-3; box-shadow; 9.0[ t 13]; 12; 2.0[ g 18] [ g 19]; Yes[ w 13]; No; 2.5
+css- backgrounds-3; box-decoration-break; No; No; 32.0[ g 20]; No[ w 14]; No; 2.7[ p 2]
 ; ; Trident; EdgeHTML; Gecko; WebKit; KHTML; Presto
 Line Layout[ spec 8]; Line Layout[ spec 8]; Line Layout[ spec 8]; Line Layout[ spec 8]; Line Layout[ spec 8]; Line Layout[ spec 8]; Line Layout[ spec 8]; Line Layout[ spec 8]
 CSS2; line-height; 4.0; 12; 1.0; 85; Yes; 1.0
@@ -82,12 +82,12 @@ CSS2; background-color; 4.0; 12; 1.0; 85; Yes; 1.0
 CSS2; background-image; 8.0; 12; 1.0; 85; Yes; 1.0
 CSS2; background-position; 8.0; 12; 1.0; 85; Yes; 1.0
 CSS2; background-repeat; 4.0; 12; 1.0; 85; Yes; 1.0
-css- background-3; background (multiple); 9.0[ t 1]; 12; 1.9.2; 312; 3.5; 2.5
-css- background-3; background-clip; 9.0[ t 1]; 12; Experimental; 2.5
-css- background-3; 2.0[ g 21]; 9.0[ t 1]; 12; Experimental; background-origin; 2.5
-css- background-3; 2.0[ g 21]; 9.0[ t 1]; 12; Experimental; background-size; Yes[ w 17]; 2.5
-Early draft for css- backgrounds- 4; background-position-x; 8.0[ t 15]; 12; No; Experimental; No; No
-Early draft for css- backgrounds- 4; background-position-y; 8.0[ t 15]; 12; No; Experimental; No; No
+css- backgrounds-3; background (multiple); 9.0[ t 1]; 12; 1.9.2; 312; 3.5; 2.5
+css- backgrounds-3; background-clip; 9.0[ t 1]; 12; Experimental; 2.5
+css- backgrounds-3; 2.0[ g 21]; 9.0[ t 1]; 12; Experimental; background-origin; 2.5
+css- backgrounds-3; 2.0[ g 21]; 9.0[ t 1]; 12; Experimental; background-size; Yes[ w 17]; 2.5
+Early ideas for css- backgrounds-4; background-position-x; 8.0[ t 15]; 12; No; Experimental; No; No
+Early ideas for css- backgrounds-4; background-position-y; 8.0[ t 15]; 12; No; Experimental; No; No
 Fonts; Fonts; Fonts; Fonts; Fonts; Fonts; Fonts; Fonts
 CSS2; font; 4.0; 12; 1.0; 85; Yes; Incorrect
 CSS2; font-family; 4.0; 12; 1.0; 85; Yes; 
@@ -98,15 +98,15 @@ CSS2; font-weight; 8.0; 12; Partial; Partial; Yes; Incorrect
 css-fonts-3; font-size-adjust; 10.0[ t 16]; 12; 1.9; No[ w 18]; No; No
 css-fonts-3; font-stretch; 9.0[ t 1]; 12; 9.0[ g 22]; No[ w 19]; No; No
 css-fonts-3; font-feature-settings; 10.0[ t 17]; 12; No[ w 20]; No; No; 
-css-fonts-3; font-kerning; 34.0[ 1] [ g 23]; No; No; No; No; 
-css-fonts-3; font-language-override; 34.0[ 1] [ g 23]; No; No; No; No; 
-css-fonts-3; font-synthesis; 34.0[ 1] [ g 23]; No; No; No; No; 
-css-fonts-3; font-variant-alternates; 34.0[ 1] [ g 23]; No; No; 
-css-fonts-3; No; 34.0[ 1] [ g 23]; No; No; font-variant-caps; 
-css-fonts-3; No; 34.0[ 1] [ g 23]; No; No; font-variant-east-asian; 
-css-fonts-3; No; 34.0[ 1] [ g 23]; No; No; font-variant-ligatures; 
-css-fonts-3; No; 34.0[ 1] [ g 23]; No; No; font-variant-numeric; 
-css-fonts-3; No; 34.0[ 1] [ g 23]; No; No; font-variant-position; 
+css-fonts-3; font-kerning; 34.0[ 2] [ g 23]; No; No; No; No; 
+css-fonts-3; font-language-override; 34.0[ 2] [ g 23]; No; No; No; No; 
+css-fonts-3; font-synthesis; 34.0[ 2] [ g 23]; No; No; No; No; 
+css-fonts-3; font-variant-alternates; 34.0[ 2] [ g 23]; No; No; 
+css-fonts-3; No; 34.0[ 2] [ g 23]; No; No; font-variant-caps; 
+css-fonts-3; No; 34.0[ 2] [ g 23]; No; No; font-variant-east-asian; 
+css-fonts-3; No; 34.0[ 2] [ g 23]; No; No; font-variant-ligatures; 
+css-fonts-3; No; 34.0[ 2] [ g 23]; No; No; font-variant-numeric; 
+css-fonts-3; No; 34.0[ 2] [ g 23]; No; No; font-variant-position; 
 css-fonts-3; unicode-range; 9.0[ t 18]; 12; 38.0[ g 24]; No; No; No
 Text; Text; Text; Text; Text; Text; Text; Text
 CSS2; text-align; 4.0; 12; 1.0; 85; Yes; 1.0
@@ -187,29 +187,29 @@ css-page-3; image-orientation; No; No; 26.0[ g 39]; No; No; No
 css-page-3; object-fit; No; No; No; No; 
 css-page-3; object-position; 36.0[ g 40]; No; No; 2.7[ p 4]; No; No
 Speech; Speech; Speech; Speech; Speech; Speech; Speech; Speech
-css3- speech (retired); cue; No; No; No[ g 41]; No; No; 1.0
-css3- speech (retired); cue-after; No; No; No[ g 41]; No; No; 1.0
-css3- speech (retired); cue-before; No; No; No[ g 41]; No; No; 1.0
-css3- speech (retired); pause; No; No; No[ g 41]; No; No; 1.0
-css3- speech (retired); pause-after; No; No; No[ g 41]; No; No; 1.0
-css3- speech (retired); pause-before; No; No; No[ g 41]; No; No; 1.0
-css3- speech (retired); speak; No; No; No[ g 41]; Nightly build[ w 27]; No; 1.0
-css3- speech (retired); voice-family; No; No; No[ g 41]; No; 1.0
-css3- speech (retired); No; No; No; No[ g 41]; voice-balance; No; 
-css3- speech (retired); No; No; No; No[ g 41]; voice-duration; No; 
-css3- speech (retired); No; No; No; No[ g 41]; voice-pitch; No; 
-css3- speech (retired); No; No; No; No[ g 41]; voice-pitch-range; No; 
-css3- speech (retired); No; No; No; No[ g 41]; voice-rate; No; 
-css3- speech (retired); No; No; No; No[ g 41]; voice-stress; No; 
-css3- speech (retired); No; No; No; No[ g 41]; voice-volume; No; 
-css3- speech (retired); No; No; No; No[ g 41]; interpret-as; No; 
-css3- speech (retired); No; No; No; No[ g 41]; phonemes; No; 
-css3- speech (retired); No; No; No; No[ g 41]; rest; No; 
-css3- speech (retired); No; No; No; No[ g 41]; rest-after; No; 
-css3- speech (retired); No; No; No; No[ g 41]; rest-before; No; 
-css3- speech (retired); No; No; No; No[ g 41]; mark; No; 
-css3- speech (retired); No; No; No; No[ g 41]; mark-after; No; 
-css3- speech (retired); No; No; No; No[ g 41]; mark-before; No; 
+css-speech-1; cue; No; No; No[ g 41]; No; No; 1.0
+css-speech-1; cue-after; No; No; No[ g 41]; No; No; 1.0
+css-speech-1; cue-before; No; No; No[ g 41]; No; No; 1.0
+css-speech-1; pause; No; No; No[ g 41]; No; No; 1.0
+css-speech-1; pause-after; No; No; No[ g 41]; No; No; 1.0
+css-speech-1; pause-before; No; No; No[ g 41]; No; No; 1.0
+css-speech-1; speak; No; No; No[ g 41]; Nightly build[ w 27]; No; 1.0
+css-speech-1; voice-family; No; No; No[ g 41]; No; 1.0
+css-speech-1; No; No; No; No[ g 41]; voice-balance; No; 
+css-speech-1; No; No; No; No[ g 41]; voice-duration; No; 
+css-speech-1; No; No; No; No[ g 41]; voice-pitch; No; 
+css-speech-1; No; No; No; No[ g 41]; voice-pitch-range; No; 
+css-speech-1; No; No; No; No[ g 41]; voice-rate; No; 
+css-speech-1; No; No; No; No[ g 41]; voice-stress; No; 
+css-speech-1; No; No; No; No[ g 41]; voice-volume; No; 
+css-speech-1; No; No; No; No[ g 41]; interpret-as; No; 
+css-speech-1; No; No; No; No[ g 41]; phonemes; No; 
+css-speech-1; No; No; No; No[ g 41]; rest; No; 
+css-speech-1; No; No; No; No[ g 41]; rest-after; No; 
+css-speech-1; No; No; No; No[ g 41]; rest-before; No; 
+css-speech-1; No; No; No; No[ g 41]; mark; No; 
+css-speech-1; No; No; No; No[ g 41]; mark-after; No; 
+css-speech-1; No; No; No; No[ g 41]; mark-before; No; 
 ; ; Trident; EdgeHTML; Gecko; WebKit; KHTML; Presto
 Media Queries; Media Queries; Media Queries; Media Queries; Media Queries; Media Queries; Media Queries; Media Queries
 css3- mediaqueries; width; 9.0[ t 26]; 12; 1.9.1; 525; 4.1; 2.0
@@ -353,47 +353,47 @@ css-line- grid-1; No; No; No; No; No; No; line-slack
 css-line- grid-1; No; No; No; No; No; No; line-snap
 ; ; Trident; EdgeHTML; Gecko; WebKit; KHTML; Presto
 Logical Properties; Logical Properties; Logical Properties; Logical Properties; Logical Properties; Logical Properties; Logical Properties; Logical Properties
-Early ideas for css- logical- props; 
-Early ideas for css- logical- props; block-size; No; 41.0[ g 56]; No; No; No; 
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; inline-size
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; min-block-size
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; min-inline-size
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; max-block-size
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; max-inline-size
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; margin-block-start
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; margin-block-end
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; margin-inline-start
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; margin-inline-end
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; offset-block-start
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; offset-block-end
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; offset-inline-start
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; offset-inline-end
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; padding-block-start
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; padding-block-end
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; padding-inline-start
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; padding-inline-end
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-block-start-width
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-block-end-width
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-inline-start-width
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-inline-end-width
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-block-start-style
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-block-end-style
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-inline-start-style
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-inline-end-style
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-block-start-color
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-block-end-color
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-inline-start-color
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-inline-end-color
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-block-start
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-block-end
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-inline-start
-Early ideas for css- logical- props; No; No; 41.0[ g 56]; No; No; No; border-inline-end
-Early ideas for css- logical- props; No; No; background-image-transform; No; No; No; 
-Early ideas for css- logical- props; No; No; border-image-transform; No; No; No; 
+Early ideas for css- logical-1; 
+Early ideas for css- logical-1; block-size; No; 41.0[ g 56]; No; No; No; 
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; inline-size
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; min-block-size
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; min-inline-size
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; max-block-size
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; max-inline-size
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; margin-block-start
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; margin-block-end
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; margin-inline-start
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; margin-inline-end
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; offset-block-start
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; offset-block-end
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; offset-inline-start
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; offset-inline-end
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; padding-block-start
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; padding-block-end
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; padding-inline-start
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; padding-inline-end
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-block-start-width
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-block-end-width
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-inline-start-width
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-inline-end-width
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-block-start-style
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-block-end-style
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-inline-start-style
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-inline-end-style
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-block-start-color
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-block-end-color
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-inline-start-color
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-inline-end-color
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-block-start
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-block-end
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-inline-start
+Early ideas for css- logical-1; No; No; 41.0[ g 56]; No; No; No; border-inline-end
+Early ideas for css- logical-1; No; No; background-image-transform; No; No; No; 
+Early ideas for css- logical-1; No; No; border-image-transform; No; No; No; 
 Will Change; Will Change; Will Change; Will Change; Will Change; Will Change; Will Change; Will Change
 css-will- change-1; will-change; No; No; 36.0; No; No; No
 CSSOM View; CSSOM View; CSSOM View; CSSOM View; CSSOM View; CSSOM View; CSSOM View; CSSOM View
-cssom- view; scroll-behavior (optional[ 2] ); No; No; 36.0; No; No; No
+cssom- view; scroll-behavior (optional[ 3] ); No; No; 36.0; No; No; No
 Scroll Snap Points; Scroll Snap Points; Scroll Snap Points; Scroll Snap Points; Scroll Snap Points; Scroll Snap Points; Scroll Snap Points; Scroll Snap Points
 Early ideas for css- snappoints; scroll-snap-type; 10.0; 12; 39.0[ g 57]; No; No; No
 Early ideas for css- snappoints; scroll-snap-points-x; 10.0; 12; 39.0[ g 57]; No; No; No

@@ -1,13 +1,11 @@
 OLAP server; Windows; Linux; UNIX; z/OS; AIX
 Apache Kylin; No; Yes; Yes; No; No
+ClickHouse; No; Yes; Yes; No; No
 Druid; No; Yes; Yes; ; 
-Apache Pinot (Incubating); No; Yes; Yes; ; 
-Essbase; Yes; Yes; Yes; No; 
+Essbase; Yes; Yes; Yes; No; Yes
 IBM Cognos TM1; Yes; Yes; Yes; No; Yes
 icCube; Yes; Yes; Yes; Yes; Yes
-Infor BI OLAP Server; Yes; No; No; No; 
 Jedox OLAP Server; Yes; Yes; Yes; No; 
-Kyligence; No; Yes; Yes; No; No
 Kyvos; No; Yes; Yes; No; No
 Microsoft Analysis Services; Yes; No; No; No; 
 MicroStrategy Intelligence Server; Yes; Yes; Yes; No; Yes

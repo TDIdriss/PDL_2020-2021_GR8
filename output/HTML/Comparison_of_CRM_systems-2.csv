@@ -12,6 +12,7 @@ Group-Office; Yes; Yes; Over 20 languages; Yes; Yes; ?; ?; ?; ?
 HubSpot CRM Free; Gmail, G Suite, Outlook, Office 365 for Windows[ 6]; Yes; en, fr, jp, de, pt, es[ 7]; Yes[ 6]; No; Yes[ 8]; Yes[ 9]; Yes; No
 Neolane; ?; ?; ?; ?; ?; ?; ?; ?; ?
 Nutshell CRM; Google Apps, Microsoft Exchange; No; (in English); Yes; No; Yes; ?; Yes; ?
+OnlyOffice; Yes; Yes; en, de, fr, es, it, ru, lat; Yes; Yes; ?; ?; ?; ?
 Pega CRM[ 4]; ?; ?; ?; ?; ?; ?; ?; Maybe[ 10]; Yes[ 11]
 Pipedrive; Yes; Yes; de, en, es, et, fi, fr, it, no, nl, pl, pt, ru, tr, ko, ja; Yes; Yes; Yes; Yes; Yes; Yes
 Pivotal CRM; Yes; Yes; Yes; Web/Windows; ?; Yes; ?; Yes; Yes
@@ -26,7 +27,6 @@ Streak; via Google Docs; Yes; de, en, es, fr, it, nl, pl, pt, pt-br, ru, zh-cn; 
 SugarCRM; Yes - Outlook, Excel, Word Plugins[1]; Yes; sq_AL, ar_SA, bg_BG, ca_ES, zh_CN, hr_HR, cs_CZ, da_DK, nl_NL, en_UK, en_us, et_EE, fi_FI, fr_FR, de_DE, el_EL, he_IL, hu_HU, it_it, ja_JP, ko_KR, lv_LV, lt_LT, nb_NO, pl_PL, pt_PT, pt_BR, ro_RO, ru_RU, sr_RS, sk_SK, es_ES, es_LA, sv_SE, th_TH, zh_TW, tr_TR, uk_UA; Yes; Yes; Yes; ?; Yes; Yes
 SuiteCRM; Via Plugin; Yes; 20 languages; Yes; Yes; Yes; No; Yes; Yes
 SuperOfficeCRM; Yes; Yes; cn, de, dk, en, es, fi, fr, it, jp, nl, no, ru, se, zh; Yes; Yes; ?; ?; ?; ?
-TeamLab; Yes; Yes; en, de, fr, es, it, ru, lat; Yes; Yes; ?; ?; ?; ?
 Tryton; ?; Yes; bg, ca, cs, de, en, es-ar, es-co, es-es, fr, nl, ru, sl; Yes; Yes; Yes; Yes; Yes; Yes
 WORKetc; Outlook Addon and Google Docs; Yes; de, en, es, fr, it, nl; Yes; Yes; Yes; ?; Yes; ?
 Zoho CRM; Outlook & MS Office; Yes; en, fi, fr, de, es, it, ja, ko, pt-br, ru, sv, th, zh-cn, zh-tw, da, nl-nl, pl; Yes; Yes; Yes; ?; Yes; Yes

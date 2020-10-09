@@ -1,10 +1,15 @@
-; Austria; Belgium; Czech Republic; Denmark; Estonia; Finland; France; Germany; Greece; Hungary; Iceland; Ireland; Italy; Luxembourg; Netherlands; Norway; Poland; Portugal; Romania; Russia & Belarus; Slovakia; Slovenia; Spain; Sweden; Switzerland & Liechtenstein; Turkey; Ukraine; United Kingdom
-No through road; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
-Hospital; ; ; ; ; NOT USED; ; (Clinic) or; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; [ note 16] [ note 17]; ; ; (With A& E) or (With no A& E)
-First aid; ; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED
-Pharmacy; ; NOT USED; NOT USED; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
-Bus stop; ; NOT USED; Front: or Rear:; ; ; or [ note 18]; Fare network-specific or; ; ; ; ; ; ; ; or [ note 19]; ; ; ; ; ; ; ; ; ; Fare network-specific and:; ; ; 
-Escape lane; NOT USED; ; ; NOT USED; NOT USED; NOT USED; ; NOT USED; ; ; NOT USED; NOT USED; NOT USED; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; ; 
-Tunnel; ; ; ; ; ; ; ; ; ; ; ; NOT USED; or [ note 20]; ; ; ; ; ; ; NOT USED; ; ; ; ; [ note 21] [ 8]; ; ; NOT USED
-Parking place; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
-; Austria; Belgium; Czech Republic; Denmark; Estonia; Finland; France; Germany; Greece; Hungary; Iceland; Ireland; Italy; Luxembourg; Netherlands; Norway; Poland; Portugal; Romania; Russia & Belarus; Slovakia; Slovenia; Spain; Sweden; Switzerland & Liechtenstein; Turkey; Ukraine; United Kingdom
+; Austria; Belgium; Czechia; Denmark; Estonia; Finland; France; Germany; Greece; Hungary; Iceland; Ireland; Italy; Luxembourg; Netherlands; Norway; Poland; Portugal; Romania; Russia Belarus; Slovakia; Slovenia; Spain; Sweden; Switzerland Liechtenstein; Turkey; Ukraine; UK; Åland
+One-way street; ; ; ; ; ; ; ; (until 2022); ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED
+One-way street; ; NOT USED; ; ; ; ; NOT USED; ; ; ; ; NOT USED; ; ; ; ; NOT USED; NOT USED; ; ; ; ; ; ; NOT USED; ; ; ; 
+End of one-way street; ; ; ; ; ; NOT USED; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; ; ; ; ; NOT USED; NOT USED
+Pedestrian crossing; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; or; [ note 10]; ; ; NOT USED; 
+Road hump; ; ; ; ; ; NOT USED; ; NOT USED; ; ; ; ; NOT USED; ; ; ; ; ; ; ; DEFUNCT; ; ; NOT USED; NOT USED; ; ; NOT USED; NOT USED
+Lane ends; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+Residential area / living street; or; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; or; ; ; ; 
+Pedestrian zone; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED; ; (Russia) (Belarus); ; ; ; ; or; ; ; ; 
+Bus lane; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED
+Expressway; ; ; ; ; NOT USED; ; ; ; ; ; NOT USED; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED; NOT USED
+Expressway ends; ; ; ; ; NOT USED; ; ; ; ; ; NOT USED; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED; NOT USED
+Motorway; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED
+Motorway ends; ; ; ; ; ; ; ; ; ; ; NOT USED; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; NOT USED
+; Austria; Belgium; Czechia; Denmark; Estonia; Finland; France; Germany; Greece; Hungary; Iceland; Ireland; Italy; Luxembourg; Netherlands; Norway; Poland; Portugal; Romania; Russia Belarus; Slovakia; Slovenia; Spain; Sweden; Switzerland Liechtenstein; Turkey; Ukraine; UK; Åland

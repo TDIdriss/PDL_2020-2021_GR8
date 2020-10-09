@@ -1,4 +1,4 @@
-; Trident; Gecko; WebKit; Presto
+NativeError object; Trident; Gecko; WebKit; Presto
 Called as function; Called as function; Called as function; Called as function; Called as function
 EvalError (message); ?; 1.0; Yes; ?
 RangeError (message); ?; 1.0; Yes; ?

@@ -1,5 +1,6 @@
 ; read-write; read-only; write-only
 ABAP Objects; N/A; N/A; N/A
+APL (Dyalog); :Property Numbered Default name ∇ result ← Get instructions ∇ ∇ Set arguments instructions ∇ :EndProperty Bar; :Property Numbered Default Bar ∇ result ← Get instructions ∇ :EndProperty Bar; :Property Numbered Default Bar ∇ Set arguments instructions ∇ :EndProperty Bar
 C++ (STL); type& operator[](type index) { instructions }; type operator[](type index) { instructions }; 
 C#; type this[type index] { get{ instructions } set{ instructions } }; type this[type index] { get{ instructions } }; type this[type index] { set{ instructions } }
 D; type opIndex(type index) { instructions } type opIndexAssign(type value, type index) { instructions }; type opIndex(type index) { instructions }; type opIndexAssign(type value, type index) { instructions }

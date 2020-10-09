@@ -11,18 +11,17 @@ Elm; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
 eM Client; Yes; Yes; Yes; No; Yes; Yes; No; Yes; Yes; Yes; Yes; No; Yes; Yes
 EmailTray; Yes; Yes; Yes; No; Yes; ?; No; No; No; No; No; No; No; No
 Eudora; Yes; No; Yes; Pro only; Pro only; ?; Yes; No; Yes [ Note 2]; Yes [ Note 2]; Yes; ?; ?; ?
-Eureka Email; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
 Evolution; Yes; Yes; Yes; Yes; ?; No; Yes; No; Yes; Yes; Yes; ?; ?; ?
 Gnus; Yes; Yes; Yes; Yes; Yes; ?; Yes; ?; Yes; Yes; Yes; ?; ?; Yes
 GroupWise; Yes; Yes; Yes; Yes; ?; ?; Yes; ?; ?; ?; ?; ?; ?; ?
 Hiri; Yes; Yes; Yes; Yes; Yes; ?; Yes; Yes; Yes; No; No; No; No; No
 i.Scribe / InScribe; Read-only; Yes; Yes; Yes; No; ?; Yes; ?; Yes; No; No; No; No; No
-IBM Notes; Yes; Yes; Yes; Yes; Yes; Yes; Yes [ Note 3]; ?; Yes; Yes (4.1.2+); Yes; Yes[ 63]; Yes; Yes
+HCL Notes; Yes; Yes; Yes; Yes; Yes; Yes; Yes [ Note 3]; ?; Yes; Yes (4.1.2+); Yes; Yes[ 28]; Yes; Yes
 KMail; Yes; Yes; Yes; Yes; ?; ?; Yes; Yes; Yes (with GPG); Yes (1.5+, with GPGME); Yes; Yes; Yes; ?
 Mailbird; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; ?; No; No; No; No; No
 Mailpile; ?; Yes; ?; ?; ?; ?; ?; Yes; ?; Yes; ?; ?; ?; ?
 Microsoft Entourage; Yes; Yes; Yes; Yes; Yes; Yes; ?; ?; ?; Yes; Yes; ?; ?; Yes
-Microsoft Office Outlook; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes (2010+)[ 64]; No; No; Yes; ?; Yes; Yes
+Microsoft Office Outlook; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes (2010+)[ 29]; No; No; Yes; ?; Yes; Yes
 Mozilla Mail & Newsgroups; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
 Mozilla Thunderbird; Yes; Yes [ Note 4]; Yes; Yes; Yes; Yes [ Note 5]; Yes; Yes; Yes [ Note 6]; Yes; Yes; Yes; ?; Yes
 Mulberry; Yes; Yes; Yes; No; Yes; ?; Yes; ?; Yes [ Note 7]; Yes [ Note 7]; Yes [ Note 7]; ?; ?; ?

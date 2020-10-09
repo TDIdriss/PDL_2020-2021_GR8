@@ -6,12 +6,12 @@ Buddy; No; Yes; No; No; No; No; No; No; No
 CloudForge; No; Yes; No; Yes; No; No; No; No; No
 GForge; Yes; Yes; No; Yes; No; No; No; No; No
 Gitea; No; Yes; No; No; No; No; No; No; No
-GitHub; No; Yes; No; Partial[ 36]; No; No; No; No; No
+GitHub; No; Yes; No; Partial[ 38]; No; No; No; No; No
 GitLab; No; Yes; No; No; No; No; No; No; No
-GNU Savannah; Yes; Yes; Yes; Yes; Yes[ 37]; No; Yes; No; No
-java.net; No; Yes[ 38]; Yes[ 38]; Yes[ 38]; No; No; No; No; No
+GNU Savannah; Yes; Yes; Yes; Yes; Yes[ 39]; No; Yes; No; No
+java.net; No; Yes[ 40]; Yes[ 40]; Yes[ 40]; No; No; No; No; No
 Kallithea; No; Yes; Yes; No; No; No; No; No; No
-Launchpad; Import only; Yes[ 12] [ 39]; Import only[ 40]; Import only; Yes; No; No; No; Unknown
+Launchpad; Import only; Yes[ 14] [ 41]; Import only[ 42]; Import only; Yes; No; No; No; Unknown
 OSDN; Yes; Yes; Yes; Yes; Yes; No; No; Unknown; Unknown
 Ourproject.org; Yes; No; No; Yes; No; No; No; Unknown; Unknown
 OW2 Consortium; Yes; No; No; Yes; No; No; No; Unknown; Unknown
@@ -19,6 +19,6 @@ Helix TeamHub; No; Yes; Yes; Yes; No; No; No; Yes; No
 Phabricator; No; Yes; Yes; Yes; No; No; No; No; No
 RhodeCode; No; Yes; Yes; Yes; No; No; No; No; No
 SEUL.org; Yes; No; No; Yes; No; No; No; Unknown; Unknown
-SourceForge; Dropped[ 41]; Yes; Yes; Yes; Dropped[ 42]; No; No; Unknown; Yes
+SourceForge; Dropped[ 43]; Yes; Yes; Yes; Dropped[ 44]; No; No; Unknown; No[ 45]
 Sourcehut; No; Yes; Yes; No; No; No; No; Unknown; Unknown
 Name; CVS; Git; Hg; SVN; BZR; TFVC; Arch; Perforce; Fossil

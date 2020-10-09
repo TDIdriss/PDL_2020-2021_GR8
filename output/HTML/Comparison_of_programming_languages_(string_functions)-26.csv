@@ -3,16 +3,16 @@ LCase(string); VB
 lcase(string); FreeBASIC
 lc(string); Perl, Raku
 string.lc; Raku
-tolower(char); C[ 19]
+tolower(char); C[ 30]
 std.string.toLower(string); D
-transform(string.begin(), string.end(), result.begin(),  ::tolower)[ 20]; C++[ 21]
+transform(string.begin(), string.end(), result.begin(),  ::tolower)[ 31]; C++[ 32]
 lowercase(string); Object Pascal (Delphi)
 strtolower(string); PHP
 lower(string); Seed7
 echo "string" | tr 'A-Z' 'a-z'; Unix
 string.lower(); Python
 downcase(string); Pick Basic
-string.downcase; Ruby[ 22]
+string.downcase; Ruby[ 33]
 strings.ToLower(string); Go
 (string-downcase string); Scheme (R6RS), Common Lisp
 (lower-case string); Clojure
@@ -26,8 +26,9 @@ string.lowercaseString; Objective-C (NSString * only), Swift (Foundation)
 string.lower(string) (string):lower(); Lua
 string asLowercase; Smalltalk
 LOWER(string); SQL
-lowercase(string); PL/I[ 6]
+lowercase(string); PL/I[ 7]
 ToLowerCase[string]; Mathematica
 «FUNCTION» LOWER-CASE(string); COBOL
 string.toLower; Cobra
 string tolower string; Tcl
+string.to_lowercase(); Rust[ 34]

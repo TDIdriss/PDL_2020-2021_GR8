@@ -1,5 +1,6 @@
 ; Has member?; Has member?; Handler for missing member; Handler for missing member
 ; Method; Field; Method; Field
+APL (Dyalog); 3=x.⎕NC'method'; 2=x.⎕NC'method'; N/A; N/A
 ABAP Objects; N/A; N/A; N/A; N/A
 C++ (STL); N/A; N/A; N/A; N/A
 Objective-C (Cocoa); [x respondsToSelector:@selector(method)]; N/A; forwardInvocation:; N/A

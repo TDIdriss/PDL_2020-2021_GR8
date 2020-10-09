@@ -5,7 +5,7 @@ CSS2; @import; Import stylesheet; 8.0; 12; 1.0; Yes; Yes; 1.0;
 CSS2; @charset; Character set; 5.5; 12; 1.0; Yes; 4.2.3; 1.0; 
 CSS2; @media; Media-specific rules; 5.5; 12; 1.0; Yes; Yes; 1.0; 
 css- namespace-3; @namespace; Namespace declaration; 9.0[ t 1]; 12; 1.0; Yes; Yes; 1.0; 
-earlier draft of css- conditional3; @document; Restriction by URLs; No; No; 6.0; No; No; No; 
+earlier draft of css3- conditional; @document; Restriction by URLs; No; No; 6.0; No; No; No; 
 css- animations-1; @keyframes; Animation key; 10.0[ t 2]; 12; 16.0; Experimental; No; 2.12; 
 css3- conditional; @supports; Conditional Rules; No; 12; 22.0[ g 1]; 28.0[ w 1]; No; 2.12; 
 css-counter- styles-3; @counter-style; Custom Counter Styles; No; No; 33.0[ g 2]; No; No; No; 

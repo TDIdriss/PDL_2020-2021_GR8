@@ -3,15 +3,15 @@ Botan; Yes
 Bouncy Castle; Yes
 cryptlib; Yes
 GnuTLS; Yes
-JSSE; Yes[ 67]
+JSSE; Yes[ 65]
 LibreSSL; Yes
 MatrixSSL; Yes
-mbed TLS; Yes
-NSS; No[ 68]
-OpenSSL; Yes[ 54]
-RSA BSAFE; Yes[ 55]
+Mbed TLS; Yes
+NSS; No[ 66]
+OpenSSL; Yes[ 52]
+RSA BSAFE; Yes[ 53]
 S2n; 
-SChannel; Yes[ 69]
+SChannel; Yes[ 67]
 Secure Transport; No
 wolfSSL; Yes
 Implementation; TLS 1.2 Suite B

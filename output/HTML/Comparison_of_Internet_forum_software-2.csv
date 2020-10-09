@@ -1,7 +1,7 @@
 ; Flat; Threaded; User selectable themes; Unread message tracking; WYSIWYG Editor; Export, portability; Email / NNTP interface; Languages; SSO
 bbPress; Yes[ 26]; ; ; ; ; No[ 27]; Plugin[ 28] [ 29]; Yes[ 30]; 
 Beehive Forum; Yes[ 26]; Yes[ 26]; Partial[ 26]; Full[ 26]; Yes[ 26] (using TinyMCE); Partial[ 31]; ; ; 
-Discourse; Yes; No[ 32]; Yes[ 33]; Full; Real-time side-by-side preview; Full[ 34]; Partial[ 35]; Yes[ 36] [ 37]; OAuth2[ 38] , Custom[ 39]
+Discourse; Yes; No[ 32]; Yes[ 33]; Full; Real-time side-by-side preview; Full[ 34]; Partial[ 35]; Yes[ 36] [ 37]; OAuth2,[ 38] Custom[ 39]
 Discuz!; ; ; Yes[ 40]; ; ; ; ; ; 
 FluxBB; Yes[ 26]; No[ 26]; Partial[ 26]; Session[ 26]; No[ 26]; ; ; Yes[ 41]; 
 FUDforum; Yes[ 26]; Yes[ 26]; Yes[ 26]; Full[ 26]; Yes[ 26]; Partial[ 42]; Yes[ 43]; Yes[ 44]; 
@@ -13,5 +13,5 @@ PunBB[ 60]; Yes[ 26]; ; Yes[ 26]; Session[ 26]; ; ; ; No[ 61] [ 62];
 Simple Machines Forum; Yes[ 26]; No[ 26]; Yes[ 26]; Full[ 26]; Yes[ 26]; Partial [ 63]; No[ 64]; Yes[ 65]; 
 Thredded; Yes[ 19]; No[ 19]; Yes[ 19]; Full[ 19]; No[ 19]; No[ 19]; Read-only[ 19]; Yes[ 19]; Custom[ 19]
 Vanilla Forums; Yes[ 26]; ; Yes[ 26]; Yes[ 26]; Plugin[ 26]; Plugin [ 66] [ 67]; ; Yes[ 68]; Yes[ 69]
-vBulletin[ 70]; Yes[ 26]; Yes[ 26]; Yes[ 26]; Full[ 26]; Yes[ 26]; Plugin[ 71] [ 72]; ; No[ 73]; 
-XenForo; Yes[ 26]; ; Yes[ 26]; Full[ 26]; Yes[ 26]; Yes[ 74]; ; Yes[ 75]; Yes[ 76]
+vBulletin[ 70]; Yes[ 26]; No; Yes[ 26]; Full[ 26]; Yes[ 26]; Plugin[ 71] [ 72]; ; No[ 73]; 
+XenForo; Yes[ 26]; Yes; Yes[ 26]; Full[ 26]; Yes[ 26]; Yes[ 74]; ; Yes[ 75]; Yes[ 76]

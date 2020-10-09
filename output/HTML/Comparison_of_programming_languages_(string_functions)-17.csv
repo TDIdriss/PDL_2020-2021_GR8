@@ -11,7 +11,7 @@ fmt.Sprintf(formatstring, items); Go; C
 printf -v outputstring formatstring items; Bash shell; C
 formatstring  % (items); Python, Ruby; C
 formatstring.format(items); Python; .NET
-Printf.sprintf formatstring[ 13] items; OCaml, F#; C
+Printf.sprintf formatstring[ 19] items; OCaml, F#; C
 Text.Printf.printf formatstring items; Haskell (GHC); C
 formatstring printf: items; Smalltalk; C
 String.format(formatstring, items); Java; C
@@ -28,3 +28,4 @@ put string(string) edit(items)(format); PL/I; PL/I (similar to Fortran)
 String.format(formatstring, items); Cobra; .NET
 format formatstring items; Tcl; C
 formatnumbers ⍕ items or formatstring ⎕FMT items; APL; APL
+format!(formatstring, items); Rust[ 20]; Python

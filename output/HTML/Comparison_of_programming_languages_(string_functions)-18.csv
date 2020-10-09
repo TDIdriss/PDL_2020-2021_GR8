@@ -8,7 +8,7 @@ string1 ne string2; Perl, Raku
 (string/= string1 string2); Common Lisp
 (string/= string1 string2); ISLISP
 (not= string1 string2); Clojure
-string1  != string2; C++ (STL), C#, Go, JavaScript (not similar), PHP (not similar), Python, Ruby, Swift, D, Mathematica
+string1  != string2; C++ (STL), C#, Go, JavaScript (not similar), PHP (not similar), Python, Ruby, Rust,[ 9] Swift, D, Mathematica
 string1  !== string2; JavaScript, PHP
 string1 \= string2; Rexx
 string1 ¬= string2; PL/I
@@ -16,3 +16,4 @@ test string1  != string2, or [ string1  != string2 ]; Bourne Shell
 string1 -ne string2, or -not [string]::Equals(string1, string2); Windows PowerShell
 string1 ~= string2; Lua, Smalltalk
 string1 ≢ string2; APL
+string1.ne(string2); Rust[ 9]

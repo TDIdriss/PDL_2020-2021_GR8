@@ -5,6 +5,7 @@ ath; Atheros AR5210/ AR5211/AR5212/AR5416; Integrated; On Device; BSD; ;
 bwi; Broadcom BCM430x/4318; Integrated; Yes; BSD; Sepherosa Ziehau; Reverse engineering
 iwi; Intel PRO/Wireless 2200BG/2915ABG; Integrated; Yes; BSD; Damien Bergamini (OpenBSD); Reverse engineering
 iwl; Intel PRO/Wireless 2100; Integrated; Yes; BSD; Damien Bergamini (OpenBSD); Reverse engineering
+iwm; Intel Dual Band Wireless AC 3160/7260/8260/9260/9270/9560; Integrated; Yes; BSD; OpenBSD; 
 iwn; Intel 4965/1000/5000/ 5150/5300/6000/6050; Integrated; Yes; BSD; Damien Bergamini (OpenBSD); Reverse engineering
 ral; Ralink RT2500/ RT2501/RT2600; Integrated; On Device; BSD; Damien Bergamini; Ported from FreeBSD
 rtw; Realtek RTL8180L; Integrated; On Device; BSD; ; Ported from NetBSD

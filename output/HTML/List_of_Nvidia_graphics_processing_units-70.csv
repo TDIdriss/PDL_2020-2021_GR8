@@ -1,8 +1,9 @@
-Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config1; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS); Supported API version; Supported API version; Nvidia Optimus technology; TBP (Watts); Notes
-Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config1; Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Single precision; Direct3D; OpenGL; Nvidia Optimus technology; TBP (Watts); Notes
-Quadro K500M; GK107; 28; PCIe 3.0 ×16; 850; 850; 1600; 192:16:8; 6.8; 13.6; 1024; 12.8; DDR3; 64; 326.4; 11.0; 4.5; Yes; 35; 
-Quadro K1000M; GK107; 28; PCIe 3.0 ×16; 850; 850; 192:16:16; 13.6; 128; 13.6; 326.4; 45; DDR3; Dell Precision M4700; 11.0; 4.5; Yes; 
-Quadro K2000M; GK107; 28; PCIe 3.0 ×16; 745; 745; 2048; 28.8; 128; 384:32:16; 11.92; 23.84; DDR3; 572.16; 55; 11.0; 4.5; Yes; Dell Precision M4700; 
-Quadro K3000M; GK104; 28; PCIe 3.0 ×16; 654; 654; 2048; 576:48:32; 20.93; 31.39; 256; 753.41; 75; Dell Precision M6700; 11.0; 4.5; Yes; 
-Quadro K4000M; GK104; 28; PCIe 3.0 ×16; 2800; 600; 600; 960:80:32; 89.6; GDDR5; 256; 19.2; 48; 1152; Dell Precision M6700; 11.0; 4.5; Yes; 
-Quadro K5000M; GK104; 28; PCIe 3.0 ×16; 706; 706; 4096; 3000; 1344:112:32; GDDR5; 256; 22.59; 79.07; 96; 1897.73; 11.0; 4.5; Yes; Dell Precision M6700; 
+Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config12; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS); Supported API version; Supported API version; TBP (Watts); Notes
+Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config12; Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Single precision; Direct3D; OpenGL; TBP (Watts); Notes
+Quadro 500M; GF108; 40; PCIe 2.0 ×16; 700; 1400; 1800; 96:16:4; 2.8; 11.2; 1024; 28.8; DDR3; 128; 268.8; 11.0; 4.5; 35; 
+Quadro 1000M; GF108; 40; PCIe 2.0 ×16; 700; 1400; 1800; 96:16:4; 2.8; 11.2; 45; 28.8; DDR3; 128; 268.8; 11.0; 4.5; Dell Precision M4600; 
+Quadro 2000M; GF106; 40; PCIe 2.0 ×16; 550; 1100; 1800; 192:32:16; 8.8; 17.6; 422.4; 28.8; DDR3; 128; 55; 11.0; 4.5; Dell Precision M4600; 
+Quadro 3000M; 40; PCIe 2.0 ×16; 450; 900; 240:40:32; 14.4; 18; 80; GDDR5; 256; 432; 75; Dell Precision M6600; 11.0; 4.5; 
+Quadro 4000M; 475; 40; PCIe 2.0 ×16; 950; 2500; 336:56:32; 15.2; 26.6; 80; GDDR5; 256; 638.4; Dell Precision M6600; 11.0; 4.5; 
+Quadro 5000M; GF100; 40; PCIe 2.0 ×16; 405; 810; 2400; 100; 320:40:32; 12.96; GDDR5; 256; 16.2; 76.8; 518.4; 11.0; 4.5; Dell Precision M6500; 
+Quadro 5010M; GF110; 40; PCIe 2.0 ×16; 450; 900; 2600; 100; 384:48:32; 14.4; GDDR5; 256; 21.6; 4096; 83.2; 11.0; 4.5; 691.2; Dell Precision M6600

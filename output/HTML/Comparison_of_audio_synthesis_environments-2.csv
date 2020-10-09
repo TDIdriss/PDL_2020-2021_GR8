@@ -8,4 +8,5 @@ Max/MSP; Graphical; No;
 Pure Data; Graphical; No; 
 Reaktor; Graphical; No; 
 SuperCollider; Textual/Graphical (Cocoa/Swing/Qt); Yes; Dynamic
+SynthEdit; Graphical; Yes; Static
 MPEG-4/SA; Textual; No; No

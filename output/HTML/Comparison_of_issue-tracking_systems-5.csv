@@ -30,7 +30,6 @@ Trac; Yes; Yes; Yes; Yes; Yes; No; Yes; Optional[ 71]; Yes; No; No
 TrackerSuite.Net; No; No; No; No; No; No; No; No; No; No; No
 Tuleap; Yes; No; No; No; No; Yes; Yes; No; No; No; No
 Twproject; No; No; No; No; No; No; Yes; No; No; No; No
-Usersnap; No; No; No; No; No; No; No; No; No; No; No
 Wrike; No; No; No; No; No; No; Yes; No; No; No; No
 YouTrack; Yes[ 86]; Yes[ 86]; No; No; No; Yes[ 86]; Yes[ 86]; Yes[ 86]; No; Yes[ 86]; 3[ 86] [ 87]
 System; Git; Mercurial; Bazaar; Monotone; Darcs; CVS; Subversion; Perforce; AccuRev; ClearCase; Others

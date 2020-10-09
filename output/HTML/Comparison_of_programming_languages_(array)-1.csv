@@ -6,15 +6,13 @@ AWK; length; 1; asorti
 C#, Visual Basic .NET, Windows PowerShell, F#; name.Length; name.GetLowerBound(dimension); name.GetUpperBound(dimension)
 CFML; arrayLen(name) name.len(); 1; name.len()
 Ch; max(shape(name)); 0; max(shape(name))-1
-Cobra; name.length; 0; name.length-1
 Common Lisp; (length name); 0; (1- (length name))
 D; name.length; 0; name.length-1 $-1
 Fortran; SIZE(name); LBOUND(name); UBOUND(name)
 Go; len(name); 0; len(name) - 1
 Haskell; rangeSize (bounds name); fst (bounds name); snd (bounds name)
-Haxe; name.length; 0; name.length - 1
 ISLISP; (length name); 0; (1- (length name))
-Java, JavaScript, D, Scala; name.length; 0; name.length - 1
+Cobra, D, Haxe, Java, JavaScript, Scala; name.length; 0; name.length - 1
 J; #name; 0; < :@#name
 Julia; length(name) size(name); 1 first.(axes(name)); end last.(axes(name))
 Lingo; count(name); 1; getLast(name)

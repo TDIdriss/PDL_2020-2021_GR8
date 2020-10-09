@@ -3,6 +3,6 @@ Color mode[ n 4]; True color; 3.1; Yes; 1.0; 85; Yes; Yes; 1.0
 Color mode[ n 4]; Grayscale; 3.1; Yes; 1.0; 85; Yes; Yes; 1.0
 Color mode[ n 4]; Palette-based; 3.1; Yes; 1.0; 85; Yes; Yes; 1.0
 Alpha channel; Alpha channel; 3.1; Yes; 1.0; 85; Yes; Yes; 1.0
-Gamma correction; Gamma correction; 5.0[ 12]; Yes; 3.5[ 13]; Incorrect[ n 5]; ?; No[ 15]; Partial[ n 6]
-Color correction; Color correction; 5.0[ 12]; Yes; 1.9; ?; ?; ?; No
+Gamma correction; Gamma correction; 5.0[ 13]; Yes; 3.5[ 14]; Incorrect[ n 5]; ?; No[ 16]; Partial[ n 6]
+Color correction; Color correction; 5.0[ 13]; Yes; 1.9; ?; ?; ?; No
 Interlacing; Interlacing; Incorrect[ n 7]; ?; 1.0; ?; ?; 4.0; 1.0

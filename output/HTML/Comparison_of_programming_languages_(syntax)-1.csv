@@ -14,6 +14,7 @@ C#; semicolon terminated;
 COBOL; whitespace separated, sometimes period separated, optionally separated with commas and semi-colons.; 
 Cobra; newline terminated; 
 CoffeeScript; newline terminated; 
+CSS; semicolon separated; 
 D; semicolon terminated; 
 Eiffel; newline terminated; semicolon
 Erlang; colon separated, period terminated; 

@@ -1,21 +1,21 @@
-File manager; Family; UI; Icon view; List view; Column view; Thumbnails; Details + Thumbs; Grouping; Content dependent [ 36]; Twin panel; Favorites / Bookmark; Panel tabs
+File manager; Family; UI; Icon view; List view; Column view; Thumbnails; Details + Thumbs; Grouping; Content dependent [ 37]; Twin panel; Favorites / Bookmark; Panel tabs
 Altap Salamander; Orthodox; GUI; Yes; Yes; Yes; Yes; No; No; No; Yes; Partial; No
 Commander One; Orthodox; GUI; Yes; Yes; Yes; Yes; ?; ?; No; ?; Yes; Yes
 CRAX Commander; Orthodox; GUI; Yes; Yes; No; Yes; ?; ?; No; Yes; Yes; Yes
 Demos Commander; Orthodox; Text; ?; Yes; ?; ?; ?; ?; ?; Yes; ?; ?
 Directory Opus; Orthodox; GUI; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
-Dired; Orthodox; Text; ?; Yes; ?; Yes, on GUI[ 37]; Yes, on GUI[ 37]; ?; ?; Yes, one or more; Partial (bookmarks); Yes (show tab-bar optional) [ 38]
+Dired; Orthodox; Text; ?; Yes; ?; Yes, on GUI[ 38]; Yes, on GUI[ 38]; ?; ?; Yes, one or more; Partial (bookmarks); Yes (show tab-bar optional) [ 39]
 Documents by Readdle; ; GUI; Yes; ; ; Yes; ; ; ; ; ; 
 Dolphin; Navigational; GUI; Yes; Yes; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes
 Double Commander; Orthodox; GUI; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes
 DOS Navigator; Orthodox; Text; ?; Yes; ?; ?; ?; ?; ?; Yes; ?; ?
-emelFM2; Orthodox; GUI; No; Yes; No; Yes[ 39]; ?; No; No; Yes; ?; No
-FAR Manager; Orthodox; Text [ 40]; Partial[ 41]; Yes; Yes; Yes[ 42]; Partial[ 41]; Yes; Yes; Yes; Yes; Partial [ m 1]
+emelFM2; Orthodox; GUI; No; Yes; No; Yes[ 40]; ?; No; No; Yes; ?; No
+FAR Manager; Orthodox; Text [ 41]; Partial[ 42]; Yes; Yes; Yes[ 43]; Partial[ 42]; Yes; Yes; Yes; Yes; Partial [ m 1]
 File Commander; Orthodox; Text; No; Yes; Yes; No; Partial; Yes; No; Yes; No; No
 File Manager; Orthodox; GUI; Yes; Yes; No; ?; ?; ?; ?; Yes; No; No
 Files (Apple); ; GUI; Yes; ; ; Yes; Yes; ; ; ; ; 
 Files by Google; ; GUI; ; ; ; ; ; ; ; ; ; 
-Finder; Spatial / Miller Columns; GUI; Yes; Yes; Yes; Yes; Yes, with Cover Flow; Yes; No; No; Yes; No
+Finder; Spatial / Miller Columns; GUI; Yes; Yes; Yes; Yes; Yes, with Cover Flow; Yes; No; No; Yes; Yes
 ForkLift; Orthodox; GUI; Yes; Yes; Yes; Yes; Partial; Yes; No; Yes; Yes; Yes
 gentoo; Orthodox; GUI; ?; Yes; ?; ?; ?; ?; ?; Yes; ?; ?
 GNOME Commander; Orthodox; GUI; No; Yes; No; No; ?; No; No; Yes; ?; Yes
@@ -36,7 +36,7 @@ Windows Explorer; Navigational / Spatial; GUI; Yes; Yes; Yes [ m 2]; Yes; Partia
 Xandros File Manager; Navigational; GUI; Yes; ?; ?; ?; ?; ?; ?; ?; ?; ?
 Xfe; Hybrid Navigational; GUI; Yes; Yes; Yes; Yes; Yes; No; No; Yes; Yes; No
 Xfm; Spatial; GUI; Yes; No; No; No; No; ?; ?; No; ?; No
-xplorer²; Hybrid Navigational / Orthodox; GUI; Yes; Yes; Yes; Yes; Yes[ 43]; Yes; Yes; Yes; Yes; Yes
+xplorer²; Hybrid Navigational / Orthodox; GUI; Yes; Yes; Yes; Yes; Yes[ 44]; Yes; Yes; Yes; Yes; Yes
 XYplorer; Hybrid Navigational / Orthodox; GUI; Yes; Yes; Yes; Yes; Yes; No; No; Yes; Yes; Yes
 ZTreeWin; Orthodox; Text; No; Yes; Yes; No; Partial; Yes; No; Yes; Yes; No
 File manager; Family; UI; Icon view; List view; Column view; Thumbnails; Details + Thumbs; Grouping; Content dependent; Twin panel; Favorites / Bookmark; Panel tabs

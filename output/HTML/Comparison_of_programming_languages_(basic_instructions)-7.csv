@@ -9,8 +9,9 @@ D; type name«  = initial_value» or auto name = value; const type name = value
 Java; type name«  = initial_value»; final type name = value; N/A
 JavaScript; var name«  = initial_value» or let name«  = initial_value» (since ECMAScript 2015); const name = value (since ECMAScript 2015); N/A
 Go; var name type«  = initial_value» or name := initial_value; const name «type» = value; type synonym type
+Rust[f]; let mut name«: type»«  = initial_value» static mut NAME: type = value; let name«: type»«  = initial_value» const NAME: type = value static NAME: type = value; type synonym = typename
 Swift; var name«  : type»«  = initial_value»; let name «: type» = value; typealias synonym = type
-Common Lisp; (defparameter name initial_value) or (defvar name initial_value) or (setf (symbol-value 'symbol) initial_value); (defconstant name value); (deftype synonym () 'type)
+Common Lisp; (defparameter name initial-value) or (defvar name initial-value); (defconstant name value); (deftype synonym () 'type)
 Scheme; (define name initial_value); ; 
 ISLISP; (defglobal name initial_value) or (defdynamic name initial_value); (defconstant name value); N/A
 Pascal[a]; name: type«  = initial_value»; name = value; synonym = type

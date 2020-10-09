@@ -1,5 +1,5 @@
 Language; Creator; First public release date; Editor; Viewer
-AsciiDoc; Stuart Rackham; 2002; Text editor; Output to XHTML, HTML, DocBook (which can convert to PDF, EPUB, DVI, LaTeX, roff, and Postscript)
+AsciiDoc; Stuart Rackham; 2002; Text editor; Output to XHTML, HTML, DocBook (which can convert to PDF, EPUB, DVI, LaTeX, roff, and PostScript)
 Computable Document Format; Wolfram Research; 2010; Wolfram Language & Mathematica; CDF Player CDF format can also be embedded in web pages viewable with conventional browsers.
 Creole; ; 2007; Text editor; Output to HTML, RTF, LaTeX, others renderers for MFC, others.
 Darwin Information Typing Architecture (DITA); IBM, OASIS; 2005; Text/XML editor; Output to HTML, PDF, CHM, javadoc, others.
@@ -19,13 +19,13 @@ Office Open XML (OOXML); Ecma International, ISO/IEC; 2006; Office suite; Office
 OpenDocument Format (ODF); OASIS, ISO/IEC; 2005; Office suite; Office suite
 Open Mathematical Documents (OMDoc); Michael Kohlhase; 2000; Text/XML editor[ 2]; Output to XHTML+MathML, TeX, others.
 Org-mode; Org-mode project; 2003; Emacs, text editor; Emacs. Output to HTML, PDF, DocBook, FreeMind, OpenDocument Format (ODF), others.
-reStructuredText; David_Goodger; 2001[ 3]; Text editor; Output to HTML, LaTeX, PDF, Unix man pages, ODT, S5 (HTML Slide Shows), XML, others.
+reStructuredText; David Goodger; 2001[ 3]; Text editor; Output to HTML, LaTeX, PDF, Unix man pages, ODT, S5 (HTML Slide Shows), XML, others.
 Rich Text Format (RTF); Microsoft; 1987; Text editor, Word processor; Word processor
 Scalable Vector Graphics (SVG); W3C; 2004; Vector graphics editor; Web browser, etc.
-Script; IBM; 1968; Text editor; GDDM, AFP viewer
-TeX; Donald Knuth; 1978; Text editor; DVI or Portable Document Format (PDF) converter
+Script GML; IBM; 1968 1971; Text editor; GDDM, AFP viewer
+TeX LaTeX; Donald Knuth Leslie Lamport; 1978 1984; Text editor; DVI or Portable Document Format (PDF) converter
 Texinfo; Richard Stallman; 1986; Text editor; output to DVI, Portable Document Format (PDF), HTML, DocBook, others.
-TeXmacs format; Joris van der Hoeven; ; Text/TeXmacs editor; PDF or Postscript files. Converters exist for TeX/LaTeX and XHTML+Mathml
+TeXmacs format; Joris van der Hoeven; 1998; Text/TeXmacs editor; PDF or PostScript files. Converters exist for TeX/LaTeX and XHTML+Mathml
 Text Encoding Initiative (TEI); Text Encoding Initiative Consortium; 1990; Text/XML editor; Web Browser (using XHTML), PDF, Word Processor (using ODF) or EPUB
 troff (typesetter runoff), groff (GNU runoff); Joe Ossanna; 1973; Text editor; groffer, or output to PostScript
 Wireless Markup Language (WML); WAP Forum; 1999; Text/XML editor; Microbrowser

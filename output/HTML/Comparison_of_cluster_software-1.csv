@@ -1,6 +1,6 @@
 Software; Maintainer; Category; Development status; ArchitectureOCS; High-Performance/ High-Throughput Computing; License; Platforms supported; Cost; Paid support available
 Accelerator; Altair; Job Scheduler; actively developed; Master/worker distributed; HPC/HTC; Proprietary; Linux, Windows; Cost; Yes
-Amoeba; ; ; ; ; ; MIT; ; ; 
+Amoeba; ; ; No active development; ; ; MIT; ; ; 
 Base One Foundation Component Library; ; ; ; ; ; Proprietary; ; ; 
 DIET; INRIA, SysFera, Open Source; All in one; ; GridRPC, SPMD, Hierarchical and distributed architecture, CORBA; HTC/HPC; CeCILL; Unix-like, Mac OS X, AIX; Free; 
 Enduro/X; Mavimax, Ltd.; Job/Data Scheduler; actively developed; SOA Grid; HTC/HPC/HA; GPLv2 or Commercial; Linux, FreeBSD, MacOS, Solaris, AIX; Free / Cost; Yes
@@ -21,9 +21,7 @@ RPyC; Tomer Filiba; ; actively developed; ; ; MIT License; *nix/Windows; Free;
 SLURM; SchedMD; Job Scheduler; actively developed; ; HPC/HTC; GPL; Linux/*nix; Free; Yes
 Spectrum LSF; IBM; Job Scheduler; actively developed; Master node with failover/exec clients, multiple admin/submit nodes, Suite addOns; HPC/HTC; Proprietary; Unix, Linux, Windows; Cost and Academic - model - Academic, Express, Standard, Advanced and Suites; Yes
 Oracle Grid Engine; Univa; Job Scheduler; active Development moved to Univa Grid Engine; Master node/exec clients, multiple admin/submit nodes; HPC/HTC; Proprietary; *nix/Windows; Cost; 
-Son of Grid Engine; Open Source; Job Scheduler; ; Master node/exec clients, multiple admin/submit nodes; HPC/HTC; Various; Linux; ; 
 SynfiniWay; Fujitsu; ; actively developed; ; HPC/HTC; ?; Unix, Linux, Windows; Cost; 
-TrinityX Cluster Manager; ClusterVision; All in one; actively developed; Master node/exec clients, multiple admin/submit nodes; HPC/HTC; GPLv2; Linux (RHEL/CentOS); Free or cost; Yes
 TORQUE Resource Manager; Adaptive Computing; Job Scheduler; actively developed; ; ; Proprietary; Linux, *nix; Cost; Yes
 UniCluster; Univa; All in One; Functionality and development moved to UniCloud (see above); ; ; ; ; Free; Yes
 UNICORE; ; ; ; ; ; ; ; ; 

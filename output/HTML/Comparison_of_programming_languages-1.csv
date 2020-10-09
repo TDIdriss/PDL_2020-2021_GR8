@@ -4,8 +4,8 @@ ActionScript 3.0; Application, client-side, web; Yes; Yes; Yes; ; ; ; Yes; ; 199
 Ada; Application, embedded, realtime, system; Yes; Yes[ 2]; ; Yes[ 3]; Yes[ 4]; ; ; concurrent,[ 5] distributed,[ 6]; 1983, 2005, 2012, ANSI, ISO, GOST 27831-88[ 7]
 Aldor; Highly domain-specific, symbolic computing; Yes; Yes; Yes; ; ; ; ; ; No
 ALGOL 58; Application; Yes; ; ; ; ; ; ; ; No
-ALGOL 60; Application; Yes; ; ; ; ; ; ; ; 1960, IFIP WG 2.1, ISO[ 8]
-ALGOL 68; Application; Yes; ; ; ; ; ; ; concurrent; 1968, IFIP WG 2.1, GOST 27974-88,[ 9]
+ALGOL 60; Application; Yes; ; ; Yes; Yes; ; ; ; 1960, IFIP WG 2.1, ISO[ 8]
+ALGOL 68; Application; Yes; ; Yes; Yes; Yes; ; ; concurrent; 1968, IFIP WG 2.1, GOST 27974-88,[ 9]
 Ateji PX; Parallel application; ; Yes; ; ; ; ; ; pi calculus; No
 APL; Application, data processing; Yes; Yes; Yes; Yes; Yes; Yes; Yes; array-oriented, tacit; 1989, ISO
 Assembly language; General; Yes; ; ; ; ; ; ; any, syntax is usually highly specific, related to the target processor; IEEE 694-1985[ 10]
@@ -32,6 +32,7 @@ ColdFusion (CFML); Web; ; Yes; ; Yes; ; ; ; ; No
 Common Lisp; General; Yes; Yes; Yes; Yes; Yes; Yes; Yes; extensible syntax, Array-oriented, syntactic macros, multiple dispatch, concurrent; 1994, ANSI
 COMAL 80; Education; Yes; ; ; Yes; ; ; ; ; No
 Crystal; General purpose; Yes; Yes[ 21]; Yes; Yes; ; ; ; alpha stage[ 22]; No
+Curry; Application; ; ; Yes; ; Yes; ; ; lazy evaluation, non-determinism; De facto standard via Curry Language Report
 Cython; Application, general, numerical computing; Yes; Yes; Yes; ; ; Yes; ; aspect-oriented; No
 D; Application, system; Yes; Yes; Yes; Yes; Yes; Yes; ; generative, concurrent; No
 Dart; Application, web, server-side, mobile, IoT; Yes; Yes; Yes; ; ; ; ; structured; Ecma-408 standard
@@ -77,7 +78,7 @@ Logtalk; Artificial intelligence, application; ; Yes; ; ; ; Yes; Yes; logic; No
 LSL; Virtual worlds content scripting and animation; Yes; ; ; Yes; ; ; Yes; Scripts exist in in-world objects; Yes[ 31]
 Lua; Application, embedded scripting; Yes; Yes[ 32]; Yes; Yes; ; Yes; ; aspect-oriented; No[ 33]
 Maple; Symbolic computation, numerical computing; Yes; Yes; Yes; Yes; ; ; ; distributed; No
-Mathematica; Symbolic language; Yes; Yes; Yes; Yes; ; ; ; logic, distributed; No
+Mathematica; Symbolic language; Yes; Yes; Yes; Yes; Yes; Yes; Yes; logic, distributed; No
 MATLAB; Highly domain-specific, numerical computing; Yes; Yes; ; Yes; ; ; ; ; No
 Modula-2; Application, system; Yes; ; ; ; Yes; ; ; ; 1996, ISO[ 34]
 Modula-3; Application; Yes; Yes; ; ; Yes; ; ; ; No
@@ -97,7 +98,7 @@ Perl; Application, scripting, text processing, Web; Yes; Yes; Yes; Yes; Yes; Yes
 PHP; Server-side, web application, web; Yes; Yes[ 36]; Yes[ 37]; Yes; ; Yes; ; ; "De facto" standard via language specification and Requests for Comments (RFCs)
 PL/I; Application; Yes; Yes; ; Yes; ; ; ; ; 1969, ECMA-50 (1976)
 Plus; Application, system development; Yes; ; ; Yes; ; ; ; ; No
-PostScript; Graphics, page description; Yes; ; ; Yes; ; ; ; Stack-oriented; Yes (as the PostScript Reference Manual)
+PostScript; Graphics, page description; Yes; ; ; Yes; ; ; ; concatenative, stack-oriented; Yes, as the PostScript Reference Manual[ 38]
 PowerShell; Administration, application, general, scripting; Yes; Yes; Yes; Yes; ; Yes; ; pipeline; No
 Prolog; Application, artificial intelligence; ; ; Yes; Yes; ; Yes; ; logic, declarative; 1995, ISO/IEC 13211-1:1995, TC1 2007, TC2 2012, TC3 2017
 PureBasic; Application; ; ; ; Yes; ; ; ; ; No
@@ -107,9 +108,10 @@ Racket; Education, general, scripting; ; Yes; Yes; Yes; ; Yes; ; modular, logic,
 Raku; Scripting, text processing, glue; Yes; Yes; Yes; Yes; Yes; Yes; ; aspect-oriented, array, lazy evaluation, multiple dispatch, metaprogramming; Yes
 REALbasic; Application; ; ; ; Yes; ; ; ; ; Unknown
 Rebol; Distributed; Yes; Yes; Yes; Yes; ; Yes; Yes; dialected; No
+REXX; Scripting; Yes; Yes (NetRexx and Object REXX dialects); No; Yes; ; No; No; ; 1996 (ANSI X3.274-1996)
 RPG; Application, system; Yes; ; ; Yes; ; ; ; ; No
 Ruby; Application, scripting, web; Yes; Yes; Yes; ; ; Yes; ; aspect-oriented; 2011(JIS X 3017), 2012(ISO/IEC 30170)
-Rust; Application, system; Yes; Yes[ 38]; Yes; Yes; Yes; ; Yes; concurrent; No
+Rust; Application, system; Yes; Yes[ 39]; Yes; Yes; Yes; ; Yes; concurrent; No
 S; Application, statistics; Yes; Yes; Yes; Yes; ; ; ; ; No
 S-Lang; Application, numerical, scripting; Yes; ; ; Yes; ; ; ; ; No
 Scala; Application, distributed, web; Yes; Yes; Yes; ; Yes; Yes; Yes; ; De facto standard via Scala Language Specification (SLS)
@@ -119,14 +121,14 @@ Simula; Education, general; Yes; Yes; ; ; ; ; Yes; discrete event simulation, mu
 Small Basic; Application, education, games; Yes; ; ; ; ; ; Yes; component-oriented; No
 Smalltalk; Application, general, business, artificial intelligence, education, web; Yes; Yes; Yes; Yes; ; Yes; Yes; concurrent, declarative; 1998, [ANSI
 SNOBOL; Text processing; ; ; ; ; ; ; ; ; Unknown
-Standard ML; Application; Yes; ; Yes; ; Yes; ; ; ; 1997, SML '97[ 39]
-Swift; Application, general; Yes; Yes; Yes; Yes; Yes; Yes; Yes; concurrent, Multi-paradigm; No
+Standard ML; Application; Yes; ; Yes; ; Yes; ; ; ; 1997, SML '97[ 40]
+Swift; Application, general; Yes; Yes; Yes; Yes; Yes; Yes; Yes; concurrent, declarative, protocol-oriented; No
 Tcl; Application, scripting, web; Yes; Yes; Yes; Yes; ; Yes; Yes; ; No
 Visual Basic; Application, RAD, education, business, general, (Includes VBA), office automation; Yes; Yes; ; ; Yes; ; Yes; component-oriented; No
 Visual Basic .NET; Application, RAD, education, web, business, general; Yes; Yes; Yes; Yes; Yes; Yes; Yes; structured, concurrent; No
 Visual FoxPro; Application; ; Yes; ; ; ; ; ; data-centric, logic; No
 Visual Prolog; Application; Yes; Yes; Yes; ; ; ; Yes; declarative, logic; No
-Wolfram Language; Symbolic language; Yes; Yes; Yes; Yes; ; ; ; logic, distributed; No
+Wolfram Language; Symbolic language; Yes; Yes; Yes; Yes; Yes; Yes; Yes; logic, distributed; No
 XL; ; Yes; Yes; ; ; ; ; ; concept programming; No
 Xojo; Application, RAD, general, web; Yes; Yes; ; Yes; ; Yes; Yes; ; No
 XPath/XQuery; Databases, data processing, scripting; ; ; Yes; ; ; ; ; tree-oriented; W3C 1999 XPath 1, 2010 XQuery 1, 2014 XPath/XQuery 3.0

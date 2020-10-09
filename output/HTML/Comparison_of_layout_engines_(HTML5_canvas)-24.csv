@@ -1,5 +1,5 @@
 ; Trident; EdgeHTML; Gecko; WebKit; Presto
-getElementsByClassName[ 27]; 5.0[ t 31]; 12; 1.9[ g 62]; 525; 2.1
+getElementsByClassName[ 28]; 5.0[ t 31]; 12; 1.9[ g 62]; 525; 2.1
 registerProtocolHandler; No; No; 1.9[ f] [ dead link]; Yes[ w 51]; 2.10[ p 14]
 registerContentHandler; No; No; 1.8[ g]; Yes[ w 51]; 2.10[ p 14]
 Cross-document messaging; 4.0; 12; 1.9[ g 65]; Yes; 2.0

@@ -1,5 +1,5 @@
 Driver; Chipset; Integration; Free firmware[ note 2]; License; Development; Free software[ note 3]
-ath[ 66] [ 67]; Atheros AR5211/ AR5212/ AR5213/ AR5214; Integrated with Solaris Nevada build 29; No firmware required[ 3]; Dual GPL/BSD with proprietary HAL; Port of Madwifi; No
+ath[ 68] [ 69]; Atheros AR5211/ AR5212/ AR5213/ AR5214; Integrated with Solaris Nevada build 29; No firmware required[ 3]; Dual GPL/BSD with proprietary HAL; Port of Madwifi; No
 ipw; Intel PRO/Wireless 2100; Community project; No; BSD; Ported from OpenBSD; Yes
 iwi; Intel PRO/Wireless 2200BG/2225BG/2915ABG; Community project; No; BSD; Ported from OpenBSD; Yes
 pcan; Cisco Aironet 340/350; Community project; N/A; BSD; Ported from FreeBSD; Yes

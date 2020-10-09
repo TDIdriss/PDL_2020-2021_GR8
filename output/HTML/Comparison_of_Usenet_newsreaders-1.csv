@@ -25,7 +25,7 @@ tin; text-based; Traditional Newsreader; Yes; No; No; No; ; Yes; No; ; Free; Uni
 Unison; GUI; Combination; Yes; Yes; Yes; Yes; ; Yes; Yes; Yes (audio only); Free; Mac OS X; Proprietary; Development has ceased. Free but unsupported.
 Usenet Explorer; GUI; Combination; Yes; Yes; Yes; Yes; Yes ( 1500 days / $23.34/yr ); Yes; Yes; ; $35; Microsoft Windows; Proprietary; Shareware
 Windows Live Mail; GUI; Traditional Newsreader; Yes; ; ; ; ; Yes; ; ; Free; Microsoft Windows; Proprietary; 
-Windows Mail; GUI; Traditional Newsreader; Yes; ; ; ; ; Yes; ; ; ; Microsoft Windows; Proprietary; Part of Windows Vista and Windows Server 2008
+Windows Mail; GUI; Traditional Newsreader; Yes; ; ; ; ; Yes; ; ; ; Microsoft Windows; Proprietary; Part of Windows Vista and Windows Server 2008. No Newsgroup or Usenet support in Windows 10.[ 1] [ better  source  needed]
 Xnews; GUI; Combination; Yes; No; No (Can create NBZs); ; ; No; ; ; Free; Microsoft Windows; Proprietary; 
 XPN; GUI; Traditional Newsreader; Yes; No; No; ; ; ; Yes; ; Free; Cross-platform; GPL; 
 Name; Interface; Type of Client; Downloading headers XOVER; PAR; NZB; unZip unRAR; Integrated Search Service (retention / $$$/yr); IPv6; SSL/TLS; Audio Video Streaming; Price; Platform; License; Other

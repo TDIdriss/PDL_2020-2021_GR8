@@ -33,3 +33,5 @@ SHA-384; 64; ×6 = 384; ×8 = 512; ×8 = 512; ×16 = 1024; 128; 16 × 5 = 80; A 
 Tiger-192; 64; ×3 = 192; ×3 = 192; ×3 = 192; ×8 = 512; 64; 8 × 3 = 24; A B L S; Not Specified
 Tiger-160; 64; ×2.5=160; ×3 = 192; ×3 = 192; ×8 = 512; 64; 8 × 3 = 24; A B L S; Not Specified
 Tiger-128; 64; ×2 = 128; ×3 = 192; ×3 = 192; ×8 = 512; 64; 8 × 3 = 24; A B L S; Not Specified
+Function; Word; Digest; Chaining values; Computation values; Block; Length; Words × Passes = Rounds; Operations; Endian
+Function; Size (bits); Size (bits); Size (bits); Size (bits); Size (bits); Words × Passes = Rounds; Operations; Endian

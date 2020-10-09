@@ -3,13 +3,13 @@ Implementation; IDEA CBC [ n 1] (insecure)[ 144]; DES CBC (insecure) [ n 1]; DES
 Botan; No; No; No; No; No[ 145]; No
 BoringSSL; No; No; No; No; Disabled by default at compile time; No
 cryptlib; No; Disabled by default at compile time; No; No; Disabled by default at compile time; No
-GnuTLS; No; No; No; No; Disabled by default[ 38]; No
+GnuTLS; No; No; No; No; Disabled by default[ 37]; No
 JSSE; No; Disabled by default; Disabled by default; No; Disabled by default; Disabled by default [ 146]
-LibreSSL; Yes; Yes; No[ 42]; No[ 42]; Yes; No[ 42]
+LibreSSL; Yes; Yes; No[ 41]; No[ 41]; Yes; No[ 41]
 MatrixSSL; Yes; No; No; No; Disabled by default; No
-mbed TLS; No; Disabled by default at compile time; No; No; Disabled by default at compile time[ 46]; No
+Mbed TLS; No; Disabled by default at compile time; No; No; Disabled by default at compile time[ 44]; No
 NSS; Yes; Disabled by default; Disabled by default; Disabled by default; Lowest priority[ 147] [ 148]; Disabled by default
-OpenSSL; Disabled by default[ 52]; Disabled by default; No[ 52]; No[ 52]; Disabled by default; No[ 52]
+OpenSSL; Disabled by default[ 50]; Disabled by default; No[ 50]; No[ 50]; Disabled by default; No[ 50]
 RSA BSAFE Micro-Edition Suite; No; No; No; No; Disabled by default; No
 RSA BSAFE SSL-J; No; Disabled by default; Disabled by default; No; Disabled by default; Disabled by default
 SChannel XP/2003; No; Yes; Yes; Yes; Yes; Yes

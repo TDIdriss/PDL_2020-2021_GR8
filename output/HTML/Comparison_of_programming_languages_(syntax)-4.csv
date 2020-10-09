@@ -28,6 +28,7 @@ Lua; -- InlineComment; --[==[ BlockComment]==] (variable number of = signs)
 Maple; # InlineComment; (* BlockComment *)
 Mathematica; ; (* BlockComment *)
 Matlab; % InlineComment; %{ BlockComment (nestable) %} Note: Both percent–bracket symbols must be the only non-whitespace characters on their respective lines.
+Nim; # InlineComment; #[ BlockComment ]#
 Object Pascal (Delphi); // InlineComment; (* BlockComment *) { BlockComment }
 OCaml; ; (* BlockComment (* nestable *) *)
 Pascal, Modula-2, Modula-3, Oberon, and ML:; ; (* BlockComment *)
@@ -38,7 +39,7 @@ PLZ/SYS; ; ! BlockComment  !
 PL/SQL and TSQL; -- InlineComment; /* BlockComment */
 Prolog; % InlineComment; /* BlockComment */
 Python; # InlineComment; ''' BlockComment ''' """ BlockComment """ (Documentation string when first line of module, class, method, or function)
-Raku; # InlineComment; #`{ BlockComment } =comment         This comment paragraph goes until the next POD directive         or the first blank line.[ 19] [ 20]
+Raku; # InlineComment; #`{ BlockComment } =comment         This comment paragraph goes until the next POD directive         or the first blank line.[ 20] [ 21]
 Red; InlineComment; { BlockComment }
 Rust; // InlineComment /// InlineComment ("Outer" rustdoc comment) //! InlineComment ("Inner" rustdoc comment); /* BlockComment */ (nestable) /** BlockComment */ ("Outer" rustdoc comment) /*! BlockComment */ ("Inner" rustdoc comment)
 SAS; ; * BlockComment /* BlockComment */

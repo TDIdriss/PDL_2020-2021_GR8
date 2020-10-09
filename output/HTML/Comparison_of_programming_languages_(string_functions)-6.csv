@@ -11,11 +11,12 @@ string1 OP string2, where OP can be any of =, /=, < , > , < = and > =; Ada
 string1 OP string2, where OP can be any of ==, /=, < , > , =< and > =; Erlang
 string1 OP string2, where OP can be any of ==, /=, < , > , < = and > =; Haskell
 string1 OP string2, where OP can be any of eq, ne, lt, gt, le and ge; Perl, Raku
-string1 OP string2, where OP can be any of ==,  !=, < , > , < = and > =; C++ (STL), C#, D, Go, JavaScript, Python, PHP, Ruby, Swift, Ya
+string1 OP string2, where OP can be any of ==,  !=, < , > , < = and > =; C++ (STL), C#, D, Go, JavaScript, Python, PHP, Ruby, Rust,[ 9] Swift, Ya
 string1 OP string2, where OP can be any of -eq, -ceq, -ne, -cne, -lt, -clt, -gt, -cgt, -le, -cle, -ge, and -cge (operators starting with 'c' are case-sensitive); Windows PowerShell
 string1 OP string2, where OP can be any of ==, ~=, < , > , < = and > =; Lua
 string1 OP string2, where OP can be any of =, ~=, < , > , < = and > =; Smalltalk
-string1 OP string2, where OP can be any of ==, /=, < , > , < = and > = Also: .EQ., .NE., .LT., .LE., .GT. and .GE.; Fortran.[ 7]
+string1 OP string2, where OP can be any of ==, /=, < , > , < = and > = Also: .EQ., .NE., .LT., .LE., .GT. and .GE.; Fortran.[ 10]
 string1 OP string2 where OP can be any of =, < > , < , > , < =, > = as well as worded equivalents; COBOL
 string1 OP string2 where OP can be any of ==, < > , < , > , < = and > =; Cobra
 string1 OP string2 is available in the syntax, but means comparison of the pointers pointing to the strings, not of the string contents. Use the Compare (integer result) function.; C, Java
+string1.METHOD(string2) where METHOD is any of eq, ne, gt, lt, ge, le; Rust[ 9]

@@ -1,5 +1,5 @@
-File Manager; Undo/redo file operation; File compression; File encryption; Rename busy files; File preview; File coloring filter [ 57]; File selection filter; Paste clipboard as file; File and folder reports; ACL (Access control list); Mass Rename [ 58]; Run executable files
-Altap Salamander; ?; Yes; Yes; ?; Yes; Yes; Yes, multiple [ 59]; ?; Yes; Yes [ 60]; Yes; Yes
+File Manager; Undo/redo file operation; File compression; File encryption; Rename busy files; File preview; File coloring filter [ 46]; File selection filter; Paste clipboard as file; File and folder reports; ACL (Access control list); Mass Rename [ 47]; Run executable files
+Altap Salamander; ?; Yes; Yes; ?; Yes; Yes; Yes, multiple [ 48]; ?; Yes; Yes [ 49]; Yes; Yes
 Commander One; ?; Yes; Yes; Yes; Yes; Yes; Yes; ?; No; ?; ?; ?
 CRAX Commander; ?; Yes; No; Yes; Yes; Yes; Yes; Yes; Yes; ?; Yes; Yes
 Directory Opus; Yes; Yes; Partial; Partial; Yes; Yes; Yes; Yes; Yes; ?; Yes; ?
@@ -8,7 +8,7 @@ Documents by Readdle; ; ; ; ; ; ; ; ; ; ; ;
 Dolphin; Yes; Yes; Yes; Yes; Yes; ?; ?; Yes; ?; Yes; Partial; Yes
 Double Commander; No; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; ?; Yes; ?
 emelFM2; ?; Yes; Yes; Yes; No; ?; Yes; No; ?; Yes; ?; ?
-FAR Manager; ?; Yes; Yes; Yes; Yes; Yes; Yes; Partial [ 61]; Yes; Plugin; Plugin; ?
+FAR Manager; ?; Yes; Yes; Yes; Yes; Yes; Yes; Partial [ 50]; Yes; Plugin; Plugin; ?
 File Commander; ?; Yes; No; No; Yes; Yes; Yes; No; No; No; Yes; ?
 File Manager; ?; Yes; ?; ?; No; Yes; Yes; No; ?; Yes; Yes; Yes
 Files (Apple); ; Yes; ; ; Yes; ; ; ; ; ; ; 
@@ -16,23 +16,23 @@ Files by Google; ; ; ; ; ; ; ; ; ; ; ;
 Finder; Yes; Yes; Yes; Yes; Yes; Yes; ?; No; ?; Yes; Yes; Yes
 ForkLift; Yes; Yes; No; No; Yes; Yes; Yes; No; No; Yes; Yes; ?
 GNOME Commander; ?; Yes; ?; ?; Yes; Yes; ?; ?; ?; No; Yes; ?
-Konqueror; Partial [ 62]; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes[ 63]; Yes
-Krusader; ?; Yes; Yes; Yes; Yes; No; Yes; Yes; ?; Yes; Yes[ 63]; Yes
-Midnight Commander; ?; Yes; ?; ?; ?; Yes; Yes; Partial[ 64]; ?; ?; Yes; Yes
-GNOME Files (Nautilus); Yes; Yes; No; Yes; Yes; No; No; Partial [ 65]; No; Yes; No; No [ 66]
+Konqueror; Partial [ 51]; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes[ 52]; Yes
+Krusader; ?; Yes; Yes; Yes; Yes; No; Yes; Yes; ?; Yes; Yes[ 52]; Yes
+Midnight Commander; ?; Yes; ?; ?; ?; Yes; Yes; Partial[ 53]; ?; ?; Yes; Yes
+GNOME Files (Nautilus); Yes; Yes; No; Yes; Yes; No; No; Partial [ 54]; No; Yes; No; No [ 55]
 Nemo; Yes; Yes; Yes; ?; Yes; Yes; ?; Yes; ?; ?; No; Yes
 Nomad.NET; ?; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Partial; ?
-Path Finder; ?; Yes; No [ 67]; No; Yes; No; Yes; No; Yes; No; No; ?
+Path Finder; ?; Yes; No [ 56]; No; Yes; No; Yes; No; Yes; No; No; ?
 PCManFM; No; Yes; ?; Yes; No; ?; ?; ?; ?; ?; ?; Yes
 ROX-Filer; ?; With helper applications; With helper applications; Yes; Yes; No; Yes; No; No; No; Yes; ?
 STDU Explorer; ?; No; No; No; Yes; No; No; No; No; No; No; ?
 Thunar; No; No; No; ?; Yes; No; Yes; ?; ?; ?; Yes; Yes
 Total Commander; ?; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Log file; Yes; ?
-Windows Explorer; Yes; Yes; Partial[ 68]; No; Yes; No; No; Partial [ 69]; No; Yes [ 70]; Partial; Yes
+Windows Explorer; Yes; Yes; Partial[ 57]; No; Yes; No; No; Partial [ 58]; No; Yes [ 59]; Partial; Yes
 Xandros File Manager; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
 Xfe; Yes; Yes; No; Yes; No; ?; Yes; No; ?; Yes; No; ?
 Xfm; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?; ?
-xplorer²; No; Yes; Partial [ 68]; Partial; Yes; Yes; Yes; Yes; Yes; Yes [ 71]; Yes; ?
-XYplorer; Yes; Yes; Partial [ 68]; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; ?
-ZTreeWin; ?; Yes; Partial [ 72]; Yes; Yes; Yes; Yes; No; Yes; No; Yes; ?
+xplorer²; No; Yes; Partial [ 57]; Partial; Yes; Yes; Yes; Yes; Yes; Yes [ 60]; Yes; ?
+XYplorer; Yes; Yes; Partial [ 57]; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes; ?
+ZTreeWin; ?; Yes; Partial [ 61]; Yes; Yes; Yes; Yes; No; Yes; No; Yes; ?
 File Manager; Undo/redo file operation; File compression; File encryption; Rename busy files; File preview; File coloring filter; File selection filter; Paste clipboard as file; File and folder reports; ACL (Access control list); Mass Rename; Run executable files

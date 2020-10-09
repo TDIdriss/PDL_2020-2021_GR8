@@ -15,8 +15,9 @@ MapleRead[ 13]; Maplepop LLC; Yes; Yes; No; In library and in-book; Configurable
 Marvin[ 14]; Appstafarian; Yes; Yes; Yes; In library and in-book; Configurable; Yes; Unlimited; Yes; Optional; Yes; Yes
 MegaReader[ 15]; Inkstone Software, Inc.; Yes; Yes; No; In-book only; Yes; Yes; Unlimited; Yes; No; Yes; No
 PocketBook reader[ 16]; Obreey Products; Yes; Yes; Yes; In-book only; Yes; Yes; Yes; Yes; Yes; Yes; Yes
-ShuBook[ 17]; Ambibma Ltd.; Yes; Yes; No; In library and in-book; Yes; Yes; Unlimited; Yes; No; Yes; Yes
-Stanza[ 18]; Lexcycle; Configurable; Yes; No; In library and in-book; Configurable; Yes; Unlimited; Yes; No; Yes; Yes
-uBooks XL[ 19]; Nix Solutions Ltd; Mixed scrolling & pagination; Yes; Yes; Yes; Yes; Yes; Unlimited; Yes; Yes; Yes; Yes
-iBouquiniste[ 20]; Sandr; Yes; Yes; No; In-book only; Yes; Yes; Unlimited; Yes; Yes; Yes; Yes
+ShuBook 2[ 17]; Ambibma Ltd.; Yes; Yes; No; In library and in-book; Yes; Yes; Unlimited; Yes; No; Yes; Yes
+SideBooks[ 18]; Tatsumi-system Co., Ltd.; Yes; No; No; No; Yes; Yes; Yes; Yes; No; Yes; Yes
+Stanza[ 19]; Lexcycle; Configurable; Yes; No; In library and in-book; Configurable; Yes; Unlimited; Yes; No; Yes; Yes
+uBooks XL[ 20]; Nix Solutions Ltd; Mixed scrolling & pagination; Yes; Yes; Yes; Yes; Yes; Unlimited; Yes; Yes; Yes; Yes
+iBouquiniste[ 21]; Sandr; Yes; Yes; No; In-book only; Yes; Yes; Unlimited; Yes; Yes; Yes; Yes
 Product; Developer; Pagination; Rotation Lock; Auto-scroll; Progress indicator; Backward/forward; Table of Contents; Bookmarks; Resume; Cloud synchronisation; Go To; Full text search

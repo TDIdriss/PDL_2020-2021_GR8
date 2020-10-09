@@ -1,6 +1,6 @@
 File system; Maximum filename length; Allowable characters in directory entries[ c]; Maximum pathname length; Maximum file size; Maximum volume size[ d]; Max number of files
 BeeGFS; 255 bytes; Any byte except NUL[ e]; No limit defined[ f]; 16 EiB; 16 EiB; ?
-CP/M file system; 8.3; ASCII except for < > . , : = ? * [ ]; No directory hierarchy (but accessibility of files depends on user areas via USER command since CP/M 2.2); 32 MiB; 512 MiB; ?
+CP/M file system; 8.3; ASCII except for < > . ,    : =  ? * [ ]; No directory hierarchy (but accessibility of files depends on user areas via USER command since CP/M 2.2); 32 MiB; 512 MiB; ?
 IBM SFS; 8.8; ?; ?; Non-hierarchical[ 8]; ?; ?
 DECtape; 6.3; A–Z, 0–9; DTxN:FILNAM.EXT = 15; 369,280 bytes (577 * 640); 369,920 bytes (578 * 640); ?
 Elektronika BK tape format; 16 bytes; ?; No directory hierarchy; 64 KiB; Not limited. Approx. 800KB (one side) for 90 min cassette; ?
@@ -14,12 +14,12 @@ CBM DOS; 16 bytes; Any byte except NUL; 0 (no directory hierarchy); 16 MiB; 16 M
 Version 7 Unix file system (V7FS); 14 bytes; Any byte except NUL or /[ e]; No limit defined[ f]; 1 GiB[ h]; 2 TiB; ?
 exFAT; 255 UTF-16 characters; ?; 32,760 Unicode characters with each path component no more than 255 characters[ 11]; 16 EiB[ 11]; 64 ZiB (276  bytes); ?
 FAT (8-bit); 6.3 (binary files) / 9 characters (ASCII files); ASCII (0x00 and 0xFF not allowed in first character); No directory hierarchy; ?; ?; ?
-FAT12/FAT16; 8.3 (255 UCS-2 characters with LFN)[ i]; SFN: OEM A-Z, 0-9, ! # $ % & ' ( ) - @ ^ _ ` { } ~, 0x80-0xFF, 0x20. LFN: Unicode except NUL, " * / : < > ? \ | [ c] [ e]; No limit defined[ f]; 32 MiB (4 GiB)[ j]; 1 MiB to 32 MiB; ?
-FAT16B/FAT16X; 8.3 (255 UCS-2 characters with LFN)[ i]; SFN: OEM A-Z, 0-9, ! # $ % & ' ( ) - @ ^ _ ` { } ~, 0x80-0xFF, 0x20. LFN: Unicode except NUL, " * / : < > ? \ | [ c] [ i] [ e]; No limit defined[ f]; 2 (4) GiB[ j]; 16 MiB to 2 (4) GiB; ?
-FAT32/FAT32X; 8.3 (255 UCS-2 characters with LFN)[ i]; SFN: OEM A-Z, 0-9, ! # $ % & ' ( ) - @ ^ _ ` { } ~, 0x80-0xFF, 0x20. LFN: Unicode except NUL, " * / : < > ? \ | [ c] [ i] [ e]; 32,760 Unicode characters with each path component no more than 255 characters[ 11]; 4 GiB[ 11]; 512 MiB to 16 TiB[ k]; ?
+FAT12/FAT16; 8.3 (255 UCS-2 characters with LFN)[ i]; SFN: OEM A-Z, 0-9,  ! # $  % & ' ( ) - @ ^ _ ` { } ~, 0x80-0xFF, 0x20. LFN: Unicode except NUL, " * /  : < >   ? \ | [ c] [ e]; No limit defined[ f]; 32 MiB (4 GiB)[ j]; 1 MiB to 32 MiB; ?
+FAT16B/FAT16X; 8.3 (255 UCS-2 characters with LFN)[ i]; SFN: OEM A-Z, 0-9,  ! # $  % & ' ( ) - @ ^ _ ` { } ~, 0x80-0xFF, 0x20. LFN: Unicode except NUL, " * /  : < >   ? \ | [ c] [ i] [ e]; No limit defined[ f]; 2 (4) GiB[ j]; 16 MiB to 2 (4) GiB; ?
+FAT32/FAT32X; 8.3 (255 UCS-2 characters with LFN)[ i]; SFN: OEM A-Z, 0-9,  ! # $  % & ' ( ) - @ ^ _ ` { } ~, 0x80-0xFF, 0x20. LFN: Unicode except NUL, " * /  : < >   ? \ | [ c] [ i] [ e]; 32,760 Unicode characters with each path component no more than 255 characters[ 11]; 4 GiB[ 11]; 512 MiB to 16 TiB[ k]; ?
 FATX; 42 bytes[ i]; ASCII. Unicode not permitted.; No limit defined[ f]; 2 GiB; 16 MiB to 2 GiB; ?
 Fossil; ?; ?; ?; ?; ?; ?
-GEMDOS; 8.3; A-Z, a-z, 0-9 ! @ # $ % ^ & ( ) + - = ~ ` ' " , < > | [ ] ( ) _[ 13]; ?; ?; ?; ?
+GEMDOS; 8.3; A-Z, a-z, 0-9  ! @ # $  % ^ & ( ) + - = ~ `  ' " , < > | [ ] ( ) _[ 13]; ?; ?; ?; ?
 APFS; 255 UTF-8 characters; Unicode 9.0 encoded in UTF-8 [ 14]; ?; 8 EiB; ?; 263 [ 15]
 F2FS; 255 bytes; Any byte except NUL, /[ e]; No limit defined[ f]; 3.94 TiB; 16 TiB; ?
 MFS; 255 bytes; Any byte except :; No path (flat filesystem); 256 MiB; 256 MiB; ?
@@ -50,7 +50,7 @@ XFS; 255 bytes[ s]; Any byte except NUL[ e]; No limit defined[ f]; 8 EiB[ t]; 8 
 JFS1; 255 bytes; Any byte except NUL[ e]; No limit defined[ f]; 8 EiB; 512 TiB to 4 PiB; ?
 JFS; 255 bytes; Any Unicode except NUL; No limit defined[ f]; 4 PiB; 32 PiB; ?
 QFS; 255 bytes; Any byte except NUL[ e]; No limit defined[ f]; 16 EiB[ u]; 4 PiB[ u]; ?
-BFS; 255 bytes; Any byte except NUL[ e]; No limit defined[ f]; 12,288 bytes to 260 GiB[ v]; 256 PiB to 2 EiB; ?
+BFS; 255 bytes; Any byte except NUL[ e]; No limit defined[ f]; 12,288 bytes to 260 GiB[ v]; 256 PiB to 2 EiB; Unlimited
 AdvFS; 255 characters; Any byte except NUL[ e]; No limit defined[ f]; 16 TiB; 16 TiB; ?
 NSS; 256 characters; Depends on namespace used[ w]; Only limited by client; 8 TiB; 8 TiB; ?
 NWFS; 80 bytes[ x]; Depends on namespace used[ w]; No limit defined[ f]; 4 GiB; 1 TiB; ?
@@ -70,5 +70,5 @@ Rock Ridge; 255 bytes; Any byte except NUL or /[ e]; No limit defined[ f]; same 
 UniFS; No limit defined (depends on client); ?; No limit defined (depends on client); Available cache space at time of write (depends on platform); No limit defined; No limit defined
 ISO 9660:1999; ?; ?; ?; ?; ?; ?
 High Sierra Format; ?; ?; ?; ?; ?; ?
-SquashFS; ?; ?; No limit defined; 16 EiB; 16 EiB; ?
+SquashFS; 256 bytes; ?; No limit defined; 16 EiB; 16 EiB; ?
 File system; Maximum filename length; Allowable characters in directory entries[ c]; Maximum pathname length; Maximum file size; Maximum volume size[ d]; Max number of files

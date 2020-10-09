@@ -10,8 +10,9 @@ Java; N/A[a]; ; ; N/A
 JavaScript; ; N/A; ; N/A
 D; struct name {type name ...}; ; std.variant.Algebraic!(type,...); union {type name ...}
 Go; struct { «name» type ...}; ; ; 
+Rust; struct name {name: type, ...}; (val1, val2, ... ); enum name { Foo(types), ...}; union name {name: type, ...}
 Swift; struct name { var name «: type» ...}; («name1:» val1, «name2:» val2, «name3:» val3, ... ); enum name { case Foo«(types)» case Bar «(types)» ... }; 
-Common Lisp; ; (cons val1 val2)[c]; ; 
+Common Lisp; (defstruct name slot-name (slot-name initial-value) (slot-name initial-value :type type) ...); (cons val1 val2)[c]; ; 
 Scheme; N/A; (cons val1 val2)[c]; ; 
 ISLISP; ; (cons val1 val2)[c]; ; 
 Pascal; record name: type ...end; N/A; N/A; record case type of value: (types) ...end

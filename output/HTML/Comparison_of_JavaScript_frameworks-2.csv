@@ -1,30 +1,30 @@
-; AngularJS; Apache Royale; Dojo; Ember.js; Enyo; Ext JS; Google Web Toolkit; jQuery; jQWidgets; MooTools; OpenUI5; Prototype & script. aculo.us[ 11]; qooxdoo; SmartClient and SmartGWT; SproutCore; Vue; Wakanda; ZK; Webix
-Feature detection[ 13]; Yes; ; Yes[ 14]; Yes; ; Yes[ 15]; No[ 16] [ 17]; Yes[ 18]; Yes; Yes[ 19]; ; No[ 20]; Yes; Partial [ 21]; Yes; ; Partial; No[ 22]; Yes
-DOM wrapped[ 23]; Yes; ; Yes; No; Yes; Yes; Yes; Yes; ; No[ 24]; ; No[ 25] [ 26]; Yes; Yes; No; ; Yes; Yes; Yes
-XMLHttpRequest data retrieval; Yes; Yes; Yes[ 27]; ; Yes; Yes; Yes; Yes; Yes[ 28]; Yes[ 29]; Yes; Yes; Yes; Yes; Yes; ; Yes; ; Yes
-WebSocket; ; ; Yes[ 27]; ; Yes; Yes; Yes; Yes; No; Yes[ 29]; Yes[ 30]; Yes; Yes; Yes; Via Plugin; ; Yes; ; Yes[ 31]
-Server push data retrieval; ; ; Yes[ 32]; ; ; Yes[ 33]; Yes[ 34]; Yes[ 32]; No; ; ; ; ; Yes[ 35]; Via Plugin; ; ; Yes[ 36]; Yes
-Other data retrieval; ; Yes: XML, HTML, CSV, ATOM, AMF, JSON; Yes: XML, HTML, CSV, ATOM[ 37]; ; ; Yes: XML, SOAP, AMF, Ext.Direct; Yes: RPC, RequestFactory; Yes: XML, HTML; Yes: XML, JSON, CSV, TSV[ 28]; Yes: XML, HTML; ; ; ; Yes: XML, WSDL, RSS, and Java-based SQL, Hibernate, POJO adapters; ; ; Yes: JSON-RPC, Wakanda REST; ; Yes: XML, HTML, CS, JSON, JSArray, CSV
-Drag and drop; ; Yes; Yes[ 38]; ; ; Yes; With plugin[ 39]; With plugins[ 40]; Yes[ 41]; Yes[ 42]; Yes[ 43]; Yes; Yes; Yes; Yes; ; Yes; Yes; Yes[ 44]
-Simple visual effects; Yes; Yes; Yes[ 45]; ; Yes; Yes; Yes; Yes; Yes; Yes[ 46]; Yes; Yes; Yes; Yes; Yes[ 47]; ; Yes; Yes; Yes
-Animation / advanced visual effects; Yes; ; Yes[ 48]; ; Yes[ 49]; Yes; Yes; Yes; Yes; Yes[ 50]; ; Yes; Yes; Yes; Yes[ 47]; ; Yes; Yes; Yes[ 51]
-Back button support / history management; ; ; Yes[ 52]; Yes; Yes[ 53]; Yes[ 54]; Yes; With plugins[ 55]; No; With plugin[ 56]; ; Yes; Yes; Yes; Yes; ; ; Yes; Yes
-Input form widgets & validation; Yes; Yes; Yes[ 57]; ; Yes; Yes; Yes, Validation requires plugin[ 58]; With plugins[ 59]; Yes[ 60]; Yes; Yes; Yes; Yes; Yes; Yes; ; Yes; Yes; Yes [ 61] [ 62]
-; AngularJS; Apache Royale; Dojo; Ember.js; Enyo; ExtJS; Google Web Toolkit; jQuery; jQWidgets; MooTools; OpenUI5; Prototype & script. aculo.us[ 11]; qooxdoo; SmartClient and SmartGWT; SproutCore; Vue; Wakanda; ZK; Webix
-Grid; ; Yes; Yes[ 63]; ; ; Yes; Yes; With plugins[ 64]; Yes[ 65]; With plugin[ 66]; Yes; ; Yes; Yes; Yes; ; Yes[ 67]; Yes; Yes[ 68]
-Hierarchical Tree; ; Yes; Yes[ 69]; ; Yes[ 70]; Yes[ 71]; Yes; With plugins[ 72]; Yes[ 73]; With plugins[ 74]; Yes; ; Yes[ 75]; Yes; Yes; ; Yes (Auto Form)[ 76]; Yes; Yes [ 77]
-Rich text editor; No; Yes; Yes[ 78]; ; ; Yes[ 79]; Yes; With plugins[ 80]; Yes[ 81]; Yes[ 82]; ; ; Yes; Yes; Via plugin; ; Yes[ 83]; Yes; Yes[ 84]
-Autocompletion tools; No; ; Yes[ 85]; ; ; Yes; Yes; Yes[ 86]; Yes[ 87]; With plugin[ 88]; ; Yes; ; Yes; With plugins; ; Yes[ 89]; Yes; Yes
-HTML generation tools; No; ; Yes[ 90]; ; ; Yes; Yes; Yes; Yes[ 81]; Yes[ 91]; ; Yes; Yes; Yes; Yes; ; No; Yes; Yes
-Widgets themeable / skinnable; ; Yes; Yes[ 92]; ; Yes; Yes[ 93]; Yes[ 94]; Yes[ 95]; ; Yes; Yes; Yes; ; Yes; Yes; ; ; Yes; Yes
-GUI resizable panels and modal dialogs; ; Yes; Yes; ; Yes; Yes; Yes; With plugins; Yes[ 96]; Yes[ 97]; ; ; Yes; Yes; Yes; ; Yes[ 98]; Yes[ 99]; Yes
-GUI page layout; ; ; Yes; ; ; Yes; Yes; With plugin[ 100]; Yes[ 101] [ 102]; Yes[ 97]; ; ; Yes; Yes; Yes; ; Yes[ 103]; Yes[ 99]; Yes [ 104]
-Canvas support; ; Yes; Yes[ 105]; ; Yes; Yes; Yes; With plugin[ 106]; Yes[ 107]; Yes[ 108]; ; ; Yes; Yes; Yes; ; Yes[ 109]; Yes[ 110]; Yes
-Mobile/tablet support (touch events); Yes; Yes; Yes[ 111]; Yes; Yes; Yes; With plugin[ 112]; With plugin[ 113]; Yes[ 114]; With plugin[ 115]; Yes; ; Yes; Yes; Yes; ; Yes[ 116] [ 117]; Yes[ 118]; Yes[ 119]
-Accessibility / graceful degradation[ 120]; Yes; ; Yes[ 121]; No; Yes; Yes[ 122]; Yes[ 123]; Yes; Yes[ 124]; Yes; ; ; No[ 125]; Degradation: No Accessibility: Yes; Degradation: No Accessibility: Yes; ; ; Yes; Yes[ 126]
-ARIA compliant; ; ; Yes[ 121]; ; ; Yes[ 122]; ; Yes[ 127]; Yes[ 124]; ; Yes; ; No; Yes; Yes; ; ; Yes; Yes [ 128]
-Developer tools, Visual design; ; ; Yes[ 129] [ 130]; ; in progress[ 131]; Yes[ 132] [ 133] [ 134]; Yes; Yes[ 135] [ 136]; Yes[ 137] [ 138] [ 139]; Yes[ 140] [ 141]; ; ; Yes[ 142]; Yes; No; ; Yes[ 143]; Yes; Yes[ 144] [ 145]
-Offline storage[ 146]; ; Yes; No[ 147]; ; Yes; Yes[ 148]; Via Google Gears[ 149]; With plugin[ 150]; Yes[ 151]; ; ; ; Yes; Yes; Yes; ; planned; Yes; Yes
-Cross-browser 2d Vector Graphics[ 152]; ; ; Yes[ 153]; ; ; Yes; ; With plugin[ 154]; Yes[ 107]; Yes[ 155]; ; ; ; Yes; No]; ; Yes (via Raphael); Yes[ 110]; Yes (via Raphael)[ 156]
-Charting & Dashboard[ 157]; ; Yes; Yes[ 158]; ; ; Yes[ 159]; ; With plugin[ 160] [ 161]; Yes[ 162] [ 163]; ; ; ; ; Yes; No; ; Yes[ 164]; Yes[ 165]; Yes[ 166]
-RTL Support in UI Components; ; Yes; Yes; ; ; Yes; ; Depends on the plugin used; Yes[ 124]; ; Yes; ; ; Yes; Yes; ; ; ; No
+; AngularJS; Apache Royale; Dojo; Ember.js; Enyo; Ext JS; Google Web Toolkit; jQuery; jQWidgets; MooTools; OpenUI5; Prototype & script. aculo.us[ 10]; qooxdoo; SproutCore; Svelte; Vue; Wakanda; ZK; Webix
+Feature detection[ 12]; Yes; ; Yes[ 13]; Yes; ; Yes[ 14]; No[ 15] [ 16]; Yes[ 17]; Yes; Yes[ 18]; ; No[ 19]; Yes; Yes; ; ; Partial; No; Yes
+DOM wrapped[ 20]; Yes; ; Yes; No; Yes; Yes; Yes; Yes; ; No[ 21]; ; No[ 22] [ 23]; Yes; No; ; ; Yes; Yes; Yes
+XMLHttpRequest data retrieval; Yes; Yes; Yes[ 24]; ; Yes; Yes; Yes; Yes; Yes[ 25]; Yes[ 26]; Yes; Yes; Yes; Yes; ; ; Yes; ; Yes
+WebSocket; ; ; Yes[ 24]; ; Yes; Yes; Yes; Yes; No; Yes[ 26]; Yes[ 27]; Yes; Yes; Via Plugin; ; ; Yes; ; Yes[ 28]
+Server push data retrieval; ; ; Yes[ 29]; ; ; Yes[ 30]; Yes[ 31]; Yes[ 29]; No; ; ; ; ; Via Plugin; ; ; ; Yes[ 32]; Yes
+Other data retrieval; ; Yes: XML, HTML, CSV, ATOM, AMF, JSON; Yes: XML, HTML, CSV, ATOM[ 33]; ; ; Yes: XML, SOAP, AMF, Ext.Direct; Yes: RPC, RequestFactory; Yes: XML, HTML; Yes: XML, JSON, CSV, TSV[ 25]; Yes: XML, HTML; ; ; ; ; ; ; Yes: JSON-RPC, Wakanda REST; ; Yes: XML, HTML, CS, JSON, JSArray, CSV
+Drag and drop; ; Yes; Yes[ 34]; ; ; Yes; With plugin[ 35]; With plugins[ 36]; Yes[ 37]; Yes[ 38]; Yes[ 39]; Yes; Yes; Yes; ; ; Yes; Yes; Yes[ 40]
+Simple visual effects; Yes; Yes; Yes[ 41]; ; Yes; Yes; Yes; Yes; Yes; Yes[ 42]; Yes; Yes; Yes; Yes[ 43]; ; ; Yes; Yes; Yes
+Animation / advanced visual effects; Yes; ; Yes[ 44]; ; Yes[ 45]; Yes; Yes; Yes; Yes; Yes[ 46]; ; Yes; Yes; Yes[ 43]; ; ; Yes; Yes; Yes[ 47]
+Back button support / history management; ; ; Yes[ 48]; Yes; Yes[ 49]; Yes[ 50]; Yes; With plugins[ 51]; No; With plugin[ 52]; ; Yes; Yes; Yes; ; ; ; Yes; Yes
+Input form widgets & validation; Yes; Yes; Yes[ 53]; ; Yes; Yes; Yes, Validation requires plugin[ 54]; With plugins[ 55]; Yes[ 56]; Yes; Yes; Yes; Yes; Yes; ; ; Yes; Yes; Yes [ 57] [ 58]
+; AngularJS; Apache Royale; Dojo; Ember.js; Enyo; ExtJS; Google Web Toolkit; jQuery; jQWidgets; MooTools; OpenUI5; Prototype & script. aculo.us[ 10]; qooxdoo; SproutCore; Svelte; Vue; Wakanda; ZK; Webix
+Grid; ; Yes; Yes[ 59]; ; ; Yes; Yes; With plugins[ 60]; Yes[ 61]; With plugin[ 62]; Yes; ; Yes; Yes; ; ; Yes[ 63]; Yes; Yes[ 64]
+Hierarchical Tree; ; Yes; Yes[ 65]; ; Yes[ 66]; Yes[ 67]; Yes; With plugins[ 68]; Yes[ 69]; With plugins[ 70]; Yes; ; Yes[ 71]; Yes; ; ; Yes (Auto Form)[ 72]; Yes; Yes [ 73]
+Rich text editor; No; Yes; Yes[ 74]; ; ; Yes[ 75]; Yes; With plugins[ 76]; Yes[ 77]; Yes[ 78]; ; ; Yes; Via plugin; ; ; Yes[ 79]; Yes; Yes[ 80]
+Autocompletion tools; No; ; Yes[ 81]; ; ; Yes; Yes; Yes[ 82]; Yes[ 83]; With plugin[ 84]; ; Yes; ; With plugins; ; ; Yes[ 85]; Yes; Yes
+HTML generation tools; No; ; Yes[ 86]; ; ; Yes; Yes; Yes; Yes[ 77]; Yes[ 87]; ; Yes; Yes; Yes; ; ; No; Yes; Yes
+Widgets themeable / skinnable; ; Yes; Yes[ 88]; ; Yes; Yes[ 89]; Yes[ 90]; Yes[ 91]; ; Yes; Yes; Yes; ; Yes; ; ; ; Yes; Yes
+GUI resizable panels and modal dialogs; ; Yes; Yes; ; Yes; Yes[ 92]; Yes; With plugins; Yes[ 93]; Yes[ 94]; ; ; Yes; Yes; ; ; Yes[ 95]; Yes[ 96]; Yes
+GUI page layout; ; ; Yes; ; ; Yes; Yes; With plugin[ 97]; Yes[ 98] [ 99]; Yes[ 94]; ; ; Yes; Yes; ; ; Yes[ 100]; Yes[ 96]; Yes [ 101]
+Canvas support; ; Yes; Yes[ 102]; ; Yes; Yes; Yes; With plugin[ 103]; Yes[ 104]; Yes[ 105]; ; ; Yes; Yes; ; ; Yes[ 106]; Yes[ 107]; Yes
+Mobile/tablet support (touch events); Yes; Yes; Yes[ 108]; Yes; Yes; Yes; With plugin[ 109]; With plugin[ 110]; Yes[ 111]; With plugin[ 112]; Yes; ; Yes; Yes; ; ; Yes[ 113] [ 114]; Yes[ 115]; Yes[ 116]
+Accessibility / graceful degradation[ 117]; Yes; ; Yes[ 118]; No; Yes; Yes[ 119]; Yes[ 120]; Yes; Yes[ 121]; Yes; ; ; No[ 122]; Degradation: No Accessibility: Yes; ; ; ; Yes; Yes[ 123]
+ARIA compliant; ; ; Yes[ 118]; ; ; Yes[ 119]; ; Yes[ 124]; Yes[ 121]; ; Yes; ; No; Yes; ; ; ; Yes; Yes [ 125]
+Developer tools, Visual design; ; ; Yes[ 126] [ 127]; ; in progress[ 128]; Yes[ 129] [ 130] [ 131]; Yes; Yes[ 132] [ 133]; Yes[ 134] [ 135] [ 136]; Yes[ 137] [ 138]; ; ; Yes[ 139]; No; ; ; Yes[ 140]; Yes; Yes[ 141] [ 142]
+Offline storage[ 143]; ; Yes; No[ 144]; ; Yes; Yes[ 145]; Via Google Gears[ 146]; With plugin[ 147]; Yes[ 148]; ; ; ; Yes; Yes; ; ; planned; Yes; Yes
+Cross-browser 2d Vector Graphics[ 149]; ; ; Yes[ 150]; ; ; Yes; ; With plugin[ 151]; Yes[ 104]; Yes[ 152]; ; ; ; No]; ; ; Yes (via Raphael); Yes[ 107]; Yes (via Raphael)[ 153]
+Charting & Dashboard[ 154]; ; Yes; Yes[ 155]; ; ; Yes[ 156]; ; With plugin[ 157] [ 158]; Yes[ 159] [ 160]; ; ; ; ; No; ; ; Yes[ 161]; Yes[ 162]; Yes[ 163]
+RTL Support in UI Components; ; Yes; Yes; ; ; Yes; ; Depends on the plugin used; Yes[ 121]; ; Yes; ; ; Yes; ; ; ; ; No

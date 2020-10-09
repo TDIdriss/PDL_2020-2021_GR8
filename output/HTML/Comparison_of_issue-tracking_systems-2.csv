@@ -33,7 +33,6 @@ TestTrack; Yes - Advanced reporting, integrated charts, export to Excel, workflo
 Trac; Yes, integrated wiki; Yes[ 43]; Yes; Yes; Yes; No; Yes[ 44]; Yes[ 45]; Yes; No[ 46]; ; Yes[ 47]
 TrackerSuite.Net; Yes. Dashboards. Graphical reports. Integration with Crystal Reports. Reports can be exported to Microsoft Excel.; Yes; Yes; Yes; Yes; No; Yes; Yes; Yes; No; No; No
 Tuleap; Yes, Kanban boards, Scrum planning and burndown charts, pies, Gantt, barrs, cardwall, Document Manager with approval workflow and fine grained permissions, wikis; Yes; Yes; Yes; Yes; Yes; Yes; Yes; Yes with plugin fulltext; Yes with plugin fulltext; No; No
-Usersnap; Yes. Dashboards, Help Center.; No; Yes, via Tags.; Yes; Yes; Yes, available for enterprise plans; Yes; Yes; Yes; Yes; N/A; No
-Wrike; Yes, real-time customized reports, export to Excel, scheduled reports by mail, alerts, discussions, Gantt charts,; No; Yes; Yes; Yes; No; Yes; Yes; Unknown; ; ; No
+Wrike; Yes, real-time customized reports, export to Excel, scheduled reports by mail, alerts, discussions, Gantt charts,; No; Yes; Yes; Yes; No; Yes; Yes; Unknown; ; ; Yes
 YouTrack; Yes: Wiki syntax, custom workflow, custom issue attributes, notifications (email, jabber, RSS, etc.), email integration, reports, export to HTML and CSV, integration with VCSs.; Yes[ 48]; Yes; Yes; Yes; Yes[ 49]; Yes[ 50]; Yes; Yes[ 51]; Yes (Uses Lucene); ; No
 System; Dynamic documentation integration/generation; Test planning integration; Customizable workflow; Unicode support; Custom fields; SLA[ 4]; Plugin API[ 5]; Multiple projects; Full-text search; Indexed full-text search; Indexed file search; Edit conflict warning

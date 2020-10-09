@@ -1,7 +1,5 @@
-Model; Code name[ 171]; Fab (nm); Bus interface; Core clock (MHz); Boost clock (MHz); Memory clock (MHz); Core config1; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS); Processing power (GFLOPS); Supported API version; Supported API version; Supported API version; Supported API version; Supported API version; TBP (Watts); Notes
-Model; Code name[ 171]; Fab (nm); Bus interface; Core clock (MHz); Boost clock (MHz); Memory clock (MHz); Core config1; Pixel (GP/s); Texture (GT/s); Size (GB); Bandwidth (GB/s); Bus type; Bus width (bit); Single precision; Double precision; Direct3D; OpenGL; Vulkan; OpenCL; CUDA; TBP (Watts); Notes
-Quadro T1000[ 215]; TU117; 12; PCIe 3.0; ; ; 2001; 768:??:??:??:0; ; ; 4; 128; GDDR5; 128; 2600; ; 12.1; 4.6; 1.1; 1.2; 7.5; 40-50; 
-Quadro T2000[ 215]; TU117; 12; PCIe 3.0; 1575; 1785; 2001; 1024:64:32:??:0; 57.1; 114.2; 4; 128; GDDR5; 128; 3500; ; 12.1; 4.6; 1.1; 1.2; 7.5; 40-60; 
-Quadro RTX 3000[ 215]; TU106; 12; PCIe 3.0; ; ; ; 2304:??:??:36:288; ; ; 6; 336; GDDR6; 192; 6400; ; 12.1; 4.6; 1.1; 1.2; 7.5; 60-80; 
-Quadro RTX 4000[ 215]; TU104; 12; PCIe 3.0; ; ; ; 2560:??:??:40:320; 8; 448; 256; 8000; GDDR6; ; 80-110; 12.1; 4.6; 1.1; 1.2; 7.5; 
-Quadro RTX 5000[ 215]; TU102; 12; PCIe 3.0; ; ; ; ; ; 3072:??:??:48:384; 256; 16; GDDR6; ; 80-110; 448; 12.1; 4.6; 1.1; 1.2; 7.5; 9400; 
+Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config1; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS); Supported API version; Supported API version; Nvidia Optimus technology; TBP (Watts)
+Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config1; Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Single precision; Direct3D; OpenGL; Nvidia Optimus technology; TBP (Watts)
+Quadro P3200; GP104; 16; PCIe 3.0 ×16; ; ; ; 1792:112:64:14; ; ; 6144; 168; GDDR5; 192; 5300; 12.1; 4.5; Yes; 78
+Quadro P4200; GP104; 16; PCIe 3.0 ×16; ; ; ; 2304:144:64:18; ; ; 8192; 168; GDDR5; 7600; 115; 12.1; 4.5; Yes; 
+Quadro P5200; GP104; 16; PCIe 3.0 ×16; ; ; ; 2560:160:64:20; 256; ; ; 16384; GDDR5; 230; 8900; 12.1; 4.5; Yes; 150

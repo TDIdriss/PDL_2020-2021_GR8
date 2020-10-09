@@ -1,20 +1,19 @@
 Distribution; Compile time buffer checks; Mandatory access control; Software executable space protection; grsecurity; RSBAC
-Alpine Linux; Yes[ 211]; Unknown; PaX; Discontinued in 3.8.0; Unknown
+Alpine Linux; Yes[ 216]; Unknown; PaX; Discontinued in 3.8.0; Unknown
 BLAG; Unknown; Unknown; Unknown; Unknown; Unknown
 Debian/Ubuntu; Yes; SELinux, AppArmor; PaX optional; Optional; Optional
 Dragora GNU/Linux-Libre; Unknown; Unknown; Unknown; Unknown; Unknown
 dyne:bolic; Unknown; Unknown; Unknown; Unknown; Unknown
-Fedora; Yes; SELinux[ 212]; Exec Shield[ 213]; No; No
+Fedora; Yes; SELinux[ 217]; Exec Shield[ 218]; No; No
 Gentoo; Optional; SELinux, AppArmor; PaX optional; Optional; Optional
-gNewSense; Unknown; SELinux, AppArmor[ f]; Unknown; Unknown; Unknown
-Guix System Distribution; Unknown; Unknown; Unknown; Unknown; Unknown
+gNewSense; Unknown; SELinux, AppArmor[ v]; Unknown; Unknown; Unknown
+Guix System; Unknown; Unknown; Unknown; Unknown; Unknown
 LibreCMC; Unknown; Unknown; Unknown; Unknown; Unknown
 Mandriva; Unknown; AppArmor; Unknown; Unknown; Yes
 Musix GNU+Linux; Unknown; Unknown; Unknown; Unknown; Unknown
-Parabola GNU/Linux-libre; Unknown; Optional[ 214]; Unknown; Optional[ 214]; Unknown
+Parabola GNU/Linux-libre; Unknown; Optional[ 219]; Unknown; Optional[ 219]; Unknown
 Slackware; Unknown; AppArmor, tomoyo; Unknown; Unknown; Optional
-SUSE Linux; Yes; AppArmor[ 215]; Hardware NX and other methods in mainline kernel and toolchain[ 216]; No; No
+SUSE Linux; Yes; AppArmor[ 220]; Hardware NX and other methods in mainline kernel and toolchain[ 221]; No; No
 Solus; Yes; AppArmor; Unknown; No; Unknown
-Tor-ramdisk; Unknown; Unknown; PaX; Yes; No
-Trisquel; Unknown; SELinux, AppArmor[ g]; Unknown; Unknown; Unknown
+Trisquel; Unknown; SELinux, AppArmor[ w]; Unknown; Unknown; Unknown
 Ututo; Unknown; Unknown; Unknown; Unknown; Unknown

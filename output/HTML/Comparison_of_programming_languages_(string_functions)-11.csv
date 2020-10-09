@@ -1,5 +1,5 @@
 Format; Languages
-string1 == string2; Python, C++ (STL), C#, Cobra, Go, JavaScript (similarity), PHP (similarity), Ruby, Erlang, Haskell, Lua, D, Mathematica, Swift, Ya
+string1 == string2; Python, C++ (STL), C#, Cobra, Go, JavaScript (similarity), PHP (similarity), Ruby, Rust,[ 9] Erlang, Haskell, Lua, D, Mathematica, Swift, Ya
 string1 === string2; JavaScript, PHP
 string1 == string2 or string1 .EQ. string2; Fortran
 strcmp(string1, string2) == 0; C
@@ -13,3 +13,4 @@ string1.Equals(string2); C#
 string1 -eq string2, or [string]::Equals(string1, string2); Windows PowerShell
 [string1 isEqualToString:string2], or [string1 isEqual:string2]; Objective-C (NSString * only)
 string1 ≡ string2; APL
+string1.eq(string2); Rust[ 9]

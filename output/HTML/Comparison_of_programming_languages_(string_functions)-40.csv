@@ -19,3 +19,4 @@ StringSplit[string, separator«, limit»]; Mathematica
 string.split«(sepchars«, limit«, options»»)»; Cobra
 split string separator; Tcl
 (separator≠string)⊂string or separator(≠⊆⊢)string in APL2 and Dyalog APL 16.0 respectively; APL
+string.split(separator) string.split(limit, separator); Rust[ 42]

@@ -1,5 +1,6 @@
 ; class; protocol; namespace
 ABAP Objects; class name definition «inheriting from parentclass». «interfaces: interfaces.» method_and_field_declarations endclass. class name implementation. method_implementations endclass.; interface name. members endinterface.; N/A
+APL (Dyalog); :Class name «:parentclass» «,interfaces» members :EndClass; :Interface name members :EndInterface; :Namespace name members :EndNamespace
 C++ (STL); class name«  : public parentclasses[ 5] » { members }; ; namespace name { members }
 C#; class name«  : «parentclass»«, interfaces»» { members }; interface name«  : parentinterfaces» { members }; namespace name { members }
 D; class name«  : «parentclass»«, interfaces»» { members }; interface name«  : parentinterfaces» { members }; module name members
@@ -22,6 +23,6 @@ Smalltalk; [ 10]; ; [ 11]
 JavaScript (ES6); class name «extends parentclass» { members }; ; 
 Object Pascal (Delphi); ClassName = Class «(ClassParent, Interfaces)» private // Private members(include Methods and Fields) public // Public members protected // Protected members published // Published members end; ; package name members
 Scala; class ConcreteClass(constructor params)extends ParentClasswith Trait1 with Trait2 with Trait2 {// members}; trait TraitNameextends OtherTrait1with OtherTrait2 with OtherTrait3 {// members}; package name
-COBOL; CLASS-ID. name«  INHERITS«  FROM» parentclasses». FACTORY«  IMPLEMENTS interfaces». class-membersEND FACTORY. OBJECT«  IMPLEMENTS interfaces». instance-membersEND OBJECT. END CLASS name.; INTERFACE-ID. name«  INHERITS«  FROM» interfaces». members END INTERFACE name.; N/A
+COBOL; CLASS-ID. name«  INHERITS«  FROM» parentclasses». FACTORY«  IMPLEMENTS interfaces». class-members END FACTORY. OBJECT«  IMPLEMENTS interfaces». instance-members END OBJECT. END CLASS name.; INTERFACE-ID. name«  INHERITS«  FROM» interfaces». members END INTERFACE name.; N/A
 Cobra; class name «inherits parentclass» «implements interfaces» Tab ↹ members; interface name «inherits parentinterfaces» Tab ↹ members; namespace name Tab ↹ members
 ISLISP; (defclass name (base-class) ((x :initform 0 :accessor get-x :initarg x)) (:abstractp nil)); ; 

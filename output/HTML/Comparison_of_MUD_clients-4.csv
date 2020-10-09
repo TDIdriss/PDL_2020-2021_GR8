@@ -1,10 +1,11 @@
 Name; C#; Client-Specific; Lua; Perl; Python; Ruby; TINTIN; VB.NET; Tcl; PHP; JScript
-Atlantis; No; Yes; Yes; Yes; No; No; No; No; No; No; No
-Axmud; No; Yes; No; Yes; No; No; No; No; No; No; No
-BeipMU; WSH; No; No; WSH; WSH; WSH; No; WSH; No; No; WSH
+Atlantis; No; Minimal; Yes; Yes; No; No; No; No; No; No; No
+Axmud; No; Minimal; No; Yes; No; No; No; No; No; No; No
+BeipMU; No; Minimal; No; No; No; No; No; No; No; No; No
 BioMUD; No; Yes; Yes; No; No; No; No; No; No; No; No
+Blightmud; No; No; Yes; No; No; No; No; No; No; No; No
 BlowTorch; No; Minimal; Yes; No; No; No; No; No; No; No; No
-CMUD; WSH; No; Yes; WSH; WSH; WSH; Yes; WSH; No; No; WSH
+CMUD; No; No; Yes; No; No; No; Yes; No; No; No; No
 GGMUD; No; No; Yes; No; No; No; Yes; No; No; No; No
 GMUD; No; Minimal; No; No; No; No; No; No; No; No; No
 Gnome-Mud; No; No; No; No; Yes; No; No; No; No; No; No
@@ -15,6 +16,7 @@ KMuddy; No; Minimal; Yes; Yes; Yes; Yes; No; No; No; Yes; No
 Lyntin; No; No; No; No; Yes; No; Yes; No; No; No; No
 mcl; No; Yes; No; No; No; No; No; No; No; No; No
 muby; No; No; No; No; No; Yes; No; No; No; No; No
+Mud Gangster; No; No; Yes; No; No; No; No; No; No; No; No
 Mudlet; No; Minimal; Yes; No; No; No; No; No; No; No; No
 MudMagic; No; No; No; Yes; Yes; No; No; No; No; No; No
 MUSHclient; No; No; Yes; Yes; Yes; Minimal; No; Yes; Yes; Yes; Yes
@@ -29,4 +31,4 @@ TinyFugue; No; Yes; No; No; No; No; No; No; No; No; No
 Tortilla; No; No; Yes; No; No; No; Yes; No; No; No; No
 Trebuchet; No; No; No; No; No; No; No; No; Yes; No; No
 Wintin.Net; Yes; No; No; No; No; No; Yes; Yes; No; No; No
-zMUD; WSH; No; No; WSH; WSH; WSH; Yes; WSH; No; No; WSH
+zMUD; No; No; No; No; No; No; Yes; No; No; No; No

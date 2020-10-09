@@ -1,7 +1,7 @@
 Name; Vendor; License; OS; Notes
 Adaptive Server Enterprise; SAP; Proprietary; Cross-platform; 
 CUBRID; NHN Corporation; GPL/BSD; Linux, Windows; 
-DB2; IBM; Proprietary; Cross-platform; 
+Db2; IBM; Proprietary; Cross-platform; 
 Greenplum Database; Greenplum division of EMC Corporation; Proprietary; ?; Uses PostgreSQL codebase
 Informix; IBM; Proprietary; Cross-platform; 
 Caché; InterSystems; Proprietary; Cross-platform; 

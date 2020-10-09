@@ -24,5 +24,5 @@
      11. If your IDE don't support Maven project you can install Maven [here](https://maven.apache.org/install.html).
      12. Launch Maven with your IDE, if you can't convert your project a Maven one, you can either run `mvn compile` or `mvn test` in terminal you will see csv files in **output/HTML and output/wikitext**
  
- NB: Forme people who use intelliJ IDEA.  It may happen that the project cannot be executed with intelliJ IDEA: a Jsoup import bug.
+ NB: For people who use intelliJ IDEA.  It may happen that the project cannot be executed with intelliJ IDEA: a Jsoup import bug.
      In this case, you should launch Maven by right-clicking on the pom.xml file located at the root of the project, then click Run Maven then Clean and install. This will install the missing dependencies in intelliJ IDEA.

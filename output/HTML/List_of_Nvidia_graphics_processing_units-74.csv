@@ -1,9 +1,0 @@
-Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Boost clock (MHz); Memory clock (MHz); Core config1; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS); Processing power (GFLOPS); Supported API version; Supported API version; Supported API version; Nvidia Optimus technology; TBP (Watts)
-Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Boost clock (MHz); Memory clock (MHz); Core config1; Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Single precision; Double precision; Direct3D; OpenGL; Vulkan; Nvidia Optimus technology; TBP (Watts)
-Quadro M500M; GM108; 28; PCIe 3.0 ×16; 1029; 1124; 900 (1800); 384:24:8 (3 SMM); 8.992; 17.98; 2048; 14.40; DDR3; 64; 863.2; 26.98; 12.1; 4.5; 1.0; Yes; 25
-Quadro M600M; GM107; 28; PCIe 3.0 ×16; 837; 876; 384:24:16 (3 SMM); 7.008; 14.02; GDDR5; 2048; 128; 672.8; 21.02; 30; 12.1; 4.5; 1.0; Yes; 
-Quadro M1000M; GM107; 28; PCIe 3.0 ×16; 1253 (5012); 993; ; 512:32:16 (4 SMM); 80.2; GDDR5; 2048; 128; 15.89; 31.78; 1017; 31.78; 12.1; 4.5; 1.0; Yes; 40
-Quadro M2000M; GM107; 28; PCIe 3.0 ×16; 1253 (5012); 1029; 1098; 640:40:16 (5 SMM); 80.2; GDDR5; 17.57; 128; 43.92; 1405; 43.92; 55; 12.1; 4.5; 1.0; Yes; 
-Quadro M3000M; GM204; 28; PCIe 3.0 ×16; 1253 (5012); 1050; 4096; ; 1024:64:32 (8 SMM); GDDR5; 33.60; 67.20; 2150; 67.20; 75; 12.1; 4.5; 1.0; Yes; 
-Quadro M4000M; GM204; 28; PCIe 3.0 ×16; 1253 (5012); 975; 4096; 160.4; 256; GDDR5; ; 1280:80:48 (10 SMM); 62.40; 78.00; 2496; 78.00; 12.1; 4.5; 1.0; Yes; 
-Quadro M5000M; GM204; 28; PCIe 3.0 ×16; 1253 (5012); 962; ; 160.4; 256; GDDR5; 1536:96:64 (12 SMM); 62.40; 93.60; 8192; 2955.3; 93.60; 12.1; 4.5; 1.0; Yes; 

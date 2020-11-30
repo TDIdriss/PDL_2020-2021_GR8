@@ -1,8 +1,0 @@
-Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config1; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS)[ 199] [ 200]; Processing power (GFLOPS)[ 199] [ 200]; Supported API version; Supported API version; Supported API version; TBP (Watts); Notes
-Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Shader clock (MHz); Memory clock (MHz); Core config1; Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Single precision; Double precision; Direct3D; OpenGL; CUDA; TBP (Watts); Notes
-Quadro K420; GK107; 28; PCIe 2.0 ×16; 780; 780; 1800; 192:16:16 (1 SMX); 12.48; 12.48; 1024 2048[ 204]; 29; DDR3; 128; 299.52; 12.48; 11.0; 4.6; 3.0; 41; 
-Quadro K620; GM107-850; 28; PCIe 2.0 ×16; 1000; 1000; 900 (1800); 384:24:16 (3 SMM); 16.0; 24.0; 2048; 28.8; DDR3; 128; 768.0; 24.0; 6.3" Card; 4.6; 
-Quadro K1200; GM107-860; 28; PCIe 2.0 ×16; 954; ; 1253; 512:32:16 (4 SMM); 15.3; 30.5; 80.2; 1083; ; 128; 5.0; 45; 4.6; 
-Quadro K2200; GM107-875-A2[ 205]; 28; PCIe 2.0 ×16; 1046; 1046; 1253 (5012); 640:40:16 (5 SMM); 4096; 16.7; GDDR5; 41.8; 80.2; 128; 5.0; 1338.9; 41.8; 4.6; 68; 
-Quadro K4200; GK104; 28; PCIe 2.0 ×16; 780; 780; 1350 (5400); 1344:112:32 (7 SMX); 4096; 24.96; GDDR5; 87.36; 172.8; 2096.64; 87.36; 3.0; 105; 4.6; 9.5" Card; 
-Quadro K5200; GK110B; 28; PCIe 3.0 ×16; 650; 650; 1500 (6000); 2304:192:32 (12 SMX); 20.8; 256; GDDR5; 124.8; 11.0; 8192; 192; 2995.2; 124.8; 4.6; 3.5; 150; 10.5" Card

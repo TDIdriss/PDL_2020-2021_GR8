@@ -1,9 +1,0 @@
-Syntax; Here document; Language(s)
-< < EOFI have a lot of things to sayand so little time to say themEOF; Yes; Bourne shell, Perl, PHP, Ruby
-< < < EOFI have a lot of things to sayand so little time to say themEOF; Yes; PHP
-@"I have a lot of things to sayand so little time to say them"@; No; Windows Powershell
-"[I have a lot of things to sayand so little time to say them]"; No; Eiffel
-"""I have a lot of things to sayand so little time to say them"""; No; CoffeeScript, Python, Groovy, Swift, Kotlin
-"I have a lot of things to sayand so little time to say them"; No; Visual Basic .NET (all strings are multiline), Rust (all strings are multiline)
-r"I have a lot of things to sayand so little time to say them"; No; Rust
-[[I have a lot of things to sayand so little time to say them]]; No; Lua

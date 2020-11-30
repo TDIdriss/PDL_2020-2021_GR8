@@ -1,8 +1,0 @@
-Model; Launch; Codename; Architecture; Fab (nm); Core Clock (MHz); Core Clock (MHz); Config core[ a]; Fillrate; Fillrate; Shared Memory; Shared Memory; Shared Memory; Processing power (GFLOPS); API compliance (version); API compliance (version); API compliance (version); TDP (W)[ b]; APU
-Model; Launch; Codename; Architecture; Fab (nm); Base; Turbo; Config core[ a]; Texture (GT/s); Pixel (GP/s); Bus width (bit); Bus type; Bandwidth (GB/s); Processing power (GFLOPS); Direct3D; OpenGL[ c]; OpenCL; TDP (W)[ b]; APU
-Radeon HD 7310[ 28]; June 6, 2012; Ontario; TeraScale 2; 40; 500; N/A; 80:8:4; 4.00; 2.00; 64; DDR3-1066; 8.53; 80; 11.3 (11_0); 4.5; 1.2; 18; E2-1200
-Radeon HD 7340[ 28]; June 6, 2012; Ontario; TeraScale 2; 40; 523; 680; 80:8:4; 5.44; 2.72; 64; DDR3-1333; 10.66; 83.6– 108.8; 11.3 (11_0); 4.5; 1.2; 18; E2-1800
-Radeon HD 7480D; June 1, 2012; Scrapper; TeraScale 3; 32; 723; N/A; 128:8:4; 11.6; 2.9; 128; DDR3-1600; 25.6; 185; 11.3 (11_0); 4.5; 1.2; A4-4000, A4-5300; 
-Radeon HD 7540D; June 1, 2012; Scrapper; TeraScale 3; 32; 192:12:4; N/A; DDR3-1866; 29.9; 292; 128; A6-5400K; 11.3 (11_0); 4.5; 1.2; 
-Radeon HD 7560D; June 1, 2012; 760; TeraScale 3; Unknown; Unknown; N/A; DDR3-1866; 29.9; 256:16:4; 128; 389; A8-5500, A8-5600K; 11.3 (11_0); 4.5; 1.2; 
-Radeon HD 7660D; June 1, 2012; Devastator; TeraScale 3; 32; 65– 100; 760; DDR3-1866; 29.9; 800; 128; 384:24:8; 16.2; 2.7; 11.3 (11_0); 4.5; 1.2; 584– 614; A10-5700 (760  MHz), A10-5800K (800  MHz)

@@ -1,6 +1,0 @@
-C#; Visual Basic .NET; 
-if (a == b) {    // equal}; If a = b Then    '  equalEnd If; 
-if (a != b) {    // not equal} Or: if (!(a == b)) {    // not equal}; If a < >  b Then    '  not equalEnd If Or: If Not a = b Then    '  not equalEnd If; 
-if (a == b &  c == d | e == f) {    // non-short-circuiting boolean operators}; If a = b And c = d Or e = f Then    '  non-short-circuiting boolean operatorsEnd If; 
-if (a == b & &  c == d || e == f) {    // short-circuiting boolean operators}; If a = b AndAlso c = d OrElse e = f Then    '  short-circuiting boolean operatorsEnd If; 
-; 

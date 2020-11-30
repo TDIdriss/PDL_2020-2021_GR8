@@ -1,6 +1,0 @@
-Model (codename); Launch; Architecture &   Fab; Core; Core; Fillrate[ a] [ b] [ c]; Fillrate[ a] [ b] [ c]; Processing power[ a] [ d] (GFLOPS); Memory; Memory; Memory; Memory; TDP
-Model (codename); Launch; Architecture &   Fab; Config[ e]; Clock[ a] (MHz); Texture (GT/s); Pixel (GP/s); Processing power[ a] [ d] (GFLOPS); Bus  type &   width; Size (GiB); Clock (MT/s); Band-width (GB/s); TDP
-Radeon RX 5300M[ 194] (Navi 14); 13 November 2019; RDNA 1.0 7 nm; 1408:88:32 22 CU; 1000 1445; 127.2; 46.2; 4069; GDDR6 96-bit; 3; 14000; 168; 85  W
-Radeon RX 5500M[ 195] (Navi 14); 7 October 2019; RDNA 1.0 7 nm; 1408:88:32 22 CU; 1375 1645; 144.8; 52.6; 4632; GDDR6 128-bit; 4; 14000; 224; 85  W
-Radeon RX 5600M[ 196] (Navi 10); 2020; RDNA 1.0 7 nm; 2304:144:64 36 CU; 1000 1265; 182.2; 81; 5829; GDDR6 192-bit; 6; 12000; 288; 150  W
-Radeon RX 5700M[ 197] (Navi 10); 2020; RDNA 1.0 7 nm; 2304:144:64 36 CU; 1465 1720; 247.7; 110.1; 7926; GDDR6 256-bit; 8; 12000; 384; 180  W

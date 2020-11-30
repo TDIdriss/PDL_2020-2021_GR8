@@ -1,3 +1,0 @@
-Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Boost clock (MHz); Memory clock (MHz); Core config1; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS); Processing power (GFLOPS); Supported API version; Supported API version; Nvidia Optimus technology; TBP (Watts)
-Model; Code name; Fab (nm); Bus interface; Core clock (MHz); Boost clock (MHz); Memory clock (MHz); Core config1; Pixel (GP/s); Texture (GT/s); Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Single precision; Double precision; Direct3D; OpenGL; Nvidia Optimus technology; TBP (Watts)
-Quadro K2200M; GM107; 28; PCIe 3.0 ×16; 1150; 1150; 1253 (5012); 640:40:16 (5 SMM); 18.4; 46; 2048; 80.2; GDDR5; 128; 1472; 46; 12.1; 4.5; Yes; 65

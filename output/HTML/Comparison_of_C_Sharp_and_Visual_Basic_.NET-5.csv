@@ -1,8 +1,0 @@
-C#; Visual Basic .NET
-if (object.ReferenceEquals(a, b)) {    // variables refer to the same instance}; If a Is b Then ' Can also be written as If Object.ReferenceEquals(a, b) Then    '  variables refer to the same instanceEnd If
-if (!object.ReferenceEquals(a, b)) {    // variables do not refer to the same instance}; If a IsNot b Then    '  variables do not refer to the same instanceEnd If
-if (a == b) {    // instances are equivalent}; If a = b Then    '  instances are equivalentEnd If
-if (a != b) {    // not equivalent}; If a < >  b Then    '  not equivalentEnd If
-var type = typeof(int); Dim type = GetType(Integer)
-if (a is b) {    // types of a and b are compatible}; If TypeOf a Is b Then    '  types of a and b are compatibleEnd If
-if (!(a is b)) {    // types of a and b are not compatible}; If TypeOf a IsNot b Then    '  types of a and b are not compatibleEnd If

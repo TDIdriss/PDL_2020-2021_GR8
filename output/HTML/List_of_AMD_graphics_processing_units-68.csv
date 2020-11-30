@@ -1,5 +1,0 @@
-Model (Codename); Release Date &   Price; Architecture &   Fab; Transistors &   Die Size; Core; Core; Fillrate[ a] [ b] [ c]; Fillrate[ a] [ b] [ c]; Processing power[ a] [ d] (GFLOPS); Processing power[ a] [ d] (GFLOPS); Memory; Memory; Memory; Memory; TDP; Bus interface; Graphic output ports
-Model (Codename); Release Date &   Price; Architecture &   Fab; Transistors &   Die Size; Config[ e]; Clock[ a] (MHz); Texture (GT/s); Pixel (GP/s); Single; Double; Bus  type &   width; Size (GiB); Clock (MT/s); Band- width (GB/s); TDP; Bus interface; Graphic output ports
-Radeon Pro Vega II (Vega 20)[ 295]; November 2019$2,800 USD; GCN 5th gen 7FF; 0.0×109 ? mm2; 4096:256:64 64 CU; 1700; 435; 109; 14200; 880; HBM2 4096-bit; 32; 2000; 1000; Unknown; PCIe  3.0 ×16; 4× Thunderbolt 3 1× HDMI 2.0
-Radeon Pro Vega II Duo (Vega 20)[ 295]; November 2019$5,600 USD; GCN 5th gen 7FF; 0.0×109 ? mm2; 2× 4096:256:64 64 CU; 2×; 4096:256:64 64 CU; 1700; 2× 435; 2× 109; 2× 14200; 2× 880; HBM2 4096-bit; 2× 32; Unknown; PCIe  3.0 ×16; 4× Thunderbolt 3 1× HDMI 2.0
-2×; 4096:256:64 64 CU; 

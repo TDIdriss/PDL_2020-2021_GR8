@@ -126,13 +126,20 @@ public class Donnee_Html extends Donnee {
 		Document page = Jsoup.parseBodyFragment(this.donneeHTML);
 		Elements wikitables = page.getElementsByClass("wikitable");
 		Elements tablesNonWiki = page.select("table:not([^])");
-		wikitables.addAll(tablesNonWiki);
+		//wikitables.addAll(tablesNonWiki);
 		int nbTableaux = wikitables.size();
 		this.nbTableauxExtraits += nbTableaux;
 		nbLignesColonnes(wikitables);
-		
+
 		for (int i = 0 ; i < wikitables.size() ; i++) {
-			String outputPath = "output/HTML/" + titre + "-" + (i+1) + ".csv";
+			//get directory dynamic*************
+				String separator=System.getProperty("file.separator");
+				String rootPath = separator+System.getProperty("user.dir")+separator+"PDL__EXTRACTOR_PYTHON_GR8"+separator+"output"+separator+"HTML";
+				File file = new File(rootPath);
+				File curentPath = new File(file.getParent());
+				String currentFolder= curentPath.getName().toString();
+			//********************************
+			String outputPath = "C:\\Users\\BOON\\IdeaProjects\\PDL__EXTRACTOR_WIKI_2020-2021GR8_SP2\\output\\java_html/" + titre + "-" + (i+1) + ".csv";
 			FileOutputStream outputStream = new FileOutputStream(outputPath);
 			OutputStreamWriter writer = new OutputStreamWriter(outputStream, StandardCharsets.UTF_8);
 
@@ -246,7 +253,7 @@ public class Donnee_Html extends Donnee {
 		for (int i = 0; i < this.nbLignesGlob; i++) {
 			for (int j = 0; j< this.nbColonnesGlob; j++){
 				if ( j != nbColonnesGlob-1 && !this.tableau[i][j].equals("VIDE")) {
-					this.tableau[i][j] = this.tableau[i][j].concat("; ");
+					this.tableau[i][j] = this.tableau[i][j].concat(",");
 				}
 			}
 

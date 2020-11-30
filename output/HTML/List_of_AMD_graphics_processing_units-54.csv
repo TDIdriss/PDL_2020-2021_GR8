@@ -1,7 +1,0 @@
-Model (Codename); Launch; Architecture (Fab); Core; Core; Fillrate[ a] [ b] [ c]; Fillrate[ a] [ b] [ c]; Processing power[ a] [ d] (GFLOPS); Memory; Memory; Memory; Memory; TDP
-Model (Codename); Launch; Architecture (Fab); Config[ e]; Clock[ a] (MHz); Texture (GT/s); Pixel (GP/s); Processing power[ a] [ d] (GFLOPS); Bus  type &   width; Size (GiB); Clock (MHz); Band- width (GB/s); TDP
-Radeon 610[ 188] (Banks); 13 August 2019; GCN 1st gen (28 nm); 320:20:8; 1030; 20.6; 8.2; 659; GDDR5 64-bit; 2–4; 1125; 36; < =50  W
-Radeon 620[ 189] (Polaris 24 XL); 13 August 2019; GCN 3rd gen (28 nm); 384:24:8; 730 1024; 24.6; 8.2; 786; DDR3 64-bit; 2–4; 900; 14.4; < =50  W
-Radeon 625[ 190] (Polaris 24 XL); 13 August 2019; GCN 3rd gen (28 nm); 384:24:8; 730 1024; 24.6; 8.2; 786; GDDR5 64-bit; 2–4; 1125; 36; < =50  W
-Radeon 630[ 191] (Polaris 23 XL); 13 August 2019; GCN 4th gen (14 nm); 512:32:8; 1082 1219; 39; 9.8; 1248; GDDR5 64-bit[ 192]; 2–4; 1500; 48; < =50  W
-Radeon RX 640[ 193] (Polaris 23 XT); 13 August 2019; GCN 4th gen (14 nm); 640:40:16; 1100 1287; 51.5; 20.6; 1647; GDDR5 64-bit; 2–4; 1750; 56; < =50  W

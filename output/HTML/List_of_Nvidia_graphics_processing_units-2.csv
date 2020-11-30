@@ -1,4 +1,0 @@
-Model; Launch; Code name; Fab (nm)[ 2]; Bus interface; Core clock (MHz); Memory clock (MHz); Core config1; Fillrate; Fillrate; Fillrate; Fillrate; Memory; Memory; Memory; Memory; Processing power (GFLOPS)
-Model; Launch; Code name; Fab (nm)[ 2]; Bus interface; Core clock (MHz); Memory clock (MHz); Core config1; MOperations/s; MPixels/s; MTexels/s; MVertices/s; Size (MB); Bandwidth (GB/s); Bus type; Bus width (bit); Single precision
-GeForce 256 SDR; October 11, 1999; NV10; TSMC 220  nm; AGP 4× PCI; 120; 166; 4:4:4; 480; 480; 480; 0; 32; 2.656; SDR; 128; 50[ 4]
-GeForce 256 DDR; December 13, 1999; NV10; TSMC 220  nm; AGP 4× PCI; 120; 150; 4:4:4; 480; 480; 480; 0; 32 64; 4.8; DDR; 128; 50[ 4]

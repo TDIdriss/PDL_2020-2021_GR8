@@ -1,6 +1,0 @@
-Feature; Android; iOS; Tizen; Sailfish OS; Ubuntu Touch
-Custom ringtones; Yes; Yes[ 324]; Yes; Yes; Yes
-Custom SMS/MMS tones; Yes[ 325]; 5+[ 326]; ?; Yes; No
-Custom vibrate alert patterns; No,[ 327] possible on some Samsung devices such as Galaxy S III, but limited[ 328]; 5+[ 329] [ 330]; ?; API available for 3rd party apps; No
-Dismiss repeating alarm clock before trigger; 4.4+[ 331]; No[ 332]; No; ?; Yes
-Tap to snooze[ 333]; 3rd party apps[ 334]; Yes; No; ?; Yes

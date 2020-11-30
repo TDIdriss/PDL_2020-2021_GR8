@@ -1,9 +1,0 @@
-GPU; FLOPS; FLOPS; FLOPS
-GPU; FP16; FP32; FP64
-Gen4 (GMA 3, 4); -; (clock speed) * (# of FP32 ALUs); -
-Gen5 (HD Graphics); -; (clock speed) * (# of FP32 ALUs); -
-Gen6 (HD Graphics 2000, 3000); -; -
-Gen7 (HD Graphics 2500, 4000 ~ 5200); -; 
-Gen8 (HD Graphics 5300 ~ 6300); (clock speed) * 2 * (# of FP32 ALUs); 
-Gen9 (HD Graphics 5xx, 6xx); (clock speed) * 2 * (# of FP32 ALUs); 
-Gen11; (clock speed) * 2 * (# of FP32 ALUs); 

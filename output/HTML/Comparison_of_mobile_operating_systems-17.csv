@@ -1,8 +1,0 @@
-Feature; Android; iOS; Tizen; Sailfish OS; Ubuntu Touch
-Non-intrusive incoming calls; 5+[ 386] or 3rd party software[ 387]; 14+[ 388]; No; No[ 389]; ?
-Non-intrusive notifications; Yes[ 390]; 5+[ 107]; ?; ?; ?
-Move apps to external storage; 2.2+[ 391]; External storage not allowed for apps; No; No; No
-Remote Frame Buffer (RFB) protocol; Yes[ 392]; 3rd party software[ 393]; ?; ?; ?
-Screencast on device; No,[ 394] 3rd party software like LineageOS ScreenCast,[ 395] AOKP or OmniROM[ 396]; 9+[ 397]; No; No; Yes
-Screencast over USB; 4.4+ over USB,[ 121] for prior versions root required for 3rd party app[ 398]; 8+: on OS X[ 399]; No; ?; No
-Screen share; On select devices using vendor's implementation[ 400] [ 401] [ 402]; 3rd party software[ 403]; No; No; No

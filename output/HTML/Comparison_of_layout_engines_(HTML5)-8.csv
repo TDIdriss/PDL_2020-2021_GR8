@@ -1,9 +1,0 @@
-; Trident; Gecko; WebKit; KHTML; Presto
-Images; Images; Images; Images; Images; Images
-img; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
-Generic inclusion; Generic inclusion; Generic inclusion; Generic inclusion; Generic inclusion; Generic inclusion
-object; 4.0[ note 2]; 1.0; Yes; Yes; 1.0
-param; < 3.1[ IE 6.0]; 1.0; Yes; Yes; 1.0
-Image maps; Image maps; Image maps; Image maps; Image maps; Image maps
-map; < 3.1[ IE 4.0]; 1.0; Yes; Yes; 1.0
-area; 5.0; 1.0; Yes; Yes; 1.0

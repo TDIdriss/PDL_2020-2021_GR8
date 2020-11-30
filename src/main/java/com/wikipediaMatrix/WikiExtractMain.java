@@ -39,8 +39,21 @@ public class WikiExtractMain {
 		}
 
 		if(choix.equals("H")) {
-			lancerSimpleExtraction(true);
+			Scanner entre2 = new Scanner(System.in);
+			String unitaire = "";
+			System.out.println("Voulez-vous lancez une extration en lot? Y/N");
+			unitaire = entree.nextLine();
+			if (unitaire.equals("Y")){
+				Scanner entre3 = new Scanner(System.in);
+				System.out.println("Veuillez Saisir l'url");
+				String url = entree.nextLine();;
+				lancerUnitExtraction(url);
+			}else if(unitaire.equals("Y")) {
+
+				lancerSimpleExtraction(true);
+			}
 		}
+
 		else if (choix.equals("W")) {
 			lancerSimpleExtraction(false);
 		}
@@ -110,6 +123,19 @@ public class WikiExtractMain {
 		}
 
 	}
+	public static void lancerUnitExtraction(String url) throws MalformedURLException, IOException, UrlInvalideException, InterruptedException, ResultatEstNullException {
+		Donnee_Html fakeDonneeHtml = new Donnee_Html();
+		Url wikiUrl = new Url(new URL(url));
+		if(wikiUrl.estUrlValide()) {
+				System.out.println("urlActuelle- Extraction de la page " + wikiUrl.getTitre());
+				Donnee_Html donnee_Html = new Donnee_Html();
+				donnee_Html.setUrl(wikiUrl);
+				donnee_Html.start();
+				donnee_Html.join();
+
+		}
+	}
+
 
 	public static Set<Url> getUrlValides() throws MalformedURLException, IOException, UrlInvalideException{
 		HashSet<Url> lesUrlValides = new HashSet<Url>();

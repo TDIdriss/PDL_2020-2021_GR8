@@ -133,13 +133,20 @@ public class Donnee_Html extends Donnee {
 
 		for (int i = 0 ; i < wikitables.size() ; i++) {
 			//get directory dynamic*************
-				String separator=System.getProperty("file.separator");
+			/*	String separator=System.getProperty("file.separator");
 				String rootPath = separator+System.getProperty("user.dir")+separator+"PDL__EXTRACTOR_PYTHON_GR8"+separator+"output"+separator+"HTML";
 				File file = new File(rootPath);
 				File curentPath = new File(file.getParent());
 				String currentFolder= curentPath.getName().toString();
+
+			 */
+
+			String path = System.getProperty("user.dir") ;
+			File fichier = new File(path) ;
+			String ROOT_PATH = fichier.getParent() ;
+
 			//********************************
-			String outputPath = "C:\\Users\\BOON\\IdeaProjects\\PDL__EXTRACTOR_WIKI_2020-2021GR8_SP2\\output\\java_html/" + titre + "-" + (i+1) + ".csv";
+			String outputPath = ROOT_PATH+"\\PDL__EXTRACTOR_WIKI_2020-2021GR8_SP2\\output\\java_html/" + titre + "-" + (i+1) + ".csv";
 			FileOutputStream outputStream = new FileOutputStream(outputPath);
 			OutputStreamWriter writer = new OutputStreamWriter(outputStream, StandardCharsets.UTF_8);
 

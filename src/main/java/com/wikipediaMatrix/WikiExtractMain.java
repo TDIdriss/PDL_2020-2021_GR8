@@ -26,6 +26,7 @@ public class WikiExtractMain {
 	private static int nbColonnesWikitext;
 	private static int nbLignesWikitext;
 	private static long tempsExeWikitext;
+	private static String separator = System.getProperty("file.separator") ;
 //	private static final Logger LOG = LogManager.getLogger(WikiExtractMain.class);
 
 	public static void main(String[] args) throws MalformedURLException, IOException, UrlInvalideException, ExtractionInvalideException, ConversionInvalideException, ArticleInexistantException, ResultatEstNullException, InterruptedException {
@@ -43,7 +44,7 @@ public class WikiExtractMain {
 			String unitaire = "";
 			System.out.println("Voulez-vous lancez une extration en lot? Y/N");
 			unitaire = entree.nextLine();
-			if (unitaire.equals("Y")){
+			if (unitaire.equals("N")){
 				Scanner entre3 = new Scanner(System.in);
 				System.out.println("Veuillez Saisir l'url");
 				String url = entree.nextLine();;
@@ -139,7 +140,7 @@ public class WikiExtractMain {
 
 	public static Set<Url> getUrlValides() throws MalformedURLException, IOException, UrlInvalideException{
 		HashSet<Url> lesUrlValides = new HashSet<Url>();
-		String BASE_WIKIPEDIA_URL = "output/url_file.txt";
+		String BASE_WIKIPEDIA_URL = "output"+separator+"large_url_test.txt";
 		BufferedReader br = new BufferedReader(new FileReader(BASE_WIKIPEDIA_URL));
 		String url;
 		while ((url = br.readLine()) != null) {

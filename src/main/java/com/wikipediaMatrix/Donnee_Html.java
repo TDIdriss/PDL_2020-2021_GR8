@@ -34,6 +34,7 @@ public class Donnee_Html extends Donnee {
 	private List<int[]> rowspanFound;
 	private int nbLignesGlob;
 	private int nbColonnesGlob;
+	private static String separator = System.getProperty("file.separator") ;
 
 	public Donnee_Html() {
 		this.donneeHTML = "";
@@ -146,9 +147,9 @@ public class Donnee_Html extends Donnee {
 			String ROOT_PATH = fichier.getParent() ;
 
 			//********************************
-			String outputPath = ROOT_PATH+"\\PDL__EXTRACTOR_WIKI_2020-2021GR8_SP2\\output\\java_html/" + titre + "-" + (i+1) + ".csv";
+			String outputPath = ROOT_PATH+separator+"PDL__EXTRACTOR_WIKI_2020-2021GR8_SP2"+separator+"output"+separator+"java_html"+separator + titre + "-" + (i+1) + ".csv";
 			FileOutputStream outputStream = new FileOutputStream(outputPath);
-			OutputStreamWriter writer = new OutputStreamWriter(outputStream, StandardCharsets.UTF_8);
+			OutputStreamWriter writer = new OutputStreamWriter(outputStream, StandardCharsets.ISO_8859_1);
 
 			// On recupere le nmobre de lignes et de colonnes du tableau en cours
 			nbLignesGlob = getNbLignesTableaux().get(i);

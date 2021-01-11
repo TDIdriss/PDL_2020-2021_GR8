@@ -28,6 +28,8 @@ public class Donnee_Wikitable extends Donnee{
     private int maxColone = 0;
     private int nbTableauxExtraits = 0;
     private Url url;
+    private static String separator = System.getProperty("file.separator") ;
+
 
 
     public Donnee_Wikitable(){
@@ -412,7 +414,9 @@ public class Donnee_Wikitable extends Donnee{
 
 
     private void saveFile(ArrayList<String[]> tab, String title, int nbtab) throws IOException {
-        String outputPath = "output/wikitext/" + title +"-"+ nbtab + ".csv";
+
+
+        String outputPath = "output"+separator+"wikitext"+separator+ title +"-"+ nbtab + ".csv";
         FileOutputStream outputStream = new FileOutputStream(outputPath);
         OutputStreamWriter writer = new OutputStreamWriter(outputStream, StandardCharsets.UTF_8);
         int j, i = tab.size();
